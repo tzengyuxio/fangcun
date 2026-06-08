@@ -25,15 +25,15 @@
 |---|---|---|---|---|---|---|
 | 🇹🇼 台灣 中華郵政 | ✅ 已爬 75 | 75(1968–2025) | W_stamphouse `生肖` 子分類 | reference→official | 易 | 29 MB |
 | 🇯🇵 日本 1997– | ✅ 已爬 28 | 28(1997–2025 年度) | 官方 `stamp.json` | official | 極易 | <1 MB(圖小) |
-| 🇯🇵 日本 1950–96 | ⬜ 缺口 | ~47 | dorama(metadata)+ yuubinsyumi(圖) | reference | 易(靜態) | <20 MB |
-| 🇰🇷 韓國 | ⬜ 待爬 | 60+(1957–) | K-stamp 博物館(含早期) | official | 易(JSP,無反爬) | 50–125 MB |
+| 🇯🇵 日本 1950–96 | ✅ 已爬 47 | 47(1950–1996,40 圖) | dorama(metadata)+ yuubinsyumi(圖) | reference | 易(靜態) | 4 MB |
+| 🇰🇷 韓國 | ✅ 已爬 113 | 113(1957–2020) | K-stamp 博物館(含早期) | official | 易(JSP,無反爬) | 168 MB |
 | 🇨🇳 中國 | ⬜ 待爬 | ~46(四輪 1980–) | 5151sc.com(靜態目錄) | reference | 易(curl) | 5–40 MB |
 | 🇺🇸 美國 | ⬜ 待爬 | ~31 設計 + 全張 | Smithsonian Open Access API | official | 中(需免費 key) | 50–300 MB |
-| 🇻🇳 越南 | ⬜ 待爬 | 一輪 12+(含貓年特色) | vietnamstamp.com.vn | official | 易(靜態) | 10–40 MB |
+| 🇻🇳 越南 | ✅ 已爬 11 | 11(2010,2016–25,含貓年) | vietnamstamp.com.vn | official | 易(靜態) | 21 MB |
 | 🇲🇳 蒙古 | ⬜ 待爬 | 一輪 12+ | mongolstamps.com(SPA)+ 圖床 | official | 中(需解 `__NUXT__`) | 10–20 MB |
-| 🇮🇲 Isle of Man | ⬜ 待評 | 完整十二生肖 | iomstamps.com(Shopify) | official | 易(`products.json`) | — |
-| 🇫🇷 法國 | ⬜ 待評 | 2005–(20+) | philatelie-francaise.com | reference | 易(靜態) | — |
-| 🇭🇰 香港 | ⬜ 待評 | 第五輪(年度) | stamps.hongkongpost.hk | official | 易(靜態) | — |
+| 🇮🇲 Isle of Man | ⚠️ 僅在售 2 | 2(2025 蛇/2026 馬;官方店無歷史) | iomstamps.com(Shopify) | official | 易但無歷史 | <1 MB |
+| 🇫🇷 法國 | ✅ 已爬 21 | 21(2005–2025 連續) | philatelie-francaise.com | reference | 易(靜態) | 10 MB |
+| 🇭🇰 香港 | ⚠️ 僅當年 3 | 3(2026;官方站無歷史) | stamps.hongkongpost.hk | official | 易但無歷史 | 5 MB |
 | 其他 | ⬜ 待評 | 見下節 | Guernsey/UN/Jersey/澳加星… | 多為 official | 中 | — |
 
 ---
@@ -146,6 +146,9 @@
    (`/collections/yearofthehorse`),完整十二生肖、名家雕刻版。**直接打
    `/collections/{handle}/products.json` 或 `/products/{handle}.json` 取結構化 JSON**;圖片
    `iomstamps.com/cdn/shop/files/*.jpg?width=1600`。(`iompost.com` 會 301 到 `iomstamps.com`)
+   **⚠ 實測限制(2026-06)**:官方店 `products.json` 只列**目前在售**商品,整站僅 Snake(2025)
+   與 Horse(2026)兩年,較舊生肖年已售罄下架——**此來源結構性無法提供完整十二生肖**,歷史輪次
+   需改用第三方目錄(Colnect 需 headless)。腳本已設計成依標題自動分組,日後新年份上架會自動收進。
 2. **法國 La Poste**——靜態目錄 `philatelie-francaise.com/timbre_affiche/timbre.php?lig=NNNN`,
    欄位齊全(年份/生肖/設計者/面值/Yvert/印量/印刷法);圖片規律
    `philatelie-francaise.com/image/image-{year}/{year}-F{number}.jpg`。官方
@@ -154,6 +157,9 @@
    4 枚 + 小全張,含雷射剪紙),**與中國／澳門聯合發行**(三地對照價值)。圖片規律
    `/filemanager/common/stamps/latest_stamps_issues/{YEAR}/{theme}/stamps.jpg`;新聞稿
    `info.gov.hk/gia/...` 補發行日與描述。tier=official。
+   **⚠ 實測限制(2026-06)**:此站是「現行在售」電商站,`latest_stamps_issues` 只列**當年(2026)**
+   發行,**無 2025 蛇及更早的歷史輪次頁面**。對不存在路徑會回「200 但 body 是 redirect 殼」的假陽性
+   (腳本已加殼偵測)。歷史輪次須改用 info.gov.hk 新聞稿存檔或第三方目錄。
 4. **Guernsey Post**——**完整十二生肖循環 2014–2025 已完結**(Chrissy Lau 設計,風格統一);
    官方店若同 Shopify 則比照 IoM。設計師頁 `chrissylau.com/guernseypost.php` 有 12 動物總覽。
 5. **聯合國 UNPA** `unstamps.org`——完整生肖循環(Tiger Pan 繪,每年一版 10 枚),國際中立,
