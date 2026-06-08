@@ -24,3 +24,4 @@ pnpm-debug.log*
 # and copyrighted assets (images, raw HTML snapshots) — re-fetchable via scripts/
 data/raw/**/img/
 data/raw/**/detail.html
+data/raw/**/detail.json
