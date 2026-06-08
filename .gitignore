@@ -23,5 +23,6 @@ pnpm-debug.log*
 # scraped raw data: version metadata (raw.json/_index.json), exclude heavy
 # and copyrighted assets (images, raw HTML snapshots) — re-fetchable via scripts/
 data/raw/**/img/
-data/raw/**/detail.html
+data/raw/**/*.html
 data/raw/**/detail.json
+data/raw/**/products/
