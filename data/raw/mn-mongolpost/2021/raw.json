@@ -1,0 +1,36 @@
+{
+  "code": "2021",
+  "source": {
+    "id": "mn-mongolpost",
+    "tier": "official"
+  },
+  "product_id": 2877,
+  "product_code": "1073",
+  "detail_url": "https://mongolstamps.com/en/marks/2877",
+  "api_detail": "https://api.mongolstamps.com/api/front/products/2877",
+  "title": "Year of the Ox /2/",
+  "title_mn": "Үхэр жил-2021 /2н/",
+  "year": "2021",
+  "zodiac": "Ox",
+  "issue_date": "2021-01-03",
+  "type_name_en": "Stamps",
+  "sub_type_name": "Сери",
+  "category_name_en": "Lunar new year",
+  "size": "42x28",
+  "price": "1300.00",
+  "attributes": {
+    "Perforation": "13 3/4 x 13 1/2",
+    "Printing Process": "Offset",
+    "Stamps per Pane": "5",
+    "Stamps type 2": "2 нэрийн",
+    "Stamps type": "2 designs"
+  },
+  "descriptions": {},
+  "images": [
+    {
+      "image_url": "https://api.mongolstamps.com/images/products/2877/FB_IMG_1614911796610.jpg",
+      "image_file": "img/FB_IMG_1614911796610.jpg"
+    }
+  ],
+  "n_images": 1
+}

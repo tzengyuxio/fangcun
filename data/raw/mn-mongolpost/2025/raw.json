@@ -1,0 +1,36 @@
+{
+  "code": "2025",
+  "source": {
+    "id": "mn-mongolpost",
+    "tier": "official"
+  },
+  "product_id": 3175,
+  "product_code": "1171",
+  "detail_url": "https://mongolstamps.com/en/marks/3175",
+  "api_detail": "https://api.mongolstamps.com/api/front/products/3175",
+  "title": "Year of the Snake",
+  "title_mn": "Могой жил-2025",
+  "year": "2025",
+  "zodiac": "Snake",
+  "issue_date": "2025-01-17",
+  "type_name_en": "Stamps",
+  "sub_type_name": "Сери",
+  "category_name_en": "Lunar new year",
+  "size": "28x48",
+  "price": "3000.00",
+  "attributes": {
+    "Stamps per Pane": "5",
+    "Sheetlet size": "128",
+    "Printing process": "офсет"
+  },
+  "descriptions": {
+    "ru": "*"
+  },
+  "images": [
+    {
+      "image_url": "https://api.mongolstamps.com/images/products/3175/1737094802_6789f692e5ab5.jpeg",
+      "image_file": "img/1737094802_6789f692e5ab5.jpeg"
+    }
+  ],
+  "n_images": 1
+}

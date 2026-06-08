@@ -1,0 +1,36 @@
+{
+  "code": "2024",
+  "source": {
+    "id": "mn-mongolpost",
+    "tier": "official"
+  },
+  "product_id": 3122,
+  "product_code": "1143",
+  "detail_url": "https://mongolstamps.com/en/marks/3122",
+  "api_detail": "https://api.mongolstamps.com/api/front/products/3122",
+  "title": "Year of the Dragon",
+  "title_mn": "Луу жил-2024",
+  "year": "2024",
+  "zodiac": "Dragon",
+  "issue_date": "2024-01-08",
+  "type_name_en": "Stamps",
+  "sub_type_name": "Сери",
+  "category_name_en": "Lunar new year",
+  "size": "42x28",
+  "price": "3000.00",
+  "attributes": {
+    "Stamps per Pane": "5",
+    "Printing process": "офсет",
+    "Perforation": "13"
+  },
+  "descriptions": {
+    "ru": "*"
+  },
+  "images": [
+    {
+      "image_url": "https://api.mongolstamps.com/images/products/3122/1704848890_659dedfa1439d.jpeg",
+      "image_file": "img/1704848890_659dedfa1439d.jpeg"
+    }
+  ],
+  "n_images": 1
+}

@@ -1,0 +1,35 @@
+{
+  "code": "2026",
+  "source": {
+    "id": "mn-mongolpost",
+    "tier": "official"
+  },
+  "product_id": 3252,
+  "product_code": "1207",
+  "detail_url": "https://mongolstamps.com/en/marks/3252",
+  "api_detail": "https://api.mongolstamps.com/api/front/products/3252",
+  "title": "Year of the horse-Mongolian zodiac",
+  "title_mn": "Морь жил-Монгол билгийн тоолол",
+  "year": "2026",
+  "zodiac": "Horse",
+  "issue_date": "2026-02-11",
+  "type_name_en": "Stamps",
+  "sub_type_name": "Хэлхээ",
+  "category_name_en": "Lunar new year",
+  "size": "42x28",
+  "price": "4000.00",
+  "attributes": {
+    "Sheetlet size": "105x105 mm"
+  },
+  "descriptions": {
+    "mn": "<p>Монголчуудын уламжлалт билгийн тооллын арван хоёр жилийн нэгэн чухал бэлэгдэл болох Морь жил нь эрч хүч, хийморь, ялалт амжилтыг илэрхийлдэг. Тэр дундаа Гал морь жил нь галын махбодын догшин, цог золбоотой чанарыг морины хийморийн сүр хүчтэй хослуулсан онцгой жил юм.</p>",
+    "ru": "*"
+  },
+  "images": [
+    {
+      "image_url": "https://api.mongolstamps.com/images/products/3252/1770868034_698d4d42a4393.jpeg",
+      "image_file": "img/1770868034_698d4d42a4393.jpeg"
+    }
+  ],
+  "n_images": 1
+}

@@ -1,0 +1,29 @@
+{
+  "code": "p9360",
+  "round": 1,
+  "round_name": "一轮单枚",
+  "list_title": "《中国十二生肖》首轮邮票珍藏册（不含猴票）",
+  "pro_id": "9360",
+  "detail_url": "http://www.5151sc.com/pro-9360.html",
+  "page_title": "《中国十二生肖》首轮邮票珍藏册（不含猴票） - 点购收藏网",
+  "product_code": "Y09360",
+  "fields": {
+    "name": "《中国十二生肖》首枚邮票珍藏册"
+  },
+  "description": "",
+  "images": [
+    {
+      "image_url": "http://pic.5151sc.com/b/20121210/12100046608.jpg",
+      "image_file": "img/12100046608.jpg"
+    },
+    {
+      "image_url": "http://pic.5151sc.com/b/20121210/12100046609.jpg",
+      "image_file": "img/12100046609.jpg"
+    }
+  ],
+  "n_images": 2,
+  "source": {
+    "id": "cn-5151sc",
+    "tier": "reference"
+  }
+}

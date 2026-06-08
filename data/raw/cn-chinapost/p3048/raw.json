@@ -1,0 +1,49 @@
+{
+  "code": "p3048",
+  "round": 1,
+  "round_name": "一轮单枚",
+  "list_title": "第一轮十二生肖邮票珍藏册大全套",
+  "pro_id": "3048",
+  "detail_url": "http://www.5151sc.com/pro-3048.html",
+  "page_title": "第一轮十二生肖邮票珍藏册大全套 - 点购收藏网",
+  "product_code": "Y03048",
+  "fields": {
+    "name": "特价/第一轮十二生肖邮票珍藏册"
+  },
+  "description": "",
+  "images": [
+    {
+      "image_url": "http://pic.5151sc.com/b/20121114/111409141481.jpg",
+      "image_file": "img/111409141481.jpg"
+    },
+    {
+      "image_url": "http://pic.5151sc.com/b/20121114/111409141482.jpg",
+      "image_file": "img/111409141482.jpg"
+    },
+    {
+      "image_url": "http://pic.5151sc.com/b/20121114/111409141483.jpg",
+      "image_file": "img/111409141483.jpg"
+    },
+    {
+      "image_url": "http://pic.5151sc.com/b/20121114/111409141484.jpg",
+      "image_file": "img/111409141484.jpg"
+    },
+    {
+      "image_url": "http://pic.5151sc.com/b/20121114/111409141485.jpg",
+      "image_file": "img/111409141485.jpg"
+    },
+    {
+      "image_url": "http://pic.5151sc.com/b/20121114/111409141486.jpg",
+      "image_file": "img/111409141486.jpg"
+    },
+    {
+      "image_url": "http://pic.5151sc.com/b/20121114/111409141487.jpg",
+      "image_file": "img/111409141487.jpg"
+    }
+  ],
+  "n_images": 7,
+  "source": {
+    "id": "cn-5151sc",
+    "tier": "reference"
+  }
+}

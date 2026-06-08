@@ -1,0 +1,40 @@
+{
+  "code": "2022",
+  "source": {
+    "id": "mn-mongolpost",
+    "tier": "official"
+  },
+  "product_id": 2929,
+  "product_code": "1095",
+  "detail_url": "https://mongolstamps.com/en/marks/2929",
+  "api_detail": "https://api.mongolstamps.com/api/front/products/2929",
+  "title": "Year of the Tiger-2022 /2/",
+  "title_mn": "Бар жил 2022 /2н/",
+  "year": "2022",
+  "zodiac": "Tiger",
+  "issue_date": "2022-01-03",
+  "type_name_en": "Stamps",
+  "sub_type_name": "Сери",
+  "category_name_en": "Lunar new year",
+  "size": "42x28",
+  "price": "1300.00",
+  "attributes": {
+    "Perforation": "13 1/4 x 13 1/4",
+    "Printing Process": "Offset",
+    "Stamps per Pane": "5",
+    "Stamps type 2": "2 нэрийн",
+    "Stamps type": "2 designs"
+  },
+  "descriptions": {
+    "en": "<p>Бар жил 2022</p>",
+    "mn": "<p>Year of the Tiger-2022</p>",
+    "ru": "<p>s</p>"
+  },
+  "images": [
+    {
+      "image_url": "https://api.mongolstamps.com/images/products/2929/1095_-_stamps.jpg",
+      "image_file": "img/1095_-_stamps.jpg"
+    }
+  ],
+  "n_images": 1
+}
