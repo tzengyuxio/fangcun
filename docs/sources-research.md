@@ -34,7 +34,10 @@
 | 🇮🇲 Isle of Man | ⚠️ 僅在售 2 | 2(2025 蛇/2026 馬;官方店無歷史) | iomstamps.com(Shopify) | official | 易但無歷史 | <1 MB |
 | 🇫🇷 法國 | ✅ 已爬 21 | 21(2005–2025 連續) | philatelie-francaise.com | reference | 易(靜態) | 10 MB |
 | 🇭🇰 香港 | ⚠️ 僅當年 3 | 3(2026;官方站無歷史) | stamps.hongkongpost.hk | official | 易但無歷史 | 5 MB |
-| 其他 | ⬜ 待評 | 見下節 | Guernsey/UN/Jersey/澳加星… | 多為 official | 中 | — |
+| 🇲🇴 澳門 | ⚠️ 已爬 12(品質待篩) | 187 圖(各國比較頁,僅 31 疑似澳門) | cmm.gov.mo 生肖專題 | reference | 易但混多國 | 231 MB |
+| 🇸🇬 新加坡 | ✅ 已爬 53 | 53 件(2020–2031) | shop.singpost GraphQL | official | 易(GraphQL) | 24 MB |
+| 🇲🇾 馬來西亞 | ✅ 已爬 4 | 4 套(2024–26,僅現貨) | shop.pos.com.my Magento | official | 易但僅現貨 | 6 MB |
+| 已研究待爬 | ⬜ | 見 Backlog 節 | 聖誕島/紐/菲/泰/不丹/加/朝 + Guernsey/UN/Jersey | 混 | 多數易 | — |
 
 ---
 
@@ -182,32 +185,35 @@ Dynamic Media)、紐西蘭(+ Niue/Tokelau 代發)、新加坡 SingPost、泰國(
 
 ---
 
-## 待爬:澳門 / 馬來西亞 / 新加坡(已研究 2026-06-09)
+## 已爬:澳門 / 新加坡 / 馬來西亞(2026-06-09)
 
-三地都建議納入,主源皆官方靜態/可直連圖、避開 Colnect。可爬性 新加坡 ≥ 澳門 > 馬來西亞。
-
-- **澳門 CTT**:主源 通訊博物館生肖專題 `https://www.cmm.gov.mo/special/zodiac/eng/1_rat.html`
-  (reference,12 動物各一頁,跨四週期 1984–,圖直連 `.../images/{n}_{animal}/image001..NNN.jpg`,
-  含他國比較圖需篩出澳門)。官方 `philately.ctt.gov.mo`(official,Webflow,補近年)。約 48 套基礎、
-  raw 8–10 MB(僅澳門)。
-- **新加坡 SingPost**:主源 `https://shop.singpost.com/stamps/postage-stamps.html?year=...`
-  (official,Magento,`?year=`/`?cat=261` 篩,圖 `media/catalog/product/cache/...` 直連)。Lim An-Ling
-  現週期 2020–2031,每年基本套+booklet+collector's sheet。raw 2–6 MB。最乾淨穩定。
-- **馬來西亞 Pos Malaysia**:主源 `https://shop.pos.com.my/shop.html?cat=3838`(official,Magento,
-  225 件混雜需關鍵字 Setem Ku/Zodiac/生肖 篩,圖 `assets.pos.com.my/.../catalog/product/` 直連)。
-  歷史不連續(Setem Ku 約 2021–),raw 3–8 MB。**站台改版頻繁、舊 URL 易斷,抓後務必自存。**
+- **新加坡 SingPost**(✅ 53 件,2020–2031,`data/raw/sg-singpost/`):列表頁 JS 渲染,改用官方
+  **Magento GraphQL** `/graphql`(`products(search:"zodiac")`)一次取全 53 件 Zodiac Series,圖
+  `media_gallery` 即時 CDN URL。tier=official。最乾淨。`scripts/scrape_sg_singpost.py`。
+- **馬來西亞 Pos Malaysia**(✅ 4 套,2024–2026,`data/raw/my-posmalaysia/`):`shop.html?cat=3838`
+  225 件單頁,whole-word 馬來文動物名 + CNY 規則過濾。**線上僅現貨**(Snake 2025/Horse 2026 + CNY
+  2024/25),歷史已下架。圖走 Magento gallery 剝 `/cache/` 取原圖。tier=official。`scripts/scrape_my_posmalaysia.py`。
+- **澳門**(⚠️ 12 生肖頁 187 圖,`data/raw/mo-macaopost/`,**品質待篩**):來源 cmm.gov.mo 是通訊博物館
+  的**「各國生肖票比較教育頁」,非澳門自家目錄**——187 張混中/越/韓/法/HK/澳/加/星等多國票,僅 31 張
+  標 `macau_likely`(recall 不準)。raw 全抓並標 `caption`/`macau_likely` 待建檔人工精篩。
+  **建議**:澳門自家票日後改用官方 `philately.ctt.gov.mo` 或第三方目錄重做。`scripts/scrape_mo_macaopost.py`。
 
 ## Backlog(待研究 / 待爬)
 
-使用者指定、尚未調查的發行者(待研究來源與可爬性):
+使用者指定發行者,**已研究來源與可爬性(2026-06-09)**,依推薦優先序:
 
-- **聖誕島 Christmas Island**(澳洲屬地,華人移民多,長年發行農曆生肖票、集郵熱門——優先)
-- **紐西蘭 NZ Post**(本體 + Niue/Tokelau 代發)
-- **菲律賓 PHLPost**
-- **不丹 Bhutan**(原文「不單」,推測為不丹,**待使用者確認**;不丹以創意郵票聞名)
-- **加拿大 Canada Post**(兩輪完整 1997–2020,foil/emboss;官方 `canadapost-postescanada.ca`)
-- **泰國 Thailand Post**(詩琳通公主親繪生肖)
-- **朝鮮 DPRK**(北韓,曾發行生肖題材;來源與可信度待查)
+| 發行者 | 最佳來源 | tier | 範圍 | 可爬性 | 備註 |
+|---|---|---|---|---|---|
+| 🇹🇭 泰國 | siamstamp.com(主)+ thailex.info(補早期) | reference | 2003–2026,~18–20 套 | 易(靜態;憑證過期用 `-k`) | 詩琳通公主繪;官方站不可達 |
+| 🇨🇦 加拿大 | postagestampguide.com series 1465 + 官方交叉核對 | reference | 1997–2021,58 枚兩輪 | 易(圖直連無反爬,~6–8 MB) | 官方僅組合圖,逐枚靠三方 |
+| 🎄 聖誕島 | collectables.auspost.com.au 詳情頁 + Adobe DM CDN | official | 1996–(站上 2014+),~30 套 | 易(詳情頁直連;列表 Load more 需 JS) | slug 不規則須從列表抓;1996–2013 靠 PDF/三方 |
+| 🇳🇿 紐西蘭 | collectables.nzpost.co.nz(BigCommerce,可改解析度) | official | 1997–,~29 年度 | 易但**編號變體爆量需過濾** | Niue/Tokelau 生肖稀少可略 |
+| 🇵🇭 菲律賓 | phlpost.gov.ph 新聞稿(wp-content/uploads) | official | ~2023–2025(3 套) | 易但**圖多現場照非乾淨掃描** | 官網無郵票目錄 |
+| 🇧🇹 不丹 | bhutanstampeauction.bt + gnhcorner.com(不穩) | official | 1993–,~30 套但源不全 | 難(官方無目錄、商業站 403/CAPTCHA) | best-effort、近年優先 |
+| 🇰🇵 朝鮮 | Wayback 快照(.kp 官方 502、三方全反爬) | secondary | 1992–,變體繁多 | 難 | **公信力爭議:CTO/濫發,須標警示、列次要** |
+
+優先抓:**泰國、加拿大**(都易爬、圖直連、資料厚);次:聖誕島、紐西蘭(需處理 JS 分頁/變體);
+菲律賓(淺);不丹、朝鮮(來源弱/有爭議,best-effort)。
 
 其他待辦:
 
