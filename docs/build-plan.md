@@ -7,6 +7,25 @@
 
 ---
 
+## Phase P — 資料採集（Pre-Phase 0，建檔素材）
+
+**目標**：把中華郵政「郵票寶藏」生肖子分類的所有發行抓成原始素材，供日後人工查證、
+建成正式 `catalog/` Issue。**這是採集，不是建檔**——raw 資料不進 `src/content/`，
+也不受 Zod 驗證。
+
+- 來源：中華郵政 W_stamphouse，`stamp_subcat_name=生肖`（`type=2802`），共 7 分頁、
+  75 套（民國 57 年首套雞票 → 民國 114 年；含新年／生肖郵票、`LD` 郵資票、少數郵展小全張）。
+- 工具：`scripts/scrape_post_tw.py`（`uv run`，零環境污染）。分頁參數是 `topage` + 固定
+  `PreRowDatas=12`（非 `page`）；詳情頁 `ID=2803&file_name={code}`。
+- 落地：`data/raw/post-tw/{file_name}/`，每套含 `raw.json`（列表 + 詳情欄位表 + 每枚發行量／
+  主圖 URL + 設計說明）、`detail.html`（原始備份）、`img/*.JPG`（主圖）。另有 `_index.json` 總表。
+- **採集 ≠ 收錄**：raw 全收，不在此階段套用 D8（非生肖藏品過濾）；郵展小全張等是否進
+  `catalog/`、`zodiac_year`／`issue_date` 如何對應、來源 `tier`（官方 → `official`），
+  一律留到建檔時逐套人工判斷。
+
+**驗證**：`uv run scripts/scrape_post_tw.py --list-only` 列出 75 套；全跑後
+`data/raw/post-tw/` 有 75 個資料夾、每套 `raw.json` 的 `n_stamps` 與下載圖片數一致。
+
 ## Phase 0 — Scaffold Astro 專案
 
 **目標**：建立可 `npm run dev` 的最小 Astro 站。
