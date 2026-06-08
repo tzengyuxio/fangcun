@@ -1,0 +1,23 @@
+{
+  "code": "1962",
+  "year": "1962",
+  "title": "1962年用年賀切手",
+  "kanreki": "昭和37年",
+  "zodiac": "寅",
+  "design": "張子の虎",
+  "denomination": "5円",
+  "issue_date": "1961/12/15",
+  "image_url": "https://makeshop-multi-images.akamaized.net/yuubinsyumi/itemimages/000000004080.jpg",
+  "image_file": "img/1962.jpg",
+  "source": [
+    {
+      "id": "jp-dorama",
+      "tier": "reference"
+    },
+    {
+      "id": "jp-yuubinsyumi",
+      "tier": "reference"
+    }
+  ],
+  "yuu_product_id": "000000004080"
+}

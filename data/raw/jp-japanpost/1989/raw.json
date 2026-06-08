@@ -1,0 +1,23 @@
+{
+  "code": "1989",
+  "year": "1989",
+  "title": "1989年用年賀切手",
+  "kanreki": "昭和64年",
+  "zodiac": "巳",
+  "design": "土鈴の蛇",
+  "denomination": "40円",
+  "issue_date": "1988/12/1",
+  "image_url": "https://makeshop-multi-images.akamaized.net/yuubinsyumi/itemimages/000000004109.jpg",
+  "image_file": "img/1989.jpg",
+  "source": [
+    {
+      "id": "jp-dorama",
+      "tier": "reference"
+    },
+    {
+      "id": "jp-yuubinsyumi",
+      "tier": "reference"
+    }
+  ],
+  "yuu_product_id": "000000004109"
+}

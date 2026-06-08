@@ -1,0 +1,43 @@
+{
+  "code": "2014-3030",
+  "title": "연하우표",
+  "year": "2014",
+  "issue_date": "2014. 12. 1.",
+  "stamp_no": "3030",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=3161&tbsmh01seqnum=4189&stampCode=05",
+  "detail_fields": {
+    "우표번호": "3030",
+    "종수": "4",
+    "발행량": "275,000",
+    "디자인": "편지 전하는 양",
+    "인쇄 및 색수": "평판 6도",
+    "전지구성": "4 × 5",
+    "디자이너": "박은경",
+    "발행일": "2014. 12. 1.",
+    "액면가격": "300",
+    "우표크기": "26.8mm × 36.5mm",
+    "인면": "26.8mm × 36.5mm",
+    "천공": "13",
+    "용지": "평판 원지",
+    "인쇄처": "POSA(Cartor)"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/114156726913230.jpg",
+      "image_file": "img/114156726913230.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/114156726916190.jpg",
+      "image_file": "img/114156726916190.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/114156726914710.jpg",
+      "image_file": "img/114156726914710.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

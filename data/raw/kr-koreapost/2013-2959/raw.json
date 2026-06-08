@@ -1,0 +1,39 @@
+{
+  "code": "2013-2959",
+  "title": "연하우표",
+  "year": "2013",
+  "issue_date": "2013. 12. 2.",
+  "stamp_no": "2959",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=3081&tbsmh01seqnum=1542&stampCode=05",
+  "detail_fields": {
+    "우표번호": "2959",
+    "종수": "8",
+    "발행량": "각 50만 장(총 200만 장)",
+    "디자인": "즐거운 새해",
+    "인쇄 및 색수": "그라비어 5도",
+    "전지구성": "4 × 4",
+    "디자이너": "모지원",
+    "발행일": "2013. 12. 2.",
+    "액면가격": "300원, 630원(소형시트 2,520원)",
+    "우표크기": "36 × 34.5mm",
+    "인면": "33 × 31.5mm",
+    "천공": "13",
+    "용지": "그라비어 원지",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/113859473594072.jpg",
+      "image_file": "img/113859473594072.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/113859473607303.jpg",
+      "image_file": "img/113859473607303.jpg"
+    }
+  ],
+  "n_images": 2,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

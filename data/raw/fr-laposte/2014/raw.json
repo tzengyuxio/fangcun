@@ -1,0 +1,57 @@
+{
+  "code": "2014",
+  "year": "2014",
+  "zodiac_fr": "Cheval",
+  "title": "Nouvel an chinois année du cheval, Timbres de France émis en 2014",
+  "n_stamps": 2,
+  "stamps": [
+    {
+      "lig": "5227",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=5227",
+      "title": "Nouvel an chinois année du cheval, Timbres de France émis en 2014",
+      "fields": {
+        "vente_generale": "3 février",
+        "valeur_faciale": "0.66 €€",
+        "createur": "Li Zhongyao",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13½x13",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "30 x 40 mm",
+        "tirage": "1.000.000",
+        "bande_phosphore": "2 bandes",
+        "yvert": "N° 4835",
+        "maury": "N° 4782"
+      },
+      "description": "",
+      "image_url": "https://philatelie-francaise.com/image/image-2014/2014-4.jpg",
+      "image_file": "img/5227_2014-4.jpg"
+    },
+    {
+      "lig": "5228",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=5228",
+      "title": "Nouvel an chinois année du cheval, Timbres de France émis en 2014",
+      "fields": {
+        "vente_generale": "3 février",
+        "valeur_faciale": "0.66 €€",
+        "createur": "Li Zhongyao",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13½x13",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "160 x 143 mm",
+        "tirage": "1.000.000",
+        "bande_phosphore": "2 bandes",
+        "yvert": "N° F4835",
+        "maury": "N° BF 4782A"
+      },
+      "description": "",
+      "image_url": "https://philatelie-francaise.com/image/image-2014/2014-18.jpg",
+      "image_file": "img/5228_2014-18.jpg"
+    }
+  ],
+  "source": {
+    "id": "fr-philatelie-francaise",
+    "tier": "reference"
+  }
+}

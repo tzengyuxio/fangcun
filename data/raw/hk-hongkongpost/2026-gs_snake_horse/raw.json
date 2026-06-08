@@ -1,0 +1,88 @@
+{
+  "code": "2026-gs_snake_horse",
+  "year": "2026",
+  "theme": "gs_snake_horse",
+  "list_title": "「十二生肖金銀郵票小型張－靈蛇駿馬」特別郵票",
+  "detail_url": "https://stamps.hongkongpost.hk/tc/stamps/latest_stamps_issues/2026/gs_snake_horse/index.html",
+  "source": {
+    "id": "hk-hongkongpost",
+    "tier": "official"
+  },
+  "title": "「十二生肖金銀郵票小型張－靈蛇駿馬」特別郵票",
+  "issue_date": "2026/01/05",
+  "description": "巳蛇辭舊歲，午馬迎新春。香港郵政特別發行以「靈蛇駿馬」為題的十二生肖金銀郵票小型張。生肖郵票上的靈蛇與駿馬分別以銀箔和22K金箔燙壓點綴。 在傳統十二生肖文化中，蛇被喻為靈慧延年之物，象徵富貴綿長、生生不息；馬則寓意奮發進取，象徵奔騰前路、馬到功成。 是次發行的金銀郵票小型張是第三輯賀歲生肖金銀郵票系列的第二款，嵌有「歲次乙巳（蛇年）」郵票及「歲次丙午（馬年）」郵票，面值各50元。郵票上的靈蛇和駿馬分別以銀箔和22K金箔燙壓點綴，並附有黃金成色證明書。馬身以壓印工藝製作，栩栩如生，動感奔逸。 郵票小型張以盛放的牡丹為背景，寓意繁榮昌盛、吉祥幸福。靈蛇與駿馬穿梭於繁花中，各展姿彩，傳遞福澤年年、生生不息的美好祝願。 由二○二五年十二月十六日起，全線郵政局將發售「十二生肖金銀郵票小型張－靈蛇駿馬」正式紀念封，每個售價二元五角。此外，各集郵局於二○二五年十二月十六日至二十二日期間接受自備封蓋銷服務的預約申請。 郵品包括郵票小型張、套摺、已蓋銷紀念封及已蓋銷紀念封(珍藏版) (已蓋銷紀念封及已蓋銷紀念封(珍藏版)只限於各集郵局發售)。",
+  "products": [
+    {
+      "name": "郵票小型張",
+      "price": "HK$ 100",
+      "purchase_limit": "5張",
+      "sale_period": "",
+      "description": "嵌有2枚$50郵票。",
+      "product_code": "M2GX20004",
+      "image_url": "https://stamps.hongkongpost.hk/filemanager/common/stamps/latest_stamps_issues/2026/gs_snake_horse/ssl.jpg",
+      "image_file": "img/ssl.jpg"
+    },
+    {
+      "name": "套摺",
+      "price": "HK$ 145",
+      "purchase_limit": "5個",
+      "sale_period": "",
+      "description": "附有1張郵票小型張。",
+      "product_code": "M2GX20005",
+      "image_url": "https://stamps.hongkongpost.hk/filemanager/common/stamps/latest_stamps_issues/2026/gs_snake_horse/pp.jpg",
+      "image_file": "img/pp.jpg"
+    },
+    {
+      "name": "紀念封",
+      "price": "HK$ 2.5",
+      "purchase_limit": "",
+      "sale_period": "於2025年12月16日上午8時起在香港郵政網上購物平台「郵購網」(網址: shopthrupost.hongkongpost.hk) 發售，售完即止。",
+      "description": "",
+      "product_code": "M2GX2000K",
+      "image_url": "https://stamps.hongkongpost.hk/filemanager/common/stamps/latest_stamps_issues/2026/gs_snake_horse/sc.jpg",
+      "image_file": "img/sc.jpg"
+    },
+    {
+      "name": "紀念封（珍藏版）",
+      "price": "HK$ 10",
+      "purchase_limit": "",
+      "sale_period": "(只限在各集郵局發售)於2025年12月16日上午8時起在香港郵政網上購物平台「郵購網」(網址: shopthrupost.hongkongpost.hk) 發售，售完即止。",
+      "description": "",
+      "product_code": "M2GX2000L",
+      "image_url": "https://stamps.hongkongpost.hk/filemanager/common/stamps/latest_stamps_issues/2026/gs_snake_horse/psc.jpg",
+      "image_file": "img/psc.jpg"
+    },
+    {
+      "name": "貼有1張郵票小型張的已蓋銷紀念封",
+      "price": "HK$ 105",
+      "purchase_limit": "5個 (只限在各集郵局發售)",
+      "sale_period": "",
+      "description": "貼有1張郵票小型張並以相關的特別郵戳蓋銷的紀念封。",
+      "product_code": "M2GX2000A",
+      "image_url": "https://stamps.hongkongpost.hk/filemanager/common/stamps/latest_stamps_issues/2026/gs_snake_horse/sc_ssl.jpg",
+      "image_file": "img/sc_ssl.jpg"
+    },
+    {
+      "name": "貼有1張郵票小型張的已蓋銷紀念封（珍藏版）",
+      "price": "HK$ 112.5",
+      "purchase_limit": "5個 (只限在各集郵局發售)",
+      "sale_period": "",
+      "description": "貼有1張郵票小型張並以相關的特別郵戳蓋銷的紀念封（珍藏版）。",
+      "product_code": "M2GX2000B",
+      "image_url": "https://stamps.hongkongpost.hk/filemanager/common/stamps/latest_stamps_issues/2026/gs_snake_horse/psc_ssl.jpg",
+      "image_file": "img/psc_ssl.jpg"
+    },
+    {
+      "name": "特別郵戳",
+      "price": "",
+      "purchase_limit": "",
+      "sale_period": "",
+      "description": "",
+      "product_code": "",
+      "image_url": "https://stamps.hongkongpost.hk/filemanager/common/stamps/latest_stamps_issues/2026/gs_snake_horse/postmark.jpg",
+      "image_file": "img/postmark.jpg"
+    }
+  ],
+  "n_products": 7,
+  "n_images": 7
+}

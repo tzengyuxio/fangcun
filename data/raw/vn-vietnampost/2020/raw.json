@@ -1,0 +1,60 @@
+{
+  "code": "2020",
+  "source": {
+    "id": "vn-vietnamstamp",
+    "tier": "official"
+  },
+  "slug": "tet-tan-suu",
+  "detail_url": "https://vietnamstamp.com.vn/tet-tan-suu.html",
+  "title": "Tết Tân Sửu",
+  "set_code": "1138",
+  "issue_date": "12/12/2020",
+  "year": "2020",
+  "zodiac": {
+    "branch": "Sửu",
+    "animal": "水牛/Trâu",
+    "animal_en": "Water Buffalo",
+    "vn_special": true
+  },
+  "detail_fields": {
+    "Ngày phát hành": "12/12/2020",
+    "Ngày hết hạn:": "30/6/2022",
+    "Mẫu tem/bộ": "2 tem, khối 4",
+    "Khuôn khổ": "37x37 (mm)",
+    "Số tem in trên tờ": "20",
+    "Họa sỹ thiết kế": "Nguyễn Quang Vinh",
+    "In ấn": "Vietnam Post Printing Company"
+  },
+  "description": "Tết Nguyên Đán là lễ hội lớn nhất, quan trọng nhất trong các lễ hội truyền thống của dân tộc Việt Nam, mang đậm nét văn hóa dân tộc sâu sắc và độc đáo, thể hiện sự hòa điệu giữa con người và thiên nhiên theo chu kỳ vận hành của Vũ trụ. Chào đón năm mới 2021 - An khang và Thịnh vượng, Bộ Thông tin và Truyền thông phát hành bộ tem bưu chính “Tết Tân Sửu” gồm 2 mẫu tem và 01 blốc, với giá mặt 4000đ, 15000đ và 38000đ. Hình ảnh chính trên tem là những chú Trâu được cách điệu trên nền hoa đào, hoa mai, địu trên mình những loại trái cây phổ biến được người dân Việt Nam trưng bày mâm ngũ quả vào mỗi dịp Tết cổ truyền. Bộ tem bưu chính “Tết Tân Sửu” được phát hành với mong muốn mang hạnh phúc, đoàn viên, may mắn, tài lộc đến với mọi người, mọi nhà. Khuôn khổ tem: 37 x 37 (mm); Khuôn khổ blốc: 150 x 100 (mm). Khuôn khổ FDC: 190 x 110 (mm) và 220 x 130 (mm). Họa sĩ thiết kế: Nguyễn Quang Vinh. Bộ tem được phát hành vào ngày 12/12/2020.",
+  "images": [
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1363_z3422743798726_ff24935f9538e9829119c6444c45e20a.jpg",
+      "image_file": "img/1363_z3422743798726_ff24935f9538e9829119c6444c45e20a.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1363_z3422743793699_523772dc4cbda021e4932f846dafff87.jpg",
+      "image_file": "img/1363_z3422743793699_523772dc4cbda021e4932f846dafff87.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1363_bloc_tet_tan_suu.jpg",
+      "image_file": "img/1363_bloc_tet_tan_suu.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1363_fdctemtettansuu.jpg",
+      "image_file": "img/1363_fdctemtettansuu.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1363_fdcbloctettansuu.jpg",
+      "image_file": "img/1363_fdcbloctettansuu.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1363_biagaitettansuu.jpg",
+      "image_file": "img/1363_biagaitettansuu.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1363_sotemtettansuu.jpg",
+      "image_file": "img/1363_sotemtettansuu.jpg"
+    }
+  ],
+  "n_images": 7
+}

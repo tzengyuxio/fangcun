@@ -1,0 +1,43 @@
+{
+  "code": "1965-486",
+  "title": "연하우표",
+  "year": "1965",
+  "issue_date": "1965. 12. 11.",
+  "stamp_no": "486",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=551&tbsmh01seqnum=2075&stampCode=05",
+  "detail_fields": {
+    "우표번호": "486",
+    "종수": "2",
+    "발행량": "300000",
+    "디자인": "어린이와 남대문",
+    "인쇄 및 색수": "평판 담록색,황적색,자청색",
+    "전지구성": "10×10",
+    "디자이너": "김순득",
+    "발행일": "1965. 12. 11.",
+    "액면가격": "4원",
+    "우표크기": "-",
+    "인면": "25×22",
+    "천공": "12½",
+    "용지": "섬유들이",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO0486.jpg",
+      "image_file": "img/SO0486.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS0485-0486.jpg",
+      "image_file": "img/SS0485-0486.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW0486.jpg",
+      "image_file": "img/SW0486.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

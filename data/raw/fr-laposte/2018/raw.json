@@ -1,0 +1,45 @@
+{
+  "code": "2018",
+  "year": "2018",
+  "zodiac_fr": "Chien",
+  "title": "2018 Année du Chien, Timbres de France émis en 2018",
+  "n_stamps": 2,
+  "stamps": [
+    {
+      "lig": "6869",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=6869",
+      "title": "2018 Année du Chien, Timbres de France émis en 2018",
+      "fields": {
+        "vente_generale": "5 février",
+        "valeur_faciale": "1.30 €€",
+        "createur": "Agence la 5ème Étape Paris et Lu Wuenjuan",
+        "dentelure": "Dentelure horizontale spéciale collector",
+        "impression": "Offset",
+        "tirage": "12000"
+      },
+      "description": "",
+      "image_url": "https://philatelie-francaise.com/image/collector-2018/col_2018-16.jpg",
+      "image_file": "img/6869_col_2018-16.jpg"
+    },
+    {
+      "lig": "6870",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=6870",
+      "title": "2018 Année du Chien, Timbres de France émis en 2018",
+      "fields": {
+        "vente_generale": "5 février",
+        "valeur_faciale": "1.30 €€",
+        "createur": "Agence la 5ème Étape Paris et Lu Wuenjuan",
+        "dentelure": "Dentelure horizontale spéciale collector",
+        "impression": "Offset",
+        "tirage": "12000"
+      },
+      "description": "",
+      "image_url": "https://philatelie-francaise.com/image/collector-2018/col_2018-17.jpg",
+      "image_file": "img/6870_col_2018-17.jpg"
+    }
+  ],
+  "source": {
+    "id": "fr-philatelie-francaise",
+    "tier": "reference"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "code": "2018",
+  "source": {
+    "id": "vn-vietnamstamp",
+    "tier": "official"
+  },
+  "slug": "tet-ky-hoi",
+  "detail_url": "https://vietnamstamp.com.vn/tet-ky-hoi.html",
+  "title": "Tết Kỷ Hợi",
+  "set_code": "1101",
+  "issue_date": "01/12/2018",
+  "year": "2018",
+  "zodiac": {
+    "branch": "Hợi",
+    "animal": "豬/Lợn",
+    "animal_en": "Pig",
+    "vn_special": false
+  },
+  "detail_fields": {
+    "Ngày phát hành": "01/12/2018",
+    "Ngày hết hạn:": "30/06/2020",
+    "Mẫu tem/bộ": "2 tem, 1 khối 8",
+    "Khuôn khổ": "37 x 37 (mm)",
+    "Số răng": "13",
+    "Số tem in trên tờ": "20",
+    "Họa sỹ thiết kế": "Phạm Hà Hải",
+    "In ấn": "Offset nhiều mầu tại Công ty In tem Bưu điện"
+  },
+  "description": "Tết Nguyên Đán là lễ hội cổ truyền lớn nhất của dân tộc Việt Nam. Đã thành thông lệ, cứ mỗi dịp Tết đến Xuân về, Bộ Thông tin và Truyền thông phát hành bộ tem Tết tương ứng với linh vật theo chu kỳ 12 con giáp. Để chào đón năm mới, bộ tem “Tết Kỷ Hợi” . Mẫu tem được thiết kế lấy cảm hứng màu sắc từ tranh dân gian Việt Nam. Màu tươi sáng, chất mộc, quét màu trên giấy điệp mang chiều sâu không gian. Hình ảnh linh vật được thiết kế chắt lọc, ước lệ tạo kết nối truyền thống và sáng tạo mang tính hiện đại thể hiện cá tính tiêu biểu con giáp từ góc nhìn văn hóa Phương Đông mang đậm bản sắc Việt Nam giản dị mà sâu sắc. Việc phát hành bộ tem như một lời chúc “Năm mới - An khang, Thịnh vượng” gửi tới những người yêu tem, sưu tập tem trong và ngoài nước. Bộ tem được thiết kế tràn lề, khuôn khổ tem 37 x 37 mm, gồm 02 mẫu với giá mặt 4000đ và 10500đ, do họa sỹ Phạm Hà Hải thiết kế, được cung ứng trên mạng bưu chính công cộng từ ngày 01/12/2018 đến 30/6/2020",
+  "images": [
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1304_1101_3720.jpg",
+      "image_file": "img/1304_1101_3720.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1304_1101.jpg",
+      "image_file": "img/1304_1101.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1304_1101_3721.jpg",
+      "image_file": "img/1304_1101_3721.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1304_1101-3720.jpg",
+      "image_file": "img/1304_1101-3720.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1304_1101-3721.jpg",
+      "image_file": "img/1304_1101-3721.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1304_1101.jpg",
+      "image_file": "img/1304_1101.jpg"
+    }
+  ],
+  "n_images": 6
+}

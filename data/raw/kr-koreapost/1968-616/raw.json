@@ -1,0 +1,43 @@
+{
+  "code": "1968-616",
+  "title": "연하우표",
+  "year": "1968",
+  "issue_date": "1968. 12. 11.",
+  "stamp_no": "616",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=681&tbsmh01seqnum=2205&stampCode=05",
+  "detail_fields": {
+    "우표번호": "616",
+    "종수": "2",
+    "발행량": "2000000",
+    "디자인": "크리스마스츄리에 달린 데코레이션과 새해의 정경",
+    "인쇄 및 색수": "평판 4도색",
+    "전지구성": "10×10",
+    "디자이너": "오충환",
+    "발행일": "1968. 12. 11.",
+    "액면가격": "5원",
+    "우표크기": "-",
+    "인면": "22×25",
+    "천공": "13",
+    "용지": "섬유들이",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO0616.jpg",
+      "image_file": "img/SO0616.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS0616.jpg",
+      "image_file": "img/SS0616.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW0616.jpg",
+      "image_file": "img/SW0616.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

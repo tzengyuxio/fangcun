@@ -1,0 +1,55 @@
+{
+  "code": "2006",
+  "year": "2006",
+  "zodiac_fr": "Chien",
+  "title": "Année lunaire chinoise du chien, Timbres de France émis en 2006",
+  "n_stamps": 2,
+  "stamps": [
+    {
+      "lig": "4086",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=4086",
+      "title": "Année lunaire chinoise du chien, Timbres de France émis en 2006",
+      "fields": {
+        "vente_generale": "23 janvier",
+        "valeur_faciale": "0.53 €€",
+        "createur": "Li Zhongyao",
+        "dentelure": "13½ x 13",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "30 x 40 mm",
+        "tirage": "25.000.000",
+        "bande_phosphore": "2 bandes",
+        "yvert": "N° 3865",
+        "maury": "N° 3850"
+      },
+      "description": "Année du chien Dans la culture chinoise, chaque année lunaire est associée à un animal qui représente un signe astrologique. Le chien, connu pour être loyal et honnête, est associé à la 11ème année dans le calendrier cyclique du zodiaque chinois de 12 ans. Les personnes nées en 1946, 1958, 1970, 1982, 1994, 2006, 2018, 2030 appartiennent à l’année du chien. La prochaine année du chien commencera le 3 février 2030 et se terminera le 22 janvier 2031. En plus d’être associée à un animal du zodiaque, chaque nouvelle année lunaire s’aligne également sur l’un des cinq éléments traditionnels chinois. Par exemple, l’année 2030 sera l’année du chien de métal.",
+      "image_url": "https://philatelie-francaise.com/image/image-2006/3865.jpg",
+      "image_file": "img/4086_3865.jpg"
+    },
+    {
+      "lig": "4087",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=4087",
+      "title": "Année lunaire chinoise du chien, Timbres de France émis en 2006",
+      "fields": {
+        "vente_generale": "23 janvier",
+        "valeur_faciale": "0.53 €€",
+        "createur": "Li Zhongyao",
+        "dentelure": "13½ x 13",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "143 x 160 mm",
+        "tirage": "2.500.000.",
+        "bande_phosphore": "2 bandes",
+        "yvert": "N° F3865",
+        "maury": "N° F3850"
+      },
+      "description": "Année du chien Dans la culture chinoise, chaque année lunaire est associée à un animal qui représente un signe astrologique. Le chien, connu pour être loyal et honnête, est associé à la 11ème année dans le calendrier cyclique du zodiaque chinois de 12 ans. Les personnes nées en 1946, 1958, 1970, 1982, 1994, 2006, 2018, 2030 appartiennent à l’année du chien. La prochaine année du chien commencera le 3 février 2030 et se terminera le 22 janvier 2031. En plus d’être associée à un animal du zodiaque, chaque nouvelle année lunaire s’aligne également sur l’un des cinq éléments traditionnels chinois. Par exemple, l’année 2030 sera l’année du chien de métal.",
+      "image_url": "https://philatelie-francaise.com/image/image-2006/F3865.jpg",
+      "image_file": "img/4087_F3865.jpg"
+    }
+  ],
+  "source": {
+    "id": "fr-philatelie-francaise",
+    "tier": "reference"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "code": "1960",
+  "year": "1960",
+  "title": "1960年用年賀切手",
+  "kanreki": "昭和35年",
+  "zodiac": "子",
+  "design": "米くいねずみ",
+  "denomination": "5円",
+  "issue_date": "1959/12/19",
+  "image_url": "https://makeshop-multi-images.akamaized.net/yuubinsyumi/itemimages/000000004078.jpg",
+  "image_file": "img/1960.jpg",
+  "source": [
+    {
+      "id": "jp-dorama",
+      "tier": "reference"
+    },
+    {
+      "id": "jp-yuubinsyumi",
+      "tier": "reference"
+    }
+  ],
+  "yuu_product_id": "000000004078"
+}

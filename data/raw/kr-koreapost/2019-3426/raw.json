@@ -1,0 +1,43 @@
+{
+  "code": "2019-3426",
+  "title": "연하우표",
+  "year": "2019",
+  "issue_date": "2019. 12. 2.",
+  "stamp_no": "3426",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=3664&tbsmh01seqnum=4692&stampCode=05",
+  "detail_fields": {
+    "우표번호": "3426",
+    "종수": "2",
+    "발행량": "672,000",
+    "디자인": "밤하늘을 바라보는 쥐들",
+    "인쇄 및 색수": "평판/4도/UV래커, 홀로그램 박",
+    "전지구성": "4 × 4",
+    "디자이너": "유지형",
+    "발행일": "2019. 12. 2.",
+    "액면가격": "380원",
+    "우표크기": "35mm×35mm",
+    "인면": "32mm×32m",
+    "천공": "13¼×13¼",
+    "용지": "평판원지",
+    "인쇄처": "POSA(카토)"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/115723114218460.jpg",
+      "image_file": "img/115723114218460.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/115723114229450.jpg",
+      "image_file": "img/115723114229450.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/115723114222070.jpg",
+      "image_file": "img/115723114222070.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "code": "2016-3166",
+  "title": "연하우표",
+  "year": "2016",
+  "issue_date": "2016. 12. 1.",
+  "stamp_no": "3166",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=3335&tbsmh01seqnum=4363&stampCode=05",
+  "detail_fields": {
+    "우표번호": "3166",
+    "종수": "2",
+    "발행량": "각 280,000장(총 560,000장), 시트 100천장",
+    "디자인": "새해 새 출발",
+    "인쇄 및 색수": "평판 4도, 금박, 홀로그램박, 엠보싱",
+    "전지구성": "4×4,(소형시트)2×2",
+    "디자이너": "김소정",
+    "발행일": "2016. 12. 1.",
+    "액면가격": "300",
+    "우표크기": "35mm×35mm",
+    "인면": "32mm×32mm",
+    "천공": "13¾×13¾",
+    "용지": "평판 원지",
+    "인쇄처": "POSA(Royal Joh. Enschedé)"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/114761653373330.jpg",
+      "image_file": "img/114761653373330.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/114761653380930.jpg",
+      "image_file": "img/114761653380930.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/114761653376130.jpg",
+      "image_file": "img/114761653376130.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

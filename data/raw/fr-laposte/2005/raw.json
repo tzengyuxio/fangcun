@@ -1,0 +1,55 @@
+{
+  "code": "2005",
+  "year": "2005",
+  "zodiac_fr": "Coq",
+  "title": "Nouvel an chinois Année du coq, Timbres de France émis en 2005",
+  "n_stamps": 2,
+  "stamps": [
+    {
+      "lig": "3960",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=3960",
+      "title": "Nouvel an chinois Année du coq, Timbres de France émis en 2005",
+      "fields": {
+        "vente_generale": "31 janvier",
+        "valeur_faciale": "0.50 €€",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13½ x 13",
+        "couleur": "rouge vert jaune blanc noir et or",
+        "impression": "Héliogravure",
+        "format": "30 x 41 mm",
+        "tirage": "25.000.000",
+        "bande_phosphore": "sans",
+        "yvert": "N° 3749",
+        "maury": "N° 3735"
+      },
+      "description": "Année du Coq Le Coq est le dixième signe du zodiaque chinois. Son élément fondamental est le Métal. C’est un signe féminin avec une polarité Yin. Ses couleurs sont le blanc et jaune. Les personnes du signe Coq sont nées en 1933, 1945, 1957, 1969, 1981, 1993, 2005, 20172 Les personnes du signe Coq sont dynamiques, ambitieuses mais un peu trop fières. Elles aiment être remarquées et n’hésitent pas à s’habiller de façon ostentatoire pour sentir le regard des autres se poser sur elles. Le Coq est franc et se montre toujours loyal avec ses proches. Il aime aussi briller. On peut parfois trouver qu’il en fait un peu trop pour se valoriser.",
+      "image_url": "https://philatelie-francaise.com/image/image-2005/3749.jpg",
+      "image_file": "img/3960_3749.jpg"
+    },
+    {
+      "lig": "3961",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=3961",
+      "title": "Nouvel an chinois Année du coq, Timbres de France émis en 2005",
+      "fields": {
+        "vente_generale": "31 janvier",
+        "valeur_faciale": "0.50 €€",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13½ x 13",
+        "couleur": "rouge vert jaune blanc noir et or",
+        "impression": "Héliogravure",
+        "format": "143 x 160 mm",
+        "tirage": "2.500.00",
+        "bande_phosphore": "sans",
+        "yvert": "N° F3749",
+        "maury": "N° BF3735a"
+      },
+      "description": "Année du Coq Le Coq est le dixième signe du zodiaque chinois. Son élément fondamental est le Métal. C’est un signe féminin avec une polarité Yin. Ses couleurs sont le blanc et jaune. Les personnes du signe Coq sont nées en 1933, 1945, 1957, 1969, 1981, 1993, 2005, 20172 Les personnes du signe Coq sont dynamiques, ambitieuses mais un peu trop fières. Elles aiment être remarquées et n’hésitent pas à s’habiller de façon ostentatoire pour sentir le regard des autres se poser sur elles. Le Coq est franc et se montre toujours loyal avec ses proches. Il aime aussi briller. On peut parfois trouver qu’il en fait un peu trop pour se valoriser.",
+      "image_url": "https://philatelie-francaise.com/image/image-2005/F3749.jpg",
+      "image_file": "img/3961_F3749.jpg"
+    }
+  ],
+  "source": {
+    "id": "fr-philatelie-francaise",
+    "tier": "reference"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "code": "1970-715",
+  "title": "연하우표",
+  "year": "1970",
+  "issue_date": "1970. 12. 1.",
+  "stamp_no": "715",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=780&tbsmh01seqnum=2304&stampCode=05",
+  "detail_fields": {
+    "우표번호": "715",
+    "종수": "2",
+    "발행량": "2000000",
+    "디자인": "연과 포인세치아 잎",
+    "인쇄 및 색수": "그라비어 4도색",
+    "전지구성": "10×5",
+    "디자이너": "전희한",
+    "발행일": "1970. 12. 1.",
+    "액면가격": "10원",
+    "우표크기": "-",
+    "인면": "23×33",
+    "천공": "13",
+    "용지": "백지",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO0715.jpg",
+      "image_file": "img/SO0715.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS0715.jpg",
+      "image_file": "img/SS0715.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW0715.jpg",
+      "image_file": "img/SW0715.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "code": "1994-1798",
+  "title": "연하우표",
+  "year": "1994",
+  "issue_date": "1994. 12. 1.",
+  "stamp_no": "1798",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=1863&tbsmh01seqnum=3386&stampCode=05",
+  "detail_fields": {
+    "우표번호": "1798",
+    "종수": "2",
+    "발행량": "3000000",
+    "디자인": "복주머니와 돼지",
+    "인쇄 및 색수": "그라비아 6도색",
+    "전지구성": "4×5",
+    "디자이너": "유애로",
+    "발행일": "1994. 12. 1.",
+    "액면가격": "130원",
+    "우표크기": "-",
+    "인면": "33×23",
+    "천공": "13",
+    "용지": "백색무투문지",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO1798.jpg",
+      "image_file": "img/SO1798.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS1798.jpg",
+      "image_file": "img/SS1798.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW1798.jpg",
+      "image_file": "img/SW1798.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

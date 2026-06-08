@@ -1,0 +1,38 @@
+{
+  "code": "2026-joint_souvenir_pack",
+  "year": "2026",
+  "theme": "joint_souvenir_pack",
+  "list_title": "「歲次丙午（馬年）」聯合發行郵品",
+  "detail_url": "https://stamps.hongkongpost.hk/tc/stamps/latest_stamps_issues/2026/joint_souvenir_pack/index.html",
+  "source": {
+    "id": "hk-hongkongpost",
+    "tier": "official"
+  },
+  "title": "「歲次丙午（馬年）」聯合發行郵品",
+  "issue_date": "2026/01/05",
+  "description": "中國郵政、香港郵政和澳門郵電共同發行馬年聯合紀念套摺，內附三地郵政機關共同發行的生肖郵票小全張，展現三地同根同源、共融共通的文化血脈。 郵品包括聯合紀念套摺和聯合紀念套摺（珍藏版），郵品只限於各集郵局發售。",
+  "products": [
+    {
+      "name": "聯合紀念套摺",
+      "price": "HK$ 60",
+      "purchase_limit": "5個(只限在各集郵局發售)",
+      "sale_period": "",
+      "description": "附有一張聯合發行小全張，嵌有中國郵政發行的兩套各兩枚郵票、香港郵政發行的一套四枚郵票及澳門郵電發行的一套四枚郵票。",
+      "product_code": "M2ZH0005A",
+      "image_url": "https://stamps.hongkongpost.hk/filemanager/common/stamps/latest_stamps_issues/2026/joint_souvenir_pack/jsp.jpg",
+      "image_file": "img/jsp.jpg"
+    },
+    {
+      "name": "聯合紀念套摺（珍藏版）",
+      "price": "HK$ 78",
+      "purchase_limit": "5套 (只限在各集郵局發售)",
+      "sale_period": "",
+      "description": "附有一張聯合發行小全張及一個已蓋銷聯合紀念封連三枚分別由中國郵政、香港郵政和澳門郵電發行的郵票，並以相關的特別郵戳蓋銷。",
+      "product_code": "M2ZH0005B",
+      "image_url": "https://stamps.hongkongpost.hk/filemanager/common/stamps/latest_stamps_issues/2026/joint_souvenir_pack/jsp_prestige.jpg",
+      "image_file": "img/jsp_prestige.jpg"
+    }
+  ],
+  "n_products": 2,
+  "n_images": 2
+}

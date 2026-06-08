@@ -1,0 +1,43 @@
+{
+  "code": "1983-1330",
+  "title": "연하우표",
+  "year": "1983",
+  "issue_date": "1983. 12. 1.",
+  "stamp_no": "1330",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=1395&tbsmh01seqnum=2919&stampCode=05",
+  "detail_fields": {
+    "우표번호": "1330",
+    "종수": "2",
+    "발행량": "3000000",
+    "디자인": "십이지신상(쥐)",
+    "인쇄 및 색수": "그라비아 5도색",
+    "전지구성": "5×5",
+    "디자이너": "김성실",
+    "발행일": "1983. 12. 1.",
+    "액면가격": "70원",
+    "우표크기": "-",
+    "인면": "23×33",
+    "천공": "13",
+    "용지": "백지무투문지",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO1330.jpg",
+      "image_file": "img/SO1330.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS1330.jpg",
+      "image_file": "img/SS1330.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW1330.jpg",
+      "image_file": "img/SW1330.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

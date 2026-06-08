@@ -1,0 +1,43 @@
+{
+  "code": "1975-993",
+  "title": "연하우표",
+  "year": "1975",
+  "issue_date": "1975. 12. 1.",
+  "stamp_no": "993",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=1058&tbsmh01seqnum=2582&stampCode=05",
+  "detail_fields": {
+    "우표번호": "993",
+    "종수": "2",
+    "발행량": "5000000",
+    "디자인": "팽이치는 어린이",
+    "인쇄 및 색수": "그라비아 4도색",
+    "전지구성": "10×5",
+    "디자이너": "안성경",
+    "발행일": "1975. 12. 1.",
+    "액면가격": "20원",
+    "우표크기": "-",
+    "인면": "23×33",
+    "천공": "13",
+    "용지": "백색 무투문지",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO0993.jpg",
+      "image_file": "img/SO0993.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS0993.jpg",
+      "image_file": "img/SS0993.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW0993.jpg",
+      "image_file": "img/SW0993.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

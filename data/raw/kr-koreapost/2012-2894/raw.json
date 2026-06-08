@@ -1,0 +1,43 @@
+{
+  "code": "2012-2894",
+  "title": "연하우표",
+  "year": "2012",
+  "issue_date": "2012. 12. 3.",
+  "stamp_no": "2894",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=3000&tbsmh01seqnum=1487&stampCode=05",
+  "detail_fields": {
+    "우표번호": "2894",
+    "종수": "2",
+    "발행량": "1000000",
+    "디자인": "제기차기",
+    "인쇄 및 색수": "그라비어 6도",
+    "전지구성": "5 × 2",
+    "디자이너": "박은경",
+    "발행일": "2012. 12. 3.",
+    "액면가격": "270",
+    "우표크기": "26 × 36mm",
+    "인면": "23 × 33mm",
+    "천공": "13",
+    "용지": "그라비어 원지",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/113560705645871.jpg",
+      "image_file": "img/113560705645871.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/113560697050391.jpg",
+      "image_file": "img/113560697050391.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/113560697001101.jpg",
+      "image_file": "img/113560697001101.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

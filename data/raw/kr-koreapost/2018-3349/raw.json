@@ -1,0 +1,43 @@
+{
+  "code": "2018-3349",
+  "title": "연하우표",
+  "year": "2018",
+  "issue_date": "2018. 12. 3.",
+  "stamp_no": "3349",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=3579&tbsmh01seqnum=4607&stampCode=05",
+  "detail_fields": {
+    "우표번호": "3349",
+    "종수": "2",
+    "발행량": "총 672,000장, 소형시트 110,000장",
+    "디자인": "눈송이와 돼지",
+    "인쇄 및 색수": "평판 / 4도 / 금박, 홀로그램박, 엠보싱",
+    "전지구성": "4 × 4 (160mm × 186mm)",
+    "디자이너": "박은경",
+    "발행일": "2018. 12. 3.",
+    "액면가격": "330",
+    "우표크기": "35 × 35",
+    "인면": "32 × 32",
+    "천공": "13¼ × 13¼",
+    "용지": "평판원지",
+    "인쇄처": "POSA(Cartor)"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/115393385579760.jpg",
+      "image_file": "img/115393385579760.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/115393385588270.jpg",
+      "image_file": "img/115393385588270.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/115393385584030.jpg",
+      "image_file": "img/115393385584030.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

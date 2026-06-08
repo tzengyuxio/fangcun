@@ -1,0 +1,52 @@
+{
+  "code": "2024",
+  "source": {
+    "id": "vn-vietnamstamp",
+    "tier": "official"
+  },
+  "slug": "tem-tet-at-ty",
+  "detail_url": "https://vietnamstamp.com.vn/tem-tet-at-ty.html",
+  "title": "Tem Tết Ất Tỵ",
+  "set_code": "1199",
+  "issue_date": "1/12/2024",
+  "year": "2024",
+  "zodiac": {
+    "branch": "Tỵ",
+    "animal": "蛇/Rắn",
+    "animal_en": "Snake",
+    "vn_special": false
+  },
+  "detail_fields": {
+    "Ngày phát hành": "1/12/2024",
+    "Ngày hết hạn:": "30/6/2026",
+    "Mẫu tem/bộ": "2 tem, 1 Blốc",
+    "Khuôn khổ": "37x37 (mm) 80x80 (mm)",
+    "Số tem in trên tờ": "20",
+    "Họa sỹ thiết kế": "Nguyễn Quang Vinh",
+    "In ấn": "Công ty In tem Bưu điện"
+  },
+  "description": "Tết Nguyên đán là một trong những lễ hội quan trọng nhất ở Việt Nam, đánh dấu sự xuất hiện của mùa xuân và bắt đầu năm mới. Như thông lệ hàng năm, để chào đón năm mới 2025, Bộ Thông tin và Truyền thông phát hành bộ tem “Tết Ất Tỵ” gồm 02 mẫu tem và 01 blốc, với giá mặt 4.000đ, 15.000đ và 15.000đ, thể hiện hình ảnh con Rắn - hình tượng khá phổ biến và có sức ảnh hưởng lớn trong dòng chảy văn hoá Việt Nam, tượng trưng cho sự tinh anh, thông thái, trường thọ và tái sinh. Khuôn khổ tem, blốc: 37 x 37 (mm), 80 x 80 (mm). Khuôn khổ FDC: 190 x 110 (mm). Họa sĩ thiết kế: Nguyễn Quang Vinh. Bộ tem được phát hành vào ngày 01/12/2024.",
+  "images": [
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1465_z6076230759675_0e7ca9ebcb98c63b8086dee8bbe0dab4.jpg",
+      "image_file": "img/1465_z6076230759675_0e7ca9ebcb98c63b8086dee8bbe0dab4.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1465_z6086240896305_00aea85e559c2e2acd33a95fe022cfb7.jpg",
+      "image_file": "img/1465_z6086240896305_00aea85e559c2e2acd33a95fe022cfb7.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1465_z6076230759571_cf5dc8f5e4f51168123e47894f8d4fdc.jpg",
+      "image_file": "img/1465_z6076230759571_cf5dc8f5e4f51168123e47894f8d4fdc.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/01-12-2024/z6076326939149_6bb71520c1a890ac287e27cbc6422615.jpg",
+      "image_file": "img/z6076326939149_6bb71520c1a890ac287e27cbc6422615.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/01-12-2024/z6076326944024_4b4cd670612a436df7987674d7891089.jpg",
+      "image_file": "img/z6076326944024_4b4cd670612a436df7987674d7891089.jpg"
+    }
+  ],
+  "n_images": 5
+}

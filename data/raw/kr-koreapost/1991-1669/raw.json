@@ -1,0 +1,43 @@
+{
+  "code": "1991-1669",
+  "title": "연하우표",
+  "year": "1991",
+  "issue_date": "1991. 12. 2.",
+  "stamp_no": "1669",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=1734&tbsmh01seqnum=3258&stampCode=05",
+  "detail_fields": {
+    "우표번호": "1669",
+    "종수": "2",
+    "발행량": "3000000",
+    "디자인": "장생도",
+    "인쇄 및 색수": "그라비어 5도 + 요판 1도",
+    "전지구성": "4×5",
+    "디자이너": "장정학",
+    "발행일": "1991. 12. 2.",
+    "액면가격": "100원",
+    "우표크기": "-",
+    "인면": "22×32",
+    "천공": "13",
+    "용지": "백색무투문지",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO1669.jpg",
+      "image_file": "img/SO1669.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS1669.jpg",
+      "image_file": "img/SS1669.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW1669.jpg",
+      "image_file": "img/SW1669.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

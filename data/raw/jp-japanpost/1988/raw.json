@@ -1,0 +1,23 @@
+{
+  "code": "1988",
+  "year": "1988",
+  "title": "1988年用年賀切手",
+  "kanreki": "昭和63年",
+  "zodiac": "辰",
+  "design": "倉敷はりこ",
+  "denomination": "40円 60円",
+  "issue_date": "1987/12/1",
+  "image_url": "https://makeshop-multi-images.akamaized.net/yuubinsyumi/itemimages/000000004108.jpg",
+  "image_file": "img/1988.jpg",
+  "source": [
+    {
+      "id": "jp-dorama",
+      "tier": "reference"
+    },
+    {
+      "id": "jp-yuubinsyumi",
+      "tier": "reference"
+    }
+  ],
+  "yuu_product_id": "000000004108"
+}

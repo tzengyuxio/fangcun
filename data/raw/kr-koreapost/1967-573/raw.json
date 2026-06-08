@@ -1,0 +1,43 @@
+{
+  "code": "1967-573",
+  "title": "연하우표",
+  "year": "1967",
+  "issue_date": "1967. 12. 10.",
+  "stamp_no": "573",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=638&tbsmh01seqnum=2162&stampCode=05",
+  "detail_fields": {
+    "우표번호": "573",
+    "종수": "2",
+    "발행량": "1000000",
+    "디자인": "원숭이와 12지지(地支)",
+    "인쇄 및 색수": "평판 3도색",
+    "전지구성": "10×10",
+    "디자이너": "강춘환",
+    "발행일": "1967. 12. 10.",
+    "액면가격": "7원",
+    "우표크기": "-",
+    "인면": "22×25",
+    "천공": "13",
+    "용지": "섬유들이",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO0573.jpg",
+      "image_file": "img/SO0573.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS0573.jpg",
+      "image_file": "img/SS0573.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW0573.jpg",
+      "image_file": "img/SW0573.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "code": "1970",
+  "year": "1970",
+  "title": "1970年用年賀切手",
+  "kanreki": "昭和45年",
+  "zodiac": "戌",
+  "design": "守り犬",
+  "denomination": "7円",
+  "issue_date": "1969/12/10",
+  "image_url": "https://makeshop-multi-images.akamaized.net/yuubinsyumi/itemimages/000000004089.jpg",
+  "image_file": "img/1970.jpg",
+  "source": [
+    {
+      "id": "jp-dorama",
+      "tier": "reference"
+    },
+    {
+      "id": "jp-yuubinsyumi",
+      "tier": "reference"
+    }
+  ],
+  "yuu_product_id": "000000004089"
+}

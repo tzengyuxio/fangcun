@@ -1,0 +1,43 @@
+{
+  "code": "1957-245",
+  "title": "연하특별우표",
+  "year": "1957",
+  "issue_date": "1957. 12. 11.",
+  "stamp_no": "245",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=310&tbsmh01seqnum=1834&stampCode=05",
+  "detail_fields": {
+    "우표번호": "245",
+    "종수": "3",
+    "발행량": "100000",
+    "디자인": "크리스마스 츄리와 노리개",
+    "인쇄 및 색수": "평판 황,적,황록색",
+    "전지구성": "10×10",
+    "디자이너": "민철홍",
+    "발행일": "1957. 12. 11.",
+    "액면가격": "25환",
+    "우표크기": "-",
+    "인면": "20×24",
+    "천공": "12½",
+    "용지": "지그재그무늬",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO0245.jpg",
+      "image_file": "img/SO0245.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS0245.jpg",
+      "image_file": "img/SS0245.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW0245.jpg",
+      "image_file": "img/SW0245.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

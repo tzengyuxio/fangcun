@@ -1,0 +1,40 @@
+{
+  "code": "2017",
+  "source": {
+    "id": "vn-vietnamstamp",
+    "tier": "official"
+  },
+  "slug": "tet-mau-tuat",
+  "detail_url": "https://vietnamstamp.com.vn/tet-mau-tuat.html",
+  "title": "Tết Mậu Tuất",
+  "set_code": "1085",
+  "issue_date": "01/12/2017",
+  "year": "2017",
+  "zodiac": {
+    "branch": "Tuất",
+    "animal": "狗/Chó",
+    "animal_en": "Dog",
+    "vn_special": false
+  },
+  "detail_fields": {
+    "Ngày phát hành": "01/12/2017",
+    "Ngày hết hạn:": "30/6/2019",
+    "Mẫu tem/bộ": "2",
+    "Số răng": "13",
+    "Số tem in trên tờ": "25",
+    "Họa sỹ thiết kế": "Phạm Hà Hải",
+    "In ấn": "Offset nhiều mầu tại Công ty In tem Bưu điện"
+  },
+  "description": "",
+  "images": [
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1324_2017___1085tem_tet_mau_tuat_2018_m2.jpg",
+      "image_file": "img/1324_2017___1085tem_tet_mau_tuat_2018_m2.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1324_2017_1085tem_tet_mau_tuat_2018_m1.jpg",
+      "image_file": "img/1324_2017_1085tem_tet_mau_tuat_2018_m1.jpg"
+    }
+  ],
+  "n_images": 2
+}

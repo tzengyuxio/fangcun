@@ -1,0 +1,43 @@
+{
+  "code": "2006-2530",
+  "title": "연하우표",
+  "year": "2006",
+  "issue_date": "2006. 12. 1.",
+  "stamp_no": "2530",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=2598&tbsmh01seqnum=1318&stampCode=05",
+  "detail_fields": {
+    "우표번호": "2530",
+    "종수": "1",
+    "발행량": "1600000",
+    "디자인": "눈속을 달리는 돼지",
+    "인쇄 및 색수": "그라비어 6도(야광우표)",
+    "전지구성": "4×5",
+    "디자이너": "박은경",
+    "발행일": "2006. 12. 1.",
+    "액면가격": "250원",
+    "우표크기": "26*36",
+    "인면": "23*33",
+    "천공": "13",
+    "용지": "그라비어 원지",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/111666129736560.jpg",
+      "image_file": "img/111666129736560.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/111666129752050.jpg",
+      "image_file": "img/111666129752050.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/111666129744810.jpg",
+      "image_file": "img/111666129744810.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

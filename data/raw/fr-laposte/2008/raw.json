@@ -1,0 +1,57 @@
+{
+  "code": "2008",
+  "year": "2008",
+  "zodiac_fr": "Rat",
+  "title": "Année du Rat, Timbres de France émis en 2008",
+  "n_stamps": 2,
+  "stamps": [
+    {
+      "lig": "4383",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=4383",
+      "title": "Année du Rat, Timbres de France émis en 2008",
+      "fields": {
+        "vente_generale": "29 janvier",
+        "valeur_faciale": "0.54 €€",
+        "createur": "Yifu He",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13¼ x 13",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "30 x 40 mm",
+        "tirage": "Inconnu",
+        "bande_phosphore": "2 bandes",
+        "yvert": "N° 4131",
+        "maury": "N° 4128"
+      },
+      "description": "Année du Rat L’année lunaire chinoise du Rat de Terre a commencé le 7 février 2008 et s’est terminée le 25 janvier 2009. Les personnes nées entre ces dates appartiennent au signe des Rats de Terre dans le calendrier oriental. Les rats de Terre sont connus pour leur autodiscipline, leur caractère pratique, leur diligence et leur capacité à contrôler leurs pensées et leurs désirs. Selon l’horoscope de l’Est, les éléments du Rat sont de l’Eau. Les rats de Terre sont très rustiques, ce qui les aide à faire face à un travail difficile et monotone, pour lequel personne d’autre ne va entreprendre. Les personnes nées en 2008 ont un caractère pratique extraordinaire et calculent soigneusement toutes les options avant de prendre des décisions importantes.",
+      "image_url": "https://philatelie-francaise.com/image/image-2008/4131-ad.jpg",
+      "image_file": "img/4383_4131-ad.jpg"
+    },
+    {
+      "lig": "4384",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=4384",
+      "title": "Année du Rat, Timbres de France émis en 2008",
+      "fields": {
+        "vente_generale": "29 janvier",
+        "valeur_faciale": "0.54 €€",
+        "createur": "Yifu He",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13¼ x 13",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "160 x 143 mm",
+        "tirage": "Inconnu",
+        "bande_phosphore": "2 bandes",
+        "yvert": "N° F4131",
+        "maury": "BF4128A"
+      },
+      "description": "Année du Rat L’année lunaire chinoise du Rat de Terre a commencé le 7 février 2008 et s’est terminée le 25 janvier 2009. Les personnes nées entre ces dates appartiennent au signe des Rats de Terre dans le calendrier oriental. Les rats de Terre sont connus pour leur autodiscipline, leur caractère pratique, leur diligence et leur capacité à contrôler leurs pensées et leurs désirs. Selon l’horoscope de l’Est, les éléments du Rat sont de l’Eau. Les rats de Terre sont très rustiques, ce qui les aide à faire face à un travail difficile et monotone, pour lequel personne d’autre ne va entreprendre. Les personnes nées en 2008 ont un caractère pratique extraordinaire et calculent soigneusement toutes les options avant de prendre des décisions importantes.",
+      "image_url": "https://philatelie-francaise.com/image/image-2008/2008-11.jpg",
+      "image_file": "img/4384_2008-11.jpg"
+    }
+  ],
+  "source": {
+    "id": "fr-philatelie-francaise",
+    "tier": "reference"
+  }
+}

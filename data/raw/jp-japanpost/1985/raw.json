@@ -1,0 +1,23 @@
+{
+  "code": "1985",
+  "year": "1985",
+  "title": "1985年用年賀切手",
+  "kanreki": "昭和60年",
+  "zodiac": "丑",
+  "design": "作州牛",
+  "denomination": "40円",
+  "issue_date": "1684/12/1",
+  "image_url": "https://makeshop-multi-images.akamaized.net/yuubinsyumi/itemimages/000000004105.jpg",
+  "image_file": "img/1985.jpg",
+  "source": [
+    {
+      "id": "jp-dorama",
+      "tier": "reference"
+    },
+    {
+      "id": "jp-yuubinsyumi",
+      "tier": "reference"
+    }
+  ],
+  "yuu_product_id": "000000004105"
+}

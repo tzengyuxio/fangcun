@@ -1,0 +1,72 @@
+{
+  "code": "2022",
+  "source": {
+    "id": "vn-vietnamstamp",
+    "tier": "official"
+  },
+  "slug": "tet-quy-mao",
+  "detail_url": "https://vietnamstamp.com.vn/tet-quy-mao.html",
+  "title": "Tết Quý Mão",
+  "set_code": "1167",
+  "issue_date": "01/12/2022",
+  "year": "2022",
+  "zodiac": {
+    "branch": "Mão",
+    "animal": "貓/Mèo",
+    "animal_en": "Cat",
+    "vn_special": true
+  },
+  "detail_fields": {
+    "Ngày phát hành": "01/12/2022",
+    "Ngày hết hạn:": "30/6/2024",
+    "Mẫu tem/bộ": "2 tem, 1 Blốc",
+    "Khuôn khổ": "37x37 (mm)",
+    "Số tem in trên tờ": "20",
+    "Họa sỹ thiết kế": "Nguyễn Quang Vinh",
+    "In ấn": "Offset nhiều mầu tại Công ty In tem Bưu điện"
+  },
+  "description": "Chào đón năm mới 2023, Bộ Thông tin và Truyền thông phát hành bộ tem “Tết Quý Mão” gồm 02 mẫu tem và 01 blốc với giá mặt 4.000đ, 15.000đ và 15.000đ, thể hiện hình ảnh những chú mèo - biểu tượng cho lòng tốt, sự kiên trì, nhẫn nại - linh vật đem lại sự CÁT TƯỜNG - THỊNH VƯỢNG cho con người. Khuôn khổ tem: 37 x 37 (mm). Khuôn khổ blốc: 80 x 80 (mm). Khuôn khổ FDC (tem): 190 x 110 (mm). Khuôn khổ FDC (blốc): 200 x 140 (mm). Họa sỹ thiết kế: Nguyễn Quang Vinh. Bộ tem được phát hành vào ngày 01/12/2022.",
+  "images": [
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1410_z3903087923939_cab59470b0cce13475f2ab5abc7b92d6.jpg",
+      "image_file": "img/1410_z3903087923939_cab59470b0cce13475f2ab5abc7b92d6.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1410_z3903088266965_75fe58c278f069d7c0ea9de21af09bfe.jpg",
+      "image_file": "img/1410_z3903088266965_75fe58c278f069d7c0ea9de21af09bfe.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1410_z3903079186926_f66907d70204891102de484f88d749dc.jpg",
+      "image_file": "img/1410_z3903079186926_f66907d70204891102de484f88d749dc.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/23-11-2022/z3903079178226_614398a0ee1dc2e0980e0cc6779f02d8.jpg",
+      "image_file": "img/z3903079178226_614398a0ee1dc2e0980e0cc6779f02d8.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/23-11-2022/z3903079186926_f66907d70204891102de484f88d749dc.jpg",
+      "image_file": "img/z3903079186926_f66907d70204891102de484f88d749dc.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/29-11-2022/z3917239816786_9d5d1edb727c89258e005a063f084cea.jpg",
+      "image_file": "img/z3917239816786_9d5d1edb727c89258e005a063f084cea.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/29-11-2022/z3917239810869_a1f52f2a40d031fbcf542d7e3021c4e0.jpg",
+      "image_file": "img/z3917239810869_a1f52f2a40d031fbcf542d7e3021c4e0.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/29-11-2022/z3917239816739_4dab9e386cdd397d12718b5ed04d051e.jpg",
+      "image_file": "img/z3917239816739_4dab9e386cdd397d12718b5ed04d051e.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/29-11-2022/z3917239827505_bd56f2da3da54126ed953afe7fce6109.jpg",
+      "image_file": "img/z3917239827505_bd56f2da3da54126ed953afe7fce6109.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/22-12-2022/z3904483484426_c6ba24fb11b6f77522ac88f934c51e1e.jpg",
+      "image_file": "img/z3904483484426_c6ba24fb11b6f77522ac88f934c51e1e.jpg"
+    }
+  ],
+  "n_images": 10
+}

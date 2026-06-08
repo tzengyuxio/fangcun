@@ -1,0 +1,43 @@
+{
+  "code": "1995-1845",
+  "title": "연하우표",
+  "year": "1995",
+  "issue_date": "1995. 12. 1.",
+  "stamp_no": "1845",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=1910&tbsmh01seqnum=3433&stampCode=05",
+  "detail_fields": {
+    "우표번호": "1845",
+    "종수": "2",
+    "발행량": "3000000",
+    "디자인": "눈사람과 쥐",
+    "인쇄 및 색수": "그라비아 6도색",
+    "전지구성": "4×5",
+    "디자이너": "원인재",
+    "발행일": "1995. 12. 1.",
+    "액면가격": "150원",
+    "우표크기": "-",
+    "인면": "23×33",
+    "천공": "13",
+    "용지": "백색무투문지",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO1845.jpg",
+      "image_file": "img/SO1845.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS1845.jpg",
+      "image_file": "img/SS1845.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW1845.jpg",
+      "image_file": "img/SW1845.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

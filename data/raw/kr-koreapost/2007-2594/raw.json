@@ -1,0 +1,43 @@
+{
+  "code": "2007-2594",
+  "title": "연하우표",
+  "year": "2007",
+  "issue_date": "2007. 11. 30.",
+  "stamp_no": "2594",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=2678&tbsmh01seqnum=1357&stampCode=05",
+  "detail_fields": {
+    "우표번호": "2594",
+    "종수": "1",
+    "발행량": "1600000",
+    "디자인": "새해 눈을 맞는 쥐",
+    "인쇄 및 색수": "그라비어 6도(야광우표)",
+    "전지구성": "4 x 5",
+    "디자이너": "박은경",
+    "발행일": "2007. 11. 30.",
+    "액면가격": "250원",
+    "우표크기": "26mm x 36mm",
+    "인면": "23mm x 33mm",
+    "천공": "13",
+    "용지": "그라비어 원지",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/111963174597090.jpg",
+      "image_file": "img/111963174597090.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/111963175114540.jpg",
+      "image_file": "img/111963175114540.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/111963174856240.jpg",
+      "image_file": "img/111963174856240.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

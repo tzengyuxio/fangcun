@@ -1,0 +1,35 @@
+[
+  {
+    "code": "2026-horse",
+    "year": "2026",
+    "theme": "horse",
+    "list_title": "「歲次丙午（馬年）」特別郵票",
+    "detail_url": "https://stamps.hongkongpost.hk/tc/stamps/latest_stamps_issues/2026/horse/index.html",
+    "source": {
+      "id": "hk-hongkongpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-gs_snake_horse",
+    "year": "2026",
+    "theme": "gs_snake_horse",
+    "list_title": "「十二生肖金銀郵票小型張－靈蛇駿馬」特別郵票",
+    "detail_url": "https://stamps.hongkongpost.hk/tc/stamps/latest_stamps_issues/2026/gs_snake_horse/index.html",
+    "source": {
+      "id": "hk-hongkongpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-joint_souvenir_pack",
+    "year": "2026",
+    "theme": "joint_souvenir_pack",
+    "list_title": "「歲次丙午（馬年）」聯合發行郵品",
+    "detail_url": "https://stamps.hongkongpost.hk/tc/stamps/latest_stamps_issues/2026/joint_souvenir_pack/index.html",
+    "source": {
+      "id": "hk-hongkongpost",
+      "tier": "official"
+    }
+  }
+]

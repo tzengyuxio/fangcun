@@ -1,0 +1,23 @@
+{
+  "code": "1981",
+  "year": "1981",
+  "title": "1981年用年賀切手",
+  "kanreki": "昭和56年",
+  "zodiac": "酉",
+  "design": "にわとり",
+  "denomination": "20円",
+  "issue_date": "1980/12/1",
+  "image_url": "https://makeshop-multi-images.akamaized.net/yuubinsyumi/itemimages/000000004101.jpg",
+  "image_file": "img/1981.jpg",
+  "source": [
+    {
+      "id": "jp-dorama",
+      "tier": "reference"
+    },
+    {
+      "id": "jp-yuubinsyumi",
+      "tier": "reference"
+    }
+  ],
+  "yuu_product_id": "000000004101"
+}

@@ -1,0 +1,43 @@
+{
+  "code": "1974-926",
+  "title": "연하우표",
+  "year": "1974",
+  "issue_date": "1974. 12. 1.",
+  "stamp_no": "926",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=991&tbsmh01seqnum=2515&stampCode=05",
+  "detail_fields": {
+    "우표번호": "926",
+    "종수": "2",
+    "발행량": "2000000",
+    "디자인": "복주머니",
+    "인쇄 및 색수": "평판 4도색",
+    "전지구성": "10×5",
+    "디자이너": "박강정",
+    "발행일": "1974. 12. 1.",
+    "액면가격": "10원",
+    "우표크기": "-",
+    "인면": "23×33",
+    "천공": "13",
+    "용지": "섬유들이",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO0926.jpg",
+      "image_file": "img/SO0926.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS0926.jpg",
+      "image_file": "img/SS0926.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW0926.jpg",
+      "image_file": "img/SW0926.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

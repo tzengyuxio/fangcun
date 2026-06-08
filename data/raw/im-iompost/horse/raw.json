@@ -1,0 +1,128 @@
+{
+  "code": "horse",
+  "zodiac": "horse",
+  "year": "2026",
+  "title": "Chinese Year of the Horse",
+  "n_products": 5,
+  "rep_image_url": "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-StampSet.jpg?v=1768218116&width=1600",
+  "products": [
+    {
+      "id": 9255949893878,
+      "title": "Chinese Year of the Horse First Day Cover",
+      "handle": "chinese-year-of-the-horse-first-day-cover",
+      "product_type": "First Day Cover",
+      "published_at": "2026-04-28T10:40:10+01:00",
+      "tags": [
+        "Featured Products",
+        "SO March 2026",
+        "Year of the Horse"
+      ],
+      "url": "https://iomstamps.com/products/chinese-year-of-the-horse-first-day-cover",
+      "price": "13.51",
+      "currency": "GBP",
+      "skus": [
+        "AFB91"
+      ],
+      "image_urls": [
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-FDC-Filler.jpg?v=1768218116&width=1600",
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-FDC.jpg?v=1768218118&width=1600",
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-FDC-Filler-REVERSE.jpg?v=1768218116&width=1600"
+      ]
+    },
+    {
+      "id": 9255951532278,
+      "title": "Chinese Year of the Horse First Day Cover Signed by Martin Mörck",
+      "handle": "chinese-year-of-the-horse-first-day-cover-signed-by-martin-morck",
+      "product_type": "Special cover",
+      "published_at": "2026-04-09T14:07:22+01:00",
+      "tags": [
+        "Featured Products",
+        "Year of the Horse"
+      ],
+      "url": "https://iomstamps.com/products/chinese-year-of-the-horse-first-day-cover-signed-by-martin-morck",
+      "price": "30.00",
+      "currency": "GBP",
+      "skus": [
+        "AFB94"
+      ],
+      "image_urls": [
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-FDC-Filler-Signed.jpg?v=1768218116&width=1600",
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-FDC-Signed.jpg?v=1768218116&width=1600",
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-FDC-Filler-REVERSE.jpg?v=1768218116&width=1600"
+      ]
+    },
+    {
+      "id": 9255949435126,
+      "title": "Chinese Year of the Horse Presentation Pack",
+      "handle": "chinese-year-of-the-horse-presentation-pack",
+      "product_type": "Presentation Pack",
+      "published_at": "2026-01-12T14:25:08+00:00",
+      "tags": [
+        "Featured Products",
+        "SO March 2026",
+        "Year of the Horse"
+      ],
+      "url": "https://iomstamps.com/products/chinese-year-of-the-horse-presentation-pack",
+      "price": "13.46",
+      "currency": "GBP",
+      "skus": [
+        "AFB41"
+      ],
+      "image_urls": [
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-PP.jpg?v=1768219164&width=1600",
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-PP-Inner.jpg?v=1768219164&width=1600",
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-PP-Outer.jpg?v=1768218116&width=1600"
+      ]
+    },
+    {
+      "id": 9255949304054,
+      "title": "Chinese Year of the Horse Set",
+      "handle": "chinese-year-of-the-horse-set",
+      "product_type": "Commemorative Set",
+      "published_at": "2026-01-12T14:25:07+00:00",
+      "tags": [
+        "Featured Products",
+        "SO March 2026",
+        "Year of the Horse"
+      ],
+      "url": "https://iomstamps.com/products/chinese-year-of-the-horse-set",
+      "price": "12.36",
+      "currency": "GBP",
+      "skus": [
+        "AFB31"
+      ],
+      "image_urls": [
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-StampSet.jpg?v=1768218116&width=1600",
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-SingleStamp-1.jpg?v=1768218116&width=1600",
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-SingleStamp-2.jpg?v=1768218115&width=1600",
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-SingleStamp-3.jpg?v=1768218115&width=1600",
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-SingleStamp-4.jpg?v=1768218116&width=1600"
+      ]
+    },
+    {
+      "id": 9255950647542,
+      "title": "Chinese Year of the Horse Sheetlet",
+      "handle": "chinese-year-of-the-horse-sheetlet",
+      "product_type": "Sheetlets mint",
+      "published_at": "2026-01-12T14:25:10+00:00",
+      "tags": [
+        "Featured Products",
+        "Year of the Horse"
+      ],
+      "url": "https://iomstamps.com/products/chinese-year-of-the-horse-sheetlet",
+      "price": "24.72",
+      "currency": "GBP",
+      "skus": [
+        "AFB64"
+      ],
+      "image_urls": [
+        "https://cdn.shopify.com/s/files/1/0688/5267/8902/files/Product-Images-2048x2048px-YearoftheHorse-Sheet.jpg?v=1768218116&width=1600"
+      ]
+    }
+  ],
+  "source": {
+    "id": "im-iomstamps",
+    "tier": "official"
+  },
+  "rep_image_file": "img/Product-Images-2048x2048px-YearoftheHorse-StampSet.jpg"
+}

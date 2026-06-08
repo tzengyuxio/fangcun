@@ -1,0 +1,23 @@
+{
+  "code": "1969",
+  "year": "1969",
+  "title": "1969年用年賀切手",
+  "kanreki": "昭和44年",
+  "zodiac": "酉",
+  "design": "とり",
+  "denomination": "7円",
+  "issue_date": "1968/12/5",
+  "image_url": "https://makeshop-multi-images.akamaized.net/yuubinsyumi/itemimages/000000004088.jpg",
+  "image_file": "img/1969.jpg",
+  "source": [
+    {
+      "id": "jp-dorama",
+      "tier": "reference"
+    },
+    {
+      "id": "jp-yuubinsyumi",
+      "tier": "reference"
+    }
+  ],
+  "yuu_product_id": "000000004088"
+}

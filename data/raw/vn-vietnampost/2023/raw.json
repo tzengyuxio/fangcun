@@ -1,0 +1,60 @@
+{
+  "code": "2023",
+  "source": {
+    "id": "vn-vietnamstamp",
+    "tier": "official"
+  },
+  "slug": "tet-giap-thin",
+  "detail_url": "https://vietnamstamp.com.vn/tet-giap-thin.html",
+  "title": "Tết Giáp Thìn",
+  "set_code": "1185",
+  "issue_date": "24/12/2023",
+  "year": "2023",
+  "zodiac": {
+    "branch": "Thìn",
+    "animal": "龍/Rồng",
+    "animal_en": "Dragon",
+    "vn_special": false
+  },
+  "detail_fields": {
+    "Ngày phát hành": "24/12/2023",
+    "Ngày hết hạn:": "30/6/2025",
+    "Mẫu tem/bộ": "2 tem, 1 Blốc",
+    "Khuôn khổ": "37x37 (mm)",
+    "Số tem in trên tờ": "20",
+    "Họa sỹ thiết kế": "Nguyễn Quang Vinh",
+    "In ấn": "Offset nhiều mầu tại Công ty In tem Bưu điện"
+  },
+  "description": "Chào đón năm mới 2024, Bộ Thông tin và Truyền thông phát hành bộ tem “Tết Giáp Thìn” gồm 02 mẫu tem và 01 blốc với giá mặt 4.000đ, 15.000đ và 15.000đ, thể hiện hình ảnh con Rồng - hình tượng có vị trí đặc biệt trong văn hóa, tín ngưỡng của dân tộc Việt Nam. Rồng là biểu tượng linh thiêng liên quan đến truyền thuyết con Rồng cháu Tiên của người Việt; là linh vật đứng vào hàng bậc nhất trong tứ linh “Long, Lân, Quy, Phụng\". Rồng cũng được xem là con vật đem lại mưa thuận gió hòa, sự màu mỡ, phì nhiêu cho đất đai. Bộ tem được họa sĩ: Nguyễn Quang Vinh thiết kế Phát hành vào ngày: 24/12/2023. KK tem: 37 x 37 (mm). KK bloc: 80 x 80 (mm).",
+  "images": [
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1437_z4979802632249_8513abd3dd2914c0aec1e90c864ef452.jpg",
+      "image_file": "img/1437_z4979802632249_8513abd3dd2914c0aec1e90c864ef452.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1437_z4979809379497_cc176fc9346e83880e950f3aa4086d9d.jpg",
+      "image_file": "img/1437_z4979809379497_cc176fc9346e83880e950f3aa4086d9d.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1437_z4979802624219_4e89b5720328f1793eec8aaf2e135084.jpg",
+      "image_file": "img/1437_z4979802624219_4e89b5720328f1793eec8aaf2e135084.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/22-12-2023/z4999078673669_90b17869d1c92ae6388730eea9b6141b.jpg",
+      "image_file": "img/z4999078673669_90b17869d1c92ae6388730eea9b6141b.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/22-12-2023/z4999078670499_7699fb7b42f030812580446fcb1521e1.jpg",
+      "image_file": "img/z4999078670499_7699fb7b42f030812580446fcb1521e1.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/22-12-2023/z4999078674463_81a48d8b577aed45d54dbbd3b71ea19b.jpg",
+      "image_file": "img/z4999078674463_81a48d8b577aed45d54dbbd3b71ea19b.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/22-12-2023/z4999078674235_4ad1edddd9c8bf9f0bb3e5f6442eb2d3.jpg",
+      "image_file": "img/z4999078674235_4ad1edddd9c8bf9f0bb3e5f6442eb2d3.jpg"
+    }
+  ],
+  "n_images": 7
+}

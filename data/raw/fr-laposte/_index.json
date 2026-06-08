@@ -1,0 +1,338 @@
+[
+  {
+    "code": "2005",
+    "year": "2005",
+    "zodiac_fr": "Coq",
+    "n_pages": 2,
+    "ligs": [
+      "3960",
+      "3961"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2006",
+    "year": "2006",
+    "zodiac_fr": "Chien",
+    "n_pages": 2,
+    "ligs": [
+      "4086",
+      "4087"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2007",
+    "year": "2007",
+    "zodiac_fr": "Cochon",
+    "n_pages": 2,
+    "ligs": [
+      "4233",
+      "4234"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2008",
+    "year": "2008",
+    "zodiac_fr": "Rat",
+    "n_pages": 2,
+    "ligs": [
+      "4383",
+      "4384"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2009",
+    "year": "2009",
+    "zodiac_fr": "Buffle",
+    "n_pages": 2,
+    "ligs": [
+      "4595",
+      "4596"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2010",
+    "year": "2010",
+    "zodiac_fr": "Tigre",
+    "n_pages": 3,
+    "ligs": [
+      "4721",
+      "4722",
+      "6641"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2011",
+    "year": "2011",
+    "zodiac_fr": "Lapin",
+    "n_pages": 3,
+    "ligs": [
+      "4840",
+      "4841",
+      "6651"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2012",
+    "year": "2012",
+    "zodiac_fr": "Dragon",
+    "n_pages": 3,
+    "ligs": [
+      "4961",
+      "4962",
+      "6661"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2013",
+    "year": "2013",
+    "zodiac_fr": "Serpent",
+    "n_pages": 4,
+    "ligs": [
+      "5080",
+      "5081",
+      "5082",
+      "6671"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2014",
+    "year": "2014",
+    "zodiac_fr": "Cheval",
+    "n_pages": 2,
+    "ligs": [
+      "5227",
+      "5228"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2015",
+    "year": "2015",
+    "zodiac_fr": "Chèvre",
+    "n_pages": 2,
+    "ligs": [
+      "5334",
+      "5335"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2016",
+    "year": "2016",
+    "zodiac_fr": "Singe",
+    "n_pages": 2,
+    "ligs": [
+      "5461",
+      "5462"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2017",
+    "year": "2017",
+    "zodiac_fr": "Coq",
+    "n_pages": 15,
+    "ligs": [
+      "6797",
+      "6798",
+      "10490",
+      "10491",
+      "10492",
+      "10493",
+      "10494",
+      "10495",
+      "10496",
+      "10497",
+      "10498",
+      "10499",
+      "10500",
+      "10501",
+      "10502"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2018",
+    "year": "2018",
+    "zodiac_fr": "Chien",
+    "n_pages": 2,
+    "ligs": [
+      "6869",
+      "6870"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2019",
+    "year": "2019",
+    "zodiac_fr": "Cochon",
+    "n_pages": 6,
+    "ligs": [
+      "5784",
+      "5785",
+      "5786",
+      "5787",
+      "5788",
+      "5789"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2020",
+    "year": "2020",
+    "zodiac_fr": "Rat",
+    "n_pages": 6,
+    "ligs": [
+      "5890",
+      "5891",
+      "5892",
+      "5893",
+      "5894",
+      "5895"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2021",
+    "year": "2021",
+    "zodiac_fr": "Buffle",
+    "n_pages": 1,
+    "ligs": [
+      "6015"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2022",
+    "year": "2022",
+    "zodiac_fr": "Tigre",
+    "n_pages": 6,
+    "ligs": [
+      "6125",
+      "6126",
+      "6127",
+      "6128",
+      "6129",
+      "6130"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2023",
+    "year": "2023",
+    "zodiac_fr": "Lapin",
+    "n_pages": 6,
+    "ligs": [
+      "6247",
+      "6248",
+      "6249",
+      "6250",
+      "6251",
+      "6252"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2024",
+    "year": "2024",
+    "zodiac_fr": "Dragon",
+    "n_pages": 7,
+    "ligs": [
+      "11707",
+      "11708",
+      "11709",
+      "11710",
+      "11711",
+      "11712",
+      "11713"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  },
+  {
+    "code": "2025",
+    "year": "2025",
+    "zodiac_fr": "Serpent",
+    "n_pages": 6,
+    "ligs": [
+      "12063",
+      "12064",
+      "12065",
+      "12077",
+      "12078",
+      "12079"
+    ],
+    "source": {
+      "id": "fr-philatelie-francaise",
+      "tier": "reference"
+    }
+  }
+]

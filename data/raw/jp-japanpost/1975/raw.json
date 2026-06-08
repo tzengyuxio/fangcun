@@ -1,0 +1,23 @@
+{
+  "code": "1975",
+  "year": "1975",
+  "title": "1975年用年賀切手",
+  "kanreki": "昭和50年",
+  "zodiac": "卯",
+  "design": "桂離宮の水仙の釘隠し",
+  "denomination": "10円",
+  "issue_date": "1974/12/10",
+  "image_url": "https://makeshop-multi-images.akamaized.net/yuubinsyumi/itemimages/000000004095.jpg",
+  "image_file": "img/1975.jpg",
+  "source": [
+    {
+      "id": "jp-dorama",
+      "tier": "reference"
+    },
+    {
+      "id": "jp-yuubinsyumi",
+      "tier": "reference"
+    }
+  ],
+  "yuu_product_id": "000000004095"
+}

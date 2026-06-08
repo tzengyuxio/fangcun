@@ -1,0 +1,23 @@
+{
+  "code": "1982",
+  "year": "1982",
+  "title": "1982年用年賀切手",
+  "kanreki": "昭和57年",
+  "zodiac": "戌",
+  "design": "犬",
+  "denomination": "40円",
+  "issue_date": "1981/12/1",
+  "image_url": "https://makeshop-multi-images.akamaized.net/yuubinsyumi/itemimages/000000004102.jpg",
+  "image_file": "img/1982.jpg",
+  "source": [
+    {
+      "id": "jp-dorama",
+      "tier": "reference"
+    },
+    {
+      "id": "jp-yuubinsyumi",
+      "tier": "reference"
+    }
+  ],
+  "yuu_product_id": "000000004102"
+}

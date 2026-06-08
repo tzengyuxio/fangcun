@@ -1,0 +1,57 @@
+{
+  "code": "2015",
+  "year": "2015",
+  "zodiac_fr": "Chèvre",
+  "title": "Nouvel an chinois année de la chèvre, Timbres de France émis en 2015",
+  "n_stamps": 2,
+  "stamps": [
+    {
+      "lig": "5334",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=5334",
+      "title": "Nouvel an chinois année de la chèvre, Timbres de France émis en 2015",
+      "fields": {
+        "vente_generale": "2 février",
+        "valeur_faciale": "0.76 €€",
+        "createur": "Li Zhongyao",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13 x 13½",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "30 x 40 mm",
+        "tirage": "3.300.000",
+        "bande_phosphore": "2 bandes",
+        "yvert": "N° 4926",
+        "maury": "N° 4883"
+      },
+      "description": "Nouvel an chinois année de la chèvre Le Nouvel An chinois de 2015 a débuté le 19 février et s’est terminé le 7 février 2016.Les personnes nés sous le signe chinois de La Chèvre (ou le bouc) sont de grands rêveurs. Tous artistes au plus profond de leur être, ils ont envie de refaire le monde. Ce côté rêveur peut exaspérer l'entourage, pourtant La Chèvre (ou le bouc) ne fait jamais de mal à personne, ce sont souvent des personnes tendres et sincères. La dominante de son signe est le Yin. La Chèvre (ou le bouc) a besoin de vivre avec des amis, de la famille, c'est un signe qui ne supporte pas la solitude. Il dépend des autres. Sans les contacts humains, La Chèvre (ou le bouc) peut facilement se laisser aller. Il a besoin de se sentir aimée. Si il se sent à l'abri dans son cocon familial, alors il sera très heureux.",
+      "image_url": "https://philatelie-francaise.com/image/image-2015/4926.jpg",
+      "image_file": "img/5334_4926.jpg"
+    },
+    {
+      "lig": "5335",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=5335",
+      "title": "Nouvel an chinois année de la chèvre, Timbres de France émis en 2015",
+      "fields": {
+        "vente_generale": "2 février",
+        "valeur_faciale": "3.80 €€",
+        "createur": "Li Zhongyao",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13 x 13½",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "160 x 143 mm",
+        "tirage": "700.000.",
+        "bande_phosphore": "2 bandes",
+        "yvert": "N° F4926",
+        "maury": "N° BF 4883"
+      },
+      "description": "Nouvel an chinois année de la chèvre Les personnes nés sous le signe chinois de La Chèvre (ou le bouc) sont de grands rêveurs. Tous artistes au plus profond de leur être, ils ont envie de refaire le monde. Ce côté rêveur peut exaspérer l'entourage, pourtant La Chèvre (ou le bouc) ne fait jamais de mal à personne, ce sont souvent des personnes tendres et sincères. La dominante de son signe est le Yin. La Chèvre (ou le bouc) a besoin de vivre avec des amis, de la famille, c'est un signe qui ne supporte pas la solitude. Il dépend des autres. Sans les contacts humains, La Chèvre (ou le bouc) peut facilement se laisser aller. Il a besoin de se sentir aimée. Si il se sent à l'abri dans son cocon familial, alors il sera très heureux.",
+      "image_url": "https://philatelie-francaise.com/image/image-2015/F4926.jpg",
+      "image_file": "img/5335_F4926.jpg"
+    }
+  ],
+  "source": {
+    "id": "fr-philatelie-francaise",
+    "tier": "reference"
+  }
+}

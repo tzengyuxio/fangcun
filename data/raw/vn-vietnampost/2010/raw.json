@@ -1,0 +1,41 @@
+{
+  "code": "2010",
+  "source": {
+    "id": "vn-vietnamstamp",
+    "tier": "official"
+  },
+  "slug": "tet-tan-mao",
+  "detail_url": "https://vietnamstamp.com.vn/tet-tan-mao.html",
+  "title": "Tết Tân Mão",
+  "set_code": "1000",
+  "issue_date": "01/12/2010",
+  "year": "2010",
+  "zodiac": {
+    "branch": "Mão",
+    "animal": "貓/Mèo",
+    "animal_en": "Cat",
+    "vn_special": true
+  },
+  "detail_fields": {
+    "Ngày phát hành": "01/12/2010",
+    "Ngày hết hạn:": "30/06/2012",
+    "Mẫu tem/bộ": "2",
+    "Khuôn khổ": "37x37 (mm)",
+    "Số răng": "13",
+    "Số tem in trên tờ": "25",
+    "Họa sỹ thiết kế": "Nguyễn Du",
+    "In ấn": "Ốp-xét nhiều màu, tại Công ty In tem Bưu điện"
+  },
+  "description": "Tết Tân Mão Year of the Cat",
+  "images": [
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/44_cf2636e2d42f3ed7a82a4489303b109b.jpg",
+      "image_file": "img/44_cf2636e2d42f3ed7a82a4489303b109b.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/44_1931e46c476beea0809aed9be827fa44.jpg",
+      "image_file": "img/44_1931e46c476beea0809aed9be827fa44.jpg"
+    }
+  ],
+  "n_images": 2
+}

@@ -1,0 +1,76 @@
+{
+  "code": "2011",
+  "year": "2011",
+  "zodiac_fr": "Lapin",
+  "title": "Le Nouvel-An chinois, année du lapin, Timbres de France émis en 2011",
+  "n_stamps": 3,
+  "stamps": [
+    {
+      "lig": "4840",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=4840",
+      "title": "Le Nouvel-An chinois, année du lapin, Timbres de France émis en 2011",
+      "fields": {
+        "vente_generale": "17 janvier",
+        "valeur_faciale": "0.58 €€",
+        "createur": "Zhonggyao Li",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13¼ x 13",
+        "couleur": "Quadrichromie",
+        "impression": "Héliogravure",
+        "format": "30 x 40 mm",
+        "tirage": "9.000.000",
+        "bande_phosphore": "2 bandes",
+        "yvert": "N° 4531",
+        "maury": "N° 4451"
+      },
+      "description": "L’année du lapin (ou lièvre) dans le calendrier chinois a commencé le 3 février 2011 et s’est achevée le 22 janvier 2012. Les personnes nées entre ces dates appartiennent au signe du Lapin de Métal sur le calendrier de l’Est. Les personnes nées en 2011 dans le calendrier oriental sont caractérisées par des qualités telles que le dévouement, le secret, l’esprit. Ils sont très ambitieux, réussissent souvent dans leurs affaires.",
+      "image_url": "https://philatelie-francaise.com/image/image-2011/2011-2.jpg",
+      "image_file": "img/4840_2011-2.jpg"
+    },
+    {
+      "lig": "4841",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=4841",
+      "title": "Le Nouvel-An chinois, année du lapin, Timbres de France émis en 2011",
+      "fields": {
+        "vente_generale": "17 janvier",
+        "valeur_faciale": "2.90 €€",
+        "createur": "Zhonggyao Li",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13¼ x 13",
+        "couleur": "Quadrichromie",
+        "impression": "Héliogravure",
+        "format": "160 x 143 mm",
+        "tirage": "1.800.000",
+        "bande_phosphore": "2 bandes",
+        "yvert": "N° F4531",
+        "maury": "N° BF 4451A"
+      },
+      "description": "L’année du lapin (ou lièvre) dans le calendrier chinois a commencé le 3 février 2011 et s’est achevée le 22 janvier 2012. Les personnes nées entre ces dates appartiennent au signe du Lapin de Métal sur le calendrier de l’Est. Les personnes nées en 2011 dans le calendrier oriental sont caractérisées par des qualités telles que le dévouement, le secret, l’esprit. Ils sont très ambitieux, réussissent souvent dans leurs affaires.",
+      "image_url": "https://philatelie-francaise.com/image/image-2011/2011-14.jpg",
+      "image_file": "img/4841_2011-14.jpg"
+    },
+    {
+      "lig": "6651",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=6651",
+      "title": "Nouvel an chinois année du lapin, Timbres de France émis en 2011",
+      "fields": {
+        "vente_generale": "17 janvier",
+        "valeur_faciale": "4.00 €€",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "200 x 95 mm",
+        "tirage": "90.000.",
+        "bande_phosphore": "sans",
+        "yvert": "N° 57",
+        "maury": "BS 4451B"
+      },
+      "description": "",
+      "image_url": "https://philatelie-francaise.com/image/image-2011/2011-3.jpg",
+      "image_file": "img/6651_2011-3.jpg"
+    }
+  ],
+  "source": {
+    "id": "fr-philatelie-francaise",
+    "tier": "reference"
+  }
+}

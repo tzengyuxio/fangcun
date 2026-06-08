@@ -1,0 +1,43 @@
+{
+  "code": "2000-2115",
+  "title": "연하우표",
+  "year": "2000",
+  "issue_date": "2000. 12. 1.",
+  "stamp_no": "2115",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=2180&tbsmh01seqnum=3703&stampCode=05",
+  "detail_fields": {
+    "우표번호": "2115",
+    "종수": "1",
+    "발행량": "1950000",
+    "디자인": "신년 뱀",
+    "인쇄 및 색수": "그라비어 5도",
+    "전지구성": "5×3",
+    "디자이너": "이혜옥",
+    "발행일": "2000. 12. 1.",
+    "액면가격": "170원",
+    "우표크기": "36×34.5",
+    "인면": "33×31.5",
+    "천공": "13",
+    "용지": "백지",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO2115.jpg",
+      "image_file": "img/SO2115.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS2115.jpg",
+      "image_file": "img/SS2115.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW2115.jpg",
+      "image_file": "img/SW2115.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

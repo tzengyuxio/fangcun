@@ -1,0 +1,34 @@
+{
+  "code": "2021",
+  "year": "2021",
+  "zodiac_fr": "Buffle",
+  "title": "Nouvel An Chinois, Timbres de France émis en 2021",
+  "n_stamps": 1,
+  "stamps": [
+    {
+      "lig": "6015",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=6015",
+      "title": "Nouvel An Chinois, Timbres de France émis en 2021",
+      "fields": {
+        "vente_generale": "8 février",
+        "valeur_faciale": "1.08 €€",
+        "createur": "Chen Jiang Hong",
+        "mise_en_page": "Bruno Ghiringhelli",
+        "dentelure": "13½ x 13¼",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "33 x 40 mm",
+        "tirage": "375.000.",
+        "bande_phosphore": "sans",
+        "yvert": "N° 5467"
+      },
+      "description": "Nouvel An Chinois – Année du Buffle Les natifs du Buffle sont des personnes fiables. Déterminées, elles sont prêtes à tout mettre en œuvre lorsqu’elles ont décidé de réussir quelque chose, faisant preuve de patience et de persévérance. Elles n’agissent jamais sur un coup de tête. Calme et réservé, le Buffle prend le temps de la réflexion, il observe, il analyse. Il n’est pas un as de la communication et peut sembler parfois abrupt. Il peut même être têtu ! Placide en toute circonstance, il est rare que le Buffle se mette en colère, mais s’il perd patience, gare à ceux qui ont provoqué son courroux. Le Buffle est celui qui rassure et protège, qui aime la stabilité et les traditions. Il a donc des valeurs familiales très fortes et appréciera de fonder une famille et de se créer un agréable cocon. Abhorrant l’agitation, le bruit et l’imprévu, il apprécie la force de l’habitude. Enfin, il est le signe des amitiés profondes et durables.",
+      "image_url": "https://philatelie-francaise.com/image/image-2021/2021-23.jpg",
+      "image_file": "img/6015_2021-23.jpg"
+    }
+  ],
+  "source": {
+    "id": "fr-philatelie-francaise",
+    "tier": "reference"
+  }
+}

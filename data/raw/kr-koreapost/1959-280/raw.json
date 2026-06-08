@@ -1,0 +1,43 @@
+{
+  "code": "1959-280",
+  "title": "연하우표",
+  "year": "1959",
+  "issue_date": "1959. 12. 15.",
+  "stamp_no": "280",
+  "detail_url": "https://stamp.epost.go.kr/sp2/sg/spsg0102.jsp?tbsmh15seqnum=345&tbsmh01seqnum=1869&stampCode=05",
+  "detail_fields": {
+    "우표번호": "280",
+    "종수": "3",
+    "발행량": "400000",
+    "디자인": "학",
+    "인쇄 및 색수": "평판 연보라,적색,흑색",
+    "전지구성": "10×10",
+    "디자이너": "강박",
+    "발행일": "1959. 12. 15.",
+    "액면가격": "30환",
+    "우표크기": "-",
+    "인면": "20×24",
+    "천공": "12½",
+    "용지": "우정마크무늬",
+    "인쇄처": "한국조폐공사"
+  },
+  "images": [
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/so/SO0280.jpg",
+      "image_file": "img/SO0280.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/ss/SS0280.jpg",
+      "image_file": "img/SS0280.jpg"
+    },
+    {
+      "image_url": "http://image.epost.go.kr/stamp/data_img/sw/SW0280.jpg",
+      "image_file": "img/SW0280.jpg"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "kr-kstamp",
+    "tier": "official"
+  }
+}

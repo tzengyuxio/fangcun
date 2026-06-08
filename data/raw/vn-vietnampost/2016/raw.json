@@ -1,0 +1,37 @@
+{
+  "code": "2016",
+  "source": {
+    "id": "vn-vietnamstamp",
+    "tier": "official"
+  },
+  "slug": "tet-dinh-dau",
+  "detail_url": "https://vietnamstamp.com.vn/tet-dinh-dau.html",
+  "title": "Tết Đinh Dậu",
+  "set_code": "1074",
+  "issue_date": "20/12/2016",
+  "year": "2016",
+  "zodiac": {
+    "branch": "Dậu",
+    "animal": "雞/Gà",
+    "animal_en": "Rooster",
+    "vn_special": false
+  },
+  "detail_fields": {
+    "Ngày phát hành": "20/12/2016",
+    "Ngày hết hạn:": "30/06/2018",
+    "Mẫu tem/bộ": "2",
+    "Khuôn khổ": "37x37",
+    "Số răng": "13",
+    "Số tem in trên tờ": "20",
+    "Họa sỹ thiết kế": "Nguyễn Du",
+    "In ấn": "Offset nhiều mầu tại Công ty In tem Bưu điện"
+  },
+  "description": "",
+  "images": [
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1338_1072__2tet_dinh_dau_tuyentruyen_1.jpg",
+      "image_file": "img/1338_1072__2tet_dinh_dau_tuyentruyen_1.jpg"
+    }
+  ],
+  "n_images": 1
+}

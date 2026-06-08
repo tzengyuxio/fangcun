@@ -1,0 +1,56 @@
+{
+  "code": "2016",
+  "year": "2016",
+  "zodiac_fr": "Singe",
+  "title": "Nouvel an chinois année du singe, Timbres de France émis en 2016",
+  "n_stamps": 2,
+  "stamps": [
+    {
+      "lig": "5461",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=5461",
+      "title": "Nouvel an chinois année du singe, Timbres de France émis en 2016",
+      "fields": {
+        "vente_generale": "1 février",
+        "valeur_faciale": "0.80 €€",
+        "createur": "Li Zhongyao",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13½ x 13",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "30 x 40 mm",
+        "tirage": "700.000.",
+        "bande_phosphore": "2 bandes",
+        "yvert": "N° 5031",
+        "maury": "N° 4985"
+      },
+      "description": "Le Nouvel An chinois de 2016 a marqué le début de l’année du Singe de Feu. Cette année a commencé le 8 février 2016 et s’est terminée le 27 janvier 2017. Dans le zodiaque chinois, le Singe est le neuvième des 12 signes et chaque année est associée à un animal suivant un cycle de 12 ans. Les personnes nées dans une année du Singe sont dites pleines d’esprit, intelligentes, et ont une personnalité magnétique. Leurs traits de caractère, comme l’espièglerie, la curiosité et l’ingéniosité les rendent particulièrement farceurs.",
+      "image_url": "https://philatelie-francaise.com/image/image-2016/2016-36.jpg",
+      "image_file": "img/5461_2016-36.jpg"
+    },
+    {
+      "lig": "5462",
+      "detail_url": "https://philatelie-francaise.com/timbre_affiche/timbre.php?lig=5462",
+      "title": "Nouvel an chinois année du singe, Timbres de France émis en 2016",
+      "fields": {
+        "vente_generale": "1 février",
+        "valeur_faciale": "3.00 €€",
+        "createur": "Li Zhongyao",
+        "mise_en_page": "Aurélie Baras",
+        "dentelure": "13½ x 13",
+        "couleur": "Multicolore",
+        "impression": "Héliogravure",
+        "format": "160 x 143 mm",
+        "tirage": "700.000.",
+        "yvert": "N° F5031",
+        "maury": "N° BF 4985"
+      },
+      "description": "Le Nouvel An chinois de 2016 a marqué le début de l’année du Singe de Feu. Cette année a commencé le 8 février 2016 et s’est terminée le 27 janvier 2017. Dans le zodiaque chinois, le Singe est le neuvième des 12 signes et chaque année est associée à un animal suivant un cycle de 12 ans. Les personnes nées dans une année du Singe sont dites pleines d’esprit, intelligentes, et ont une personnalité magnétique. Leurs traits de caractère, comme l’espièglerie, la curiosité et l’ingéniosité les rendent particulièrement farceurs.",
+      "image_url": "https://philatelie-francaise.com/image/image-2016/2016-2.jpg",
+      "image_file": "img/5462_2016-2.jpg"
+    }
+  ],
+  "source": {
+    "id": "fr-philatelie-francaise",
+    "tier": "reference"
+  }
+}

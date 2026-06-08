@@ -1,0 +1,68 @@
+{
+  "code": "2021",
+  "source": {
+    "id": "vn-vietnamstamp",
+    "tier": "official"
+  },
+  "slug": "tet-nham-dan",
+  "detail_url": "https://vietnamstamp.com.vn/tet-nham-dan.html",
+  "title": "Tết Nhâm Dần",
+  "set_code": "1152",
+  "issue_date": "01/12/2021",
+  "year": "2021",
+  "zodiac": {
+    "branch": "Dần",
+    "animal": "虎/Hổ",
+    "animal_en": "Tiger",
+    "vn_special": false
+  },
+  "detail_fields": {
+    "Ngày phát hành": "01/12/2021",
+    "Ngày hết hạn:": "30/6/2023",
+    "Mẫu tem/bộ": "2 tem, khối 4",
+    "Khuôn khổ": "37 x 37 (mm)",
+    "Số tem in trên tờ": "20",
+    "Họa sỹ thiết kế": "Nguyễn Quang Vinh",
+    "In ấn": "Offset nhiều mầu tại Công ty In tem Bưu điện"
+  },
+  "description": "Tết Nguyên đán là lễ hội đặc sắc của dân tộc Việt Nam, Tết là thời khắc thiêng liêng để vạn vật như được hồi sinh, để những người con xa quê hương có cơ hội đoàn tụ bên gia đình, cùng nhau đón thời khắc giao thừa với mong ước những điều may mắn sẽ đến trong năm mới. Chào đón năm mới 2022, cũng như gửi lời chúc Tân Xuân đến với mọi người dân Việt Nam, Bộ Thông tin và Truyền thông phát hành bộ tem bưu chính “Tết Nhâm Dần”, gồm 02 mẫu tem và 01 blốc, với giá mặt 4.000đ, 15.000đ và 38.000đ, thể hiện hình ảnh những chú Hổ tinh anh, đầy uy lực được khắc hoạ theo phong cách tranh dân gian Hàng Trống, mang thông điệp mạnh khỏe, may mắn, bình an đến với mọi nhà. Bộ tem do họa sỹ Nguyễn Quang Vinh thiết kế, được phát hành vào ngày 01/12/2021.",
+  "images": [
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1386_z2921216836395_9dfb3406e5952e6067ddd4f42c801a118e.jpg",
+      "image_file": "img/1386_z2921216836395_9dfb3406e5952e6067ddd4f42c801a118e.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/product/1386_z2921216791305_e3722d1a377fd0ad160b2a130c5d21fba.jpg",
+      "image_file": "img/1386_z2921216791305_e3722d1a377fd0ad160b2a130c5d21fba.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1386_z2943214258140_5b263dfca76d78a3c02f1b9e18842f94.jpg",
+      "image_file": "img/1386_z2943214258140_5b263dfca76d78a3c02f1b9e18842f94.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1386_z2943215013348_a8f171d99e54ef451a322d2002217d87.jpg",
+      "image_file": "img/1386_z2943215013348_a8f171d99e54ef451a322d2002217d87.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1386_z2943065484915_cef02ec348f28ca8842197f35a39c5ec.jpg",
+      "image_file": "img/1386_z2943065484915_cef02ec348f28ca8842197f35a39c5ec.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1386_z2943065485397_b439e6cb4c71b90f8298439c43785fc5.jpg",
+      "image_file": "img/1386_z2943065485397_b439e6cb4c71b90f8298439c43785fc5.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1386_z2943216666068_9d0e6058dc8b7d47e0320a178b29d4fd.jpg",
+      "image_file": "img/1386_z2943216666068_9d0e6058dc8b7d47e0320a178b29d4fd.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1386_z2943291232822_1a15c33c7381ab39b2ef23779bcc81eb.jpg",
+      "image_file": "img/1386_z2943291232822_1a15c33c7381ab39b2ef23779bcc81eb.jpg"
+    },
+    {
+      "image_url": "https://vietnamstamp.com.vn/media/lib/1386_z2943217372236_2023f3d96d07c602fc00a1bc5c214d24.jpg",
+      "image_file": "img/1386_z2943217372236_2023f3d96d07c602fc00a1bc5c214d24.jpg"
+    }
+  ],
+  "n_images": 9
+}
