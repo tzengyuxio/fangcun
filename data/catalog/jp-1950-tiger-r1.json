@@ -1,0 +1,32 @@
+{
+  "id": "jp-1950-tiger-r1",
+  "region": { "code": "JP", "name": "日本郵便" },
+  "zodiac": { "animal": "虎", "branch": "寅" },
+  "zodiac_year": 1950,
+  "issue_date": "1950-02-01",
+  "round": 1,
+  "series_name": "年賀切手",
+  "catalog_number": { "local": null, "scott": null },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": { "value": null, "currency": "JPY" },
+      "dimensions_mm": null,
+      "mintage": null,
+      "description": "",
+      "image": ""
+    }
+  ],
+  "significance": "世界第一套生肖（年賀）郵票",
+  "notes": "目前僅有二手來源（維基百科）佐證，verified 暫設 false；待補一手官方或權威目錄來源（如日本郵便／Scott）後再升級。製作細節與面值待查。",
+  "images": [],
+  "sources": [
+    { "ref": "wiki-zodiac-stamp", "tier": "secondary" }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-07"
+}

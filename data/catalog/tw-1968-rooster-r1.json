@@ -1,0 +1,33 @@
+{
+  "id": "tw-1968-rooster-r1",
+  "region": { "code": "TW", "name": "中華郵政" },
+  "zodiac": { "animal": "雞", "branch": "酉" },
+  "zodiac_year": 1969,
+  "issue_date": "1968-11-12",
+  "round": 1,
+  "series_name": "新年郵票",
+  "catalog_number": { "local": "特55", "scott": null },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": { "value": 1, "currency": "TWD" },
+      "dimensions_mm": { "w": 26, "h": 30 },
+      "mintage": 500000,
+      "description": "雄雞報曉",
+      "image": "/img/tw-1968-rooster-stamp.jpg"
+    }
+  ],
+  "significance": "世界第一套雞年生肖郵票",
+  "notes": "中華郵政首套新年（生肖）郵票，民國 57 年發行，58 年方為雞年。發行 50 萬套。",
+  "images": ["/img/tw-1968-rooster-set.jpg"],
+  "sources": [
+    { "ref": "post-stamphouse", "tier": "official" },
+    { "ref": "einfo-zodiac", "tier": "secondary" }
+  ],
+  "verified": true,
+  "updated_at": "2026-06-07"
+}

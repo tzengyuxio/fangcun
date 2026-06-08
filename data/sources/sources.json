@@ -1,0 +1,37 @@
+[
+  {
+    "id": "post-stamphouse",
+    "title": "中華郵政 郵票寶藏",
+    "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp",
+    "tier": "official",
+    "accessed_date": "2026-06-07"
+  },
+  {
+    "id": "i-jiyou",
+    "title": "i集郵（中華郵政）",
+    "url": "https://stamp.post.gov.tw/",
+    "tier": "official",
+    "accessed_date": "2026-06-07"
+  },
+  {
+    "id": "udn-zodiac-2024",
+    "title": "聯合新聞網「馬的不思議—生肖郵票特展」報導",
+    "url": "https://udn.com/news/story/7270/9191489",
+    "tier": "secondary",
+    "accessed_date": "2026-06-07"
+  },
+  {
+    "id": "einfo-zodiac",
+    "title": "環境資訊中心〈漫談台灣生肖郵票〉",
+    "url": "https://e-info.org.tw/node/2936",
+    "tier": "secondary",
+    "accessed_date": "2026-06-07"
+  },
+  {
+    "id": "wiki-zodiac-stamp",
+    "title": "維基百科「生肖郵票」",
+    "url": "https://zh.wikipedia.org/zh-hant/生肖郵票",
+    "tier": "secondary",
+    "accessed_date": "2026-06-07"
+  }
+]
