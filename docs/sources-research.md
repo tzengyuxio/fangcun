@@ -27,10 +27,10 @@
 | 🇯🇵 日本 1997– | ✅ 已爬 28 | 28(1997–2025 年度) | 官方 `stamp.json` | official | 極易 | <1 MB(圖小) |
 | 🇯🇵 日本 1950–96 | ✅ 已爬 47 | 47(1950–1996,40 圖) | dorama(metadata)+ yuubinsyumi(圖) | reference | 易(靜態) | 4 MB |
 | 🇰🇷 韓國 | ✅ 已爬 113 | 113(1957–2020) | K-stamp 博物館(含早期) | official | 易(JSP,無反爬) | 168 MB |
-| 🇨🇳 中國 | ⬜ 待爬 | ~46(四輪 1980–) | 5151sc.com(靜態目錄) | reference | 易(curl) | 5–40 MB |
-| 🇺🇸 美國 | ⬜ 待爬 | ~31 設計 + 全張 | Smithsonian Open Access API | official | 中(需免費 key) | 50–300 MB |
+| 🇨🇳 中國 | ✅ 已爬 47 | 47 套+4 冊(四輪 1980–2026) | 5151sc.com(靜態目錄) | reference | 易(curl) | 20 MB |
+| 🇺🇸 美國 | ⏳ 腳本就緒待 key | ~31(三輪 1992–) | Smithsonian Open Access API | official | 中(DEMO_KEY 限流,需免費 key) | 50–300 MB |
 | 🇻🇳 越南 | ✅ 已爬 11 | 11(2010,2016–25,含貓年) | vietnamstamp.com.vn | official | 易(靜態) | 21 MB |
-| 🇲🇳 蒙古 | ⬜ 待爬 | 一輪 12+ | mongolstamps.com(SPA)+ 圖床 | official | 中(需解 `__NUXT__`) | 10–20 MB |
+| 🇲🇳 蒙古 | ✅ 已爬 6 | 6(2021–2026,官方僅近年) | mongolstamps.com Laravel API | official | 中(API route) | 1.2 MB |
 | 🇮🇲 Isle of Man | ⚠️ 僅在售 2 | 2(2025 蛇/2026 馬;官方店無歷史) | iomstamps.com(Shopify) | official | 易但無歷史 | <1 MB |
 | 🇫🇷 法國 | ✅ 已爬 21 | 21(2005–2025 連續) | philatelie-francaise.com | reference | 易(靜態) | 10 MB |
 | 🇭🇰 香港 | ⚠️ 僅當年 3 | 3(2026;官方站無歷史) | stamps.hongkongpost.hk | official | 易但無歷史 | 5 MB |
@@ -179,3 +179,44 @@ Dynamic Media)、紐西蘭(+ Niue/Tokelau 代發)、新加坡 SingPost、泰國(
 2. 第二批(完整循環、補國際代表):Guernsey、聯合國、Jersey。
 3. 第三批(規模小或需額外處理):列支敦士登、澳洲、加拿大、新加坡、馬爾他。
 4. 待查/暫緩:印尼、馬來西亞、泰國、紐西蘭代發屬地。
+
+---
+
+## 待爬:澳門 / 馬來西亞 / 新加坡(已研究 2026-06-09)
+
+三地都建議納入,主源皆官方靜態/可直連圖、避開 Colnect。可爬性 新加坡 ≥ 澳門 > 馬來西亞。
+
+- **澳門 CTT**:主源 通訊博物館生肖專題 `https://www.cmm.gov.mo/special/zodiac/eng/1_rat.html`
+  (reference,12 動物各一頁,跨四週期 1984–,圖直連 `.../images/{n}_{animal}/image001..NNN.jpg`,
+  含他國比較圖需篩出澳門)。官方 `philately.ctt.gov.mo`(official,Webflow,補近年)。約 48 套基礎、
+  raw 8–10 MB(僅澳門)。
+- **新加坡 SingPost**:主源 `https://shop.singpost.com/stamps/postage-stamps.html?year=...`
+  (official,Magento,`?year=`/`?cat=261` 篩,圖 `media/catalog/product/cache/...` 直連)。Lim An-Ling
+  現週期 2020–2031,每年基本套+booklet+collector's sheet。raw 2–6 MB。最乾淨穩定。
+- **馬來西亞 Pos Malaysia**:主源 `https://shop.pos.com.my/shop.html?cat=3838`(official,Magento,
+  225 件混雜需關鍵字 Setem Ku/Zodiac/生肖 篩,圖 `assets.pos.com.my/.../catalog/product/` 直連)。
+  歷史不連續(Setem Ku 約 2021–),raw 3–8 MB。**站台改版頻繁、舊 URL 易斷,抓後務必自存。**
+
+## Backlog(待研究 / 待爬)
+
+使用者指定、尚未調查的發行者(待研究來源與可爬性):
+
+- **聖誕島 Christmas Island**(澳洲屬地,華人移民多,長年發行農曆生肖票、集郵熱門——優先)
+- **紐西蘭 NZ Post**(本體 + Niue/Tokelau 代發)
+- **菲律賓 PHLPost**
+- **不丹 Bhutan**(原文「不單」,推測為不丹,**待使用者確認**;不丹以創意郵票聞名)
+- **加拿大 Canada Post**(兩輪完整 1997–2020,foil/emboss;官方 `canadapost-postescanada.ca`)
+- **泰國 Thailand Post**(詩琳通公主親繪生肖)
+- **朝鮮 DPRK**(北韓,曾發行生肖題材;來源與可信度待查)
+
+其他待辦:
+
+- **美國 USPS**:`scripts/scrape_us_usps.py` 已就緒,但 DEMO_KEY 被限流(429)。需至
+  `https://api.data.gov/signup/` 申請免費專屬 key,以 `SI_API_KEY=... uv run scripts/scrape_us_usps.py` 執行。
+- **Colnect API** `https://colnect.com/en/help/collecting/colnect_api`:**潛在價值高但有門檻**。
+  能繞過全站 Anubis 反爬,取得最完整跨國目錄與 Scott/Michel/Yvert 編號交叉對照,補各來源缺口
+  (日 1950–96、韓早期、IoM/港歷史輪次)。**但**:(a) 連 API 說明頁本身都在 Anubis 後,目前 curl 讀不到
+  條款;(b) 據了解 Colnect API 需付費 Premium 會員 + 申請 key、有 rate limit;(c) 圖片多為使用者
+  上傳、版權狀態模糊,僅宜當**編號交叉對照與文字補遺**,不宜當主圖源(本站官方一手優先)。
+  **後續**:由使用者確認是否註冊/付費取得 key → 取得後寫 `scripts/` adapter,定位為缺口補遺 + 編號對照。
+- **歐洲第二/三批**:Guernsey、聯合國、Jersey、列支敦士登、澳洲;印尼(待查是否發行)。
