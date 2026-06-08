@@ -1,0 +1,39 @@
+{
+  "code": "2024-mydrgfdl",
+  "sku": "MYDRGFDL",
+  "name": "Zodiac MyStamp Folder (Dragon) + Spring Decorative MyStamp Sheet",
+  "animal": "dragon",
+  "year": 2024,
+  "role": "mystamp_folder",
+  "type_id": "simple",
+  "url_key": "zodiac-mystamp-folder-dragon-spring-decorative-mystamp-sheet",
+  "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-dragon-spring-decorative-mystamp-sheet.html",
+  "page_name": "Zodiac MyStamp Folder (Dragon) + Spring Decorative MyStamp Sheet",
+  "categories": [
+    "Stamps",
+    "Gifts",
+    "MyStamp",
+    "Thematics",
+    "Promotions",
+    "Folder",
+    "Zodiac",
+    "Zodiac Series"
+  ],
+  "price": 22.2,
+  "currency": "SGD",
+  "weight": 0.2932,
+  "created_at": "2023-12-28 08:01:04",
+  "description": "The Chinese calendar is based on five cycles of 12 years each, with each cycle tempered by one of the five Chinese elements – Metal, Wood, Water, Fire and Earth. Each year features one of the 12 animal signs, and the year of 2024 is that of the Wood Dragon.\n\n\r\nThe year 2024 marks the reign of the Dragon and the fifth animal in the Zodiac series on the Chinese calendar.",
+  "short_description": "",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/m/y/mydrgdfl_mystamp_folder_spring_decorative_mystamp_sheet.png",
+      "image_file": "img/mydrgdfl_mystamp_folder_spring_decorative_mystamp_sheet.png"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

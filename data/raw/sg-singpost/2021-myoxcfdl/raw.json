@@ -1,0 +1,36 @@
+{
+  "code": "2021-myoxcfdl",
+  "sku": "MYOXCFDL",
+  "name": "Zodiac MyStamp Folder (Ox) with Spring Decorative MyStamp Sheet (MYOXCFDL)",
+  "animal": "ox",
+  "year": 2021,
+  "role": "mystamp_folder",
+  "type_id": "simple",
+  "url_key": "zodiac-mystamp-folder-ox-with-spring-decorative-mystamp-sheet-myoxcfdl",
+  "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-ox-with-spring-decorative-mystamp-sheet-myoxcfdl.html",
+  "page_name": "Zodiac MyStamp Folder (Ox) with Spring Decorative MyStamp Sheet (MYOXCFDL)",
+  "categories": [
+    "Stamps",
+    "MyStamp",
+    "Promotions",
+    "Folder",
+    "Zodiac Series"
+  ],
+  "price": 22.2,
+  "currency": "SGD",
+  "weight": 0.2,
+  "created_at": "2020-12-31 10:59:36",
+  "description": "Celebrate the Year  of the Ox this CNY with SingPost. This commemorative A4 MyStamp folder features a traditional ox illustration, signifying wealth and good fortune, and explains the significance of each of the zodiac animals. There’s a MyStamp sheet inside the folder featuring a stamp tab for each of the 12 animals with a large decorative stamp tab depicting ox and lucky gold ingots. An additional commemorative octagon MyStamp sheet is also included, which shows a golden ox surrounded by spring flowers and gold ingots. Start your collection now with a new zodiac animal MyStamp folder each Chinese New Year!",
+  "short_description": "By SingPost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/o/x/ox_mystamp_folder_with_bonus_sheet_mock_up_resized.jpg",
+      "image_file": "img/ox_mystamp_folder_with_bonus_sheet_mock_up_resized.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "code": "2029-csros001",
+  "sku": "CSROS001",
+  "name": "Zodiac Series - Gem Encrusted Rooster (CSROS001)",
+  "animal": "rooster",
+  "year": 2029,
+  "role": "gift",
+  "type_id": "simple",
+  "url_key": "zodiac-gem-encrusted-rooster-csros001",
+  "detail_url": "https://shop.singpost.com/zodiac-gem-encrusted-rooster-csros001.html",
+  "page_name": "Zodiac Series - Gem Encrusted Rooster (CSROS001)",
+  "categories": [
+    "Gifts",
+    "Thematics",
+    "Frame",
+    "SCB",
+    "Zodiac"
+  ],
+  "price": 242.4,
+  "currency": "SGD",
+  "weight": 1.05,
+  "created_at": "2017-02-01 00:56:02",
+  "description": "An impressive gem encrusted rooster art piece which is created gem by gem to achieve an intricate yet elegant design of rooster crowing in the morning facing a Chinese character 'fu' which means prosperity with one goat zodiac stamp. This precious framed art piece will be a charmed collectible to add to your zodiac series collection.",
+  "short_description": "By SingPost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/r/o/rooster_gem_encrusted_frame_mock_up.jpg",
+      "image_file": "img/rooster_gem_encrusted_frame_mock_up.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

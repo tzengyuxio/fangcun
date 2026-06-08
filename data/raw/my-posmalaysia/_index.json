@@ -1,0 +1,38 @@
+[
+  {
+    "code": "2024-cny",
+    "year": "2024",
+    "zodiac_animal": null,
+    "is_cny_festive": true,
+    "issue_date": "",
+    "n_products": 1,
+    "n_images": 4
+  },
+  {
+    "code": "2025-cny",
+    "year": "2025",
+    "zodiac_animal": null,
+    "is_cny_festive": true,
+    "issue_date": "",
+    "n_products": 1,
+    "n_images": 4
+  },
+  {
+    "code": "2025-snake",
+    "year": "2025",
+    "zodiac_animal": "Snake",
+    "is_cny_festive": false,
+    "issue_date": "",
+    "n_products": 3,
+    "n_images": 9
+  },
+  {
+    "code": "2026-horse",
+    "year": "2026",
+    "zodiac_animal": "Horse",
+    "is_cny_festive": false,
+    "issue_date": "2026-02-24",
+    "n_products": 9,
+    "n_images": 15
+  }
+]

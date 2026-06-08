@@ -1,0 +1,691 @@
+[
+  {
+    "code": "cslascsh",
+    "sku": "CSLASCSH",
+    "name": "Zodiac Laser Die Cut Collector’s Sheet (CSLASCSH)",
+    "animal": "",
+    "year": null,
+    "role": "collectors_sheet",
+    "detail_url": "https://shop.singpost.com/zodiac-laser-die-cut-collector-s-sheet-cslascsh.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "csvtgfdl",
+    "sku": "CSVTGFDL",
+    "name": "Zodiac Cycle Collectible (CSVTGFDL)",
+    "animal": "",
+    "year": null,
+    "role": "gift",
+    "detail_url": "https://shop.singpost.com/zodiac-cycle-collectible-csvtgfdl.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "cszdcttr",
+    "sku": "CSZDCTTR",
+    "name": "12 Zodiac Lacquer Tray - (Turquoise) (CSZDCTTR)",
+    "animal": "",
+    "year": null,
+    "role": "gift",
+    "detail_url": "https://shop.singpost.com/12-zodiac-lacquer-tray-turquoise-cszdcttr.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "cszdcsh6",
+    "sku": "CSZDCSH6",
+    "name": "Special Sheet of Zodiac Stamps I (CSZDCSH6)",
+    "animal": "",
+    "year": null,
+    "role": "special_sheet",
+    "detail_url": "https://shop.singpost.com/special-sheet-of-zodiac-stamps-i-cszdcsh6.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "cszodset",
+    "sku": "CSZODSET",
+    "name": "Bundle pack of special sheet of Zodiac Stamps I & II",
+    "animal": "",
+    "year": null,
+    "role": "special_sheet",
+    "detail_url": "https://shop.singpost.com/bundle-pack-of-special-sheet-of-zodiac-stamps-i-ii.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "cszodsh6",
+    "sku": "CSZODSH6",
+    "name": "Special Sheet of Zodiac Stamps II (CSZODSH6)",
+    "animal": "",
+    "year": null,
+    "role": "special_sheet",
+    "detail_url": "https://shop.singpost.com/special-sheet-of-zodiac-stamps-ii-cszodsh6.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "cszodmpr",
+    "sku": "CSZODMPR",
+    "name": "Complete Set of 12 Years Zodiac Stamps – Mega Pack (CSZODMPR)",
+    "animal": "",
+    "year": null,
+    "role": "stamp_set",
+    "detail_url": "https://shop.singpost.com/complete-set-of-12-years-zodiac-stamps-mega-pack-cszodmpr.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2020-myratfdl",
+    "sku": "MYRATFDL",
+    "name": "Zodiac MyStamp Folder (Rat)+ Spring Decorative MyStamp Sheet (MYRATFDL)",
+    "animal": "rat",
+    "year": 2020,
+    "role": "mystamp_folder",
+    "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-rat-spring-decorative-mystamp-sheet-myratfdl.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2020-pcradpcd",
+    "sku": "PCRADPCD",
+    "name": "Zodiac Series - Rat Postcards (set of 2 Designs) (PCRADPCD)",
+    "animal": "rat",
+    "year": 2020,
+    "role": "postcards",
+    "detail_url": "https://shop.singpost.com/postcards-set-of-2-designs-pcradpcd-pre-order.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2021-myoxcfdl",
+    "sku": "MYOXCFDL",
+    "name": "Zodiac MyStamp Folder (Ox) with Spring Decorative MyStamp Sheet (MYOXCFDL)",
+    "animal": "ox",
+    "year": 2021,
+    "role": "mystamp_folder",
+    "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-ox-with-spring-decorative-mystamp-sheet-myoxcfdl.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2021-pcoxpcd",
+    "sku": "PCOXPCD",
+    "name": "Zodiac Series - Ox Postcards (set of 2 Designs) (PCOXPCD)",
+    "animal": "ox",
+    "year": 2021,
+    "role": "postcards",
+    "detail_url": "https://shop.singpost.com/zodiac-series-ox-postcards-set-of-2-designs-pcoxpcd.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2022-csa22cs",
+    "sku": "CSA22CS",
+    "name": "Zodiac Series - Tiger Collectors' Sheet (with Red Packets) (CSA22CS)",
+    "animal": "tiger",
+    "year": 2022,
+    "role": "collectors_sheet",
+    "detail_url": "https://shop.singpost.com/zodiac-series-tiger-collectors-sheet-with-red-packets-csa22cs.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2022-mytigfdl",
+    "sku": "MYTIGFDL",
+    "name": "Zodiac MyStamp Folder (Tiger) with Spring Decorative MyStamp Sheet (MYTIGFDL)",
+    "animal": "tiger",
+    "year": 2022,
+    "role": "mystamp_folder",
+    "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-tiger-with-spring-decorative-mystamp-sheet-mytigfdl.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2022-pctgrpcd",
+    "sku": "PCTGRPCD",
+    "name": "Zodiac Series - Tiger Postcards (set of 2 Designs) (PCTGRPCD)",
+    "animal": "tiger",
+    "year": 2022,
+    "role": "postcards",
+    "detail_url": "https://shop.singpost.com/zodiac-series-tiger-postcards-set-of-2-designs-pctgrpcd.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2022-csa22pr",
+    "sku": "CSA22PR",
+    "name": "Zodiac Series - Tiger Presentation Pack (CSA22PR)",
+    "animal": "tiger",
+    "year": 2022,
+    "role": "presentation_pack",
+    "detail_url": "https://shop.singpost.com/zodiac-series-tiger-presentation-pack-csa22pr.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2022-csa22spk",
+    "sku": "CSA22SPK",
+    "name": "Zodiac Series - Tiger Special pack (CSA22SPK)",
+    "animal": "tiger",
+    "year": 2022,
+    "role": "special_pack",
+    "detail_url": "https://shop.singpost.com/zodiac-series-tiger-special-pack-csa22spk.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2022-csa22ast",
+    "sku": "CSA22AST",
+    "name": "Zodiac Series - Tiger Stamp Set (CSA22AST)",
+    "animal": "tiger",
+    "year": 2022,
+    "role": "stamp_set",
+    "detail_url": "https://shop.singpost.com/zodiac-series-tiger-stamp-set-csa22ast.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2023-csa23cs",
+    "sku": "CSA23CS",
+    "name": "Zodiac Series - Rabbit Collectors' Sheet (with Red Packets) (CSA23CS)",
+    "animal": "rabbit",
+    "year": 2023,
+    "role": "collectors_sheet",
+    "detail_url": "https://shop.singpost.com/zodiac-series-rabbit-collectors-sheet-with-red-packets-csa23cs.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2023-myrabfdl",
+    "sku": "MYRABFDL",
+    "name": "Zodiac MyStamp Folder (Rabbit) with Spring Decorative MyStamp Sheet",
+    "animal": "rabbit",
+    "year": 2023,
+    "role": "mystamp_folder",
+    "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-rabbit-with-spring-decorative-mystamp-sheet.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2023-pcrbtpcd",
+    "sku": "PCRBTPCD",
+    "name": "Zodiac Series - Rabbit Postcards (set of 2 Designs) (PCRBTPCD)",
+    "animal": "rabbit",
+    "year": 2023,
+    "role": "postcards",
+    "detail_url": "https://shop.singpost.com/zodiac-series-rabbit-postcards-set-of-2-designs-pcrbtpcd.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2023-csa23pr",
+    "sku": "CSA23PR",
+    "name": "Zodiac Series - Rabbit Presentation Pack (CSA23PR)",
+    "animal": "rabbit",
+    "year": 2023,
+    "role": "presentation_pack",
+    "detail_url": "https://shop.singpost.com/zodiac-series-rabbit-presentation-pack-csa23pr.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2023-csa23spk",
+    "sku": "CSA23SPK",
+    "name": "Zodiac Series - Rabbit Special pack (CSA23SPK)",
+    "animal": "rabbit",
+    "year": 2023,
+    "role": "special_pack",
+    "detail_url": "https://shop.singpost.com/zodiac-series-rabbit-special-pack-csa23spk.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2023-csa23ast",
+    "sku": "CSA23AST",
+    "name": "Zodiac Series - Rabbit Stamp Set (CSA23AST)",
+    "animal": "rabbit",
+    "year": 2023,
+    "role": "stamp_set",
+    "detail_url": "https://shop.singpost.com/zodiac-serie-rabbit-stamp-set-csa23ast.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2024-csa24cs",
+    "sku": "CSA24CS",
+    "name": "Zodiac Series - Dragon Collector's Sheet (CSA24CS)",
+    "animal": "dragon",
+    "year": 2024,
+    "role": "collectors_sheet",
+    "detail_url": "https://shop.singpost.com/zodiac-series-dragon-collector-s-sheet-csa24cs.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2024-csa24mpn",
+    "sku": "CSA24MPN",
+    "name": "Zodiac Series - Dragon Minipane (CSA24MPN)",
+    "animal": "dragon",
+    "year": 2024,
+    "role": "minipane",
+    "detail_url": "https://shop.singpost.com/zodiac-series-dragon-minipane-csa24mpn.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2024-mydrgfdl",
+    "sku": "MYDRGFDL",
+    "name": "Zodiac MyStamp Folder (Dragon) + Spring Decorative MyStamp Sheet",
+    "animal": "dragon",
+    "year": 2024,
+    "role": "mystamp_folder",
+    "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-dragon-spring-decorative-mystamp-sheet.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2024-pcdrapcd",
+    "sku": "PCDRAPCD",
+    "name": "Zodiac Series - Dragon Postcards bundle set (PCDRAPCD)",
+    "animal": "dragon",
+    "year": 2024,
+    "role": "postcards",
+    "detail_url": "https://shop.singpost.com/zodiac-series-dragon-postcards-bundle-set-pcdrapcd.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2024-csa24pr",
+    "sku": "CSA24PR",
+    "name": "Zodiac Series - Dragon Presentation Pack with Stamps (CSA24PR)",
+    "animal": "dragon",
+    "year": 2024,
+    "role": "presentation_pack",
+    "detail_url": "https://shop.singpost.com/zodiac-series-dragon-presentation-pack-with-stamps-csa24pr.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2024-csa24spk",
+    "sku": "CSA24SPK",
+    "name": "Zodiac Series - Dragon Special Pack (CSA24SPK)",
+    "animal": "dragon",
+    "year": 2024,
+    "role": "special_pack",
+    "detail_url": "https://shop.singpost.com/zodiac-series-dragon-special-pack-csa24spk.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2024-csa24ast",
+    "sku": "CSA24AST",
+    "name": "Zodiac Series - Dragon Complete Set (CSA24AST)",
+    "animal": "dragon",
+    "year": 2024,
+    "role": "stamp_set",
+    "detail_url": "https://shop.singpost.com/zodiac-series-dragon-complete-set-csa24ast.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2025-csa25cs",
+    "sku": "CSA25CS",
+    "name": "Zodiac Series - Snake Collector's Sheet (comprises of $10 stamp & comes with a folder with angbao) (CSA25CS)",
+    "animal": "snake",
+    "year": 2025,
+    "role": "collectors_sheet",
+    "detail_url": "https://shop.singpost.com/zodiac-series-snake-collector-s-sheet-comprises-of-10-stamp-comes-with-a-folder-with-angbao-csa25cs.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2025-csa25mpn",
+    "sku": "CSA25MPN",
+    "name": "Zodiac Series - Snake Zodiac minipane (consists of 2 x 1st local & 2 x $2) (CSA25MPN)",
+    "animal": "snake",
+    "year": 2025,
+    "role": "minipane",
+    "detail_url": "https://shop.singpost.com/zodiac-series-snake-zodiac-minipane-consists-of-2x1st-local-2x-2-csa25mpn.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2025-myskefdl",
+    "sku": "MYSKEFDL",
+    "name": "Zodiac MyStamp Folder (Snake) with Spring Decorative MyStamp Sheet (MYSKEFDL)",
+    "animal": "snake",
+    "year": 2025,
+    "role": "mystamp_folder",
+    "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-snake-with-spring-decorative-mystamp-sheet-myskefdl.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2025-pcsnkpcd",
+    "sku": "PCSNKPCD",
+    "name": "Zodiac Series - Snake Postcards bundle set - 2 designs each in a set (PCSNKPCD)",
+    "animal": "snake",
+    "year": 2025,
+    "role": "postcards",
+    "detail_url": "https://shop.singpost.com/zodiac-series-snake-postcards-bundle-set-2-designs-each-in-a-set-pcsnkpcd.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2025-csa25pr",
+    "sku": "CSA25PR",
+    "name": "Zodiac Series - Snake Presentation Pack (CSA25PR)",
+    "animal": "snake",
+    "year": 2025,
+    "role": "presentation_pack",
+    "detail_url": "https://shop.singpost.com/zodiac-series-snake-presentation-pack-csa25pr.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2025-csa25spk",
+    "sku": "CSA25SPK",
+    "name": "Zodiac Series - Snake Special pack consists of 1st Local + $2 sheetlets + 2 postcards (CSA25SPK)",
+    "animal": "snake",
+    "year": 2025,
+    "role": "special_pack",
+    "detail_url": "https://shop.singpost.com/zodiac-series-snake-special-pack-consists-of-1st-local-2-sheetlets-2-postcards-csa25spk.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2025-csa25ast",
+    "sku": "CSA25AST",
+    "name": "Zodiac Series - Snake Complete Set (CSA25AST)",
+    "animal": "snake",
+    "year": 2025,
+    "role": "stamp_set",
+    "detail_url": "https://shop.singpost.com/zodiac-series-snake-complete-set-csa25ast.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-csa26sbn",
+    "sku": "CSA26SBN",
+    "name": "Zodiac Series - Horse 1st Local Self-adhesive Booklet (10 stamps per booklet) (CSA26SBN)",
+    "animal": "horse",
+    "year": 2026,
+    "role": "booklet",
+    "detail_url": "https://shop.singpost.com/zodiac-series-horse-1st-local-self-adhesive-booklet-10-stamps-per-booklet-csa26sbn.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-csa26cs",
+    "sku": "CSA26CS",
+    "name": "Zodiac Series - Horse Collector's Sheet (comprises of $10 stamp & comes with a folder with angbao) (CSA26CS)",
+    "animal": "horse",
+    "year": 2026,
+    "role": "collectors_sheet",
+    "detail_url": "https://shop.singpost.com/zodiac-series-horse-collector-s-sheet-comprises-of-10stamp-comes-withafolder-with-angbao-csa26cs.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-csa26mpn",
+    "sku": "CSA26MPN",
+    "name": "Zodiac Series - Horse minipane (consists of 2 x 1st local & 2 x $2) (CSA26MPN)",
+    "animal": "horse",
+    "year": 2026,
+    "role": "minipane",
+    "detail_url": "https://shop.singpost.com/zodiac-series-horse-minipane-consists-of-2x1stlocal-2x-2-csa26mpn.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-myhrsfdl",
+    "sku": "MYHRSFDL",
+    "name": "Zodiac MyStamp Folder (Horse) with Spring Decorative MyStamp Sheet (MYHRSFDL)",
+    "animal": "horse",
+    "year": 2026,
+    "role": "mystamp_folder",
+    "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-horse-with-spring-decorative-mystamp-sheet-myhrsfdl.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-pchsepcd",
+    "sku": "PCHSEPCD",
+    "name": "Zodiac Series - Horse Postcards bundle set - 2 designs each in a set (PCHSEPCD)",
+    "animal": "horse",
+    "year": 2026,
+    "role": "postcards",
+    "detail_url": "https://shop.singpost.com/zodiac-series-horse-postcards-bundle-set-2designs-each-in-a-set-pchsepcd.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-csa26pf",
+    "sku": "CSA26PF",
+    "name": "Zodiac Series - Horse Precancelled FDC with stamps (CSA26PF)",
+    "animal": "horse",
+    "year": 2026,
+    "role": "precancelled_fdc",
+    "detail_url": "https://shop.singpost.com/zodiac-series-horse-precancelled-fdc-with-stamps-csa26pf.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-csa26pr",
+    "sku": "CSA26PR",
+    "name": "Zodiac Series - Horse Presentation Pack (CSA26PR)",
+    "animal": "horse",
+    "year": 2026,
+    "role": "presentation_pack",
+    "detail_url": "https://shop.singpost.com/zodiac-series-horse-presentation-pack-csa26pr.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-csa26spk",
+    "sku": "CSA26SPK",
+    "name": "Zodiac Series - Horse Special pack consists of 1st Local + $2 sheetlets + 2 postcards (CSA26SPK)",
+    "animal": "horse",
+    "year": 2026,
+    "role": "special_pack",
+    "detail_url": "https://shop.singpost.com/zodiac-series-horse-special-pack-consists-of-1st-local-2-sheetlets-2-postcards-csa26spk.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-csa26ast",
+    "sku": "CSA26AST",
+    "name": "Zodiac Series - Horse Complete Set (CSA26AST)",
+    "animal": "horse",
+    "year": 2026,
+    "role": "stamp_set",
+    "detail_url": "https://shop.singpost.com/zodiac-series-horse-complete-set-csa26ast.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2028-mymonfdl",
+    "sku": "MYMONFDL",
+    "name": "Zodiac MyStamp Folder (Monkey) (MYMONFDL)",
+    "animal": "monkey",
+    "year": 2028,
+    "role": "mystamp_folder",
+    "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-monkey-mymonfdl.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2029-csros001",
+    "sku": "CSROS001",
+    "name": "Zodiac Series - Gem Encrusted Rooster (CSROS001)",
+    "animal": "rooster",
+    "year": 2029,
+    "role": "gift",
+    "detail_url": "https://shop.singpost.com/zodiac-gem-encrusted-rooster-csros001.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2029-myrstfdl",
+    "sku": "MYRSTFDL",
+    "name": "Zodiac MyStamp Folder (Rooster)+ Spring Decorative MyStamp Sheet (MYRSTFDL)",
+    "animal": "rooster",
+    "year": 2029,
+    "role": "mystamp_folder",
+    "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-rooster-spring-decorative-mystamp-sheet-myrstfdl.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2030-csgft095",
+    "sku": "CSGFT095",
+    "name": "Zodiac Series - Gem encrusted Dog (CSGFT095)",
+    "animal": "dog",
+    "year": 2030,
+    "role": "gift",
+    "detail_url": "https://shop.singpost.com/zodiac-series-gem-encrusted-dog-mydgo001.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2030-mydogfdl",
+    "sku": "MYDOGFDL",
+    "name": "Zodiac MyStamp Folder (Dog) + Spring Decorative MyStamp Sheet (MYDOGFDL)",
+    "animal": "dog",
+    "year": 2030,
+    "role": "mystamp_folder",
+    "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-dog-spring-decorative-mystamp-sheet-mydogfdl.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2031-csgft100",
+    "sku": "CSGFT100",
+    "name": "Zodiac Series - Gem encrusted Pig (CSGFT100)",
+    "animal": "pig",
+    "year": 2031,
+    "role": "gift",
+    "detail_url": "https://shop.singpost.com/zodiac-series-gem-encrusted-pig-csgft100.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2031-mypigfdl",
+    "sku": "MYPIGFDL",
+    "name": "Zodiac MyStamp Folder (Pig)+ Spring Decorative MyStamp Sheet (MYPigFDL)",
+    "animal": "pig",
+    "year": 2031,
+    "role": "mystamp_folder",
+    "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-pig-spring-decorative-mystamp-sheet-mypigfdl.html",
+    "source": {
+      "id": "sg-singpost",
+      "tier": "official"
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "code": "rat",
+    "animal": "rat",
+    "index": 1,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/1_rat.html"
+  },
+  {
+    "code": "ox",
+    "animal": "ox",
+    "index": 2,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/2_ox.html"
+  },
+  {
+    "code": "tiger",
+    "animal": "tiger",
+    "index": 3,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/3_tiger.html"
+  },
+  {
+    "code": "rabbit",
+    "animal": "rabbit",
+    "index": 4,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/4_rabbit.html"
+  },
+  {
+    "code": "dragon",
+    "animal": "dragon",
+    "index": 5,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/5_dragon.html"
+  },
+  {
+    "code": "snake",
+    "animal": "snake",
+    "index": 6,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/6_snake.html"
+  },
+  {
+    "code": "horse",
+    "animal": "horse",
+    "index": 7,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/7_horse.html"
+  },
+  {
+    "code": "sheep",
+    "animal": "sheep",
+    "index": 8,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/8_sheep.html"
+  },
+  {
+    "code": "monkey",
+    "animal": "monkey",
+    "index": 9,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/9_monkey.html"
+  },
+  {
+    "code": "rooster",
+    "animal": "rooster",
+    "index": 10,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/10_rooster.html"
+  },
+  {
+    "code": "dog",
+    "animal": "dog",
+    "index": 11,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/11_dog.html"
+  },
+  {
+    "code": "pig",
+    "animal": "pig",
+    "index": 12,
+    "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/12_pig.html"
+  }
+]

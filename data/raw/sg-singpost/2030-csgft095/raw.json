@@ -1,0 +1,40 @@
+{
+  "code": "2030-csgft095",
+  "sku": "CSGFT095",
+  "name": "Zodiac Series - Gem encrusted Dog (CSGFT095)",
+  "animal": "dog",
+  "year": 2030,
+  "role": "gift",
+  "type_id": "simple",
+  "url_key": "zodiac-series-gem-encrusted-dog-mydgo001",
+  "detail_url": "https://shop.singpost.com/zodiac-series-gem-encrusted-dog-mydgo001.html",
+  "page_name": "Zodiac Series - Gem encrusted Dog (CSGFT095)",
+  "categories": [
+    "Gifts",
+    "Thematics",
+    "Frame",
+    "Staff Disc",
+    "Zodiac"
+  ],
+  "price": 242.4,
+  "currency": "SGD",
+  "weight": 0.6,
+  "created_at": "2017-12-20 08:14:03",
+  "description": "Add a touch of sparkle to your living or work environment, with this gorgeous gem-encrusted art piece that will bring good fortune &ndash; and lots of envious compliments &ndash; into your 2018.",
+  "short_description": "By Singpost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/d/o/dog_gems_encrusted_visual_72dpi.jpg",
+      "image_file": "img/dog_gems_encrusted_visual_72dpi.jpg"
+    },
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/d/o/dog_gems_encrusted_online.jpg",
+      "image_file": "img/dog_gems_encrusted_online.jpg"
+    }
+  ],
+  "n_images": 2,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

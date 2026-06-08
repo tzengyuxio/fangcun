@@ -1,0 +1,36 @@
+{
+  "code": "2023-myrabfdl",
+  "sku": "MYRABFDL",
+  "name": "Zodiac MyStamp Folder (Rabbit) with Spring Decorative MyStamp Sheet",
+  "animal": "rabbit",
+  "year": 2023,
+  "role": "mystamp_folder",
+  "type_id": "simple",
+  "url_key": "zodiac-mystamp-folder-rabbit-with-spring-decorative-mystamp-sheet",
+  "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-rabbit-with-spring-decorative-mystamp-sheet.html",
+  "page_name": "Zodiac MyStamp Folder (Rabbit) with Spring Decorative MyStamp Sheet",
+  "categories": [
+    "Stamps",
+    "MyStamp",
+    "Promotions",
+    "Folder",
+    "Zodiac Series"
+  ],
+  "price": 22.2,
+  "currency": "SGD",
+  "weight": 0.05,
+  "created_at": "2022-12-30 00:26:23",
+  "description": "Celebrate the Year of the Rabbit this CNY with SingPost. The MyStamp sheet features illustration of rabbits harvesting golden carrots and with stamp tabs for each of the 12 Zodiac animals. An additional decorative Spring MyStamp sheet is also included with the auspicious Chinese character “吉” that proclaims good fortune and luck for your household and adorned within the design is the rabbit and golden carrot. Start your collection now with a new zodiac animal MyStamp folder each Chinese New Year!",
+  "short_description": "",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/z/o/zodiac_mystamp_folder_rabbit_and_spring_decorative_mystamp_sheet.png",
+      "image_file": "img/zodiac_mystamp_folder_rabbit_and_spring_decorative_mystamp_sheet.png"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

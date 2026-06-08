@@ -1,0 +1,36 @@
+{
+  "code": "2031-mypigfdl",
+  "sku": "MYPIGFDL",
+  "name": "Zodiac MyStamp Folder (Pig)+ Spring Decorative MyStamp Sheet (MYPigFDL)",
+  "animal": "pig",
+  "year": 2031,
+  "role": "mystamp_folder",
+  "type_id": "simple",
+  "url_key": "zodiac-mystamp-folder-pig-spring-decorative-mystamp-sheet-mypigfdl",
+  "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-pig-spring-decorative-mystamp-sheet-mypigfdl.html",
+  "page_name": "Zodiac MyStamp Folder (Pig)+ Spring Decorative MyStamp Sheet (MYPigFDL)",
+  "categories": [
+    "Stamps",
+    "MyStamp",
+    "Promotions",
+    "Folder",
+    "Zodiac Series"
+  ],
+  "price": 22.2,
+  "currency": "SGD",
+  "weight": 0.2,
+  "created_at": "2018-12-20 07:33:21",
+  "description": "The warm-hearted Zodiac Pig ushers in the new Lunar Year 2019! To welcome and celebrate this festive season, a series of limited edition philatelic collectibles are available exclusively at SingPost.\n\n\r\nGet a beautiful folder MyStamp folder that features the Lunar New Year 2019 Zodiac Pig. This stunning folder is an ideal personal or corporate gift this season.",
+  "short_description": "By SingPost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/m/y/mypigfdl_new.jpg",
+      "image_file": "img/mypigfdl_new.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

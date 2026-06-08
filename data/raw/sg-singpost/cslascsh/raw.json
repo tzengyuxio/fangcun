@@ -1,0 +1,38 @@
+{
+  "code": "cslascsh",
+  "sku": "CSLASCSH",
+  "name": "Zodiac Laser Die Cut Collector’s Sheet (CSLASCSH)",
+  "animal": "",
+  "year": null,
+  "role": "collectors_sheet",
+  "type_id": "simple",
+  "url_key": "zodiac-laser-die-cut-collector-s-sheet-cslascsh",
+  "detail_url": "https://shop.singpost.com/zodiac-laser-die-cut-collector-s-sheet-cslascsh.html",
+  "page_name": "Zodiac Laser Die Cut Collector’s Sheet (CSLASCSH)",
+  "categories": [
+    "Stamps",
+    "Promotions",
+    "Staff Disc",
+    "Zodiac Sale",
+    "Special Collection",
+    "Limited Edition",
+    "Zodiac Series"
+  ],
+  "price": 8.95,
+  "currency": "SGD",
+  "weight": 0.02,
+  "created_at": "2019-01-18 05:40:11",
+  "description": "A special Collector's Sheet featuring all 12 Zodiac animals",
+  "short_description": "By SingPost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/c/s/cslascsh.jpg",
+      "image_file": "img/cslascsh.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

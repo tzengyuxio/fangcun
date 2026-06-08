@@ -1,0 +1,37 @@
+{
+  "code": "2030-mydogfdl",
+  "sku": "MYDOGFDL",
+  "name": "Zodiac MyStamp Folder (Dog) + Spring Decorative MyStamp Sheet (MYDOGFDL)",
+  "animal": "dog",
+  "year": 2030,
+  "role": "mystamp_folder",
+  "type_id": "simple",
+  "url_key": "zodiac-mystamp-folder-dog-spring-decorative-mystamp-sheet-mydogfdl",
+  "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-dog-spring-decorative-mystamp-sheet-mydogfdl.html",
+  "page_name": "Zodiac MyStamp Folder (Dog) + Spring Decorative MyStamp Sheet (MYDOGFDL)",
+  "categories": [
+    "Stamps",
+    "MyStamp",
+    "Promotions",
+    "Folder",
+    "Staff Disc",
+    "Zodiac Series"
+  ],
+  "price": 22.2,
+  "currency": "SGD",
+  "weight": 0.18,
+  "created_at": "2017-12-20 08:20:34",
+  "description": "Get a beautiful folder of stamps featuring this Lunar New Year’s animal, the dog. This stunning folder is an ideal personal or corporate gift this season.",
+  "short_description": "By Singpost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/m/y/mydgo002.jpg",
+      "image_file": "img/mydgo002.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

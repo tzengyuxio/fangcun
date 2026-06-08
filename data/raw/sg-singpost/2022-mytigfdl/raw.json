@@ -1,0 +1,37 @@
+{
+  "code": "2022-mytigfdl",
+  "sku": "MYTIGFDL",
+  "name": "Zodiac MyStamp Folder (Tiger) with Spring Decorative MyStamp Sheet (MYTIGFDL)",
+  "animal": "tiger",
+  "year": 2022,
+  "role": "mystamp_folder",
+  "type_id": "simple",
+  "url_key": "zodiac-mystamp-folder-tiger-with-spring-decorative-mystamp-sheet-mytigfdl",
+  "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-tiger-with-spring-decorative-mystamp-sheet-mytigfdl.html",
+  "page_name": "Zodiac MyStamp Folder (Tiger) with Spring Decorative MyStamp Sheet (MYTIGFDL)",
+  "categories": [
+    "Stamps",
+    "MyStamp",
+    "Promotions",
+    "Folder",
+    "Staff Disc",
+    "Zodiac Series"
+  ],
+  "price": 22.2,
+  "currency": "SGD",
+  "weight": 0.2,
+  "created_at": "2022-01-03 09:29:34",
+  "description": "Celebrate the Year of the Tiger this CNY with SingPost. This commemorative A4 MyStamp folder features a tiger illustration, signifying wealth and good fortune, and explains the significance of each of the zodiac animals. There’s a MyStamp sheet inside the folder featuring a stamp tab for each of the 12 animals with a large decorative stamp tab depicting a reigning tiger with gold ingots and jewellery. An additional decorative Spring MyStamp sheet is also included, which shows a tiger with treasure pot of gold ingots. Start your collection now with a new zodiac animal MyStamp folder each Chinese New Year!",
+  "short_description": "",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/z/o/zodiac_mystamp_folder_tiger_spring_decorative_mystamp_sheet_resized.jpg",
+      "image_file": "img/zodiac_mystamp_folder_tiger_spring_decorative_mystamp_sheet_resized.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

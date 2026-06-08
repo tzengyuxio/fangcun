@@ -1,0 +1,37 @@
+{
+  "code": "cszdcsh6",
+  "sku": "CSZDCSH6",
+  "name": "Special Sheet of Zodiac Stamps I (CSZDCSH6)",
+  "animal": "",
+  "year": null,
+  "role": "special_sheet",
+  "type_id": "simple",
+  "url_key": "special-sheet-of-zodiac-stamps-i-cszdcsh6",
+  "detail_url": "https://shop.singpost.com/special-sheet-of-zodiac-stamps-i-cszdcsh6.html",
+  "page_name": "Special Sheet of Zodiac Stamps I (CSZDCSH6)",
+  "categories": [
+    "Stamps",
+    "Promotions",
+    "Zodiac Sale",
+    "Special Collection",
+    "Limited Edition",
+    "Zodiac Series"
+  ],
+  "price": 17.1,
+  "currency": "SGD",
+  "weight": 0.1,
+  "created_at": "2019-01-03 03:08:56",
+  "description": "A special stamp sheet featuring the 6 Zodiac animals, Rat, Ox, Tiger, Rabbit, Dragon and Snake.",
+  "short_description": "By SingPost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/s/p/special_sheet_zodiac_stamp_i.jpg",
+      "image_file": "img/special_sheet_zodiac_stamp_i.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

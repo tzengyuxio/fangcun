@@ -1,0 +1,40 @@
+{
+  "code": "csvtgfdl",
+  "sku": "CSVTGFDL",
+  "name": "Zodiac Cycle Collectible (CSVTGFDL)",
+  "animal": "",
+  "year": null,
+  "role": "gift",
+  "type_id": "simple",
+  "url_key": "zodiac-cycle-collectible-csvtgfdl",
+  "detail_url": "https://shop.singpost.com/zodiac-cycle-collectible-csvtgfdl.html",
+  "page_name": "Zodiac Cycle Collectible (CSVTGFDL)",
+  "categories": [
+    "Stamps",
+    "Promotions",
+    "Special Collection",
+    "Limited Edition",
+    "Zodiac Series"
+  ],
+  "price": 5.05,
+  "currency": "SGD",
+  "weight": 0.1,
+  "created_at": "2020-01-07 07:58:31",
+  "description": "Commemorate the new Chinese zodiac cycle with SingPost. Chinese New Year 2020 begins a new 12-year zodiac cycle with the Year of the Rat. With this limited edition Collectible you can collect all 12 sets of commemorative stamps for each Chinese New Year until the Year of the Pig in 2031. The circular sheet is divided into 12 segments with space for each zodiac sign. This set includes two Year of the Rat Mint stamps, (first local and $1.40 stamp) to get your collection started. An exciting gift for stamp collectors both young and old.",
+  "short_description": "By SingPost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/c/i/circle_rat_inner_resize.jpg",
+      "image_file": "img/circle_rat_inner_resize.jpg"
+    },
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/c/i/circle_rat_outer_resize.png",
+      "image_file": "img/circle_rat_outer_resize.png"
+    }
+  ],
+  "n_images": 2,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

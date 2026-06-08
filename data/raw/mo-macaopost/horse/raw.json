@@ -1,0 +1,58 @@
+{
+  "code": "horse",
+  "animal": "horse",
+  "index": 7,
+  "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/7_horse.html",
+  "title": "HORSE",
+  "intro": "The Chinese domesticated wild horses thousands of years ago, and hence thereafter and for many years, the horse became one of the main means of transport. The horse's developed nervous system, its sharp sense of hearing and smell, and strong sensitivity to light, which allows it to perceive objects around it at night, led to the development of a solid memory, hence the saying “an old horse knows its way around”. Although the horse has been a symbol of victory, sovereignty and wealth throughout human history, it is still, in modern times, a model in terms of anatomy, genealogy and sports science. In Chinese culture, the horse has symbolic meanings such as blessing, prayer, motivation and success. The horse is the seventh in the Chinese zodiac, and its corresponding earthly branch is “Wu”.",
+  "images": [
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/7_horse/image001.png",
+      "caption": "The Chinese domesticated wild horses thousands of years ago, and hence thereafter and for many years, the horse became one of the main means of transport. The horse's developed nervous system, its sharp sense of hearing and smell, and strong sensitivity to light, which allows it to perceive objects around it at night, led to the development of a solid memory, hence the saying “an old horse knows its way around”. Although the horse has been a symbol of victory, sovereignty and wealth throughout human history, it is still, in modern times, a model in terms of anatomy, genealogy and sports science. In Chinese culture, the horse has symbolic meanings such as blessing, prayer, motivation and success. The horse is the seventh in the Chinese zodiac, and its corresponding earthly branch is “Wu”.",
+      "macau_likely": false,
+      "image_file": "img/image001.png"
+    },
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/7_horse/image003.png",
+      "caption": "There are many idioms related to the horse, which we still use now to express our interpretation of similar things. In 2007, Macao CTT published a booklet “Seng Yu –Idioms II” designed by Lio Man Cheong, which include two idioms pertaining to horses. One of them is “Calling Black White”, which describes how Zhao Gao, intended on seizing the throne, deliberately rode a deer to accompany emperor of Qin II while describing it as a horse. To his surprise, the Emperor of Qin did not believe what he saw, but believed Zhao Gao's story. Therefore, this story is used as a metaphor for deliberately confusing right and wrong.",
+      "macau_likely": true,
+      "image_file": "img/image003.png"
+    },
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/7_horse/image002.png",
+      "caption": "There are many idioms related to the horse, which we still use now to express our interpretation of similar things. In 2007, Macao CTT published a booklet “Seng Yu –Idioms II” designed by Lio Man Cheong, which include two idioms pertaining to horses. One of them is “Calling Black White”, which describes how Zhao Gao, intended on seizing the throne, deliberately rode a deer to accompany emperor of Qin II while describing it as a horse. To his surprise, the Emperor of Qin did not believe what he saw, but believed Zhao Gao's story. Therefore, this story is used as a metaphor for deliberately confusing right and wrong.",
+      "macau_likely": true,
+      "image_file": "img/image002.png"
+    },
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/7_horse/image005.jpg",
+      "caption": "The allusion to “Carts Flow Like a Stream and Horses Move Like Dragons” comes from the time of Emperor Zhang of the Han Dynasty, when Empress Dowager Ma was honoured by the world for opposing conferring the title of Marquis on her own brother, preventing her relatives from interfering in state affairs. This idiom is used nowadays to describe a bustling scene with intense traffic of vehicles and horses.",
+      "macau_likely": false,
+      "image_file": "img/image005.jpg"
+    },
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/7_horse/image006.png",
+      "caption": "The allusion to “Carts Flow Like a Stream and Horses Move Like Dragons” comes from the time of Emperor Zhang of the Han Dynasty, when Empress Dowager Ma was honoured by the world for opposing conferring the title of Marquis on her own brother, preventing her relatives from interfering in state affairs. This idiom is used nowadays to describe a bustling scene with intense traffic of vehicles and horses.",
+      "macau_likely": false,
+      "image_file": "img/image006.png"
+    },
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/7_horse/image008.jpg",
+      "caption": "In 2002, the Hongkong Post issued the Year of the Horse Gold and Silver Stamp Pack designed by Bon Kwan. The horse on the stamp is finely printed in 22-carat gold foil and 99.9% sterling silver. The workmanship is exquisite. There is a bamboo forest motif outlined with white lines against a green background, lending the stamp a more vibrant look. In 2014, Macao Post issued the third round of zodiac stamps for the Year of the Horse, designed by Lam Chi Ian, featuring a diamond-shaped stamp in the shape of a wooden horse on the souvenir sheet.",
+      "macau_likely": true,
+      "image_file": "img/image008.jpg"
+    },
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/7_horse/image007.jpg",
+      "caption": "In 2002, the Hongkong Post issued the Year of the Horse Gold and Silver Stamp Pack designed by Bon Kwan. The horse on the stamp is finely printed in 22-carat gold foil and 99.9% sterling silver. The workmanship is exquisite. There is a bamboo forest motif outlined with white lines against a green background, lending the stamp a more vibrant look. In 2014, Macao Post issued the third round of zodiac stamps for the Year of the Horse, designed by Lam Chi Ian, featuring a diamond-shaped stamp in the shape of a wooden horse on the souvenir sheet.",
+      "macau_likely": true,
+      "image_file": "img/image007.jpg"
+    }
+  ],
+  "n_images": 7,
+  "n_macau_likely": 4,
+  "source": {
+    "id": "mo-cmm",
+    "tier": "reference"
+  }
+}

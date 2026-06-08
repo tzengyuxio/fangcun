@@ -1,0 +1,36 @@
+{
+  "code": "2020-myratfdl",
+  "sku": "MYRATFDL",
+  "name": "Zodiac MyStamp Folder (Rat)+ Spring Decorative MyStamp Sheet (MYRATFDL)",
+  "animal": "rat",
+  "year": 2020,
+  "role": "mystamp_folder",
+  "type_id": "simple",
+  "url_key": "zodiac-mystamp-folder-rat-spring-decorative-mystamp-sheet-myratfdl",
+  "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-rat-spring-decorative-mystamp-sheet-myratfdl.html",
+  "page_name": "Zodiac MyStamp Folder (Rat)+ Spring Decorative MyStamp Sheet (MYRATFDL)",
+  "categories": [
+    "Stamps",
+    "MyStamp",
+    "Promotions",
+    "Folder",
+    "Zodiac Series"
+  ],
+  "price": 22.2,
+  "currency": "SGD",
+  "weight": 0.2,
+  "created_at": "2020-01-07 02:59:15",
+  "description": "Celebrate the year of the rat this CNY with SingPost. This commemorative A4 MyStamp folder features a traditional rat illustration, signifying wealth and good fortune, and explains the significance of each of the zodiac animals. There’s a MyStamp sheet inside the folder featuring a stamp tab for each of the 12 animals with a large decorative stamp tab depicting rats and lucky gold coins. An additional commemorative circular MyStamp sheet is also included, which shows a golden rat surrounded by spring flowers. Start your collection now and add to with a new zodiac animal MyStamp folder each Chinese New Year!",
+  "short_description": "By SingPost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/z/o/zodiac_mystamp_folder_rat_spring_decorative_mystamp_sheet_resize.jpg",
+      "image_file": "img/zodiac_mystamp_folder_rat_spring_decorative_mystamp_sheet_resize.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

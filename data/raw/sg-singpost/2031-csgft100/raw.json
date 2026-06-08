@@ -1,0 +1,36 @@
+{
+  "code": "2031-csgft100",
+  "sku": "CSGFT100",
+  "name": "Zodiac Series - Gem encrusted Pig (CSGFT100)",
+  "animal": "pig",
+  "year": 2031,
+  "role": "gift",
+  "type_id": "simple",
+  "url_key": "zodiac-series-gem-encrusted-pig-csgft100",
+  "detail_url": "https://shop.singpost.com/zodiac-series-gem-encrusted-pig-csgft100.html",
+  "page_name": "Zodiac Series - Gem encrusted Pig (CSGFT100)",
+  "categories": [
+    "Gifts",
+    "Thematics",
+    "Frame",
+    "Staff Disc",
+    "Zodiac"
+  ],
+  "price": 242.4,
+  "currency": "SGD",
+  "weight": 0.6,
+  "created_at": "2018-12-20 07:25:46",
+  "description": "The warm-hearted Zodiac Pig ushers in the new Lunar Year 2019! To welcome and celebrate this festive season, a series of limited edition philatelic collectibles are available exclusively at SingPost.\n\n\r\nAdd a touch of sparkle to your living or work places, with this intricate gem-encrusted art piece to bring in good fortune for the year 2019.",
+  "short_description": "By SingPost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/c/s/csgft100.jpg",
+      "image_file": "img/csgft100.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "code": "2026-myhrsfdl",
+  "sku": "MYHRSFDL",
+  "name": "Zodiac MyStamp Folder (Horse) with Spring Decorative MyStamp Sheet (MYHRSFDL)",
+  "animal": "horse",
+  "year": 2026,
+  "role": "mystamp_folder",
+  "type_id": "simple",
+  "url_key": "zodiac-mystamp-folder-horse-with-spring-decorative-mystamp-sheet-myhrsfdl",
+  "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-horse-with-spring-decorative-mystamp-sheet-myhrsfdl.html",
+  "page_name": "Zodiac MyStamp Folder (Horse) with Spring Decorative MyStamp Sheet (MYHRSFDL)",
+  "categories": [
+    "Stamps",
+    "MyStamp",
+    "Promotions",
+    "Folder",
+    "Staff Disc",
+    "Banners",
+    "Zodiac Series - Horse",
+    "Zodiac Series"
+  ],
+  "price": 22.2,
+  "currency": "SGD",
+  "weight": 0.29,
+  "created_at": "2026-01-15 10:05:27",
+  "description": "Usher in the Chinese New Year with SingPost's Year of the Horse collection! This exclusive collection features a MyStamp sheet showcasing a Horse pulling a cart laden with gold ingots, with stamp tabs dedicated to each of the 12 Zodiac animals. Also included is a decorative Spring MyStamp sheet, highlighted by the auspicious Chinese character \"财\" (cái), which signifies \"wealth,\" \"fortune,\" and \"riches,\" symbolizing material abundance and prosperity. Begin your annual tradition and collect a new zodiac animal MyStamp folder every Chinese New Year.",
+  "short_description": "",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/m/y/myhrsfdl_zodiac_mystamp_folder_horse_spring_decorative_mystamp_sheet_1.png",
+      "image_file": "img/myhrsfdl_zodiac_mystamp_folder_horse_spring_decorative_mystamp_sheet_1.png"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

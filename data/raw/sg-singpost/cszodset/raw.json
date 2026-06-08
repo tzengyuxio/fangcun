@@ -1,0 +1,36 @@
+{
+  "code": "cszodset",
+  "sku": "CSZODSET",
+  "name": "Bundle pack of special sheet of Zodiac Stamps I & II",
+  "animal": "",
+  "year": null,
+  "role": "special_sheet",
+  "type_id": "simple",
+  "url_key": "bundle-pack-of-special-sheet-of-zodiac-stamps-i-ii",
+  "detail_url": "https://shop.singpost.com/bundle-pack-of-special-sheet-of-zodiac-stamps-i-ii.html",
+  "page_name": "Bundle pack of special sheet of Zodiac Stamps I & II",
+  "categories": [
+    "Stamps",
+    "Promotions",
+    "Special Collection",
+    "Limited Edition",
+    "Zodiac Series"
+  ],
+  "price": 30.55,
+  "currency": "SGD",
+  "weight": 0.2,
+  "created_at": "2019-02-08 06:07:33",
+  "description": "Bundle Pack Consisting:\n\n\r\nZodiac Stamps I - A special stamp sheet featuring the 6 Zodiac animals, Rat, Ox, Tiger, Rabbit, Dragon and Snake.\n\n\r\nZodiac Stamps I I- A special stamp sheet featuring the 6 Zodiac animals, Horse, Goat, Monkey, Rooster, Dog and Pig",
+  "short_description": "By SingPost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/z/o/zodiac_stamp_i_ii.jpg",
+      "image_file": "img/zodiac_stamp_i_ii.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

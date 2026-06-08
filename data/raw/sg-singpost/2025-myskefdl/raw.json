@@ -1,0 +1,43 @@
+{
+  "code": "2025-myskefdl",
+  "sku": "MYSKEFDL",
+  "name": "Zodiac MyStamp Folder (Snake) with Spring Decorative MyStamp Sheet (MYSKEFDL)",
+  "animal": "snake",
+  "year": 2025,
+  "role": "mystamp_folder",
+  "type_id": "simple",
+  "url_key": "zodiac-mystamp-folder-snake-with-spring-decorative-mystamp-sheet-myskefdl",
+  "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-snake-with-spring-decorative-mystamp-sheet-myskefdl.html",
+  "page_name": "Zodiac MyStamp Folder (Snake) with Spring Decorative MyStamp Sheet (MYSKEFDL)",
+  "categories": [
+    "Stamps",
+    "MyStamp",
+    "Promotions",
+    "Folder",
+    "Staff Disc",
+    "Banners",
+    "Snake Zodiac MyStamp Collection",
+    "Zodiac Series"
+  ],
+  "price": 22.2,
+  "currency": "SGD",
+  "weight": 0.29,
+  "created_at": "2025-01-08 08:49:53",
+  "description": "蛇 • SNAKE\n\n\r\nSnake symbolizes gracefulness and tranquility. Those born under this sign are known for their efficient, analytical approach to life and their ability to achieve goals with precision and determination. They value peace and are adept at navigating complex situations with elegance and subtlety, making them effective and thoughtful in their pursuits.",
+  "short_description": "",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/c/n/cny2025_version_myskefdl.png",
+      "image_file": "img/cny2025_version_myskefdl.png"
+    },
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/m/y/myskefdl_zodiac_mystamp_folder_snake_with_spring_decorative_mystamp_sheet_resize.jpg",
+      "image_file": "img/myskefdl_zodiac_mystamp_folder_snake_with_spring_decorative_mystamp_sheet_resize.jpg"
+    }
+  ],
+  "n_images": 2,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

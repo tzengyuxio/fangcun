@@ -1,0 +1,36 @@
+{
+  "code": "2024-csa24ast",
+  "sku": "CSA24AST",
+  "name": "Zodiac Series - Dragon Complete Set (CSA24AST)",
+  "animal": "dragon",
+  "year": 2024,
+  "role": "stamp_set",
+  "type_id": "bundle",
+  "url_key": "zodiac-series-dragon-complete-set-csa24ast",
+  "detail_url": "https://shop.singpost.com/zodiac-series-dragon-complete-set-csa24ast.html",
+  "page_name": "Zodiac Series - Dragon Complete Set (CSA24AST)",
+  "categories": [
+    "Stamps",
+    "Promotions",
+    "National Stamps",
+    "Stamp Set",
+    "Zodiac Series"
+  ],
+  "price": 2.62,
+  "currency": "SGD",
+  "weight": 0.001,
+  "created_at": "2023-12-28 07:07:24",
+  "description": "The Chinese calendar is based on five cycles of 12 years each, with each cycle tempered by one of the five Chinese elements – Metal, Wood, Water, Fire and Earth. Each year features one of the 12 animal signs, and the year of 2024 is that of the Wood Dragon.\n\n\r\nThe year 2024 marks the reign of the Dragon and the fifth animal in the Zodiac series on the Chinese calendar. This confident, brave and active Dragon is depicted on this set of stamps (1st Local and $2.00).",
+  "short_description": "",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/c/s/csa24ast_stamp_set_2.png",
+      "image_file": "img/csa24ast_stamp_set_2.png"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

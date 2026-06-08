@@ -1,0 +1,46 @@
+{
+  "code": "sheep",
+  "animal": "sheep",
+  "index": 8,
+  "page_url": "https://www.cmm.gov.mo/special/zodiac/eng/8_sheep.html",
+  "title": "GOAT",
+  "intro": "The goat, an auspicious animal and a symbol of beauty, the totem of many ancient clans, is also considered a sacred animal, used as one of three sacrifices in rituals to communicate with the heavens. In Han culture, it is a symbol of peace and good fortune, kindness and love ancient times. They are known as auspiciousness, living in groups, knowing benevolence, righteousness, etiquette and are full of virtues. The goat is the eighth in Chinese zodiac, and its corresponding earthly branch is \"Wei\".",
+  "images": [
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/8_sheep/image001.jpg",
+      "caption": "The goat, an auspicious animal and a symbol of beauty, the totem of many ancient clans, is also considered a sacred animal, used as one of three sacrifices in rituals to communicate with the heavens. In Han culture, it is a symbol of peace and good fortune, kindness and love ancient times. They are known as auspiciousness, living in groups, knowing benevolence, righteousness, etiquette and are full of virtues. The goat is the eighth in Chinese zodiac, and its corresponding earthly branch is \"Wei\".",
+      "macau_likely": false,
+      "image_file": "img/image001.jpg"
+    },
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/8_sheep/image002.jpg",
+      "caption": "Guangzhou is known as \"Yangcheng\" and \"Suicheng\". Today, there is the Five Rams Statue in Yuexiu Park of Guangzhou, which is the most emblematic symbol of the city of Guangzhou. In 2009, China Post issued a set of two diamond-shaped stamps in honour of the \"16th Asian Games\" held in Guangzhou the next year. This is a maximum postcard with one stamp affixed to it. The five goats designed as mascots by Shang Ying have different colours and shapes, but they are all smiles and full of energy. The names of the five goats collectively mean \"peace, wishes, happiness and joy\", which expresses the aspirations of what the Guangzhou Asian Games will bring to the Asian people, while also conveys the concept of \"harmony and passion\" of the games.",
+      "macau_likely": false,
+      "image_file": "img/image002.jpg"
+    },
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/8_sheep/image003.jpg",
+      "caption": "This Goat souvenir sheet is the first issue of zodiac stamps by the Canada Post in 2003. This kind of curved production is not common. The stamp image in the souvenir sheet is an abstract alabaster goat, with a red background common to the Chinese new year, and \"Year of the Goat\" in Chinese characters printed in gold stamping. If the appearance on the stamp and souvenir sheet is the shape of a flag, it would be better to infer from the overall look of the souvenir sheet that this should be a graphic of a goat’s horn. If you look closely, in addition to the goat's head on the stamp, you can vaguely discern the twelve zodiacs embossed on the souvenir sheet.",
+      "macau_likely": false,
+      "image_file": "img/image003.jpg"
+    },
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/8_sheep/image005.jpg",
+      "caption": "In 2015, Samoa Post issued a miniature sheet for the Year of the Goat designed by the famous Chinese designer Zhang Xiangyang. The appearance of the miniature sheet and the goat shape on the stamps are derived from ancient ceramic goat, aiming to convey the unique beauty of goat. The designer used diamonds, a symbol of wealth in the West, to create the diamond shape that surrounds two rhombus-shaped stamps. The two goats painted with flowers represent different seasons, symbols for happiness, wealth and good luck, and the space between the stamps was skilfully used to inlay the words \"Auspicious Goat\" by Zhang Shiqi.",
+      "macau_likely": false,
+      "image_file": "img/image005.jpg"
+    },
+    {
+      "image_url": "https://www.cmm.gov.mo/special/zodiac/images/8_sheep/image004.jpg",
+      "caption": "In 2015, Samoa Post issued a miniature sheet for the Year of the Goat designed by the famous Chinese designer Zhang Xiangyang. The appearance of the miniature sheet and the goat shape on the stamps are derived from ancient ceramic goat, aiming to convey the unique beauty of goat. The designer used diamonds, a symbol of wealth in the West, to create the diamond shape that surrounds two rhombus-shaped stamps. The two goats painted with flowers represent different seasons, symbols for happiness, wealth and good luck, and the space between the stamps was skilfully used to inlay the words \"Auspicious Goat\" by Zhang Shiqi.",
+      "macau_likely": false,
+      "image_file": "img/image004.jpg"
+    }
+  ],
+  "n_images": 5,
+  "n_macau_likely": 0,
+  "source": {
+    "id": "mo-cmm",
+    "tier": "reference"
+  }
+}

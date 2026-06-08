@@ -1,0 +1,50 @@
+{
+  "code": "2025-cny",
+  "source": {
+    "id": "my-posmalaysia",
+    "tier": "official"
+  },
+  "region": {
+    "code": "MY",
+    "name": "Pos Malaysia"
+  },
+  "year": "2025",
+  "year_inferred": false,
+  "zodiac_animal": null,
+  "zodiac_branch": "",
+  "is_cny_festive": true,
+  "issue_date": "",
+  "issue_date_raw": "",
+  "list_url": "https://shop.pos.com.my/shop.html?cat=3838",
+  "n_products": 1,
+  "n_images": 4,
+  "products": [
+    {
+      "name": "CNY 2025 Setem Ku Set",
+      "product_id": "3112",
+      "url": "https://shop.pos.com.my/cny-2025-setem-ku-set.html",
+      "sku": "",
+      "description": "Introducing the Setem Ku CNY 2025, ushering in the Year of the Snake, a symbol of wisdom, strategy, and grace. This exclusive collection features 10 exquisitely designed stamps showcasing the snake's graceful movements. Included in this Setem Ku set: - Setem Ku sheetlet with ten stamps x 1 - Postcard x 1 - ⁠Envelope x 1 - Angpow packets x 3 Limited Edition: Order now and celebrate the Year of the Snake with a touch of elegance and a touch of good fortune.",
+      "contents": "",
+      "place_of_issue": "",
+      "images": [
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/c/n/cny25_stampset.jpg",
+          "image_file": "img/cny25_stampset.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/c/n/cny25_stampsheet_1.jpg",
+          "image_file": "img/cny25_stampsheet_1.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/c/n/cny25_postcard_2.jpg",
+          "image_file": "img/cny25_postcard_2.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/c/n/cny25_postcard_3.jpg",
+          "image_file": "img/cny25_postcard_3.jpg"
+        }
+      ]
+    }
+  ]
+}

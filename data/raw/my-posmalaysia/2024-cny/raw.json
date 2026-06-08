@@ -1,0 +1,50 @@
+{
+  "code": "2024-cny",
+  "source": {
+    "id": "my-posmalaysia",
+    "tier": "official"
+  },
+  "region": {
+    "code": "MY",
+    "name": "Pos Malaysia"
+  },
+  "year": "2024",
+  "year_inferred": false,
+  "zodiac_animal": null,
+  "zodiac_branch": "",
+  "is_cny_festive": true,
+  "issue_date": "",
+  "issue_date_raw": "",
+  "list_url": "https://shop.pos.com.my/shop.html?cat=3838",
+  "n_products": 1,
+  "n_images": 4,
+  "products": [
+    {
+      "name": "CNY 2024 Setem Ku Set",
+      "product_id": "2961",
+      "url": "https://shop.pos.com.my/cny-2024-setem-ku-set.html",
+      "sku": "",
+      "description": "Embrace the power and prosperity of the Year of the Dragon 2024 with our exclusive stamp set. Symbolizing luck and success, the dragon ushers in a year of boundless opportunities. Each set features a sheetlet of five stamps with gold stamping. Complete with a greeting card and an envelope affixed with stamps, this set is a timeless tribute to the auspicious year ahead.",
+      "contents": "This product includes: One stamp sheet (5 pieces of RM0.60 stamps) One greeting card One envelope with stamps",
+      "place_of_issue": "",
+      "images": [
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/c/n/cny_setem_ku_set_1.jpg",
+          "image_file": "img/cny_setem_ku_set_1.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/c/n/cny_stampsheet.jpg",
+          "image_file": "img/cny_stampsheet.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/c/n/cny_greetingcard.jpg",
+          "image_file": "img/cny_greetingcard.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/c/n/cny_envelope.jpg",
+          "image_file": "img/cny_envelope.jpg"
+        }
+      ]
+    }
+  ]
+}

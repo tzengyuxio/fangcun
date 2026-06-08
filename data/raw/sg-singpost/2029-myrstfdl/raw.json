@@ -1,0 +1,36 @@
+{
+  "code": "2029-myrstfdl",
+  "sku": "MYRSTFDL",
+  "name": "Zodiac MyStamp Folder (Rooster)+ Spring Decorative MyStamp Sheet (MYRSTFDL)",
+  "animal": "rooster",
+  "year": 2029,
+  "role": "mystamp_folder",
+  "type_id": "simple",
+  "url_key": "zodiac-mystamp-folder-rooster-spring-decorative-mystamp-sheet-myrstfdl",
+  "detail_url": "https://shop.singpost.com/zodiac-mystamp-folder-rooster-spring-decorative-mystamp-sheet-myrstfdl.html",
+  "page_name": "Zodiac MyStamp Folder (Rooster)+ Spring Decorative MyStamp Sheet (MYRSTFDL)",
+  "categories": [
+    "Stamps",
+    "MyStamp",
+    "Promotions",
+    "Folder",
+    "Zodiac Series"
+  ],
+  "price": 22.2,
+  "currency": "SGD",
+  "weight": 0.2,
+  "created_at": "2017-02-01 00:56:02",
+  "description": "This folder consists of a stamp sheet which includes the visuals of the 12 Chinese zodiacs with the Rooster as the main highlight of this collection. Each zodiac is paired with one auspicious Chinese character MyStamp which translate as either Happiness or Blessing. Brief description on each of the 12 zodiacs personality traits are also featured in this folder. In addition, there is a special edition MyStamp Sheet in a Spring Decorative design.",
+  "short_description": "By SingPost",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/r/o/rooster_zodiac_a4_folder_with_spring_mystamp_omigo.jpg",
+      "image_file": "img/rooster_zodiac_a4_folder_with_spring_mystamp_omigo.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

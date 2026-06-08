@@ -1,0 +1,38 @@
+{
+  "code": "2025-csa25pr",
+  "sku": "CSA25PR",
+  "name": "Zodiac Series - Snake Presentation Pack (CSA25PR)",
+  "animal": "snake",
+  "year": 2025,
+  "role": "presentation_pack",
+  "type_id": "simple",
+  "url_key": "zodiac-series-snake-presentation-pack-csa25pr",
+  "detail_url": "https://shop.singpost.com/zodiac-series-snake-presentation-pack-csa25pr.html",
+  "page_name": "Zodiac Series - Snake Presentation Pack (CSA25PR)",
+  "categories": [
+    "Stamps",
+    "Presentation Packs",
+    "Promotions",
+    "Staff Disc",
+    "Banners",
+    "Zodiac Series - Snake stamp issue",
+    "Zodiac Series"
+  ],
+  "price": 5.25,
+  "currency": "SGD",
+  "weight": 0.0234,
+  "created_at": "2025-01-02 03:46:43",
+  "description": "Zodiac Snake \nThere are a total of 12 animal signs in the Chinese calendar based on five cycles of 12 years each, with each cycle tempered by one of the five Chinese elements of Metal, Wood, Water, Fire and Earth. According to Chinese astrology and belief, the traits of these zodiac animals not only shape the personalities of people born under the respective sign but also their lives and the events of the year.\nThe year 2025 marks the reign of the Snake and the sixth animal in the Zodiac series on the Chinese calendar. This capable, curious and idealist Snake is depicted on this set of stamps (1st Local and $2).",
+  "short_description": "",
+  "images": [
+    {
+      "image_url": "https://shop.singpost.com/media/catalog/product/cache/4f0e2a9bf409a5056583a8212efd9bee/z/o/zodiac_series_-_snake_presentation_pack_csa25pr_.png",
+      "image_file": "img/zodiac_series_-_snake_presentation_pack_csa25pr_.png"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "sg-singpost",
+    "tier": "official"
+  }
+}

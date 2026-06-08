@@ -1,0 +1,92 @@
+{
+  "code": "2025-snake",
+  "source": {
+    "id": "my-posmalaysia",
+    "tier": "official"
+  },
+  "region": {
+    "code": "MY",
+    "name": "Pos Malaysia"
+  },
+  "year": "2025",
+  "year_inferred": true,
+  "zodiac_animal": "Snake",
+  "zodiac_branch": "巳",
+  "is_cny_festive": false,
+  "issue_date": "",
+  "issue_date_raw": "",
+  "list_url": "https://shop.pos.com.my/shop.html?cat=3838",
+  "n_products": 3,
+  "n_images": 9,
+  "products": [
+    {
+      "name": "Ular Envelope Set",
+      "product_id": "3115",
+      "url": "https://shop.pos.com.my/ular-envelope-set.html",
+      "sku": "",
+      "description": "This special stamp issue highlights the diverse wildlife of the country featuring two venomous snakes namely Red-headed Krait Snake (Bungarus flaviceps) - Miniature sheet, Siamese Peninsula Pit Vipers (Trimeresurus sabahi) - RM1.50 and two non-venomous snakes namely Paradise Tree Snake (Chrysopelea paradisi) - RM0.30, Mangrove Snake (Boiga melanota) - RM0.60.",
+      "contents": "",
+      "place_of_issue": "",
+      "images": [
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/u/l/ular_fdc.jpg",
+          "image_file": "img/ular_fdc.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Ular Folder Set",
+      "product_id": "3114",
+      "url": "https://shop.pos.com.my/ular-folder-set.html",
+      "sku": "",
+      "description": "This special stamp issue highlights the diverse wildlife of the country featuring two venomous snakes namely Red-headed Krait Snake (Bungarus flaviceps) - Miniature sheet, Siamese Peninsula Pit Vipers (Trimeresurus sabahi) - RM1.50 and two non-venomous snakes namely Paradise Tree Snake (Chrysopelea paradisi) - RM0.30, Mangrove Snake (Boiga melanota) - RM0.60.",
+      "contents": "",
+      "place_of_issue": "",
+      "images": [
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/u/l/ular_folderset.jpg",
+          "image_file": "img/ular_folderset.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/u/l/ular_fdcwithstamps.jpg",
+          "image_file": "img/ular_fdcwithstamps.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/u/l/ular_fdcwithms.jpg",
+          "image_file": "img/ular_fdcwithms.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/u/l/ular_folder_1.jpg",
+          "image_file": "img/ular_folder_1.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/u/l/ular_ss1_1.jpg",
+          "image_file": "img/ular_ss1_1.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/u/l/ular_ss2_1.jpg",
+          "image_file": "img/ular_ss2_1.jpg"
+        },
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/u/l/ular_ss3_1.jpg",
+          "image_file": "img/ular_ss3_1.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Ular Empty Folder",
+      "product_id": "3120",
+      "url": "https://shop.pos.com.my/ular-empty-folder.html",
+      "sku": "",
+      "description": "This special stamp issue highlights the diverse wildlife of the country featuring two venomous snakes namely Red-headed Krait Snake (Bungarus flaviceps) - Miniature sheet, Siamese Peninsula Pit Vipers (Trimeresurus sabahi) - RM1.50 and two non-venomous snakes namely Paradise Tree Snake (Chrysopelea paradisi) - RM0.30, Mangrove Snake (Boiga melanota) - RM0.60.",
+      "contents": "",
+      "place_of_issue": "",
+      "images": [
+        {
+          "image_url": "https://assets.pos.com.my/pos-shop/media/catalog/product/u/l/ular_folder.jpg",
+          "image_file": "img/ular_folder.jpg"
+        }
+      ]
+    }
+  ]
+}
