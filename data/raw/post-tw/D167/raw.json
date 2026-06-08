@@ -1,0 +1,54 @@
+{
+  "file_name": "D167",
+  "list_subcat": "生肖",
+  "list_name": "特167新年郵票(69年版)",
+  "list_issue_date": "民國69年12月01日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/34416701.JPG",
+  "list_thumb_alt": "特167新年郵票(69年版)",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D167&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "D167",
+    "郵票名稱": "特167新年郵票(69年版)",
+    "所屬類別-主別": "特種郵票",
+    "所屬類別-所有類別": "年俗,生肖",
+    "發行日期": "民國69年12月01日起",
+    "停售日期": "",
+    "廢止日期": "",
+    "票幅": "26x34",
+    "小全張張幅": "",
+    "承印者": "中央印製廠",
+    "繪圖者": "莊珠妹",
+    "設計者": "",
+    "攝影者": "",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "100(10x10)",
+    "刷色": "彩色",
+    "印法": "平凹版",
+    "用紙": "國產雪面上膠郵字水紋紙",
+    "背膠": "",
+    "齒度": "12 1/2"
+  },
+  "stamps": [
+    {
+      "title": "特167.1",
+      "desc": "特167.1 / 發行數量 : 14,000,000 / 人氣指數: 22639",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/34416701.JPG",
+      "image_file": "img/34416701.JPG"
+    },
+    {
+      "title": "特167.2",
+      "desc": "特167.2 / 發行數量 : 4,000,000 / 人氣指數: 22419",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/34416702.JPG",
+      "image_file": "img/34416702.JPG"
+    },
+    {
+      "title": "特167.3",
+      "desc": "特167.3 / 發行數量 : 600000張 / 人氣指數: 22509",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/34416703.JPG",
+      "image_file": "img/34416703.JPG"
+    }
+  ],
+  "description": "本局續以12生肖之雞圖為題材，印製新年郵票（69年版）1組及小全張1種。郵票面值分1元及6元2種；小全張（78x102）則就上述郵票各2枚組成。本局自民國57年至68年，以12生肖為題材已發行第1輪新年郵票12組，由於主題富有民俗色彩，深受國內外人士喜愛。第2輪新年郵票圖案共12幅，風格一致，其主圖均以圓型圖案變化，背景襯以篆體文字；象徵中國傳統團圓和諧之意。",
+  "n_stamps": 3
+}

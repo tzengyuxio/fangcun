@@ -1,0 +1,48 @@
+{
+  "file_name": "D147",
+  "list_subcat": "生肖",
+  "list_name": "特147新年郵票(67年版)",
+  "list_issue_date": "民國67年12月01日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/32814701.JPG",
+  "list_thumb_alt": "特147新年郵票(67年版)",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D147&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "D147",
+    "郵票名稱": "特147新年郵票(67年版)",
+    "所屬類別-主別": "特種郵票",
+    "所屬類別-所有類別": "年俗,生肖",
+    "發行日期": "民國67年12月01日起",
+    "停售日期": "",
+    "廢止日期": "",
+    "票幅": "26x34",
+    "小全張張幅": "",
+    "承印者": "中華彩色印刷公司",
+    "繪圖者": "",
+    "設計者": "",
+    "攝影者": "吳呈芳",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "100(10x10)",
+    "刷色": "彩色",
+    "印法": "平凹版",
+    "用紙": "國產雪面上膠郵字水紋紙",
+    "背膠": "",
+    "齒度": "12 1/2"
+  },
+  "stamps": [
+    {
+      "title": "特147.1",
+      "desc": "特147.1 / 發行數量 : 13,000,000 / 人氣指數: 22660",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/32814701.JPG",
+      "image_file": "img/32814701.JPG"
+    },
+    {
+      "title": "特147.2",
+      "desc": "特147.2 / 發行數量 : 4,000,000 / 人氣指數: 22235",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/32814702.JPG",
+      "image_file": "img/32814702.JPG"
+    }
+  ],
+  "description": "民國68年，歲次己未，年肖屬羊，以故宮博物院推薦之古畫清高宗繪「仿明宣宗開泰圖」為題材。印製新年郵票1組。易經謂10月為坤卦，純陰之象。11月為復卦，1陽生於下。12月為臨卦，2陽生於下，正月為泰卦，3陽在下。其應為冬去春來，陰消陽長，有吉亨之象，故俗以三陽開泰為歲首稱頌之語。",
+  "n_stamps": 2
+}

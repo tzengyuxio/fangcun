@@ -1,0 +1,54 @@
+{
+  "file_name": "D226",
+  "list_subcat": "生肖",
+  "list_name": "特226新年郵票(74年版)",
+  "list_issue_date": "民國74年12月01日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38922601.JPG",
+  "list_thumb_alt": "特226新年郵票(74年版)",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D226&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "D226",
+    "郵票名稱": "特226新年郵票(74年版)",
+    "所屬類別-主別": "特種郵票",
+    "所屬類別-所有類別": "年俗,生肖",
+    "發行日期": "民國74年12月01日起",
+    "停售日期": "民國75年06月01日",
+    "廢止日期": "",
+    "票幅": "26x34",
+    "小全張張幅": "",
+    "承印者": "中華彩色印刷公司",
+    "繪圖者": "莊珠妹",
+    "設計者": "",
+    "攝影者": "",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "100(10x10)",
+    "刷色": "彩色",
+    "印法": "平凹版",
+    "用紙": "國產雪面上膠郵字水紋紙",
+    "背膠": "",
+    "齒度": "12 1/2"
+  },
+  "stamps": [
+    {
+      "title": "特226.1",
+      "desc": "特226.1 / 發行數量 : 10,000,000 / 人氣指數: 19837",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38922601.JPG",
+      "image_file": "img/38922601.JPG"
+    },
+    {
+      "title": "特226.2",
+      "desc": "特226.2 / 發行數量 : 3,000,000 / 人氣指數: 19685",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38922602.JPG",
+      "image_file": "img/38922602.JPG"
+    },
+    {
+      "title": "特226.3",
+      "desc": "特226.3 / 發行數量 : 500,000張 / 人氣指數: 19809",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38922603.JPG",
+      "image_file": "img/38922603.JPG"
+    }
+  ],
+  "description": "為應公眾交寄耶誕及賀年郵件需要，依例印製新年郵票(74年版)1組及小全張1種。按75年歲次丙寅，年肖屬虎，以虎圖為題材印製郵票，其面值分1元及10元兩種；小全張(78x102)則就上述郵票各2枚組成。",
+  "n_stamps": 3
+}

@@ -1,0 +1,48 @@
+{
+  "file_name": "D107",
+  "list_subcat": "生肖",
+  "list_name": "特107新年郵票(63年版)",
+  "list_issue_date": "民國63年12月10日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/29410701.JPG",
+  "list_thumb_alt": "特107新年郵票(63年版)",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D107&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "D107",
+    "郵票名稱": "特107新年郵票(63年版)",
+    "所屬類別-主別": "特種郵票",
+    "所屬類別-所有類別": "年俗,生肖",
+    "發行日期": "民國63年12月10日起",
+    "停售日期": "",
+    "廢止日期": "",
+    "票幅": "26x34",
+    "小全張張幅": "",
+    "承印者": "中央印製廠",
+    "繪圖者": "王立典",
+    "設計者": "",
+    "攝影者": "",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "100(10x10)",
+    "刷色": "彩色",
+    "印法": "平凹版",
+    "用紙": "國產76磅郵字水紋紙",
+    "背膠": "",
+    "齒度": "12 1/2"
+  },
+  "stamps": [
+    {
+      "title": "特107.1",
+      "desc": "特107.1 / 發行數量 : 10,000,000 / 人氣指數: 22470",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/29410701.JPG",
+      "image_file": "img/29410701.JPG"
+    },
+    {
+      "title": "特107.2",
+      "desc": "特107.2 / 發行數量 : 2,000,000 / 人氣指數: 22384",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/29410702.JPG",
+      "image_file": "img/29410702.JPG"
+    }
+  ],
+  "description": "民國64年，歲次乙卯，年肖屬兔，以臺灣所產之野生兔子為圖案，印製新年郵票1組。",
+  "n_stamps": 2
+}

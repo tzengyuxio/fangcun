@@ -1,0 +1,54 @@
+{
+  "file_name": "D241",
+  "list_subcat": "生肖",
+  "list_name": "特241新年郵票(75年版)",
+  "list_issue_date": "民國75年12月01日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/40024101.JPG",
+  "list_thumb_alt": "特241新年郵票(75年版)",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D241&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "D241",
+    "郵票名稱": "特241新年郵票(75年版)",
+    "所屬類別-主別": "特種郵票",
+    "所屬類別-所有類別": "年俗,生肖",
+    "發行日期": "民國75年12月01日起",
+    "停售日期": "民國76年12月01日",
+    "廢止日期": "",
+    "票幅": "26x34",
+    "小全張張幅": "",
+    "承印者": "中華彩色印刷公司",
+    "繪圖者": "莊珠妹",
+    "設計者": "",
+    "攝影者": "",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "100(10x10)",
+    "刷色": "彩色",
+    "印法": "平凹版",
+    "用紙": "國產雪面上膠郵字水紋紙",
+    "背膠": "",
+    "齒度": "12 1/2"
+  },
+  "stamps": [
+    {
+      "title": "特241.1",
+      "desc": "特241.1 / 發行數量 : 10,000,000 / 人氣指數: 19735",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/40024101.JPG",
+      "image_file": "img/40024101.JPG"
+    },
+    {
+      "title": "特241.2",
+      "desc": "特241.2 / 發行數量 : 3,000,000 / 人氣指數: 19666",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/40024102.JPG",
+      "image_file": "img/40024102.JPG"
+    },
+    {
+      "title": "特241.3",
+      "desc": "特241.3 / 發行數量 : 500000張 / 人氣指數: 19508",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/40024103.JPG",
+      "image_file": "img/40024103.JPG"
+    }
+  ],
+  "description": "76年歲次丁卯，年肖屬兔，特以生肖系列中之兔圖為題，印製郵票，其面值分1元及10元2種；小全張（78x102）則就上述郵票各2枚組成。",
+  "n_stamps": 3
+}

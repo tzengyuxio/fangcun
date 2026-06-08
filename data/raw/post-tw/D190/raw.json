@@ -1,0 +1,54 @@
+{
+  "file_name": "D190",
+  "list_subcat": "生肖",
+  "list_name": "特190新年郵票(71年版)",
+  "list_issue_date": "民國71年12月01日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36219001.JPG",
+  "list_thumb_alt": "特190新年郵票(71年版)",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D190&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "D190",
+    "郵票名稱": "特190新年郵票(71年版)",
+    "所屬類別-主別": "特種郵票",
+    "所屬類別-所有類別": "年俗,生肖",
+    "發行日期": "民國71年12月01日起",
+    "停售日期": "",
+    "廢止日期": "",
+    "票幅": "26x34",
+    "小全張張幅": "",
+    "承印者": "中華彩色印刷公司",
+    "繪圖者": "莊珠妹",
+    "設計者": "",
+    "攝影者": "",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "100(10x10)",
+    "刷色": "彩色",
+    "印法": "平凹版",
+    "用紙": "國產雪面上膠郵字水紋紙",
+    "背膠": "",
+    "齒度": "12 1/2"
+  },
+  "stamps": [
+    {
+      "title": "特190.1",
+      "desc": "特190.1 / 發行數量 : 1,400,000 / 人氣指數: 18424",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36219001.JPG",
+      "image_file": "img/36219001.JPG"
+    },
+    {
+      "title": "特190.2",
+      "desc": "特190.2 / 發行數量 : 4,000,000 / 人氣指數: 18289",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36219002.JPG",
+      "image_file": "img/36219002.JPG"
+    },
+    {
+      "title": "特190.3",
+      "desc": "特190.3 / 發行數量 : 600000張 / 人氣指數: 18346",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36219003.JPG",
+      "image_file": "img/36219003.JPG"
+    }
+  ],
+  "description": "民國72年歲次癸亥，年肖屬豬，以抽象之豬形圖案印製郵票，面值分1元及10元兩種；小全張（78x102）則就上述郵票各2枚組成。",
+  "n_stamps": 3
+}

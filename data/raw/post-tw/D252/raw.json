@@ -1,0 +1,54 @@
+{
+  "file_name": "D252",
+  "list_subcat": "生肖",
+  "list_name": "特252新年郵票(76年版)",
+  "list_issue_date": "民國76年12月01日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/40825201.JPG",
+  "list_thumb_alt": "特252新年郵票(76年版)",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D252&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "D252",
+    "郵票名稱": "特252新年郵票(76年版)",
+    "所屬類別-主別": "特種郵票",
+    "所屬類別-所有類別": "年俗,生肖",
+    "發行日期": "民國76年12月01日起",
+    "停售日期": "民國77年12月01日",
+    "廢止日期": "",
+    "票幅": "26x34",
+    "小全張張幅": "",
+    "承印者": "中央印製廠",
+    "繪圖者": "莊珠妹",
+    "設計者": "",
+    "攝影者": "",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "100(10x10)",
+    "刷色": "彩色",
+    "印法": "平凹版",
+    "用紙": "國產雪面上膠郵字水紋紙",
+    "背膠": "",
+    "齒度": "12 1/2"
+  },
+  "stamps": [
+    {
+      "title": "特252.1",
+      "desc": "特252.1 / 發行數量 : 80,000,000 / 人氣指數: 19540",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/40825201.JPG",
+      "image_file": "img/40825201.JPG"
+    },
+    {
+      "title": "特252.2",
+      "desc": "特252.2 / 發行數量 : 3,000,000 / 人氣指數: 19412",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/40825202.JPG",
+      "image_file": "img/40825202.JPG"
+    },
+    {
+      "title": "特252.3",
+      "desc": "特252.3 / 發行數量 : 520000張 / 人氣指數: 19387",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/40825203.JPG",
+      "image_file": "img/40825203.JPG"
+    }
+  ],
+  "description": "民國77年歲次戊辰，年肖屬龍，以龍為題材印製郵票，其面值分為新台幣1元5角及12元2種；小全張（78×102）則就上述郵票各2枚組成。",
+  "n_stamps": 3
+}

@@ -1,0 +1,72 @@
+{
+  "file_name": "S455",
+  "list_subcat": "生肖",
+  "list_name": "特455 新年郵票（92年版）",
+  "list_issue_date": "民國92年12月01日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/S455_01.jpg",
+  "list_thumb_alt": "特455 新年郵票（92年版）",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=S455&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "S455",
+    "郵票名稱": "特455 新年郵票（92年版）",
+    "所屬類別-主別": "特種郵票",
+    "所屬類別-所有類別": "年俗,哺乳類,生肖",
+    "發行日期": "民國92年12月01日起",
+    "停售日期": "",
+    "廢止日期": "",
+    "票幅": "26 x 34（公釐）",
+    "小全張張幅": "78 x 102（公釐）",
+    "承印者": "中華彩色印刷公司",
+    "繪圖者": "王炳南",
+    "設計者": "",
+    "攝影者": "",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "20 ( 4 x 5 )",
+    "刷色": "彩色",
+    "印法": "平凹版",
+    "用紙": "燐光郵票紙",
+    "背膠": "",
+    "齒度": "12 1/2 x 12"
+  },
+  "stamps": [
+    {
+      "title": "特455.1",
+      "desc": "特455.1 / 發行數量 : 4,500,000 / 人氣指數: 23672",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/S455_01.jpg",
+      "image_file": "img/S455_01.jpg"
+    },
+    {
+      "title": "特455.2",
+      "desc": "特455.2 / 發行數量 : 1,600,000 / 人氣指數: 23568",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/S455_02.jpg",
+      "image_file": "img/S455_02.jpg"
+    },
+    {
+      "title": "特455.3",
+      "desc": "特455.3 / 發行數量 : 770,000 / 人氣指數: 23733",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/S455_03.jpg",
+      "image_file": "img/S455_03.jpg"
+    },
+    {
+      "title": "特455.4",
+      "desc": "特455.4 / 發行數量 : 220,000 / 人氣指數: 23583",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/S455_04.jpg",
+      "image_file": "img/S455_04.jpg"
+    },
+    {
+      "title": "特455.1s",
+      "desc": "特455.1s / 發行數量 : / 人氣指數: 23604",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/S455_05.jpg",
+      "image_file": "img/S455_05.jpg"
+    },
+    {
+      "title": "特455.2s",
+      "desc": "特455.2s / 發行數量 : / 人氣指數: 23578",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/S455_06.jpg",
+      "image_file": "img/S455_06.jpg"
+    }
+  ],
+  "description": "民國93年1月22日為農曆正月初一，歲次甲申，生肖屬猴，為迎接猴年的來臨，本局續以生肖圖案徵選活動中獲得首獎之王炳南先生作品猴年圖案印製新年郵票（92年版）1組2枚，小全張1張及郵票小冊1冊，郵票面值為新台幣3.5元及13元兩種；小全張係就本套郵票各2枚組成，每張新台幣33元；郵票小冊由新台幣3.5元郵票12枚組成，每冊新台幣42元。我國採用天干地支記年由來已久，按甲子、乙丑﹒﹒﹒至癸亥之次序組合，逐年排列，60年為1循環，稱1甲子。12地支又以12種動物代表，通稱12生肖，即子鼠、丑牛、寅虎、卯兔、辰龍、巳蛇、午馬、未羊、申猴、酉雞、戌狗及亥豬。新年郵票之圖案均以即將到來之新歲值年生肖動物為主題，俗稱生肖郵票。",
+  "n_stamps": 6
+}

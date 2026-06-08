@@ -1,0 +1,42 @@
+{
+  "file_name": "LD010",
+  "list_subcat": "生肖",
+  "list_name": "資常010 祥龍郵資票",
+  "list_issue_date": "民國101年06月18日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_spic/LD010_01.jpg",
+  "list_thumb_alt": "資常010 祥龍郵資票",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=LD010&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "LD010",
+    "郵票名稱": "資常010 祥龍郵資票",
+    "所屬類別-主別": "郵資票",
+    "所屬類別-所有類別": "喜慶,生肖",
+    "發行日期": "民國101年06月18日起",
+    "停售日期": "",
+    "廢止日期": "",
+    "票幅": "43 × 25.5 毫米，上、下邊各有2個半圓孔",
+    "小全張張幅": "",
+    "承印者": "法國卡特安全印刷廠",
+    "繪圖者": "",
+    "設計者": "精采創意行銷有限公司",
+    "攝影者": "",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "",
+    "刷色": "彩色",
+    "印法": "",
+    "用紙": "燐光郵票紙",
+    "背膠": "",
+    "齒度": ""
+  },
+  "stamps": [
+    {
+      "title": "資常010",
+      "desc": "資常010 / 發行數量 : 1,300,000 / 人氣指數: 23218",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/LD010_01.jpg",
+      "image_file": "img/LD010_01.jpg"
+    }
+  ],
+  "description": "龍在中國神話傳說中，象徵尊貴祥瑞。今年適值龍年，特以「龍」為主題發行「祥龍郵資票」。龍形主體採紅、綠、黃、藍等色調，畫面呈現龍躍千里昂首戲珠之姿；背景襯以飛騰祥雲及淡雅青瓷色調，呈現遼闊層次感及祥和泰瑞氣象。",
+  "n_stamps": 1
+}

@@ -1,0 +1,60 @@
+{
+  "file_name": "D314",
+  "list_subcat": "生肖",
+  "list_name": "特314新年郵票(81年版)",
+  "list_issue_date": "民國81年12月01日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531401.JPG",
+  "list_thumb_alt": "特314新年郵票(81年版)",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D314&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "D314",
+    "郵票名稱": "特314新年郵票(81年版)",
+    "所屬類別-主別": "特種郵票",
+    "所屬類別-所有類別": "年俗,生肖",
+    "發行日期": "民國81年12月01日起",
+    "停售日期": "",
+    "廢止日期": "",
+    "票幅": "26x34",
+    "小全張張幅": "",
+    "承印者": "中華彩色印刷公司",
+    "繪圖者": "曹俊彥",
+    "設計者": "",
+    "攝影者": "",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "30(6x5)",
+    "刷色": "彩色",
+    "印法": "平凹版",
+    "用紙": "國產雪面上膠郵字水紋紙",
+    "背膠": "",
+    "齒度": "12 1/2"
+  },
+  "stamps": [
+    {
+      "title": "特314.1",
+      "desc": "特314.1 / 發行數量 : 23,500,000 / 人氣指數: 22533",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531401.JPG",
+      "image_file": "img/45531401.JPG"
+    },
+    {
+      "title": "特314.2",
+      "desc": "特314.2 / 發行數量 : 13,500,000 / 人氣指數: 22518",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531402.JPG",
+      "image_file": "img/45531402.JPG"
+    },
+    {
+      "title": "特314.3",
+      "desc": "特314.3 / 發行數量 : 10000000張 / 人氣指數: 22682",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531403.JPG",
+      "image_file": "img/45531403.JPG"
+    },
+    {
+      "title": "特314.4",
+      "desc": "特314.4 / 發行數量 : 6000000冊 / 人氣指數: 22524",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531404.JPG",
+      "image_file": "img/45531404.JPG"
+    }
+  ],
+  "description": "民國82年歲次癸酉，年肖屬雞，特以第3輪新年郵票生肖圖案甄選中獲首獎的曹俊彥先生作品之雞圖案為題材印製郵票1組2枚；小全張（78x102）係就上述郵票各2枚組成；新年郵票小冊則由本套郵票各6枚組成，票幅為 26X38（公厘），左右2邊有齒，上下2邊無齒。",
+  "n_stamps": 4
+}

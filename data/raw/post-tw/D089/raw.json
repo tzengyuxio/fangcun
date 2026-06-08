@@ -1,0 +1,48 @@
+{
+  "file_name": "D089",
+  "list_subcat": "生肖",
+  "list_name": "特089新年郵票(61年版)",
+  "list_issue_date": "民國61年12月01日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/27308901.JPG",
+  "list_thumb_alt": "特089新年郵票(61年版)",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D089&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "D089",
+    "郵票名稱": "特089新年郵票(61年版)",
+    "所屬類別-主別": "特種郵票",
+    "所屬類別-所有類別": "年俗,生肖",
+    "發行日期": "民國61年12月01日起",
+    "停售日期": "",
+    "廢止日期": "",
+    "票幅": "26x34",
+    "小全張張幅": "",
+    "承印者": "中央印製廠",
+    "繪圖者": "顏奇石",
+    "設計者": "",
+    "攝影者": "",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "80(4x4x5)",
+    "刷色": "彩色",
+    "印法": "平凹版",
+    "用紙": "帶有紅藍纖維之76磅郵字水紋紙",
+    "背膠": "",
+    "齒度": "12 1/2"
+  },
+  "stamps": [
+    {
+      "title": "特89.1",
+      "desc": "特89.1 / 發行數量 : 7,200,000 / 人氣指數: 21391",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/27308901.JPG",
+      "image_file": "img/27308901.JPG"
+    },
+    {
+      "title": "特89.2",
+      "desc": "特89.2 / 發行數量 : 800,000 / 人氣指數: 21367",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/27308902.JPG",
+      "image_file": "img/27308902.JPG"
+    }
+  ],
+  "description": "採用我國民間藝術剪紙之格調，以「舐犢情深」為題材，印製新年郵票1組。按民國62年，歲次癸丑，年肖屬牛，除適應民俗外，並藉老牛之深愛其犢，以喻人之愛其子，表現天倫之樂，並發揚中華文化。 此項郵票版式全張80枚，分為4格，每格20枚，中間十字形邊紙印有鐵線篆「恭賀新禧」4字之朱印版銘。",
+  "n_stamps": 2
+}

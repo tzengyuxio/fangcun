@@ -1,0 +1,48 @@
+{
+  "file_name": "D074",
+  "list_subcat": "生肖",
+  "list_name": "特074新年郵票(59年版)",
+  "list_issue_date": "民國59年12月01日發行",
+  "list_thumb": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/25707401.JPG",
+  "list_thumb_alt": "特074新年郵票(59年版)",
+  "detail_url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D074&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802",
+  "detail_fields": {
+    "郵票編號": "D074",
+    "郵票名稱": "特074新年郵票(59年版)",
+    "所屬類別-主別": "特種郵票",
+    "所屬類別-所有類別": "年俗,生肖",
+    "發行日期": "民國59年12月01日起",
+    "停售日期": "",
+    "廢止日期": "",
+    "票幅": "26x34",
+    "小全張張幅": "",
+    "承印者": "中央印製廠",
+    "繪圖者": "顏奇石",
+    "設計者": "",
+    "攝影者": "",
+    "鑴版者": "",
+    "創意指導": "",
+    "全張枚數": "100(10x10)",
+    "刷色": "彩色",
+    "印法": "平凹版",
+    "用紙": "帶有紅藍纖維之76磅郵票字水紋紙",
+    "背膠": "",
+    "齒度": "12 1/2"
+  },
+  "stamps": [
+    {
+      "title": "特74.1",
+      "desc": "特74.1 / 發行數量 : 7,300,000 / 人氣指數: 21341",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/25707401.JPG",
+      "image_file": "img/25707401.JPG"
+    },
+    {
+      "title": "特74.2",
+      "desc": "特74.2 / 發行數量 : 700,000 / 人氣指數: 21202",
+      "image_url": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/25707402.JPG",
+      "image_file": "img/25707402.JPG"
+    }
+  ],
+  "description": "選用豬形玩具撲滿為圖案，印製新年郵票。民國60年，歲次辛亥，年肖屬豬，用以構圖，為適應民俗並寓有提倡儲蓄之意。",
+  "n_stamps": 2
+}
