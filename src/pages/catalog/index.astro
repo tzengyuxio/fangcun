@@ -6,6 +6,9 @@ import { ANIMALS, ANIMAL_BRANCH, THEME_KEY, byIssueDate } from '../../lib/catalo
 const base = import.meta.env.BASE_URL;
 const issues = (await getCollection('catalog')).sort(byIssueDate);
 
+// 生肖軸顯示用篆書字形:蛇/狗/豬 採《說文》本字 它/犬/豕(分類/地支仍用原字)。
+const SEAL_CHAR: Record<string, string> = { 蛇: '它', 狗: '犬', 豬: '豕' };
+
 const countByAnimal = new Map<string, number>(ANIMALS.map((a) => [a, 0]));
 let themeCount = 0;
 for (const i of issues) {
@@ -32,14 +35,14 @@ const regions = [...new Map(issues.map((i) => [i.data.region.code, i.data.region
       <div class="zodiac-grid">
         {ANIMALS.map((a) => (
           <a class="zcell" href={`${base}/catalog/zodiac/${a}/`}>
-            <span class="zglyph">{a}</span>
+            <span class="zseal" style={`--seal:url('${base}/img/seal/${SEAL_CHAR[a] ?? a}.svg')`} role="img" aria-label={a}></span>
             <span class="zbranch">{ANIMAL_BRANCH[a]}</span>
             <span class="zcount">{countByAnimal.get(a)} 套</span>
           </a>
         ))}
         {themeCount > 0 && (
           <a class="zcell zcell-theme" href={`${base}/catalog/zodiac/${THEME_KEY}/`}>
-            <span class="zglyph">全</span>
+            <span class="zseal" style={`--seal:url('${base}/img/seal/全.svg')`} role="img" aria-label="全"></span>
             <span class="zbranch">主題</span>
             <span class="zcount">{themeCount} 套</span>
           </a>
@@ -97,8 +100,16 @@ const regions = [...new Map(issues.map((i) => [i.data.region.code, i.data.region
     color: var(--color-ink);
   }
   .zcell:hover { text-decoration: none; border-color: var(--color-gold); background: #fff; }
-  .zglyph { font-family: var(--font-serif); font-size: 1.9rem; color: var(--color-red); line-height: 1; }
-  .zcell-theme .zglyph { color: var(--color-gold); }
+  /* 篆書(說文解字小篆)以 mask 上色,沿用朱紅;主題格用金色 */
+  .zseal {
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: var(--color-red);
+    -webkit-mask: var(--seal) center / contain no-repeat;
+    mask: var(--seal) center / contain no-repeat;
+  }
+  .zcell-theme .zseal { background-color: var(--color-gold); }
   .zbranch { font-family: var(--font-serif); font-size: 0.85rem; color: var(--color-ink-soft); }
   .zcount { font-size: 0.78rem; color: var(--color-ink-soft); margin-top: 0.2rem; }
 
