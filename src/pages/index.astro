@@ -1,83 +1,197 @@
 ---
 import Base from '../layouts/Base.astro';
+import Postmark from '../components/Postmark.astro';
+
+const base = import.meta.env.BASE_URL;
 
 const demo = [
-  { animal: '雞', name: '特055 新年郵票', sub: '1968 · 中華郵政', mark: ['中華郵政', '57.11.12'] },
-  { animal: '虎', name: '年賀切手', sub: '1950 · 日本郵便', mark: ['NIPPON', '1950'] },
-  { animal: '猴', name: 'T46 庚申年', sub: '1980 · 中國郵政', mark: ['中国邮政', '1980'] },
+  { animal: '雞', name: '特055 新年郵票', sub: '1968 · 中華郵政', pm: { top: '中華郵政', date: '57.11.12', bottom: 'TAIPEI' } },
+  { animal: '虎', name: '年賀切手', sub: '1950 · 日本郵便', pm: { top: 'NIPPON', date: '25.1.1', bottom: 'TOKYO' } },
+  { animal: '猴', name: 'T46 庚申年', sub: '1980 · 中國郵政', pm: { top: '中国邮政', date: '80.2.15', bottom: 'BEIJING' } },
+];
+
+const axes = [
+  { num: '壹', title: '按生肖', desc: '鼠牛虎兔龍蛇馬羊猴雞狗豬 — 依十二地支歸類，跨郵政對照同一生肖。', href: `${base}/catalog/` },
+  { num: '貳', title: '按發行地', desc: '台、中、港、澳、日、韓、美、越、蒙、法、泰、加… 各郵政的生肖票系譜。', href: `${base}/catalog/` },
+  { num: '參', title: '按年份', desc: '依實際發行日排成時間軸，從 1950 年世界首套到最新一輪。', href: `${base}/catalog/` },
 ];
 ---
 
 <Base title="方寸裡的生肖 — 生肖郵票科普／參考站">
-  <section class="hero container">
-    <p class="hero-kicker">生肖郵票 · 科普與參考</p>
-    <h1 class="hero-title">方寸裡的生肖</h1>
-    <p class="hero-lead">
-      涵蓋各郵政（台、中、港、澳、日、韓、美、越、蒙、法、泰、加…）發行的生肖郵票,
-      追求資料完整度與正確度——一份可被引用的權威參考。
-    </p>
-  </section>
+  <header class="masthead container">
+    <div class="rule-double"></div>
+    <div class="masthead-body">
+      <div class="masthead-text">
+        <p class="masthead-kicker">世界生肖郵票總覽 · A Reference of Zodiac Stamps</p>
+        <h1 class="masthead-title">方寸裡的生肖</h1>
+        <p class="masthead-meta">涵蓋 16 個郵政 · 逾 400 套發行 · 1950–2026 · 來源分級可考</p>
+      </div>
+      <div class="masthead-mark">
+        <Postmark top="方寸生肖" date="參考" bottom="REFERENCE" rotate={-8} />
+      </div>
+    </div>
+    <div class="rule-double"></div>
+  </header>
 
-  <section class="showcase container">
-    <div class="stamp-row">
+  <section class="album container" aria-label="精選郵票">
+    <div class="album-grid">
       {demo.map((s) => (
-        <figure class="stamp-figure">
-          <article class="stamp">
+        <figure class="plate">
+          <div class="stamp">
             <div class="stamp-img">{s.animal}</div>
-            <div class="postmark">{s.mark.map((line) => <span>{line}</span>)}</div>
-          </article>
-          <figcaption class="stamp-caption">
-            {s.name}
-            <span class="sub">{s.sub}</span>
+            <div class="stamp-mark"><Postmark top={s.pm.top} date={s.pm.date} bottom={s.pm.bottom} /></div>
+          </div>
+          <figcaption class="plate-label">
+            <span class="plate-name">{s.name}</span>
+            <span class="plate-sub">{s.sub}</span>
           </figcaption>
         </figure>
       ))}
     </div>
-    <p class="status">🚧 建置中 — 資料採集已涵蓋 16 個郵政、逾 400 套發行。</p>
   </section>
+
+  <nav class="axis container" aria-label="三軸索引">
+    {axes.map((a) => (
+      <a class="axis-col" href={a.href}>
+        <span class="axis-num">{a.num}</span>
+        <h2>{a.title}</h2>
+        <p>{a.desc}</p>
+      </a>
+    ))}
+  </nav>
+
+  <p class="status container">🚧 建置中 — 資料採集已涵蓋 16 個郵政、逾 400 套發行;郵票圖與詳情頁將於資料層完成後上線。</p>
 </Base>
 
 <style>
-  .hero {
-    text-align: center;
-    padding: 4rem 1.5rem 2rem;
+  /* Masthead — 目錄刊頭(取代置中 hero) */
+  .masthead {
+    padding: 2.75rem 1.5rem 0;
   }
-  .hero-kicker {
-    font-size: 0.85rem;
-    letter-spacing: 0.3em;
+  .rule-double {
+    border-top: 3px double var(--color-ink);
+  }
+  .masthead-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1.5rem 0;
+  }
+  .masthead-kicker {
+    font-size: 0.78rem;
+    letter-spacing: 0.22em;
     color: var(--color-gold);
-    margin-bottom: 1rem;
+    margin-bottom: 0.6rem;
   }
-  .hero-title {
-    font-size: clamp(3rem, 8vw, 5.5rem);
+  .masthead-title {
+    font-size: clamp(2.8rem, 7vw, 5rem);
     font-weight: 900;
-    color: var(--color-ink);
-    letter-spacing: 0.08em;
-    margin-bottom: 1.25rem;
+    letter-spacing: 0.12em;
+    line-height: 1.05;
   }
-  .hero-lead {
-    max-width: 660px;
-    margin: 0 auto;
-    font-size: 1.12rem;
+  .masthead-meta {
+    margin-top: 0.85rem;
     color: var(--color-ink-soft);
+    font-size: 0.95rem;
+  }
+  .masthead-mark {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+  }
+  @media (max-width: 640px) {
+    .masthead-mark { display: none; }
   }
 
-  .showcase {
-    padding: 1rem 1.5rem 3rem;
+  /* Album — 護郵冊展櫃(深底格線 + 嵌入郵票 + 說明牌) */
+  .album {
+    margin-top: 3rem;
   }
-  .stamp-row {
+  .album-grid {
+    background-color: var(--color-album);
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+    background-size: 22px 22px;
+    border: 1px solid #1d2820;
+    border-radius: 2px;
+    box-shadow: inset 0 0 44px rgba(0, 0, 0, 0.4);
+    padding: 2.75rem 2rem;
     display: flex;
     gap: 2.75rem;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 1.5rem 0 2.5rem;
   }
-  .stamp-figure {
-    width: 165px;
+  .plate {
+    width: 168px;
   }
+  .plate-label {
+    margin-top: 1rem;
+    text-align: center;
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    padding: 0.5rem 0.6rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  }
+  .plate-name {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 0.98rem;
+    color: var(--color-ink);
+  }
+  .plate-sub {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--color-ink-soft);
+    margin-top: 2px;
+  }
+
+  /* Axis — 目錄條目式三軸入口 */
+  .axis {
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--color-line);
+  }
+  .axis-col {
+    display: block;
+    padding: 1.75rem 1.4rem;
+    border-left: 1px solid var(--color-line);
+    color: var(--color-ink);
+  }
+  .axis-col:first-child {
+    border-left: none;
+  }
+  .axis-col:hover {
+    background: rgba(176, 141, 87, 0.08);
+    text-decoration: none;
+  }
+  .axis-num {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-gold);
+  }
+  .axis-col h2 {
+    font-size: 1.2rem;
+    margin: 0.3rem 0 0.5rem;
+  }
+  .axis-col p {
+    font-size: 0.9rem;
+    color: var(--color-ink-soft);
+  }
+  @media (max-width: 640px) {
+    .axis { grid-template-columns: 1fr; }
+    .axis-col { border-left: none; border-top: 1px solid var(--color-line); }
+    .axis-col:first-child { border-top: none; }
+  }
+
   .status {
     text-align: center;
     color: var(--color-ink-soft);
-    font-size: 0.95rem;
+    font-size: 0.92rem;
+    margin: 2.75rem auto;
+    max-width: 720px;
   }
 </style>
