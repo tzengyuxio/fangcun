@@ -36,3 +36,11 @@
    詳情頁/卡片改顯示真圖(目前為生肖字佔位)。
    - 注意:raw `img/` 目前被 `.gitignore` 排除;複製到 assets 後是否納入版控需一併決定(對齊圖片
      解析度規範與版權考量;呼應 spec 的 `/data/` 授權待決問題)。
+
+## 維護 / 技術債
+
+- ⬜ **升級 `.github/workflows/deploy.yml` 的 actions 版本** — `actions/checkout@v4`、
+  `actions/setup-node@v4`、`actions/upload-artifact@v4`、`actions/upload-pages-artifact@v3`、
+  `actions/deploy-pages@v4` 目前跑 Node 20;GitHub 公告 **2026-06-16 起強制 Node 24**,屆時舊版
+  action 可能 break。升級到各 action 支援 Node 24 的版本(多為 v5/最新)即可。
+
