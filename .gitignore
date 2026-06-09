@@ -26,3 +26,6 @@ data/raw/**/img/
 data/raw/**/*.html
 data/raw/**/detail.json
 data/raw/**/products/
+
+# Claude Code: share settings.json, never commit personal local settings
+.claude/settings.local.json
