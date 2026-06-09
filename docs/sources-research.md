@@ -37,7 +37,11 @@
 | 🇲🇴 澳門 | ⚠️ 已爬 12(品質待篩) | 187 圖(各國比較頁,僅 31 疑似澳門) | cmm.gov.mo 生肖專題 | reference | 易但混多國 | 231 MB |
 | 🇸🇬 新加坡 | ✅ 已爬 53 | 53 件(2020–2031) | shop.singpost GraphQL | official | 易(GraphQL) | 24 MB |
 | 🇲🇾 馬來西亞 | ✅ 已爬 4 | 4 套(2024–26,僅現貨) | shop.pos.com.my Magento | official | 易但僅現貨 | 6 MB |
-| 已研究待爬 | ⬜ | 見 Backlog 節 | 聖誕島/紐/菲/泰/不丹/加/朝 + Guernsey/UN/Jersey | 混 | 多數易 | — |
+| 🇹🇭 泰國 | ✅ 已爬 22 | 22(2003–14,2017–26) | siamstamp + thailex | reference | 易(靜態) | 5 MB |
+| 🇨🇦 加拿大 | ✅ 已爬 58 | 58 枚(1997–2021 兩輪) | postagestampguide | reference | 易(直連) | 19 MB |
+| 🎄 聖誕島 | ✅ 已爬 13 | 13(2014–2026) | auspost collectables | official | 易(AEM offset) | 22 MB |
+| 🇳🇿 紐西蘭 | ✅ 已爬 34 | 34(1997–2026,過濾變體) | nzpost BigCommerce sitemap | official | 易(sitemap) | 14 MB |
+| 已研究待爬 | ⬜ | 見 Backlog 節 | 菲律賓/不丹/朝鮮 + Guernsey/UN/Jersey/列支/澳洲 | 混 | 菲易·餘難 | — |
 
 ---
 
