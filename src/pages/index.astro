@@ -1,36 +1,83 @@
 ---
 import Base from '../layouts/Base.astro';
+
+const demo = [
+  { animal: '雞', name: '特055 新年郵票', sub: '1968 · 中華郵政', mark: ['中華郵政', '57.11.12'] },
+  { animal: '虎', name: '年賀切手', sub: '1950 · 日本郵便', mark: ['NIPPON', '1950'] },
+  { animal: '猴', name: 'T46 庚申年', sub: '1980 · 中國郵政', mark: ['中国邮政', '1980'] },
+];
 ---
 
 <Base title="方寸裡的生肖 — 生肖郵票科普／參考站">
   <section class="hero container">
-    <h1>方寸裡的生肖</h1>
-    <p class="tagline">
+    <p class="hero-kicker">生肖郵票 · 科普與參考</p>
+    <h1 class="hero-title">方寸裡的生肖</h1>
+    <p class="hero-lead">
       涵蓋各郵政（台、中、港、澳、日、韓、美、越、蒙、法、泰、加…）發行的生肖郵票,
-      追求資料完整度與正確度的科普／參考站。
+      追求資料完整度與正確度——一份可被引用的權威參考。
     </p>
+  </section>
+
+  <section class="showcase container">
+    <div class="stamp-row">
+      {demo.map((s) => (
+        <figure class="stamp-figure">
+          <article class="stamp">
+            <div class="stamp-img">{s.animal}</div>
+            <div class="postmark">{s.mark.map((line) => <span>{line}</span>)}</div>
+          </article>
+          <figcaption class="stamp-caption">
+            {s.name}
+            <span class="sub">{s.sub}</span>
+          </figcaption>
+        </figure>
+      ))}
+    </div>
     <p class="status">🚧 建置中 — 資料採集已涵蓋 16 個郵政、逾 400 套發行。</p>
   </section>
 </Base>
 
 <style>
   .hero {
-    padding: 4rem 1.5rem;
     text-align: center;
+    padding: 4rem 1.5rem 2rem;
   }
-  .hero h1 {
-    font-family: var(--font-display);
-    font-size: clamp(2.5rem, 6vw, 4rem);
-    color: var(--color-highlight);
+  .hero-kicker {
+    font-size: 0.85rem;
+    letter-spacing: 0.3em;
+    color: var(--color-gold);
     margin-bottom: 1rem;
   }
-  .tagline {
-    max-width: 620px;
-    margin: 0 auto 1.5rem;
-    color: var(--color-text);
+  .hero-title {
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    font-weight: 900;
+    color: var(--color-ink);
+    letter-spacing: 0.08em;
+    margin-bottom: 1.25rem;
+  }
+  .hero-lead {
+    max-width: 660px;
+    margin: 0 auto;
+    font-size: 1.12rem;
+    color: var(--color-ink-soft);
+  }
+
+  .showcase {
+    padding: 1rem 1.5rem 3rem;
+  }
+  .stamp-row {
+    display: flex;
+    gap: 2.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1.5rem 0 2.5rem;
+  }
+  .stamp-figure {
+    width: 165px;
   }
   .status {
-    color: var(--color-muted);
-    font-size: 0.9rem;
+    text-align: center;
+    color: var(--color-ink-soft);
+    font-size: 0.95rem;
   }
 </style>

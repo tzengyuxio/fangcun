@@ -19,10 +19,17 @@ const pageTitle = title.includes('方寸裡的生肖') ? title : `${title} | 方
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>{pageTitle}</title>
   </head>
   <body>
-    <nav>
+    <nav class="site-nav">
       <div class="nav-inner">
         <a class="nav-logo" href={`${base}/`}>方寸裡的生肖</a>
         <ul class="nav-links">
@@ -35,8 +42,9 @@ const pageTitle = title.includes('方寸裡的生肖') ? title : `${title} | 方
     <main>
       <slot />
     </main>
-    <footer>
+    <footer class="site-footer">
       <div class="container">
+        <span class="seal">肖</span>
         <p>方寸裡的生肖 · 生肖郵票科普／參考站 · <a href="https://github.com/tzengyuxio/fangcun">GitHub</a></p>
       </div>
     </footer>
