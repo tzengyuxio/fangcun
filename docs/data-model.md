@@ -3,7 +3,7 @@
 本站的單一資料來源。核心實體為「一套發行」（**Issue**），底下掛多個「品項」
 （**Item**，含郵票、小全張等）。來源（**Source**）獨立維護並分級。
 
-> 規格層級見 spec D4 / D6。種子資料見 `../data/catalog/`、`../data/sources/`。
+> 規格層級見 spec D4 / D6。資料見 `../src/content/catalog/`、`../src/content/sources/`。
 
 ## Issue — 一套發行
 
@@ -101,7 +101,7 @@
 
 ## Zod / Content Collections 對應指引（scaffold 時實作）
 
-在 `src/content/config.ts` 把上述 schema 寫成 Zod，讓 build-time 驗證把關：
+已在 `src/content.config.ts` 把上述 schema 寫成 Zod，build-time 驗證把關（Phase 1 已實作）：
 
 - `region.code`、`zodiac.animal`、`zodiac.branch`、`item.type`、`source.tier` 一律用
   `z.enum([...])`，避免拼錯。

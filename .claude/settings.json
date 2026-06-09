@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(defuddle *)",
+      "Bash(fc-list *)",
+      "mcp__9352c214-8458-488f-9855-5fae3bc97d5c__read_resource",
+      "mcp__9352c214-8458-488f-9855-5fae3bc97d5c__chat_message_search"
+    ]
+  }
+}

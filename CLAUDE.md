@@ -16,13 +16,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 目前狀態
 
-**尚未 scaffold。** 這是一份「文件交接包」：規格、建置計畫、資料 schema 與種子資料
-都已備妥，但 Astro 專案本體尚未建立。接手時請從 `docs/build-plan.md` 的 Phase 0 開始。
+**已 scaffold，Phase 0–1 完成。** Astro 站骨架、版面與受 Zod 驗證的 Content Collections
+都已就緒（`npm run dev` 可預覽）。視覺設計方向見 **ADR-002**（經典郵政圖鑑;含目標客群、
+配色、郵票卡／齒孔／郵戳元件)。接手請續 `docs/build-plan.md` 的 Phase 2 起。
 
-種子資料現有兩筆 Issue：`tw-1968-rooster-r1`（已查證，official 來源）與
-`jp-1950-tiger-r1`（暫未查證，僅 secondary 來源，`verified: false`），外加
-`data/sources/sources.json` 的五筆來源。這兩筆分別示範了 D5 與 D6 的處理方式，
-是 Phase 1 驗證 Zod 把關的起點。
+- **正式資料**（受 Zod 驗證，公信力骨幹）：`src/content/catalog/*.json`（Issue）＋
+  `src/content/sources/sources.json`（分級來源）。目前兩筆種子 `tw-1968-rooster-r1`
+  （已查證）與 `jp-1950-tiger-r1`（未查證，`verified: false`），分別示範 D5 與 D6。
+- **採集素材**（未查證、各國 schema 不一，待人工轉成正式 catalog）：`data/raw/{region}/`，
+  已涵蓋 16 個郵政、逾 400 套。爬蟲腳本見 `scripts/`，來源地圖見 `docs/sources-research.md`。
 
 ## 技術棧
 
@@ -49,14 +51,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 5. **`/about-site/` 是參考站與部落格的分水嶺**：編輯方針、來源分級說明、勘誤回報，
    務必保留。
 
-## 規劃中的目錄結構（Astro scaffold 後）
+## 目錄結構
 
 ```
 src/
+├── content.config.ts       # Content Collections + Zod schema 定義
 ├── content/
-│   ├── catalog/*.json      # 郵票資料（受 Zod 驗證）— 種子資料見 data/catalog/
-│   ├── features/*.md       # 主題專題長文（frontmatter 受 Zod 驗證）
-│   └── config.ts           # Content Collections + Zod schema 定義
+│   ├── catalog/*.json      # 郵票資料（受 Zod 驗證的 Issue,正式資料）
+│   ├── sources/sources.json # 分級來源（受 Zod 驗證）
+│   └── features/*.md       # 主題專題長文（frontmatter 受 Zod,待 Phase 5）
 ├── pages/
 │   ├── index.astro         # 首頁
 │   ├── about/              # 導論
@@ -72,8 +75,8 @@ src/
 └── styles/
 ```
 
-資料的權威來源是 `data/`（本交接包）；scaffold 時把 `data/catalog/*.json` 移入
-`src/content/catalog/`，`data/sources/sources.json` 接到 sources collection。
+正式資料權威來源是 `src/content/`（受 Zod 驗證）。`data/raw/` 為採集素材（未查證），
+逐套人工查證後再轉入 `src/content/catalog/`——切勿未經查證直接灌入（違反 D6）。
 
 ## 常用指令（scaffold 後）
 

@@ -41,9 +41,9 @@
 
 **目標**：把 `data/` 種子資料接成受 Zod 驗證的 Content Collections。
 
-- [ ] 寫 `src/content/config.ts`：定義 `catalog`、`sources` 兩個 data collection 與
+- [x] 寫 `src/content.config.ts`：定義 `catalog`、`sources` 兩個 data collection 與
       `features` content collection 的 Zod schema（對齊 `data-model.md` 的欄位表）。
-- [ ] 把 `data/catalog/*.json` 移入 `src/content/catalog/`、`data/sources/sources.json`
+- [x] 把 `data/catalog/*.json` 移入 `src/content/catalog/`、`data/sources/sources.json`
       接到 `sources` collection。
 - [ ] 加 build-time 自訂檢查：每筆 Issue 的 `sources[].ref` 必須指向存在的 Source，
       否則 `throw`（Zod 跨集合驗證的補強，見 data-model.md）。

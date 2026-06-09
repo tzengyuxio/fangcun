@@ -1,7 +1,7 @@
 # 來源清單與分級
 
 本站公信力的骨幹。每筆 Issue 透過 `sources[].ref` 連到這裡分級過的來源（見 spec D6）。
-結構化資料見 `../data/sources/sources.json`。
+結構化資料見 `../src/content/sources/sources.json`。
 
 ## 分級原則（tier）
 
