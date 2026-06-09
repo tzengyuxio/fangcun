@@ -47,5 +47,26 @@
     "url": "https://www.spb.gov.cn/",
     "tier": "official",
     "accessed_date": "2026-06-10"
+  },
+  {
+    "id": "jp-japanpost-archive",
+    "title": "日本郵便 切手アーカイブ",
+    "url": "https://www.post.japanpost.jp/enjoy/culture/stamp/archive/",
+    "tier": "official",
+    "accessed_date": "2026-06-10"
+  },
+  {
+    "id": "jp-dorama",
+    "title": "年賀切手データベース（dorama.tank.jp）",
+    "url": "http://dorama.tank.jp/d/nengakittehtml.html",
+    "tier": "reference",
+    "accessed_date": "2026-06-10"
+  },
+  {
+    "id": "hk-hongkongpost",
+    "title": "香港郵政 集郵网上服務",
+    "url": "https://stamps.hongkongpost.hk/",
+    "tier": "official",
+    "accessed_date": "2026-06-10"
   }
 ]

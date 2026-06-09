@@ -1,0 +1,47 @@
+{
+  "id": "jp-1965-horse-r2",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "馬",
+    "branch": "午"
+  },
+  "zodiac_year": 1966,
+  "issue_date": "1965-12-10",
+  "round": 2,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "しのび駒",
+      "image": "",
+      "denomination": {
+        "value": 5,
+        "currency": "円"
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自年賀切手データベース(dorama),待人工複核】 1966年用年賀切手",
+  "images": [
+    "/img/stamps/jp/1966/1966.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "jp-dorama",
+      "tier": "reference"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

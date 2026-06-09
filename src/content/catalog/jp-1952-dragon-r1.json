@@ -1,0 +1,47 @@
+{
+  "id": "jp-1952-dragon-r1",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "龍",
+    "branch": "辰"
+  },
+  "zodiac_year": 1952,
+  "issue_date": "1952-01-16",
+  "round": 1,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "おきなの面",
+      "image": "",
+      "denomination": {
+        "value": 5,
+        "currency": "円"
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自年賀切手データベース(dorama),待人工複核】 1952年用年賀切手",
+  "images": [
+    "/img/stamps/jp/1952/1952.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "jp-dorama",
+      "tier": "reference"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

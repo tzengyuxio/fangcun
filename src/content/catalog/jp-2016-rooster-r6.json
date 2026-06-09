@@ -1,0 +1,44 @@
+{
+  "id": "jp-2016-rooster-r6",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "雞",
+    "branch": "酉"
+  },
+  "zodiac_year": 2017,
+  "issue_date": "2016-11-01",
+  "round": 6,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 「平成29年用年賀郵便切手」",
+  "images": [
+    "/img/stamps/jp/2016/pic_1101.gif"
+  ],
+  "sources": [
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/2016/h281101_t.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "jp-2024-snake-r7",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "蛇",
+    "branch": "巳"
+  },
+  "zodiac_year": 2025,
+  "issue_date": "2024-11-01",
+  "round": 7,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 令和7年用年賀郵便切手",
+  "images": [
+    "/img/stamps/jp/2024/stamp.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/enjoy/culture/stamp/archive/2024/1101_01/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

@@ -57,6 +57,15 @@
    - 可評估方向:半透明站名/印記角標、平鋪極淡水印、隅角朱印風標記(呼應視覺主題)、
      EXIF/IPTC 版權欄位、必要時不公開最高解析度原圖(對齊 backlog 3. 解析度規範與圖片版控決定)。
 
+7. ⬜ **時間軸年份 → 該生肖年的跨地照片目錄頁** — 時間軸點下年份(生肖年:如 1998 年底發行的票算
+   1999 年),進到一個列出「該生肖年各地發行」的照片目錄(版面類似單一生肖頁的卡片牆)。
+   - 作法:新增 `/catalog/year/[zodiacYear].astro`,`getStaticPaths` 以 `zodiac_year` 分組;時間軸的
+     年份標頭改連到此頁。與既有 zodiac/region 軸共用 `StampCard`。
+
+8. ⬜ **整理中華郵政／中國郵政的敘述文字** — 兩者的 `notes` 多為自動轉換(中華郵政「郵票寶藏」
+   原文、5151sc/spb 賞析全文),冗長且風格不一。需人工梳理成簡潔、一致、可讀的敘述(必要時拆出
+   `significance` 一句重點),並順手把 `verified` 複核為 true。
+
 ## 維護 / 技術債
 
 - ⬜ **升級 `.github/workflows/deploy.yml` 的 actions 版本** — `actions/checkout@v4`、

@@ -209,6 +209,14 @@ Dynamic Media)、紐西蘭(+ Niue/Tokelau 代發)、新加坡 SingPost、泰國(
   的**「各國生肖票比較教育頁」,非澳門自家目錄**——187 張混中/越/韓/法/HK/澳/加/星等多國票,僅 31 張
   標 `macau_likely`(recall 不準)。raw 全抓並標 `caption`/`macau_likely` 待建檔人工精篩。
   **建議**:澳門自家票日後改用官方 `philately.ctt.gov.mo` 或第三方目錄重做。`scripts/scrape_mo_macaopost.py`。
+  **2026-06-10 建檔狀態:未建**——此 raw 無發行日/年份/套結構,無法轉成 Issue;待重抓 CTT 官方目錄。
+
+## 建檔進度(raw → src/content/catalog)
+
+- ✅ **TW** 59、**CN** 47(2007–2026 已升級官方 spb)、**JP** 75(1950–2025;dorama+官方 archive)、
+  **HK** 1(僅 2026 馬;官方站 stamps.hongkongpost.hk 有完整歷史,待加抓多年)。
+- ⛔ **MO** 未建(見上,需 CTT 官方來源)。
+- 轉檔腳本:`convert_post_tw.py` / `convert_cn.py`+`upgrade_cn_spb.py` / `convert_jp.py` / `convert_hk.py`。
 
 ## Backlog(待研究 / 待爬)
 
