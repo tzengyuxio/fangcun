@@ -2,7 +2,7 @@
   "id": "cn-2024-dragon-r4",
   "region": {
     "code": "CN",
-    "name": "中國郵政"
+    "name": "中国邮政"
   },
   "zodiac": {
     "animal": "龍",
@@ -28,11 +28,17 @@
     }
   ],
   "significance": "",
-  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】 （發行月日以中國生肖票近年 1/5 慣例推定,待官方複核）",
+  "notes": "【官方來源:國家郵政局《新郵賞析》;另有 5151sc 商業目錄參照】",
   "images": [
-    "/img/stamps/cn/2024-1/112706380172.jpg"
+    "/img/stamps/cn/2024-1/spb_1.jpg",
+    "/img/stamps/cn/2024-1/spb_2.jpg"
   ],
   "sources": [
+    {
+      "ref": "spb-gjyzj",
+      "tier": "official",
+      "url": "http://www.spb.gov.cn/gjyzj/c100040/202401/38cf04fbfd394dc1a6254ccdee80a634.shtml"
+    },
     {
       "ref": "cn-5151sc",
       "tier": "secondary",

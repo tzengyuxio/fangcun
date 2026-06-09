@@ -23,6 +23,13 @@ export function year(isoDate: string): string {
   return isoDate.slice(0, 4);
 }
 
+// 由西元年推干支(如 2005 -> 乙酉)。天干 (年-4)%10、地支 (年-4)%12。
+const TIANGAN = '甲乙丙丁戊己庚辛壬癸';
+const DIZHI = '子丑寅卯辰巳午未申酉戌亥';
+export function ganzhi(yr: number): string {
+  return TIANGAN[(yr - 4) % 10] + DIZHI[(yr - 4) % 12];
+}
+
 // issue_date 用於排序/時間軸(D5):升冪比較。
 export function byIssueDate(a: { data: { issue_date: string } }, b: { data: { issue_date: string } }): number {
   return a.data.issue_date < b.data.issue_date ? -1 : a.data.issue_date > b.data.issue_date ? 1 : 0;

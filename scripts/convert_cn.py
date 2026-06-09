@@ -145,7 +145,7 @@ def main() -> None:
 
         rec = {
             'id': slug,
-            'region': {'code': 'CN', 'name': '中國郵政'},
+            'region': {'code': 'CN', 'name': '中国邮政'},  # 官方簡體正名
             'zodiac': {'animal': animal, 'branch': branch},
             'zodiac_year': zyear,
             'issue_date': f'{west:04d}-{mm:02d}-{dd:02d}',

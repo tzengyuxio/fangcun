@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Postmark from '../../../components/Postmark.astro';
-import { year, primaryImage, imgSrc, fallbackSrc, THEME_KEY, THEME_LABEL } from '../../../lib/catalog';
+import { year, ganzhi, primaryImage, imgSrc, fallbackSrc, THEME_KEY, THEME_LABEL } from '../../../lib/catalog';
 
 export async function getStaticPaths() {
   const issues = await getCollection('catalog');
@@ -86,7 +86,7 @@ const specs = [
           </div>
           <div class="d5-cell">
             <span class="d5-label">生肖年</span>
-            <span class="d5-val">{d.zodiac_year != null ? `${d.zodiac_year}（${d.zodiac?.animal}年）` : '—'}</span>
+            <span class="d5-val">{d.zodiac_year != null ? `${d.zodiac_year}（${ganzhi(d.zodiac_year)}）` : '—'}</span>
           </div>
         </div>
         {offsetYear && (

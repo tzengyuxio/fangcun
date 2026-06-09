@@ -2,7 +2,7 @@
   "id": "cn-2015-goat-r3",
   "region": {
     "code": "CN",
-    "name": "中國郵政"
+    "name": "中国邮政"
   },
   "zodiac": {
     "animal": "羊",
@@ -32,11 +32,16 @@
     }
   ],
   "significance": "",
-  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】 （發行月日以中國生肖票近年 1/5 慣例推定,待官方複核）",
+  "notes": "【官方·國家郵政局《新郵賞析》】 国家邮政局审定，中国邮政定于2015年1月5日发行《乙未年》特种邮票1套1枚，小本票1本。详情如下：志号：2015-1。\"/> 2015-1 乙未年 中央政府门户网站 无障碍 简体 | 繁體 登录 | 注册 搜索 热词： 主题教育 快递业务量 邮政编码 快递包装 投诉 首 页 机构概况 政务公开 新闻动态 政务服务 互动交流 gjyzj function checkForm(){ var temp = searchForm.temp.value; if(temp==null || temp==\"\"){ alert(\"请输入搜索条件\"); }else if(temp.length>50){ alert(\"搜索标题过长不得超过50个字\"); }else{ var url=\"/search5_gy/html/searchResult.html?column=\"+encodeURIComponent(\"全部\")+\"&searchWord=\"+encodeURIComponent(temp)+\"&columnId=0&siteCode=bm71000001\"; window.open(url); } } $(function(){ $('.reci li a').each(function(){ $(this).attr('href','/search5_gy/html/searchResult.html?column='+encodeURIComponent(\"全部\")+'&searchWord='+encodeURIComponent($(this).text())+'&columnId=0&siteCode=bm71000001'); }) }) 2015-1 乙未年 2015-1 乙未年 日期：2015-01-04 来源： 打印 【字号： 大 中 小】 .TRS_Editor P{margin-top:10px;margin-bottom:10px;line-height:24px;font-family:宋体;font-size:10.5pt;}.TRS_Editor DIV{margin-top:10px;margin-bottom:10px;line-height:24px;font-family:宋体;font-size:10.5pt;}.TRS_Editor TD{margin-top:10px;margin-bottom:10px;line-height:24px;font-family:宋体;font-size:10.5pt;}.TRS_Editor TH{margin-top:10px;margin-bottom:10px;line-height:24px;font-family:宋体;font-size:10.5pt;}.TRS_Editor SPAN{margin-top:10px;margin-bottom:10px;line-height:24px;font-family:宋体;font-size:10.5pt;}.TRS_Editor FONT{margin-top:10px;margin-bottom:10px;line-height:24px;font-family:宋体;font-size:10.5pt;}.TRS_Editor UL{margin-top:10px;margin-bottom:10px;line-height:24px;font-family:宋体;font-size:10.5pt;}.TRS_Ed",
   "images": [
-    "/img/stamps/cn/2015-1T/110602344980.jpg"
+    "/img/stamps/cn/2015-1T/spb_1.jpg"
   ],
   "sources": [
+    {
+      "ref": "spb-gjyzj",
+      "tier": "official",
+      "url": "http://www.spb.gov.cn/gjyzj/c100040/201501/1622662f899d4fc0a249e775aae22f1a.shtml"
+    },
     {
       "ref": "cn-5151sc",
       "tier": "secondary",

@@ -40,5 +40,12 @@
     "url": "http://www.5151sc.com/",
     "tier": "secondary",
     "accessed_date": "2026-06-10"
+  },
+  {
+    "id": "spb-gjyzj",
+    "title": "國家郵政局《新郵賞析》",
+    "url": "https://www.spb.gov.cn/",
+    "tier": "official",
+    "accessed_date": "2026-06-10"
   }
 ]
