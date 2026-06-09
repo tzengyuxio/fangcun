@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特178.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/35417801.JPG"
+      "image": "/img/stamps/tw/35417801.JPG"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特178.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/35417802.JPG"
+      "image": "/img/stamps/tw/35417802.JPG"
     },
     {
       "type": "stamp",
@@ -49,18 +49,19 @@
       },
       "mintage": null,
       "description": "特178.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/35417803.JPG"
+      "image": "/img/stamps/tw/35417803.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國71年，歲次壬戍，年肖屬犬，以象徵中國傳統團圓和諧之圓型抽象犬圖為題材，繪製郵票圖案，而值分1元及10元2種；小全張（78 X 102）則就上述郵票各2枚組成。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/35417801.JPG"
+    "/img/stamps/tw/35417801.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D178&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

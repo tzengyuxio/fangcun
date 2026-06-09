@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特107.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/29410701.JPG"
+      "image": "/img/stamps/tw/29410701.JPG"
     },
     {
       "type": "stamp",
@@ -39,18 +39,19 @@
       },
       "mintage": null,
       "description": "特107.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/29410702.JPG"
+      "image": "/img/stamps/tw/29410702.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國64年，歲次乙卯，年肖屬兔，以臺灣所產之野生兔子為圖案，印製新年郵票1組。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/29410701.JPG"
+    "/img/stamps/tw/29410701.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D107&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

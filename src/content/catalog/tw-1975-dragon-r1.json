@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特119.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/30211901.JPG"
+      "image": "/img/stamps/tw/30211901.JPG"
     },
     {
       "type": "stamp",
@@ -39,18 +39,19 @@
       },
       "mintage": null,
       "description": "特119.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/30211902.JPG"
+      "image": "/img/stamps/tw/30211902.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國65年，歲次丙辰，年肖屬龍，以北平北海九龍壁所刻龍之造型為圖案，印製新年郵票1組。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/30211901.JPG"
+    "/img/stamps/tw/30211901.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D119&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

@@ -2,28 +2,35 @@
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import StampCard from '../../../components/StampCard.astro';
-import { ANIMALS, ANIMAL_BRANCH, byIssueDate } from '../../../lib/catalog';
+import { ANIMALS, ANIMAL_BRANCH, THEME_KEY, THEME_LABEL, byIssueDate } from '../../../lib/catalog';
 
 export async function getStaticPaths() {
   const all = await getCollection('catalog');
-  return ANIMALS.map((animal) => ({
+  const paths = ANIMALS.map((animal) => ({
     params: { animal },
-    props: { issues: all.filter((i) => i.data.zodiac.animal === animal).sort(byIssueDate) },
+    props: { issues: all.filter((i) => i.data.zodiac?.animal === animal).sort(byIssueDate), isTheme: false },
   }));
+  const theme = all.filter((i) => !i.data.zodiac).sort(byIssueDate);
+  if (theme.length) {
+    paths.push({ params: { animal: THEME_KEY }, props: { issues: theme, isTheme: true } });
+  }
+  return paths;
 }
 
 const { animal } = Astro.params;
-const { issues } = Astro.props;
-const branch = ANIMAL_BRANCH[animal as string];
+const { issues, isTheme } = Astro.props;
+const branch = isTheme ? null : ANIMAL_BRANCH[animal as string];
 ---
 
-<Base title={`${animal}年生肖郵票 — 方寸裡的生肖`}>
+<Base title={`${isTheme ? THEME_LABEL : `${animal}年生肖郵票`} — 方寸裡的生肖`}>
   <div class="zpage container">
     <header class="zhead">
       <div class="rule-double"></div>
       <p class="zkicker">按生肖</p>
-      <h1>{animal}<span class="branch">（{branch}）</span></h1>
-      <p class="zsub">{issues.length} 套收錄</p>
+      {isTheme
+        ? <h1>{THEME_LABEL}<span class="branch">主題票</span></h1>
+        : <h1>{animal}<span class="branch">（{branch}）</span></h1>}
+      <p class="zsub">{isTheme ? `${issues.length} 套 · 不對應單一生肖年的全 12 生肖／主題票` : `${issues.length} 套收錄`}</p>
       <div class="rule-double"></div>
     </header>
 

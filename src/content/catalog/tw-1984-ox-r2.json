@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特214.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38021401.JPG"
+      "image": "/img/stamps/tw/38021401.JPG"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特214.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38021402.JPG"
+      "image": "/img/stamps/tw/38021402.JPG"
     },
     {
       "type": "stamp",
@@ -49,18 +49,19 @@
       },
       "mintage": null,
       "description": "特214.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38021403.JPG"
+      "image": "/img/stamps/tw/38021403.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 印製新年郵票（73年版）1組及小全張1種。民國74年歲次乙丑，年肖屬牛，以牛為圖案印製郵票，其面值分1元及10元兩種；小全張（78x102）則以上述郵票各2枚組成。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38021401.JPG"
+    "/img/stamps/tw/38021401.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D214&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

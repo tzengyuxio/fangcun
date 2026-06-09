@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特62.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/24606201.JPG"
+      "image": "/img/stamps/tw/24606201.JPG"
     },
     {
       "type": "stamp",
@@ -39,18 +39,19 @@
       },
       "mintage": null,
       "description": "特62.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/24606202.JPG"
+      "image": "/img/stamps/tw/24606202.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 選用我國名種犬為圖案，印製新年郵票。按59年，歲次庚戍，年肖屬犬，用以構圖，乃適應民間習俗，且犬類向被視為人類之忠實良伴，故亦寓有提倡忠義之意。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/24606201.JPG"
+    "/img/stamps/tw/24606201.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D062&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特273.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/42527301.JPG"
+      "image": "/img/stamps/tw/42527301.JPG"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特273.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/42527302.JPG"
+      "image": "/img/stamps/tw/42527302.JPG"
     },
     {
       "type": "stamp",
@@ -49,18 +49,19 @@
       },
       "mintage": null,
       "description": "特273.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/42527303.JPG"
+      "image": "/img/stamps/tw/42527303.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國79年歲次庚午，年肖屬馬，續以莊珠妹女士繪製之12生肖系列作品中之馬圖案為題材印製郵票，其面值分為新臺幣2元及13元2種；小全張（78x102）即以上述郵票各2枚組成。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/42527301.JPG"
+    "/img/stamps/tw/42527301.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D273&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

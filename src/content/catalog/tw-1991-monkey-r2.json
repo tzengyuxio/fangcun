@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特299.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/44429901.JPG"
+      "image": "/img/stamps/tw/44429901.JPG"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特299.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/44429902.JPG"
+      "image": "/img/stamps/tw/44429902.JPG"
     },
     {
       "type": "stamp",
@@ -49,18 +49,19 @@
       },
       "mintage": null,
       "description": "特299.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/44429903.JPG"
+      "image": "/img/stamps/tw/44429903.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國81年歲次壬申，年肖屬猴，續以莊珠妹女士所繪製之十二生肖系列作品中之猴圖案為題材印製郵票，面值分為3元5角及13元2種，小全張（78x102）則就上述郵票各2枚組成。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/44429901.JPG"
+    "/img/stamps/tw/44429901.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D299&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

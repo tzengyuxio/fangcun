@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特537.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D537_01.537-1B.jpg"
+      "image": "/img/stamps/tw/D537_01.537-1B.jpg"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特537.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D537_02.537-2B.jpg"
+      "image": "/img/stamps/tw/D537_02.537-2B.jpg"
     },
     {
       "type": "stamp",
@@ -49,18 +49,19 @@
       },
       "mintage": null,
       "description": "特537.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D537_03.537-3B.jpg"
+      "image": "/img/stamps/tw/D537_03.537-3B.jpg"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 為迎接虎年的來臨，本公司續以生肖動物圖案為主題，發行新年郵票（98版）1組2枚及小型張1張。本組郵票係以國畫的潑墨技法及俐落的筆觸，鮮明描繪猛虎沈穩威武的神韻；小型張則採意象手法表現瑞虎雄偉懾人的氣勢。茲將圖案簡介如下： 一、面值3.5元郵票：虎作凝視前方狀，有高瞻遠矚、樂觀進取、運勢亨通的意涵。二、面值13元郵票：虎作悠閒側臥姿，有臥虎藏龍、千里雄心及開拓財源的喻意。三、面值12元小型張：以展開的畫軸呈現出瑞虎「虎虎生風」的雄偉氣勢，喻意「虎（福）在眼前」。版銘設計則融合遒勁的書法、祥瑞的雲紋及繽紛的花卉，營造出傳統年節的喜悅。為增添收藏價值與集郵趣味，特規劃「新年郵票（98年版）印刷全張」郵品，內含未裁切之面值3.5元及13元郵票大全張（20枚）各2張，全張紙邊均保留印製過程所標記之色標、裁切線等記號，並以專用典藏圓筒收納。本項郵品係首次推出，除有助於研究郵票印程具知識性外，且因發行數量有限，更具收藏價值。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D537_01.537-1B.jpg"
+    "/img/stamps/tw/D537_01.537-1B.jpg"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D537&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

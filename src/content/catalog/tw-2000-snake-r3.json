@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特418.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/SP418_1.JPG"
+      "image": "/img/stamps/tw/SP418_1.JPG"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特418.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/SP418_2.JPG"
+      "image": "/img/stamps/tw/SP418_2.JPG"
     },
     {
       "type": "stamp",
@@ -49,7 +49,7 @@
       },
       "mintage": null,
       "description": "特418.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/SP418_3.JPG"
+      "image": "/img/stamps/tw/SP418_3.JPG"
     },
     {
       "type": "stamp",
@@ -59,18 +59,19 @@
       },
       "mintage": null,
       "description": "特418.4",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/SP418_4.JPG"
+      "image": "/img/stamps/tw/SP418_4.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 為配合公眾交寄賀年郵件需要，本局特印製新年郵票(89年版)1組2枚，小全張1 張及小冊1種。民國90年1月24日為農曆正月初1，歲次辛巳，生肖屬蛇，為迎接蛇 年之來臨，續以生肖圖案徵選活動中獲得首獎之林俊良先生作品蛇年圖案印製郵票，面值為 新臺幣3元5角及13元2種；小全張係就本套郵票各2枚組成，每張新臺幣33元；郵 票小冊（摺疊後90X50公釐）由新臺幣3元5角郵票12枚組成，票幅為26x38公釐，左右兩 邊有齒，上下2邊無齒，每冊新臺幣42元。我國民間採用天干地支記年由來已久，按甲子、乙丑...至癸亥之次序組合，逐年 排列，60年為1循環，稱1甲子。12地支又以12種動物代表，通稱12生肖，即子鼠 、丑牛、寅虎、卯兔、辰龍、巳蛇、午馬、未羊、申猴、酉雞、戌狗及亥豬。新年郵票之圖 案均以即將到來之新歲值年生肖動物為主題，俗稱生肖郵票。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/SP418_1.JPG"
+    "/img/stamps/tw/SP418_1.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D418&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import Postmark from './Postmark.astro';
-import { year } from '../lib/catalog';
+import { year, primaryImage, imgSrc, fallbackSrc, THEME_LABEL, THEME_SHORT } from '../lib/catalog';
 
 interface Props {
   issue: CollectionEntry<'catalog'>;
@@ -10,18 +10,30 @@ const { issue } = Astro.props;
 const d = issue.data;
 const base = import.meta.env.BASE_URL;
 const y = year(d.issue_date);
+const fallback = fallbackSrc(base);
+const src = imgSrc(primaryImage(d), base) ?? fallback;
+const animalLabel = d.zodiac?.animal ?? THEME_SHORT;
+const name = d.series_name || (d.zodiac ? `${d.zodiac.animal}年生肖郵票` : THEME_LABEL);
 ---
 
 <a class="card" href={`${base}/catalog/issue/${issue.id}/`}>
-  <div class="stamp">
-    <div class="stamp-img">{d.zodiac.animal}</div>
+  <div class="stamp-wrap">
+    <div class="stamp">
+      <img
+        class="stamp-photo"
+        src={src}
+        alt={`${name}（${d.region.name} · ${y}）`}
+        loading="lazy"
+        onerror={`this.onerror=null;this.src='${fallback}'`}
+      />
+    </div>
     <div class="stamp-mark">
-      <Postmark top={d.region.name} date={y} bottom={d.region.code} />
+      <Postmark top={d.region.name} date={y} bottom={d.region.code} rotate={-24} />
     </div>
   </div>
   <div class="card-label">
-    <span class="card-name">{d.series_name || `${d.zodiac.animal}年生肖郵票`}</span>
-    <span class="card-sub">{y} · {d.region.name} · {d.zodiac.animal}（{d.zodiac.branch}）</span>
+    <span class="card-name">{name}</span>
+    <span class="card-sub">{d.region.name} · {y} · {animalLabel}</span>
   </div>
 </a>
 
@@ -55,8 +67,11 @@ const y = year(d.issue_date);
   }
   .card-sub {
     display: block;
-    font-size: 0.8rem;
+    font-size: 0.76rem;
     color: var(--color-ink-soft);
     margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 </style>

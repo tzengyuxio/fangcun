@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特98.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/28409801.JPG"
+      "image": "/img/stamps/tw/28409801.JPG"
     },
     {
       "type": "stamp",
@@ -39,18 +39,19 @@
       },
       "mintage": null,
       "description": "特98.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/28409802.JPG"
+      "image": "/img/stamps/tw/28409802.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國63年，歲次甲寅，年肖屬虎，以「猛虎展威」為郵票圖案，印製新年郵票1組。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/28409801.JPG"
+    "/img/stamps/tw/28409801.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D098&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

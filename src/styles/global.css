@@ -161,13 +161,28 @@ main {
   font-size: 3rem;
   color: var(--color-gold);
 }
+/* 真實郵票圖:填滿票框,完整呈現不裁切(letterbox 以紙色補滿) */
+.stamp-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: contain;
+  background: linear-gradient(135deg, #efe7d6, #e2d6bd);
+}
+/* 郵戳定位框:獨立於 .stamp(後者有 mask 會裁掉溢出),讓郵戳能蓋出右上邊框 */
+.stamp-wrap {
+  position: relative;
+  display: block;
+}
 .stamp-mark {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 56px;
-  height: 56px;
+  /* top/right 錨定右上角出血點;放大只往左下生長,右上角點不動 */
+  top: -24px;
+  right: -24px;
+  width: 96px;
+  height: 96px;
   pointer-events: none;
+  z-index: 2;
 }
 
 /* ---- Placeholder pages ---- */

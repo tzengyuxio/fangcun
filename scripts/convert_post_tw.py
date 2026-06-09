@@ -57,18 +57,25 @@ def main() -> None:
             print(f'  ! {code}: 無法解析發行日,跳過')
             continue
         west, mm, dd = date
-        zyear = west + 1 if mm >= 10 else west
-        animal = ZODIAC[zyear % 12]
+        # 非「新年郵票」者(如「特302生肖郵票」全 12 生肖主題票)不屬單一生肖/生肖年。
+        is_theme = '新年' not in (raw.get('list_name', '') or '')
+        if is_theme:
+            zyear = animal = None
+            rnd = 1  # schema 要求正整數;主題票無輪次,顯示時隱藏
+            slug = f'tw-{west}-zodiac-set'
+        else:
+            zyear = west + 1 if mm >= 10 else west
+            animal = ZODIAC[zyear % 12]
 
-        cm = re.search(r'年肖屬(.)', raw.get('description', ''))
-        if cm:
-            clue = CLUE_NORM.get(cm.group(1), cm.group(1))
-            if clue != animal:
-                print(f'  ⚠ {code}: 日期推算={animal} 但 description={clue}（生肖年 {zyear}）')
-                warned += 1
+            cm = re.search(r'年肖屬(.)', raw.get('description', ''))
+            if cm:
+                clue = CLUE_NORM.get(cm.group(1), cm.group(1))
+                if clue != animal:
+                    print(f'  ⚠ {code}: 日期推算={animal} 但 description={clue}（生肖年 {zyear}）')
+                    warned += 1
 
-        rnd = (west - 1968) // 12 + 1
-        slug = f'tw-{west}-{EN[animal]}-r{rnd}'
+            rnd = (west - 1968) // 12 + 1
+            slug = f'tw-{west}-{EN[animal]}-r{rnd}'
         out = OUT / f'{slug}.json'
         if out.exists():
             skipped += 1
@@ -94,11 +101,11 @@ def main() -> None:
         rec = {
             'id': slug,
             'region': {'code': 'TW', 'name': '中華郵政'},
-            'zodiac': {'animal': animal, 'branch': BRANCH[animal]},
+            'zodiac': None if is_theme else {'animal': animal, 'branch': BRANCH[animal]},
             'zodiac_year': zyear,
             'issue_date': f'{west:04d}-{mm:02d}-{dd:02d}',
             'round': rnd,
-            'series_name': series or '新年郵票',
+            'series_name': series or ('生肖郵票' if is_theme else '新年郵票'),
             'catalog_number': {'local': local, 'scott': None},
             'designer': fields.get('設計者') or fields.get('繪圖者') or '',
             'printer': fields.get('承印者') or '',
@@ -120,7 +127,7 @@ def main() -> None:
 
     print(f'\nwritten={written} skipped(existing)={skipped} warned={warned}')
     for slug, west, zyear, animal, act in rows:
-        print(f'  {slug:26} 發行{west} 生肖年{zyear} {animal}  {act}')
+        print(f'  {slug:26} 發行{west} 生肖年{zyear or "—"} {animal or "全12生肖"}  {act}')
 
 
 main()

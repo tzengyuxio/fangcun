@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特755.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D755_01.1..jpg"
+      "image": "/img/stamps/tw/D755_01.1..jpg"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特755.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D755_02.2..jpg"
+      "image": "/img/stamps/tw/D755_02.2..jpg"
     },
     {
       "type": "stamp",
@@ -49,7 +49,7 @@
       },
       "mintage": null,
       "description": "特755.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D755_03.3..jpg"
+      "image": "/img/stamps/tw/D755_03.3..jpg"
     },
     {
       "type": "stamp",
@@ -59,7 +59,7 @@
       },
       "mintage": null,
       "description": "特755.10",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D755_04.10..jpg"
+      "image": "/img/stamps/tw/D755_04.10..jpg"
     },
     {
       "type": "stamp",
@@ -69,18 +69,19 @@
       },
       "mintage": null,
       "description": "特755.20",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D755_05.20..jpg"
+      "image": "/img/stamps/tw/D755_05.20..jpg"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 為迎接新年來臨，本公司續發行「新年郵票(113年版)」1套2枚及小全張1張。本套郵票圖案以「蛇化龍形慶新春」為設計概念，圖案簡介如下：一、面值6元郵票：祥瑞尊貴的紫蛇，寓意靈動非凡，脫穎而出。二、面值13元郵票：圓渾遒勁的白蛇，寓意幸運吉祥，神聖富貴。三、面值15元小全張：蛇年富貴，繁花盛開，象徵新年繁華昌盛，年年豐收吉祥。為增添集郵樂趣，同日發售「新年郵票(113年版)印刷全張」郵品，以專用典藏圓筒收納，內含未裁切之面值6元、13元郵票全張(20枚)各2張、小全張印刷全張(9小張)1張及證書1份，紙邊皆保留印製過程所標記之色標、裁切線等記號，內容豐富，本項郵品自98年起系列發行，極具收藏價值。本項郵品不適用優惠折扣辦法。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D755_01.1..jpg"
+    "/img/stamps/tw/D755_01.1..jpg"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D755&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

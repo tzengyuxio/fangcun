@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特364.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D36401.JPG"
+      "image": "/img/stamps/tw/D36401.JPG"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特364.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D36402.JPG"
+      "image": "/img/stamps/tw/D36402.JPG"
     },
     {
       "type": "stamp",
@@ -49,7 +49,7 @@
       },
       "mintage": null,
       "description": "特364.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D36403.JPG"
+      "image": "/img/stamps/tw/D36403.JPG"
     },
     {
       "type": "stamp",
@@ -59,18 +59,19 @@
       },
       "mintage": null,
       "description": "特364.4",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D364_04.jpg"
+      "image": "/img/stamps/tw/D364_04.jpg"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 為配合公眾交寄賀年郵件需要，特印製新年郵票1組2枚，小全張1張及小冊1種。86年歲次丁丑，年肖屬牛，續以廖哲夫先生設計之牛年圖案印製郵票，小全張係就本套郵票各2枚組成。 我國民間採用天干地支記年由來已久，按甲子、乙丑．．．至癸亥之次序組今，逐年排列，60年為1循環，稱1甲子。12地支又以12種動物代表，通稱12生肖，即子鼠、丑牛、寅虎、卯兔、辰龍、巳蛇、午馬、未羊、 申猴、酉雞、戍狗及亥豬。新年郵票之圖案均以即將到來之新歲值年生肖動物為主題，俗稱生肖郵票。民國86年歲次丁丑，生肖屬牛，為迎接牛年之來臨，特以「牛」為圖案發行新年郵票。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D36401.JPG"
+    "/img/stamps/tw/D36401.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D364&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

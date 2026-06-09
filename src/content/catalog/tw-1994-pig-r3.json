@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特341.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/47834101.JPG"
+      "image": "/img/stamps/tw/47834101.JPG"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特341.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/47834102.JPG"
+      "image": "/img/stamps/tw/47834102.JPG"
     },
     {
       "type": "stamp",
@@ -49,7 +49,7 @@
       },
       "mintage": null,
       "description": "特341.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/47834103.JPG"
+      "image": "/img/stamps/tw/47834103.JPG"
     },
     {
       "type": "stamp",
@@ -59,18 +59,19 @@
       },
       "mintage": null,
       "description": "特341.4",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/47834104.JPG"
+      "image": "/img/stamps/tw/47834104.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國84年歲次乙亥，年肖屬豬，續以生肖圖案甄選活動中獲獎，作品中之豬圖案為題材印製郵票1組2枚；小全張（78×102）係就本套郵票各2枚組成；郵票小冊則由3.5元面值郵票12枚組成，票幅為26×38（公厘），左右兩邊有齒，上下兩邊無齒。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/47834101.JPG"
+    "/img/stamps/tw/47834101.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D341&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特167.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/34416701.JPG"
+      "image": "/img/stamps/tw/34416701.JPG"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特167.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/34416702.JPG"
+      "image": "/img/stamps/tw/34416702.JPG"
     },
     {
       "type": "stamp",
@@ -49,18 +49,19 @@
       },
       "mintage": null,
       "description": "特167.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/34416703.JPG"
+      "image": "/img/stamps/tw/34416703.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 本局續以12生肖之雞圖為題材，印製新年郵票（69年版）1組及小全張1種。郵票面值分1元及6元2種；小全張（78x102）則就上述郵票各2枚組成。本局自民國57年至68年，以12生肖為題材已發行第1輪新年郵票12組，由於主題富有民俗色彩，深受國內外人士喜愛。第2輪新年郵票圖案共12幅，風格一致，其主圖均以圓型圖案變化，背景襯以篆體文字；象徵中國傳統團圓和諧之意。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/34416701.JPG"
+    "/img/stamps/tw/34416701.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D167&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

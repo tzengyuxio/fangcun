@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特314.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531401.JPG"
+      "image": "/img/stamps/tw/45531401.JPG"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特314.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531402.JPG"
+      "image": "/img/stamps/tw/45531402.JPG"
     },
     {
       "type": "stamp",
@@ -49,7 +49,7 @@
       },
       "mintage": null,
       "description": "特314.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531403.JPG"
+      "image": "/img/stamps/tw/45531403.JPG"
     },
     {
       "type": "stamp",
@@ -59,18 +59,19 @@
       },
       "mintage": null,
       "description": "特314.4",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531404.JPG"
+      "image": "/img/stamps/tw/45531404.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國82年歲次癸酉，年肖屬雞，特以第3輪新年郵票生肖圖案甄選中獲首獎的曹俊彥先生作品之雞圖案為題材印製郵票1組2枚；小全張（78x102）係就上述郵票各2枚組成；新年郵票小冊則由本套郵票各6枚組成，票幅為 26X38（公厘），左右2邊有齒，上下2邊無齒。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531401.JPG"
+    "/img/stamps/tw/45531401.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D314&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

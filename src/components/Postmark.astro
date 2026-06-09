@@ -17,10 +17,10 @@ const uid = Math.random().toString(36).slice(2, 8);
     <path id={`b-${uid}`} d="M 24,53 A 26,26 0 0 0 76,53" />
   </defs>
   <circle cx="50" cy="50" r="47" />
-  <circle cx="50" cy="50" r="39" stroke-width="0.8" />
+  <circle cx="50" cy="50" r="39" stroke-width="1.2" />
   <text class="pm-arc"><textPath href={`#t-${uid}`} startOffset="50%">{top}</textPath></text>
   <text class="pm-arc pm-bot"><textPath href={`#b-${uid}`} startOffset="50%">{bottom}</textPath></text>
-  <line x1="32" y1="50" x2="68" y2="50" stroke-width="0.8" />
+  <line x1="32" y1="50" x2="68" y2="50" stroke-width="1.2" />
   <text class="pm-date" x="50" y="48">{date}</text>
 </svg>
 
@@ -36,7 +36,7 @@ const uid = Math.random().toString(36).slice(2, 8);
   .postmark line {
     fill: none;
     stroke: #1f1b16;
-    stroke-width: 1.6;
+    stroke-width: 2;
   }
   .pm-arc {
     fill: #1f1b16;

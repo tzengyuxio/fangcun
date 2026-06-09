@@ -34,12 +34,13 @@ const item = z.object({
 });
 
 // Issue — 一套發行。zodiac/zodiac_year 用於生肖歸類,issue_date 用於排序/時間軸(D5,永不混用)。
+// zodiac/zodiac_year 為 null = 全 12 生肖/主題票(郵展、生肖主題等),不對應單一生肖年。
 const catalog = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/catalog' }),
   schema: z.object({
     region: z.object({ code: REGION, name: z.string() }),
-    zodiac: z.object({ animal: ANIMAL, branch: BRANCH }),
-    zodiac_year: z.number().int(),
+    zodiac: z.object({ animal: ANIMAL, branch: BRANCH }).nullable(),
+    zodiac_year: z.number().int().nullable(),
     issue_date: z.string().date(),
     round: z.number().int().positive(),
     series_name: z.string().default(''),
@@ -55,7 +56,8 @@ const catalog = defineCollection({
     notes: z.string().default(''),
     images: z.array(z.string()).default([]),
     // referential integrity(D6):ref 必須指向存在的 Source,否則 build 失敗。
-    sources: z.array(z.object({ ref: reference('sources'), tier: TIER })).min(1),
+    // url(選配):指向該套在來源站的專屬頁,覆寫 Source 的共用 url。
+    sources: z.array(z.object({ ref: reference('sources'), tier: TIER, url: z.string().url().optional() })).min(1),
     verified: z.boolean(),
     updated_at: z.string().date(),
   }),

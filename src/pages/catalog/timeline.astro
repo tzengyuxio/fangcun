@@ -1,10 +1,26 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { byIssueDate } from '../../lib/catalog';
+import { byIssueDate, THEME_LABEL } from '../../lib/catalog';
 
 const base = import.meta.env.BASE_URL;
 const issues = (await getCollection('catalog')).sort(byIssueDate);
+
+// 依生肖年(干支年)分組:重點是把「同一生肖年、各地發行」的票聚在一起
+// (D5:歸類用 zodiac_year;組序由小到大、組內仍依 issue_date 時序)。
+// 全 12 生肖/主題票無單一生肖年,另置一組墊底。
+const dated = issues.filter((i) => i.data.zodiac_year != null);
+const themeIssues = issues.filter((i) => i.data.zodiac_year == null);
+
+const byYear = new Map<number, typeof issues>();
+for (const i of dated) {
+  const y = i.data.zodiac_year as number;
+  if (!byYear.has(y)) byYear.set(y, []);
+  byYear.get(y)!.push(i);
+}
+const groups = [...byYear.keys()]
+  .sort((a, b) => a - b)
+  .map((year) => ({ year, animal: byYear.get(year)![0].data.zodiac!.animal, items: byYear.get(year)! }));
 ---
 
 <Base title="發行時間軸 — 方寸裡的生肖">
@@ -13,20 +29,49 @@ const issues = (await getCollection('catalog')).sort(byIssueDate);
       <div class="rule-double"></div>
       <p class="tlkicker">按年份</p>
       <h1>發行時間軸</h1>
-      <p class="tlsub">依實際發行日排序(發行日，非生肖年)</p>
+      <p class="tlsub">依生肖年（干支）分組，對照各地同一生肖年的發行</p>
       <div class="rule-double"></div>
     </header>
 
     <ol class="timeline">
-      {issues.map((i) => (
-        <li class="tlitem">
-          <span class="tlyear">{i.data.issue_date.slice(0, 4)}</span>
-          <a class="tlbody" href={`${base}/catalog/issue/${i.id}/`}>
-            <span class="tlname">{i.data.series_name || `${i.data.zodiac.animal}年生肖郵票`}</span>
-            <span class="tlmeta">{i.data.region.name} · {i.data.zodiac.animal}（{i.data.zodiac.branch}）年 · 發行 {i.data.issue_date}</span>
-          </a>
+      {groups.map((g) => (
+        <li class="tlgroup">
+          <div class="tlyear">
+            <span class="tly-num">{g.year}</span>
+            <span class="tly-animal">{g.animal}年</span>
+          </div>
+          <ul class="tlissues">
+            {g.items.map((i) => (
+              <li>
+                <a class="tlbody" href={`${base}/catalog/issue/${i.id}/`}>
+                  <span class="tlregion">{i.data.region.name}</span>
+                  <span class="tlname">{i.data.series_name || `${i.data.zodiac!.animal}年生肖郵票`}</span>
+                  <span class="tldate">{i.data.issue_date}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
         </li>
       ))}
+      {themeIssues.length > 0 && (
+        <li class="tlgroup">
+          <div class="tlyear">
+            <span class="tly-num tly-theme">主題</span>
+            <span class="tly-animal">{THEME_LABEL}</span>
+          </div>
+          <ul class="tlissues">
+            {themeIssues.map((i) => (
+              <li>
+                <a class="tlbody" href={`${base}/catalog/issue/${i.id}/`}>
+                  <span class="tlregion">{i.data.region.name}</span>
+                  <span class="tlname">{i.data.series_name || THEME_LABEL}</span>
+                  <span class="tldate">{i.data.issue_date}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </li>
+      )}
     </ol>
   </div>
 </Base>
@@ -38,40 +83,39 @@ const issues = (await getCollection('catalog')).sort(byIssueDate);
   .tlhead h1 { font-size: clamp(2.2rem, 6vw, 3.4rem); letter-spacing: 0.08em; margin: 0.5rem 0; }
   .tlsub { color: var(--color-ink-soft); margin-bottom: 1.5rem; }
 
-  .timeline {
-    list-style: none;
-    max-width: 720px;
-    margin: 2rem auto 0;
-    border-left: 2px solid var(--color-line);
-    padding-left: 0;
+  .timeline { list-style: none; max-width: 760px; margin: 2rem auto 0; }
+  .tlgroup {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--color-line);
   }
-  .tlitem {
-    display: flex;
-    gap: 1.25rem;
-    align-items: baseline;
-    padding: 0.4rem 0 0.4rem 1.5rem;
-    position: relative;
-  }
-  .tlitem::before {
-    content: "";
-    position: absolute;
-    left: -7px;
-    top: 1rem;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: var(--color-gold);
-  }
-  .tlyear {
-    flex-shrink: 0;
-    width: 3.5rem;
-    font-family: var(--font-serif);
-    font-size: 1.2rem;
-    color: var(--color-red);
-  }
-  .tlbody { display: block; color: var(--color-ink); padding: 0.5rem 0; }
+  .tlgroup:first-child { border-top: none; }
+
+  .tlyear { text-align: right; padding-top: 0.15rem; }
+  .tly-num { display: block; font-family: var(--font-serif); font-size: 1.45rem; color: var(--color-red); line-height: 1.1; }
+  .tly-theme { font-size: 1.05rem; color: var(--color-gold); }
+  .tly-animal { display: block; font-size: 0.85rem; color: var(--color-ink-soft); }
+
+  .tlissues { list-style: none; }
+  .tlissues li + li { margin-top: 0.45rem; }
+  .tlbody { display: flex; gap: 0.7rem; align-items: baseline; color: var(--color-ink); }
   .tlbody:hover { text-decoration: none; }
-  .tlname { display: block; font-family: var(--font-serif); font-size: 1.05rem; }
+  .tlregion {
+    flex-shrink: 0;
+    width: 5rem;
+    font-family: var(--font-serif);
+    font-size: 0.85rem;
+    color: var(--color-gold);
+  }
+  .tlname { font-family: var(--font-serif); }
   .tlbody:hover .tlname { color: var(--color-red); }
-  .tlmeta { display: block; font-size: 0.85rem; color: var(--color-ink-soft); margin-top: 1px; }
+  .tldate { margin-left: auto; font-size: 0.8rem; color: var(--color-ink-soft); }
+
+  @media (max-width: 640px) {
+    .tlgroup { grid-template-columns: 4.5rem 1fr; gap: 0.9rem; }
+    .tlregion { width: auto; }
+    .tldate { display: none; }
+  }
 </style>

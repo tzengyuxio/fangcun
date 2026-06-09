@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特329.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/46832901.JPG"
+      "image": "/img/stamps/tw/46832901.JPG"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特329.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/46832902.JPG"
+      "image": "/img/stamps/tw/46832902.JPG"
     },
     {
       "type": "stamp",
@@ -49,7 +49,7 @@
       },
       "mintage": null,
       "description": "特329.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/46832903.JPG"
+      "image": "/img/stamps/tw/46832903.JPG"
     },
     {
       "type": "stamp",
@@ -59,18 +59,19 @@
       },
       "mintage": null,
       "description": "特329.4",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/46832904.JPG"
+      "image": "/img/stamps/tw/46832904.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國83年歲次甲戌，年肖屬狗，續以生肖圖案甄選活動獲獎作品中之狗圖案為題材印製郵票1組2枚；小全張（78x102）係就本套郵票各2枚組成；郵票小冊則由3.5元面值票12枚組成，票幅為26×38（公釐），左右兩邊有齒，上下兩邊無齒。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/46832901.JPG"
+    "/img/stamps/tw/46832901.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D329&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特226.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38922601.JPG"
+      "image": "/img/stamps/tw/38922601.JPG"
     },
     {
       "type": "stamp",
@@ -39,7 +39,7 @@
       },
       "mintage": null,
       "description": "特226.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38922602.JPG"
+      "image": "/img/stamps/tw/38922602.JPG"
     },
     {
       "type": "stamp",
@@ -49,18 +49,19 @@
       },
       "mintage": null,
       "description": "特226.3",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38922603.JPG"
+      "image": "/img/stamps/tw/38922603.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 為應公眾交寄耶誕及賀年郵件需要，依例印製新年郵票(74年版)1組及小全張1種。按75年歲次丙寅，年肖屬虎，以虎圖為題材印製郵票，其面值分1元及10元兩種；小全張(78x102)則就上述郵票各2枚組成。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/38922601.JPG"
+    "/img/stamps/tw/38922601.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D226&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,

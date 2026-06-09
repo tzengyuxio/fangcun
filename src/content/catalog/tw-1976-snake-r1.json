@@ -29,7 +29,7 @@
       },
       "mintage": null,
       "description": "特126.1",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/30912601.JPG"
+      "image": "/img/stamps/tw/30912601.JPG"
     },
     {
       "type": "stamp",
@@ -39,18 +39,19 @@
       },
       "mintage": null,
       "description": "特126.2",
-      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/30912602.JPG"
+      "image": "/img/stamps/tw/30912602.JPG"
     }
   ],
   "significance": "",
   "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國66年歲次丁巳，年肖屬蛇，以象徵救人濟世之「蛇杖」為主題，繪製郵票圖案。羅馬神話中，相傳太陽神（APOLLO）之子艾斯古雷庇斯(Aesculapius）精於醫道，有起死回生之術，而被奉為醫神，其隨身手杖上環繞之蛇，則被認為行醫救人之標誌。基督教聖經上亦有摩西製「銅蛇」救人之故事。因此「蛇」在西方傳說中被認為是善良、智慧與健康之象徵。",
   "images": [
-    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/30912601.JPG"
+    "/img/stamps/tw/30912601.JPG"
   ],
   "sources": [
     {
       "ref": "post-stamphouse",
-      "tier": "official"
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D126&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
   "verified": false,
