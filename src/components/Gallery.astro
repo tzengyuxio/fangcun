@@ -1,0 +1,127 @@
+---
+// 詳情頁圖庫:郵票框主圖 + 縮圖列點擊切換 + 點主圖 lightbox 放大。
+import Postmark from './Postmark.astro';
+
+interface Props {
+  images: string[]; // 已解析好 base 的可用 src
+  alt: string;
+  regionName: string;
+  regionCode: string;
+  date: string;
+  fallback: string;
+}
+const { images, alt, regionName, regionCode, date, fallback } = Astro.props;
+const main = images[0] ?? fallback;
+const multi = images.length > 1;
+---
+
+<div class="gallery">
+  <div class="stamp-wrap big-wrap">
+    <div class="stamp big">
+      <img
+        id="gal-main"
+        class="stamp-photo"
+        src={main}
+        alt={alt}
+        data-fallback={fallback}
+        onerror="this.onerror=null;this.src=this.dataset.fallback"
+      />
+    </div>
+    <div class="stamp-mark">
+      <Postmark top={regionName} date={date} bottom={regionCode} rotate={-24} />
+    </div>
+  </div>
+
+  {multi && (
+    <div class="gthumbs">
+      {images.map((src, i) => (
+        <button class:list={['gthumb', { active: i === 0 }]} type="button" data-src={src} aria-label={`第 ${i + 1} 張`}>
+          <img src={src} alt="" loading="lazy" data-fallback={fallback} onerror="this.onerror=null;this.src=this.dataset.fallback" />
+        </button>
+      ))}
+    </div>
+  )}
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <img id="lb-img" src="" alt={alt} />
+</div>
+
+<script>
+  const main = document.getElementById('gal-main') as HTMLImageElement | null;
+  const thumbs = Array.from(document.querySelectorAll<HTMLButtonElement>('.gthumb'));
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lb-img') as HTMLImageElement | null;
+
+  thumbs.forEach((t) =>
+    t.addEventListener('click', () => {
+      if (!main || !t.dataset.src) return;
+      main.src = t.dataset.src;
+      thumbs.forEach((x) => x.classList.remove('active'));
+      t.classList.add('active');
+    }),
+  );
+
+  const close = () => {
+    if (lb) lb.hidden = true;
+    document.body.style.overflow = '';
+  };
+  main?.addEventListener('click', () => {
+    if (lb && lbImg && main) {
+      lbImg.src = main.src;
+      lb.hidden = false;
+      document.body.style.overflow = 'hidden';
+    }
+  });
+  lb?.addEventListener('click', close);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') close();
+  });
+</script>
+
+<style>
+  .gallery { width: 200px; margin: 0 auto; }
+  .big-wrap { width: 200px; }
+  .stamp.big { width: 100%; }
+  /* 依郵票本身比例呈現(目錄頁仍用統一票框) */
+  .stamp.big .stamp-photo { aspect-ratio: auto; cursor: zoom-in; }
+
+  .gthumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 0.9rem;
+  }
+  .gthumb {
+    width: 46px;
+    height: 46px;
+    padding: 2px;
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
+    cursor: pointer;
+    transition: border-color 0.15s ease;
+  }
+  .gthumb:hover { border-color: var(--color-gold); }
+  .gthumb.active { border-color: var(--color-red); }
+  .gthumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vmin;
+    background: rgba(20, 16, 12, 0.9);
+    cursor: zoom-out;
+  }
+  .lightbox[hidden] { display: none; }
+  .lightbox img {
+    max-width: 94vw;
+    max-height: 92vh;
+    object-fit: contain;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.6);
+  }
+</style>

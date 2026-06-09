@@ -1,8 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
-import Postmark from '../../../components/Postmark.astro';
-import { year, ganzhi, primaryImage, imgSrc, fallbackSrc, THEME_KEY, THEME_LABEL } from '../../../lib/catalog';
+import Gallery from '../../../components/Gallery.astro';
+import { year, ganzhi, imgSrc, fallbackSrc, THEME_KEY, THEME_LABEL } from '../../../lib/catalog';
 
 export async function getStaticPaths() {
   const issues = await getCollection('catalog');
@@ -20,7 +20,10 @@ const offsetYear = d.zodiac_year != null && d.zodiac_year !== Number(year(d.issu
 const name = d.series_name || (d.zodiac ? `${d.zodiac.animal}年生肖郵票` : THEME_LABEL);
 
 const fallback = fallbackSrc(base);
-const heroSrc = imgSrc(primaryImage(d), base) ?? fallback;
+// 圖庫:套圖 images[] 與各品項圖去重,解析 base;空則用 fallback。
+const galleryImgs = [...new Set([...(d.images ?? []), ...d.items.map((it) => it.image)].filter(Boolean))]
+  .map((s) => imgSrc(s, base) as string);
+const galleryFinal = galleryImgs.length ? galleryImgs : [fallback];
 
 const ITEM_TYPE: Record<string, string> = {
   stamp: '郵票',
@@ -59,19 +62,14 @@ const specs = [
 
     <div class="issue-body">
       <div class="issue-visual">
-        <div class="stamp-wrap big-wrap">
-          <div class="stamp big">
-            <img
-              class="stamp-photo"
-              src={heroSrc}
-              alt={`${name}（${d.region.name}）`}
-              onerror={`this.onerror=null;this.src='${fallback}'`}
-            />
-          </div>
-          <div class="stamp-mark">
-            <Postmark top={d.region.name} date={year(d.issue_date)} bottom={d.region.code} rotate={-24} />
-          </div>
-        </div>
+        <Gallery
+          images={galleryFinal}
+          alt={`${name}（${d.region.name}）`}
+          regionName={d.region.name}
+          regionCode={d.region.code}
+          date={year(d.issue_date)}
+          fallback={fallback}
+        />
         <span class={`vbadge ${d.verified ? 'ok' : 'no'}`}>
           {d.verified ? '✓ 已查證' : '⚠ 未經查證'}
         </span>
@@ -168,10 +166,6 @@ const specs = [
   @media (max-width: 640px) { .issue-body { grid-template-columns: 1fr; } }
 
   .issue-visual { text-align: center; }
-  .big-wrap { width: 200px; margin: 0 auto; }
-  .stamp.big { width: 100%; }
-  /* 詳情頁:依郵票本身比例呈現(目錄頁仍用統一票框) */
-  .stamp.big .stamp-photo { aspect-ratio: auto; }
   .vbadge {
     display: inline-block;
     margin-top: 1rem;
