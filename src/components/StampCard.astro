@@ -1,0 +1,62 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Postmark from './Postmark.astro';
+import { year } from '../lib/catalog';
+
+interface Props {
+  issue: CollectionEntry<'catalog'>;
+}
+const { issue } = Astro.props;
+const d = issue.data;
+const base = import.meta.env.BASE_URL;
+const y = year(d.issue_date);
+---
+
+<a class="card" href={`${base}/catalog/issue/${issue.id}/`}>
+  <div class="stamp">
+    <div class="stamp-img">{d.zodiac.animal}</div>
+    <div class="stamp-mark">
+      <Postmark top={d.region.name} date={y} bottom={d.region.code} />
+    </div>
+  </div>
+  <div class="card-label">
+    <span class="card-name">{d.series_name || `${d.zodiac.animal}年生肖郵票`}</span>
+    <span class="card-sub">{y} · {d.region.name} · {d.zodiac.animal}（{d.zodiac.branch}）</span>
+  </div>
+</a>
+
+<style>
+  .card {
+    display: block;
+    width: 170px;
+    color: var(--color-ink);
+  }
+  .card:hover {
+    text-decoration: none;
+  }
+  .card:hover .stamp {
+    filter: drop-shadow(0 6px 11px rgba(0, 0, 0, 0.38));
+  }
+  .card-label {
+    margin-top: 0.85rem;
+    text-align: center;
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    padding: 0.5rem 0.6rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22);
+  }
+  .card:hover .card-label {
+    border-color: var(--color-gold);
+  }
+  .card-name {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 0.98rem;
+  }
+  .card-sub {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--color-ink-soft);
+    margin-top: 2px;
+  }
+</style>

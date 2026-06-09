@@ -1,10 +1,115 @@
 ---
+import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import StampCard from '../../components/StampCard.astro';
+import { ANIMALS, ANIMAL_BRANCH, byIssueDate } from '../../lib/catalog';
+
+const base = import.meta.env.BASE_URL;
+const issues = (await getCollection('catalog')).sort(byIssueDate);
+
+const countByAnimal = new Map<string, number>(ANIMALS.map((a) => [a, 0]));
+for (const i of issues) {
+  countByAnimal.set(i.data.zodiac.animal, (countByAnimal.get(i.data.zodiac.animal) ?? 0) + 1);
+}
+const regions = [...new Map(issues.map((i) => [i.data.region.code, i.data.region.name])).entries()];
 ---
 
-<Base title="目錄 — 方寸裡的生肖">
-  <section class="container placeholder">
-    <h1>目錄</h1>
-    <p>🚧 生肖／發行地／年份三軸索引籌備中,即將上線。</p>
-  </section>
+<Base title="郵票目錄 — 方寸裡的生肖">
+  <div class="cat container">
+    <header class="cat-head">
+      <div class="rule-double"></div>
+      <h1>郵票目錄</h1>
+      <p class="cat-sub">共收錄 {issues.length} 套 · 依生肖、發行地、年份檢索</p>
+      <div class="rule-double"></div>
+    </header>
+
+    <section class="block">
+      <h2 class="block-title"><span class="num">壹</span> 按生肖</h2>
+      <div class="zodiac-grid">
+        {ANIMALS.map((a) => (
+          <a class="zcell" href={`${base}/catalog/zodiac/${a}/`}>
+            <span class="zglyph">{a}</span>
+            <span class="zbranch">{ANIMAL_BRANCH[a]}</span>
+            <span class="zcount">{countByAnimal.get(a)} 套</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="block">
+      <h2 class="block-title"><span class="num">貳</span> 按發行地</h2>
+      <div class="region-list">
+        {regions.map(([code, name]) => (
+          <a class="ritem" href={`${base}/catalog/region/${code}/`}>
+            {name}<span class="rcode">{code}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="block">
+      <h2 class="block-title"><span class="num">參</span> 按年份</h2>
+      <a class="tl-link" href={`${base}/catalog/timeline/`}>檢視發行時間軸 →</a>
+    </section>
+
+    <section class="block">
+      <h2 class="block-title">全部收錄</h2>
+      <div class="album-grid">
+        {issues.map((i) => <StampCard issue={i} />)}
+      </div>
+    </section>
+  </div>
 </Base>
+
+<style>
+  .cat { padding-bottom: 2rem; }
+  .cat-head { padding: 2.5rem 0 0; text-align: center; }
+  .cat-head h1 { font-size: clamp(2.2rem, 5vw, 3.2rem); letter-spacing: 0.1em; margin: 1.25rem 0; }
+  .cat-sub { color: var(--color-ink-soft); margin-bottom: 1.25rem; }
+
+  .block { margin-top: 3rem; }
+  .block-title {
+    font-size: 1.3rem;
+    border-bottom: 1px solid var(--color-line);
+    padding-bottom: 0.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .block-title .num { color: var(--color-gold); margin-right: 0.4rem; }
+
+  .zodiac-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.75rem;
+  }
+  @media (max-width: 640px) { .zodiac-grid { grid-template-columns: repeat(4, 1fr); } }
+  .zcell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+    padding: 1rem 0.5rem;
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
+    color: var(--color-ink);
+  }
+  .zcell:hover { text-decoration: none; border-color: var(--color-gold); background: #fff; }
+  .zglyph { font-family: var(--font-serif); font-size: 1.9rem; color: var(--color-red); line-height: 1; }
+  .zbranch { font-family: var(--font-serif); font-size: 0.85rem; color: var(--color-ink-soft); }
+  .zcount { font-size: 0.78rem; color: var(--color-ink-soft); margin-top: 0.2rem; }
+
+  .region-list { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .ritem {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    padding: 0.5rem 0.9rem;
+    border: 1px solid var(--color-line);
+    background: var(--color-surface);
+    color: var(--color-ink);
+    font-family: var(--font-serif);
+  }
+  .ritem:hover { text-decoration: none; border-color: var(--color-gold); }
+  .rcode { font-family: var(--font-sans); font-size: 0.72rem; color: var(--color-gold); letter-spacing: 0.05em; }
+
+  .tl-link { font-family: var(--font-serif); font-size: 1.1rem; }
+</style>

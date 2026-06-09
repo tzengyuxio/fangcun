@@ -1,0 +1,48 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import StampCard from '../../../components/StampCard.astro';
+import { byIssueDate } from '../../../lib/catalog';
+
+export async function getStaticPaths() {
+  const all = await getCollection('catalog');
+  const codes = [...new Map(all.map((i) => [i.data.region.code, i.data.region.name])).entries()];
+  return codes.map(([code, name]) => ({
+    params: { code },
+    props: {
+      name,
+      issues: all.filter((i) => i.data.region.code === code).sort(byIssueDate),
+    },
+  }));
+}
+
+const { code } = Astro.params;
+const { name, issues } = Astro.props;
+---
+
+<Base title={`${name} 生肖郵票 — 方寸裡的生肖`}>
+  <div class="rpage container">
+    <header class="rhead">
+      <div class="rule-double"></div>
+      <p class="rkicker">按發行地 · {code}</p>
+      <h1>{name}</h1>
+      <p class="rsub">{issues.length} 套收錄</p>
+      <div class="rule-double"></div>
+    </header>
+
+    {issues.length > 0 ? (
+      <div class="album-grid">{issues.map((i) => <StampCard issue={i} />)}</div>
+    ) : (
+      <p class="empty">🚧 此發行地尚無收錄,陸續上線。</p>
+    )}
+  </div>
+</Base>
+
+<style>
+  .rpage { padding-bottom: 3rem; }
+  .rhead { text-align: center; padding: 2.5rem 0 0; }
+  .rkicker { font-size: 0.78rem; letter-spacing: 0.2em; color: var(--color-gold); margin-bottom: 0.6rem; }
+  .rhead h1 { font-size: clamp(2.2rem, 6vw, 3.5rem); letter-spacing: 0.08em; margin: 0.5rem 0; }
+  .rsub { color: var(--color-ink-soft); margin-bottom: 1.25rem; }
+  .empty { text-align: center; color: var(--color-ink-soft); padding: 3rem 0; }
+</style>

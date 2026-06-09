@@ -1,0 +1,215 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import Postmark from '../../../components/Postmark.astro';
+import { TIER_LABEL, year } from '../../../lib/catalog';
+
+export async function getStaticPaths() {
+  const issues = await getCollection('catalog');
+  return issues.map((issue) => ({ params: { id: issue.id }, props: { issue } }));
+}
+
+const { issue } = Astro.props;
+const d = issue.data;
+const base = import.meta.env.BASE_URL;
+
+const allSources = await getCollection('sources');
+const srcMap = new Map(allSources.map((s) => [s.id, s.data]));
+
+const offsetYear = d.zodiac_year !== Number(year(d.issue_date));
+
+const ITEM_TYPE: Record<string, string> = {
+  stamp: '郵票',
+  souvenir_sheet: '小全張',
+  miniature_sheet: '小型張',
+};
+
+const specs = [
+  ['系列', d.series_name],
+  ['輪次', `第 ${d.round} 輪`],
+  ['在地編號', d.catalog_number?.local],
+  ['Scott 編號', d.catalog_number?.scott],
+  ['設計者', d.designer],
+  ['印製', d.printer],
+  ['印法', d.printing_process],
+  ['齒孔', d.perforation],
+].filter(([, v]) => v) as [string, string][];
+---
+
+<Base title={`${d.series_name || `${d.zodiac.animal}年生肖郵票`} — 方寸裡的生肖`}>
+  <article class="issue container">
+    <nav class="crumb">
+      <a href={`${base}/catalog/`}>目錄</a> ／
+      <a href={`${base}/catalog/region/${d.region.code}/`}>{d.region.name}</a> ／
+      <a href={`${base}/catalog/zodiac/${d.zodiac.animal}/`}>{d.zodiac.animal}年</a>
+    </nav>
+
+    <header class="issue-head">
+      <p class="issue-kicker">{d.region.name} · 第 {d.round} 輪</p>
+      <h1>{d.series_name || `${d.zodiac.animal}年生肖郵票`}</h1>
+      <p class="issue-zodiac">{d.zodiac.animal}（{d.zodiac.branch}）</p>
+    </header>
+
+    <div class="issue-body">
+      <div class="issue-visual">
+        <div class="stamp big">
+          <div class="stamp-img">{d.zodiac.animal}</div>
+          <div class="stamp-mark">
+            <Postmark top={d.region.name} date={year(d.issue_date)} bottom={d.region.code} />
+          </div>
+        </div>
+        <span class={`vbadge ${d.verified ? 'ok' : 'no'}`}>
+          {d.verified ? '✓ 已查證' : '⚠ 未經查證'}
+        </span>
+      </div>
+
+      <div class="issue-data">
+        <!-- D5:發行日與生肖年並列,永不混用 -->
+        <div class="d5">
+          <div class="d5-cell">
+            <span class="d5-label">發行日</span>
+            <span class="d5-val">{d.issue_date}</span>
+          </div>
+          <div class="d5-cell">
+            <span class="d5-label">生肖年</span>
+            <span class="d5-val">{d.zodiac_year}（{d.zodiac.animal}年）</span>
+          </div>
+        </div>
+        {offsetYear && (
+          <p class="d5-note">※ 賀歲票常於生肖年前一年底發行,故發行年與生肖年相差一年。</p>
+        )}
+
+        {specs.length > 0 && (
+          <dl class="spec">
+            {specs.map(([k, v]) => (
+              <div class="spec-row">
+                <dt>{k}</dt>
+                <dd>{v}</dd>
+              </div>
+            ))}
+          </dl>
+        )}
+
+        {d.significance && <p class="significance">{d.significance}</p>}
+        {d.notes && <p class="notes">{d.notes}</p>}
+      </div>
+    </div>
+
+    <section class="sect">
+      <h2>品項（{d.items.length}）</h2>
+      <ul class="items">
+        {d.items.map((it) => (
+          <li class="item">
+            <span class="item-type">{ITEM_TYPE[it.type] ?? it.type}</span>
+            <span class="item-detail">
+              {it.description && <strong>{it.description}</strong>}
+              {it.denomination?.value != null && ` · 面值 ${it.denomination.value} ${it.denomination.currency}`}
+              {it.dimensions_mm && ` · ${it.dimensions_mm.w}×${it.dimensions_mm.h} mm`}
+              {it.mintage != null && ` · 發行量 ${it.mintage.toLocaleString()}`}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="sect">
+      <h2>來源</h2>
+      <ul class="sources">
+        {d.sources.map((s) => {
+          const meta = srcMap.get(s.ref.id);
+          return (
+            <li class="source">
+              <span class={`tier tier-${s.tier}`}>{TIER_LABEL[s.tier] ?? s.tier}</span>
+              {meta ? <a href={meta.url} target="_blank" rel="noopener">{meta.title}</a> : <span class="missing">{s.ref.id}</span>}
+            </li>
+          );
+        })}
+      </ul>
+      <p class="updated">最後更新:{d.updated_at}</p>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .issue { padding: 2rem 1.5rem 3rem; max-width: 880px; }
+  .crumb { font-size: 0.85rem; color: var(--color-ink-soft); margin-bottom: 1.5rem; }
+
+  .issue-head { border-bottom: 1px solid var(--color-line); padding-bottom: 1.25rem; }
+  .issue-kicker { font-size: 0.82rem; letter-spacing: 0.18em; color: var(--color-gold); margin-bottom: 0.5rem; }
+  .issue-head h1 { font-size: clamp(1.8rem, 5vw, 2.8rem); letter-spacing: 0.05em; }
+  .issue-zodiac { font-family: var(--font-serif); font-size: 1.3rem; color: var(--color-red); margin-top: 0.5rem; }
+
+  .issue-body {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 2.5rem;
+    margin-top: 2rem;
+  }
+  @media (max-width: 640px) { .issue-body { grid-template-columns: 1fr; } }
+
+  .issue-visual { text-align: center; }
+  .stamp.big { width: 200px; margin: 0 auto; }
+  .stamp.big .stamp-img { font-size: 4.5rem; }
+  .vbadge {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.3rem 0.9rem;
+    font-size: 0.85rem;
+    border-radius: 2px;
+    border: 1px solid;
+  }
+  .vbadge.ok { color: #2f6b3a; border-color: #2f6b3a; background: rgba(47, 107, 58, 0.08); }
+  .vbadge.no { color: var(--color-red); border-color: var(--color-red); background: rgba(158, 43, 37, 0.07); }
+
+  /* D5 強調區 */
+  .d5 { display: flex; gap: 0; border: 1px solid var(--color-line); }
+  .d5-cell { flex: 1; padding: 0.9rem 1.1rem; }
+  .d5-cell + .d5-cell { border-left: 1px solid var(--color-line); }
+  .d5-label { display: block; font-size: 0.75rem; letter-spacing: 0.1em; color: var(--color-gold); margin-bottom: 0.25rem; }
+  .d5-val { font-family: var(--font-serif); font-size: 1.25rem; color: var(--color-ink); }
+  .d5-note { font-size: 0.82rem; color: var(--color-ink-soft); margin-top: 0.5rem; }
+
+  .spec { margin-top: 1.5rem; }
+  .spec-row { display: flex; border-bottom: 1px solid var(--color-line); padding: 0.5rem 0; }
+  .spec-row dt { width: 6.5rem; flex-shrink: 0; color: var(--color-ink-soft); font-size: 0.9rem; }
+  .spec-row dd { font-size: 0.95rem; }
+
+  .significance {
+    margin-top: 1.5rem;
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    color: var(--color-red);
+    border-left: 3px solid var(--color-gold);
+    padding-left: 0.9rem;
+  }
+  .notes { margin-top: 1rem; color: var(--color-ink-soft); font-size: 0.95rem; }
+
+  .sect { margin-top: 2.5rem; }
+  .sect h2 { font-size: 1.3rem; border-bottom: 1px solid var(--color-line); padding-bottom: 0.5rem; margin-bottom: 1rem; }
+
+  .items, .sources { list-style: none; }
+  .item { display: flex; gap: 0.9rem; padding: 0.5rem 0; align-items: baseline; }
+  .item-type {
+    flex-shrink: 0;
+    font-family: var(--font-serif);
+    font-size: 0.82rem;
+    color: var(--color-gold);
+    border: 1px solid var(--color-line);
+    padding: 0.1rem 0.5rem;
+  }
+  .item-detail { font-size: 0.95rem; }
+
+  .source { display: flex; gap: 0.75rem; align-items: baseline; padding: 0.45rem 0; }
+  .tier {
+    flex-shrink: 0;
+    font-size: 0.75rem;
+    padding: 0.12rem 0.55rem;
+    border-radius: 2px;
+    font-family: var(--font-sans);
+  }
+  .tier-official { background: #2f6b3a; color: #fff; }
+  .tier-reference { background: var(--color-gold); color: #fff; }
+  .tier-secondary { background: #cdc3ad; color: var(--color-ink); }
+  .missing { color: var(--color-red); }
+  .updated { margin-top: 1rem; font-size: 0.8rem; color: var(--color-ink-soft); }
+</style>

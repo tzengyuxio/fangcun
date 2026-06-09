@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import StampCard from '../../../components/StampCard.astro';
+import { ANIMALS, ANIMAL_BRANCH, byIssueDate } from '../../../lib/catalog';
+
+export async function getStaticPaths() {
+  const all = await getCollection('catalog');
+  return ANIMALS.map((animal) => ({
+    params: { animal },
+    props: { issues: all.filter((i) => i.data.zodiac.animal === animal).sort(byIssueDate) },
+  }));
+}
+
+const { animal } = Astro.params;
+const { issues } = Astro.props;
+const branch = ANIMAL_BRANCH[animal as string];
+---
+
+<Base title={`${animal}年生肖郵票 — 方寸裡的生肖`}>
+  <div class="zpage container">
+    <header class="zhead">
+      <div class="rule-double"></div>
+      <p class="zkicker">按生肖</p>
+      <h1>{animal}<span class="branch">（{branch}）</span></h1>
+      <p class="zsub">{issues.length} 套收錄</p>
+      <div class="rule-double"></div>
+    </header>
+
+    {issues.length > 0 ? (
+      <div class="album-grid">{issues.map((i) => <StampCard issue={i} />)}</div>
+    ) : (
+      <p class="empty">🚧 此生肖尚無收錄,陸續上線。</p>
+    )}
+  </div>
+</Base>
+
+<style>
+  .zpage { padding-bottom: 3rem; }
+  .zhead { text-align: center; padding: 2.5rem 0 0; }
+  .zkicker { font-size: 0.78rem; letter-spacing: 0.25em; color: var(--color-gold); margin-bottom: 0.6rem; }
+  .zhead h1 { font-size: clamp(3rem, 8vw, 5rem); color: var(--color-red); margin: 0.5rem 0; }
+  .branch { font-size: 0.4em; color: var(--color-ink-soft); }
+  .zsub { color: var(--color-ink-soft); margin-bottom: 1.25rem; }
+  .empty { text-align: center; color: var(--color-ink-soft); padding: 3rem 0; }
+</style>

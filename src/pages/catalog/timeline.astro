@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { byIssueDate } from '../../lib/catalog';
+
+const base = import.meta.env.BASE_URL;
+const issues = (await getCollection('catalog')).sort(byIssueDate);
+---
+
+<Base title="發行時間軸 — 方寸裡的生肖">
+  <div class="tl container">
+    <header class="tlhead">
+      <div class="rule-double"></div>
+      <p class="tlkicker">按年份</p>
+      <h1>發行時間軸</h1>
+      <p class="tlsub">依實際發行日排序(發行日，非生肖年)</p>
+      <div class="rule-double"></div>
+    </header>
+
+    <ol class="timeline">
+      {issues.map((i) => (
+        <li class="tlitem">
+          <span class="tlyear">{i.data.issue_date.slice(0, 4)}</span>
+          <a class="tlbody" href={`${base}/catalog/issue/${i.id}/`}>
+            <span class="tlname">{i.data.series_name || `${i.data.zodiac.animal}年生肖郵票`}</span>
+            <span class="tlmeta">{i.data.region.name} · {i.data.zodiac.animal}（{i.data.zodiac.branch}）年 · 發行 {i.data.issue_date}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </div>
+</Base>
+
+<style>
+  .tl { padding-bottom: 3rem; }
+  .tlhead { text-align: center; padding: 2.5rem 0 0; }
+  .tlkicker { font-size: 0.78rem; letter-spacing: 0.25em; color: var(--color-gold); margin-bottom: 0.6rem; }
+  .tlhead h1 { font-size: clamp(2.2rem, 6vw, 3.4rem); letter-spacing: 0.08em; margin: 0.5rem 0; }
+  .tlsub { color: var(--color-ink-soft); margin-bottom: 1.5rem; }
+
+  .timeline {
+    list-style: none;
+    max-width: 720px;
+    margin: 2rem auto 0;
+    border-left: 2px solid var(--color-line);
+    padding-left: 0;
+  }
+  .tlitem {
+    display: flex;
+    gap: 1.25rem;
+    align-items: baseline;
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    position: relative;
+  }
+  .tlitem::before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 1rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-gold);
+  }
+  .tlyear {
+    flex-shrink: 0;
+    width: 3.5rem;
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    color: var(--color-red);
+  }
+  .tlbody { display: block; color: var(--color-ink); padding: 0.5rem 0; }
+  .tlbody:hover { text-decoration: none; }
+  .tlname { display: block; font-family: var(--font-serif); font-size: 1.05rem; }
+  .tlbody:hover .tlname { color: var(--color-red); }
+  .tlmeta { display: block; font-size: 0.85rem; color: var(--color-ink-soft); margin-top: 1px; }
+</style>
