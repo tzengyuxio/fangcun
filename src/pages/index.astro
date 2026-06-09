@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="方寸裡的生肖 — 生肖郵票科普／參考站">
+  <section class="hero container">
+    <h1>方寸裡的生肖</h1>
+    <p class="tagline">
+      涵蓋各郵政（台、中、港、澳、日、韓、美、越、蒙、法、泰、加…）發行的生肖郵票,
+      追求資料完整度與正確度的科普／參考站。
+    </p>
+    <p class="status">🚧 建置中 — 資料採集已涵蓋 16 個郵政、逾 400 套發行。</p>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    padding: 4rem 1.5rem;
+    text-align: center;
+  }
+  .hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    color: var(--color-highlight);
+    margin-bottom: 1rem;
+  }
+  .tagline {
+    max-width: 620px;
+    margin: 0 auto 1.5rem;
+    color: var(--color-text);
+  }
+  .status {
+    color: var(--color-muted);
+    font-size: 0.9rem;
+  }
+</style>

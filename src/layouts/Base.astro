@@ -1,0 +1,44 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const {
+  title,
+  description = '方寸裡的生肖 — 涵蓋各郵政發行生肖郵票的科普／參考站',
+} = Astro.props;
+const base = import.meta.env.BASE_URL;
+const pageTitle = title.includes('方寸裡的生肖') ? title : `${title} | 方寸裡的生肖`;
+---
+
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-inner">
+        <a class="nav-logo" href={base}>方寸裡的生肖</a>
+        <ul class="nav-links">
+          <li><a href={base}>首頁</a></li>
+          <li><a href={`${base}catalog/`}>目錄</a></li>
+          <li><a href={`${base}about/`}>關於</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <div class="container">
+        <p>方寸裡的生肖 · 生肖郵票科普／參考站 · <a href="https://github.com/tzengyuxio/fangcun">GitHub</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
