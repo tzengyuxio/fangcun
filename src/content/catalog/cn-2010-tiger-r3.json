@@ -1,0 +1,48 @@
+{
+  "id": "cn-2010-tiger-r3",
+  "region": {
+    "code": "CN",
+    "name": "中國郵政"
+  },
+  "zodiac": {
+    "animal": "虎",
+    "branch": "寅"
+  },
+  "zodiac_year": 2010,
+  "issue_date": "2010-01-05",
+  "round": 3,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "2010-1T",
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "庚寅年",
+      "image": "",
+      "denomination": {
+        "value": 1.2,
+        "currency": "元"
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】 2010年1月5日发行《庚寅年》特种邮票1套1枚，小本票1本。",
+  "images": [
+    "/img/stamps/cn/2010-1T/101310023949.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-2983.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "cn-2015-goat-r3",
+  "region": {
+    "code": "CN",
+    "name": "中國郵政"
+  },
+  "zodiac": {
+    "animal": "羊",
+    "branch": "未"
+  },
+  "zodiac_year": 2015,
+  "issue_date": "2015-01-05",
+  "round": 3,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "2015-1T",
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "乙未年",
+      "image": "",
+      "denomination": {
+        "value": 1.2,
+        "currency": "元"
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】 （發行月日以中國生肖票近年 1/5 慣例推定,待官方複核）",
+  "images": [
+    "/img/stamps/cn/2015-1T/110602344980.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-19508.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

@@ -101,6 +101,14 @@
 
 - 官方(`chinapost.com.cn`、`jiyou.11185.cn`)**無結構化歷史目錄**(CMS 文章流 / JS 商城 405),
   不適合全集爬取。
+- **官方查證/升級路徑(使用者提供,2026-06-10)**:
+  - 中國郵政商城 `https://mall.11185.cn/web/searchJy?businessId=JY&prodGoodsType=NORMAL&classficationId=JY-0`
+    —— **SPA**(34 個 script,商品由 JS/API 載入),且為**現售**商城,curl 抓不到、只含當期。
+  - `https://www.chinapost.com.cn/cn/category/1814/325172-1.htm`(郵票發行信息)—— 動態渲染、
+    僅 **2018–2026** 近年。
+  - 兩者皆官方(可升 `tier=official`)但需 **playwright 渲染**且只覆蓋近年 → 適合當「**近年資料的
+    官方查證 + tier 升級**」用,無法取代 5151sc 的 1980–2026 骨幹。**待辦**:用 headless 抽近年發行日/
+    面值/圖,對齊現有 `verified:false` 的 CN 套並升級來源。
 - **主爬源**:`http://www.5151sc.com/`(點購收藏網,靜態 PHP,`?page=N` 分頁,詳情
   `prosp-{id}.html`)。圖片直連、無 referer:`http://www.5151sc.com/upload/YYYYMM/{file}.jpg`
   (實測 750×622、67 KB;`/upload/sm/` 縮圖會 404,要抓 `/upload/YYYYMM/` 全尺寸)。tier=reference。

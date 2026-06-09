@@ -1,0 +1,59 @@
+{
+  "id": "cn-1992-monkey-r2",
+  "region": {
+    "code": "CN",
+    "name": "中國郵政"
+  },
+  "zodiac": {
+    "animal": "猴",
+    "branch": "申"
+  },
+  "zodiac_year": 1992,
+  "issue_date": "1992-01-05",
+  "round": 2,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "1992-1",
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "猴桃瑞寿",
+      "image": "",
+      "denomination": {
+        "value": 20,
+        "currency": "分"
+      },
+      "mintage": 233745000
+    },
+    {
+      "type": "stamp",
+      "description": "喜鹊登梅",
+      "image": "",
+      "denomination": {
+        "value": 50,
+        "currency": "分"
+      },
+      "mintage": 204001000
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】",
+  "images": [
+    "/img/stamps/cn/1992-1/92808521166.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-1826.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

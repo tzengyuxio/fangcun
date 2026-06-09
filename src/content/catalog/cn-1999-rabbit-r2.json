@@ -1,0 +1,44 @@
+{
+  "id": "cn-1999-rabbit-r2",
+  "region": {
+    "code": "CN",
+    "name": "中國郵政"
+  },
+  "zodiac": {
+    "animal": "兔",
+    "branch": "卯"
+  },
+  "zodiac_year": 1999,
+  "issue_date": "1999-01-05",
+  "round": 2,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "1999-1",
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】",
+  "images": [
+    "/img/stamps/cn/1999-1/92908544327.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-2229.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

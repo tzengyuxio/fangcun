@@ -1,0 +1,49 @@
+{
+  "id": "cn-2004-monkey-r3",
+  "region": {
+    "code": "CN",
+    "name": "中國郵政"
+  },
+  "zodiac": {
+    "animal": "猴",
+    "branch": "申"
+  },
+  "zodiac_year": 2004,
+  "issue_date": "2004-01-05",
+  "round": 3,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "2004-1T",
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "甲申年",
+      "image": "",
+      "denomination": {
+        "value": 80,
+        "currency": "分"
+      },
+      "mintage": 52000000
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】 国家邮政局定于2004年1月5日发行《甲申年》特种邮票1套1枚。 2004年是中国农历甲申年，即十二生肖的猴年。猴是人类的近亲，虽不像家畜直接影响人们的生活，但其机警敏捷、活泼灵巧、聪慧似人，仍受到人们的格外关注。中国神话传说中把猴子看作人类的始祖，有沟通天地的神奇力量，因而有人在渡船的桅杆上刻猴以镇妖辟邪，并塑造出孙悟空这一名声赫赫的齐天大圣、万猴之王，数百年来家喻户晓。因猴字与古代贵族爵位中侯爵谐音，于是也为“猴”添加了象征吉祥的意义，出现了不少与猴有关的成语典故。",
+  "images": [
+    "/img/stamps/cn/2004-1T/100809493965.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-2565.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

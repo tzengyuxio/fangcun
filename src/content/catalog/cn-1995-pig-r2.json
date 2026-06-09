@@ -1,0 +1,59 @@
+{
+  "id": "cn-1995-pig-r2",
+  "region": {
+    "code": "CN",
+    "name": "中國郵政"
+  },
+  "zodiac": {
+    "animal": "豬",
+    "branch": "亥"
+  },
+  "zodiac_year": 1995,
+  "issue_date": "1995-01-05",
+  "round": 2,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "1995-1",
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "肥猪拱门",
+      "image": "",
+      "denomination": {
+        "value": 20,
+        "currency": "分"
+      },
+      "mintage": 100065000
+    },
+    {
+      "type": "stamp",
+      "description": "喜迎新春",
+      "image": "",
+      "denomination": {
+        "value": 50,
+        "currency": "分"
+      },
+      "mintage": 80625000
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】",
+  "images": [
+    "/img/stamps/cn/1995-1/92808521193.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-1981.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

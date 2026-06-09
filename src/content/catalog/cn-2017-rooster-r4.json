@@ -1,0 +1,44 @@
+{
+  "id": "cn-2017-rooster-r4",
+  "region": {
+    "code": "CN",
+    "name": "中國郵政"
+  },
+  "zodiac": {
+    "animal": "雞",
+    "branch": "酉"
+  },
+  "zodiac_year": 2017,
+  "issue_date": "2017-01-05",
+  "round": 4,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "2017-1",
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】 （發行月日以中國生肖票近年 1/5 慣例推定,待官方複核）",
+  "images": [
+    "/img/stamps/cn/2017-1/10603125378.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-20287.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}
