@@ -16,15 +16,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 目前狀態
 
-**已 scaffold，Phase 0–1 完成。** Astro 站骨架、版面與受 Zod 驗證的 Content Collections
-都已就緒（`npm run dev` 可預覽）。視覺設計方向見 **ADR-002**（經典郵政圖鑑;含目標客群、
-配色、郵票卡／齒孔／郵戳元件)。接手請續 `docs/build-plan.md` 的 Phase 2 起。
+**已 scaffold;Phase 0、1、3、4 完成。** Astro 站骨架、版面、受 Zod 驗證的 Content Collections,
+以及三軸索引／時間軸／詳情頁模板都已就緒（`npm run dev` 可預覽）。視覺設計見 **ADR-002**
+（經典郵政圖鑑;含目標客群、配色、郵票卡／齒孔／郵戳元件)。
 
 - **正式資料**（受 Zod 驗證，公信力骨幹）：`src/content/catalog/*.json`（Issue）＋
-  `src/content/sources/sources.json`（分級來源）。目前兩筆種子 `tw-1968-rooster-r1`
-  （已查證）與 `jp-1950-tiger-r1`（未查證，`verified: false`），分別示範 D5 與 D6。
-- **採集素材**（未查證、各國 schema 不一，待人工轉成正式 catalog）：`data/raw/{region}/`，
-  已涵蓋 16 個郵政、逾 400 套。爬蟲腳本見 `scripts/`，來源地圖見 `docs/sources-research.md`。
+  `src/content/sources/sources.json`（分級來源）。現有 **60 套**：台灣 1968–2025 全五輪
+  （自 `data/raw/post-tw` 轉換，`verified: false` 待複核，見 `scripts/convert_post_tw.py`）＋
+  日本 1950 種子;`tw-1968-rooster-r1`（已查證）與 `jp-1950-tiger-r1` 示範 D5／D6。
+- **採集素材**（未查證、各國 schema 不一，待轉成正式 catalog）：`data/raw/{region}/`，
+  已涵蓋 16 個郵政、逾 400 套。爬蟲見 `scripts/`，來源地圖見 `docs/sources-research.md`。
+- **待辦／後續**：功能與資料待辦見 `docs/backlog.md`;分階段 roadmap 見 `docs/build-plan.md`。
 
 ## 技術棧
 
