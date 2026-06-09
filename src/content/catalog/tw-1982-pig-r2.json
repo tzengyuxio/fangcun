@@ -1,0 +1,68 @@
+{
+  "id": "tw-1982-pig-r2",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "豬",
+    "branch": "亥"
+  },
+  "zodiac_year": 1983,
+  "issue_date": "1982-12-01",
+  "round": 2,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特190",
+    "scott": null
+  },
+  "designer": "莊珠妹",
+  "printer": "中華彩色印刷公司",
+  "printing_process": "平凹版",
+  "perforation": "12 1/2",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特190.1",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36219001.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特190.2",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36219002.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特190.3",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36219003.JPG"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國72年歲次癸亥，年肖屬豬，以抽象之豬形圖案印製郵票，面值分1元及10元兩種；小全張（78x102）則就上述郵票各2枚組成。",
+  "images": [
+    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36219001.JPG"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "tw-2013-horse-r4",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "馬",
+    "branch": "午"
+  },
+  "zodiac_year": 2014,
+  "issue_date": "2013-12-02",
+  "round": 4,
+  "series_name": "特 598 新年郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "曾凱智",
+  "printer": "卡登實業股份有限公司",
+  "printing_process": "平版",
+  "perforation": "13",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特598.1",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D598_01.1B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特598.2",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D598_02.2B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特598.3",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D598_03.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特598.1a",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D598_04.1SL-B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特598.2a",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D598_05.2SL-B.jpg"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 為迎接新年來臨，本公司續採值年生肖圖案，發行「新年郵票 (102年版)」1組2枚及小全張1張。本組郵票圖案生動活潑，駿馬以闊步、奔騰之姿傳達新年熱鬧吉祥的氣氛。粉黃色背景及祥雲襯托活力充沛的馬兒，象徵馬年生氣蓬勃，好運連連。圖案簡介如下： 一、面值3.5元郵票：昂揚的駿馬闊步前行，象徵「好的開始」。二、面值13元郵票：躍動的馬兒昂首回盼，象徵「馬到成功」。三、面值12元小全張：雙馬奔馳，祥雲繚繞，象徵「諸事順利」。為增添收藏價值與集郵樂趣，續製作「新年郵票 (102年版)印刷全張」郵品，於同日發售，郵品內含未裁切之面值3.5元及13元郵票全張（20枚）各2張及證書1份，全張紙邊均保留印製過程所標記之色標、裁切線等記號，以專用典藏圓筒收納。本項郵品自98年起系列發行，數量有限，深值典藏。又本項郵品發售時不適用優惠折扣辦法。",
+  "images": [
+    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D598_01.1B.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

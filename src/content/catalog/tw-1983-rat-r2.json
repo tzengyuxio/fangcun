@@ -1,0 +1,68 @@
+{
+  "id": "tw-1983-rat-r2",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "鼠",
+    "branch": "子"
+  },
+  "zodiac_year": 1984,
+  "issue_date": "1983-12-01",
+  "round": 2,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特201",
+    "scott": null
+  },
+  "designer": "莊珠妹",
+  "printer": "中央印製廠",
+  "printing_process": "平凹版",
+  "perforation": "12 1/2",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特201.1",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36920101.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特201.2",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36920102.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特201.3",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36920103.JPG"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 73年歲次甲子，年肖屬鼠：以老鼠圖案印製郵票，其面值分1元及10元2種；小全張（78x102）則就上述郵票各2枚組成。",
+  "images": [
+    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/36920101.JPG"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

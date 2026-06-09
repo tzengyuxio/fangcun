@@ -1,0 +1,68 @@
+{
+  "id": "tw-1981-dog-r2",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "狗",
+    "branch": "戌"
+  },
+  "zodiac_year": 1982,
+  "issue_date": "1981-12-01",
+  "round": 2,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特178",
+    "scott": null
+  },
+  "designer": "莊珠妹",
+  "printer": "中華彩色印刷公司",
+  "printing_process": "平凹版",
+  "perforation": "12 1/2",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特178.1",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/35417801.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特178.2",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/35417802.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特178.3",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/35417803.JPG"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國71年，歲次壬戍，年肖屬犬，以象徵中國傳統團圓和諧之圓型抽象犬圖為題材，繪製郵票圖案，而值分1元及10元2種；小全張（78 X 102）則就上述郵票各2枚組成。",
+  "images": [
+    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/35417801.JPG"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

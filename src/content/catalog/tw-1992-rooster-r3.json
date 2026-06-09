@@ -1,0 +1,78 @@
+{
+  "id": "tw-1992-rooster-r3",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "雞",
+    "branch": "酉"
+  },
+  "zodiac_year": 1993,
+  "issue_date": "1992-12-01",
+  "round": 3,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特314",
+    "scott": null
+  },
+  "designer": "曹俊彥",
+  "printer": "中華彩色印刷公司",
+  "printing_process": "平凹版",
+  "perforation": "12 1/2",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特314.1",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531401.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特314.2",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531402.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特314.3",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531403.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特314.4",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531404.JPG"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國82年歲次癸酉，年肖屬雞，特以第3輪新年郵票生肖圖案甄選中獲首獎的曹俊彥先生作品之雞圖案為題材印製郵票1組2枚；小全張（78x102）係就上述郵票各2枚組成；新年郵票小冊則由本套郵票各6枚組成，票幅為 26X38（公厘），左右2邊有齒，上下2邊無齒。",
+  "images": [
+    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/45531401.JPG"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

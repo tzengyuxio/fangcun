@@ -1,0 +1,58 @@
+{
+  "id": "tw-1974-rabbit-r1",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "兔",
+    "branch": "卯"
+  },
+  "zodiac_year": 1975,
+  "issue_date": "1974-12-10",
+  "round": 1,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特107",
+    "scott": null
+  },
+  "designer": "王立典",
+  "printer": "中央印製廠",
+  "printing_process": "平凹版",
+  "perforation": "12 1/2",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特107.1",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/29410701.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特107.2",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/29410702.JPG"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國64年，歲次乙卯，年肖屬兔，以臺灣所產之野生兔子為圖案，印製新年郵票1組。",
+  "images": [
+    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/29410701.JPG"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

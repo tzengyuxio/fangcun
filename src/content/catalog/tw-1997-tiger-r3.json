@@ -1,0 +1,78 @@
+{
+  "id": "tw-1997-tiger-r3",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "虎",
+    "branch": "寅"
+  },
+  "zodiac_year": 1998,
+  "issue_date": "1997-12-01",
+  "round": 3,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特379",
+    "scott": null
+  },
+  "designer": "廖哲夫",
+  "printer": "中華彩色印刷公司",
+  "printing_process": "平凹版",
+  "perforation": "12 1/2 X 12",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特379.1",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/01_D379_01.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特379.2",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/01_D379_02.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特379.3",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/01_D379_03.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特379.4",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/01_D379_04.JPG"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 為配合公眾交寄賀年郵件需要，本局特印製新年郵票(86年版)1組2枚，小全張1張及小冊1種。 我國民間採用天干地支記年由來已久，按甲子、乙丑……至癸亥之次序組合，逐年排列，60年為1循環，稱1甲子。12地支又以12種動物代表，通稱十二生肖，即子鼠、丑牛、寅虎、卯兔、辰龍、巳蛇、午馬、未羊、申猴、西雞、戌狗及亥豬，新年郵票之圖案均以即將到來之新歲值年生肖動物為主題，俗稱生肖郵票。 民國87年1月28日為農曆正月初一，歲次戌寅，生肖屬虎，為迎接虎年之來臨，續以廖哲夫先生之虎年圖案印製郵票1組2枚，面值為新臺幣3元5角及13元；小全張係本套郵票各2枚組成，每張新臺幣33元；郵票小冊(折疊後90 X 50公釐)由3元5角面值郵票12枚組成，票幅為26 X 38公釐，左右兩邊有齒，上下兩邊無齒，每冊新臺幣42元。",
+  "images": [
+    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/01_D379_01.JPG"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

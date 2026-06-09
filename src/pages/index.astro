@@ -1,8 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
 import Postmark from '../components/Postmark.astro';
+import { getCollection } from 'astro:content';
 
 const base = import.meta.env.BASE_URL;
+
+const issues = await getCollection('catalog');
+const regionCount = new Set(issues.map((i) => i.data.region.code)).size;
 
 const demo = [
   { animal: '雞', name: '特055 新年郵票', sub: '1968 · 中華郵政', pm: { top: '中華郵政', date: '57.11.12', bottom: 'TAIPEI' } },
@@ -60,7 +64,7 @@ const axes = [
     ))}
   </nav>
 
-  <p class="status container">🚧 建置中 — 已收錄 16 個郵政、逾 400 套發行;郵票圖與各筆詳情陸續上線。</p>
+  <p class="status container">🚧 建置中 — 已收錄 {issues.length} 套、{regionCount} 個郵政;更多郵政與郵票圖陸續上線。</p>
 </Base>
 
 <style>

@@ -1,0 +1,88 @@
+{
+  "id": "tw-2016-rooster-r5",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "雞",
+    "branch": "酉"
+  },
+  "zodiac_year": 2017,
+  "issue_date": "2016-12-01",
+  "round": 5,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特648",
+    "scott": null
+  },
+  "designer": "林俊良",
+  "printer": "中華彩色印刷股份有限公司",
+  "printing_process": "平版",
+  "perforation": "13",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特648.1",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D648_01.1B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特648.2",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D648_02.2B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特648.3",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D648_03.3B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特648.1a",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D648_04.1-SL-B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特648.2a",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D648_05.2-SL-B.jpg"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 為迎接新年來臨，本公司續規劃發行「新年郵票 (105年版)」1組2枚及小全張1張。本組郵票圖案設計，以剪影方式表現英姿煥發的公雞，並以金色及橘紅色傳遞雞年吉祥、喜慶的歡樂氣氛；小全張背景以溫暖的淡粉紅色為基調，搭配花朵及彩色斜線，以慶祝新年的到來。圖案簡介如下： 一、面值3.5元郵票：以「金雞報喜」意念，傳達一日之計在於晨、一年之計在於春的新年迎春之意。二、面值13元郵票：以「吉（雞）慶有餘」意念，傳達新的一年生活富庶有餘之祈願。三、面值12元小全張：以雙雞和盤長如意圖案，呈現「吉（雞）祥如意」，祝福新的一年諸事平安、圓滿如意、幸福綿延。為增添集郵樂趣，續製作「新年郵票(105年版)印刷全張」郵品，於同日發售，郵品以專用典藏圓筒收納，內含未裁切之面值3.5元及13元郵票全張（20枚）各2張、小全張印刷全張(含9張小全張)1張及證書1份，紙邊皆保留印製過程所標記之色標、裁切線等記號。本項郵品自98年起系列發行，極具收藏價值。本項郵品不適用優惠折扣辦法。",
+  "images": [
+    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/D648_01.1B.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "tw-2002-goat-r3",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "羊",
+    "branch": "未"
+  },
+  "zodiac_year": 2003,
+  "issue_date": "2002-12-02",
+  "round": 3,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特442",
+    "scott": null
+  },
+  "designer": "王炳南",
+  "printer": "中華彩色印刷公司",
+  "printing_process": "平凹版",
+  "perforation": "12 1/2 x 12",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特442.1",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/SP442_1.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特442.2",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/SP442_2.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特442.3",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/SP442_3.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特442.4",
+      "image": "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/SP442_4.JPG"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國92年2月1日為農曆正月初一，生肖屬羊，為迎接羊年的來臨，本局續以生肖 圖案徵選活動中獲得首獎之王炳南先生作品羊年圖案印製新年郵票（91年版）1組2枚 ，小全張1張及郵票小冊1冊，郵票面值為新台幣3.5元及13元兩種；小全張係就本套 郵票各2枚組成，每張新台幣33元；郵票小冊由新台幣3.5元郵票12枚組成，每冊 新台幣42元。 我國採用天干地支記年由來已久，按甲子、乙丑﹒﹒﹒至癸亥之次序組合，逐年排列，60年為一循環，稱一甲子。十二地支又以12種動物代表，通稱12生肖，即子鼠、丑牛 、寅虎、卯兔、辰龍、巳蛇、午馬、未羊、申猴、酉雞、戌狗及亥豬。新年郵票之圖案均以即將 到來之新歲值年生肖動物為主題，俗稱生肖郵票。",
+  "images": [
+    "https://www.post.gov.tw/post/FileCenter/post_ww2/stamp_pic/stamp_bpic/SP442_1.JPG"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}
