@@ -1,0 +1,36 @@
+{
+  "code": "2009",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2009",
+  "zodiac": "Ox",
+  "title": "Zodiac - Year of the Ox",
+  "title_th": "นักษัตรประจำปี 2552 ฉลู (วัว)",
+  "issue_date": "2009/2552-01-02",
+  "detail_url": "https://www.thailex.info/THAILEX/THAILEXENG/LEXICON/Zodiac%20-%20Year%20of%20the%20Ox%20(2009)%20Thai%20Postage%20Stamp.htm",
+  "detail_fields": {
+    "Issue Name": "Zodiac - Year of the Ox",
+    "Thai Issue Name": "นักษัตรประจำปี 2552 ฉลู (วัว)",
+    "Issue Date": "2009/2552-01-02",
+    "Cause": "To commemorate the new year and promote stamp collection",
+    "Catalogue Number": "2009/1",
+    "Denomination": "3 Baht",
+    "Unused Value": "6 Baht",
+    "Used Value": "1 Baht",
+    "Thailex Collection": "Unused stamp",
+    "Size": "28 x 28 mm",
+    "Quantity of Stamps": "1,000,000 pieces",
+    "Printer": "Chan Wanich Security Printing Company Limited, Thailand",
+    "Subject": "Ox , second animal of the Chinese Zodiac , with stars and constellations in bluish-green and brownish-grey background"
+  },
+  "images": [
+    {
+      "image_url": "https://www.thailex.info/THAILEX/THAILEXPICS/Thai%20postal%20stamps/Zodiac%20-%20Year%20of%20the%20Ox%20(2009)%20Thai%20Postage%20Stamp.jpg",
+      "caption": "Chinese Zodiac - Year of the Ox",
+      "image_file": "img/Zodiac - Year of the Ox (2009) Thai Postage Stamp.jpg"
+    }
+  ],
+  "n_images": 1
+}

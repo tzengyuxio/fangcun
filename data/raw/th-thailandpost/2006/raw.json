@@ -1,0 +1,36 @@
+{
+  "code": "2006",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2006",
+  "zodiac": "Dog",
+  "title": "Zodiac - Year of the Dog",
+  "title_th": "นักษัตรประจำปี 2549 จอ (สุนัข)",
+  "issue_date": "2006/2549-01-01",
+  "detail_url": "https://www.thailex.info/THAILEX/THAILEXENG/LEXICON/Zodiac%20-%20Year%20of%20the%20Dog%20(2006)%20Thai%20Postage%20Stamp.htm",
+  "detail_fields": {
+    "Issue Name": "Zodiac - Year of the Dog",
+    "Thai Issue Name": "นักษัตรประจำปี 2549 จอ (สุนัข)",
+    "Issue Date": "2006/2549-01-01",
+    "Cause": "To commemorate the new year and promote stamp collection",
+    "Catalogue Number": "2006/1",
+    "Denomination": "3 Baht",
+    "Unused Value": "5 Baht",
+    "Used Value": "2 Baht",
+    "Thailex Collection": "Unused stamp",
+    "Size": "28 x 28 mm",
+    "Quantity of Stamps": "1,000,000 pieces",
+    "Printer": "Thai British Security Printing Public Company Limited, Thailand",
+    "Subject": "Dog , eleventh animal of the Chinese Zodiac , with stars and constellations in blue background"
+  },
+  "images": [
+    {
+      "image_url": "https://www.thailex.info/THAILEX/THAILEXPICS/Thai%20postal%20stamps/Zodiac%20-%20Year%20of%20the%20Dog%20(2006)%20Thai%20Postage%20Stamp.jpg",
+      "caption": "Chinese Zodiac - Year of the Dog",
+      "image_file": "img/Zodiac - Year of the Dog (2006) Thai Postage Stamp.jpg"
+    }
+  ],
+  "n_images": 1
+}

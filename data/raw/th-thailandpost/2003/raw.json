@@ -1,0 +1,36 @@
+{
+  "code": "2003",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2003",
+  "zodiac": "Goat",
+  "title": "Zodiac - Year of the Goat",
+  "title_th": "นักษัตรประจำปี 2546 มะแม (แพะ)",
+  "issue_date": "2003/2546-01-01",
+  "detail_url": "https://www.thailex.info/THAILEX/THAILEXENG/LEXICON/Zodiac%20-%20Year%20of%20the%20Goat%20(2003)%20Thai%20Postage%20Stamp.htm",
+  "detail_fields": {
+    "Issue Name": "Zodiac - Year of the Goat",
+    "Thai Issue Name": "นักษัตรประจำปี 2546 มะแม (แพะ)",
+    "Issue Date": "2003/2546-01-01",
+    "Cause": "To commemorate the new year and promote stamp collection",
+    "Catalogue Number": "2003/1",
+    "Denomination": "3 Baht",
+    "Unused Value": "5 Baht",
+    "Used Value": "3 Baht",
+    "Thailex Collection": "Unused stamp",
+    "Size": "28 x 28 mm",
+    "Quantity of Stamps": "1,000,000 pieces",
+    "Printer": "Thai British Security Printing Public Company Limited, Thailand",
+    "Subject": "Goat , ninth animal of the Chinese Zodiac , with stars and constellations in purplish background"
+  },
+  "images": [
+    {
+      "image_url": "https://www.thailex.info/THAILEX/THAILEXPICS/Thai%20postal%20stamps/Zodiac%20-%20Year%20of%20the%20Goat%20(2003)%20Thai%20Postage%20Stamp.jpg",
+      "caption": "Chinese Zodiac - Year of the Goat",
+      "image_file": "img/Zodiac - Year of the Goat (2003) Thai Postage Stamp.jpg"
+    }
+  ],
+  "n_images": 1
+}

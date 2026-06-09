@@ -1,0 +1,23 @@
+{
+  "code": "2022-ms",
+  "year": 2022,
+  "animal": "tiger",
+  "role": "miniature_sheet",
+  "slug": "2022-year-of-the-tiger-mint-miniature-sheet",
+  "detail_url": "https://collectables.nzpost.co.nz/2022-year-of-the-tiger-mint-miniature-sheet/",
+  "page_title": "2022 Year of the Tiger Mint Miniature Sheet",
+  "sku": "NZ21RMSHM",
+  "price": "",
+  "description": "Mint gummed miniature sheet.\n\nCheck out the full range of miniature sheets and miniature sheet booklets here.",
+  "images": [
+    {
+      "image_url": "https://cdn11.bigcommerce.com/s-364g6nmu99/images/stencil/1280x1280/products/9538/14695/2021_Year_of_Tiger_MinSheet__01421.1635455055.jpg?c=1",
+      "image_file": "img/2021_Year_of_Tiger_MinSheet__01421.1635455055.jpg"
+    }
+  ],
+  "n_images": 1,
+  "source": {
+    "id": "nz-nzpost",
+    "tier": "official"
+  }
+}

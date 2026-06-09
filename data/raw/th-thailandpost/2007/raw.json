@@ -1,0 +1,36 @@
+{
+  "code": "2007",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2007",
+  "zodiac": "Pig",
+  "title": "Zodiac - Year of the Pig",
+  "title_th": "นักษัตรประจำปี 2550 กุน (สุกร)",
+  "issue_date": "2007/2550-01-01",
+  "detail_url": "https://www.thailex.info/THAILEX/THAILEXENG/LEXICON/Zodiac%20-%20Year%20of%20the%20Pig%20(2007)%20Thai%20Postage%20Stamp.htm",
+  "detail_fields": {
+    "Issue Name": "Zodiac - Year of the Pig",
+    "Thai Issue Name": "นักษัตรประจำปี 2550 กุน (สุกร)",
+    "Issue Date": "2007/2550-01-01",
+    "Cause": "To commemorate the new year and promote stamp collection",
+    "Catalogue Number": "2007/1",
+    "Denomination": "3 Baht",
+    "Unused Value": "5 Baht",
+    "Used Value": "2 Baht",
+    "Thailex Collection": "Unused stamp",
+    "Size": "28 x 28 mm",
+    "Quantity of Stamps": "1,000,000 pieces",
+    "Printer": "Thai British Security Printing Public Company Limited, Thailand",
+    "Subject": "Pig , twelfth and last animal of the Chinese Zodiac , with stars and constellations in reddish background"
+  },
+  "images": [
+    {
+      "image_url": "https://www.thailex.info/THAILEX/THAILEXPICS/Thai%20postal%20stamps/Zodiac%20-%20Year%20of%20the%20Pig%20(2007)%20Thai%20Postage%20Stamp.jpg",
+      "caption": "Chinese Zodiac - Year of the Pig",
+      "image_file": "img/Zodiac - Year of the Pig (2007) Thai Postage Stamp.jpg"
+    }
+  ],
+  "n_images": 1
+}

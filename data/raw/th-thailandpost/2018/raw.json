@@ -1,0 +1,41 @@
+{
+  "code": "2018",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2018",
+  "zodiac": "Dog",
+  "title": "Zodiac 2018 (Year of the Dog) Postage Stamp",
+  "issue_date": "2018-01-01",
+  "siam_id": "1141",
+  "detail_url": "http://www.siamstamp.com/catalogue/index.php?id=1141",
+  "detail_fields": {
+    "Issue Name": "Zodiac 2018 (Year of the Dog) Postage Stamp",
+    "Issue Date": "2018-01-01",
+    "Perforation": "n/a",
+    "Denomination": "3 Baht",
+    "Details": "n/a",
+    "Size": "30 x 40 mm. (Vertical-measured from perforation to perforation)",
+    "Printer": "Thai British Security Printing Public Company Limited, Thailand",
+    "SC": "03885"
+  },
+  "images": [
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2018/TH2018-1141ST.jpg",
+      "caption": "Zodiac 2018 (Year of the Dog) Postage Stamp",
+      "image_file": "img/TH2018-1141ST.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2018/TH2018-1141CO.jpg",
+      "caption": "Zodiac 2018 (Year of the Dog) Postage Stamp First Day Cover.",
+      "image_file": "img/TH2018-1141CO.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2018/TH2018-1141FST.jpg",
+      "caption": "Zodiac 2018 (Year of the Dog) Postage Stamp Full Sheet.",
+      "image_file": "img/TH2018-1141FST.jpg"
+    }
+  ],
+  "n_images": 3
+}

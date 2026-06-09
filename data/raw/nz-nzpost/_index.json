@@ -1,0 +1,376 @@
+[
+  {
+    "code": "1997",
+    "year": 1997,
+    "animal": "ox",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/1997-year-of-the-ox-new-zealand-cattle/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "1998",
+    "year": 1998,
+    "animal": "tiger",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/1998-year-of-the-tiger-favourite-felines/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "1999",
+    "year": 1999,
+    "animal": "rabbit",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/1999-year-of-the-rabbit-popular-pets/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2000",
+    "year": 2000,
+    "animal": "dragon",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2000-year-of-the-dragon-spirits-guardians/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2001",
+    "year": 2001,
+    "animal": "snake",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2001-year-of-the-snake-marine-reptiles/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2002",
+    "year": 2002,
+    "animal": "horse",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2002-year-of-the-horse-new-zealands-group-one-winners/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2003",
+    "year": 2003,
+    "animal": "goat",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2003-year-of-the-sheep/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2004",
+    "year": 2004,
+    "animal": "monkey",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2004-year-of-the-monkey-new-zealand-zoo-animals/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2005",
+    "year": 2005,
+    "animal": "rooster",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2005-year-of-the-rooster-new-zealand-farmyard-animals/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2006",
+    "year": 2006,
+    "animal": "dog",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2006-year-of-the-dog/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2007",
+    "year": 2007,
+    "animal": "pig",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2007-year-of-the-pig/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2008",
+    "year": 2008,
+    "animal": "rat",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2008-year-of-the-rat-pocket-pets/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2009",
+    "year": 2009,
+    "animal": "ox",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2009-year-of-the-ox/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2010",
+    "year": 2010,
+    "animal": "tiger",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2010-year-of-the-tiger/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2011",
+    "year": 2011,
+    "animal": "rabbit",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2011-year-of-the-rabbit/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2012",
+    "year": 2012,
+    "animal": "dragon",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2012-year-of-the-dragon/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2013",
+    "year": 2013,
+    "animal": "snake",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2013-year-of-the-snake/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2014",
+    "year": 2014,
+    "animal": "horse",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2014-year-of-the-horse/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2015",
+    "year": 2015,
+    "animal": "goat",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2015-year-of-the-sheep/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2016",
+    "year": 2016,
+    "animal": "monkey",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2016-year-of-the-monkey/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2017",
+    "year": 2017,
+    "animal": "rooster",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2017-year-of-the-rooster/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2018",
+    "year": 2018,
+    "animal": "dog",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2018-year-of-the-dog/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2019",
+    "year": 2019,
+    "animal": "pig",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2019-year-of-the-pig/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2020",
+    "year": 2020,
+    "animal": "rat",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2020-year-of-the-rat/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2021",
+    "year": 2021,
+    "animal": "ox",
+    "role": "issue",
+    "detail_url": "https://collectables.nzpost.co.nz/2021-year-of-the-ox/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2022",
+    "year": 2022,
+    "animal": "tiger",
+    "role": "stamp_set",
+    "detail_url": "https://collectables.nzpost.co.nz/2022-year-of-the-tiger-set-of-mint-stamps/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2022-ms",
+    "year": 2022,
+    "animal": "tiger",
+    "role": "miniature_sheet",
+    "detail_url": "https://collectables.nzpost.co.nz/2022-year-of-the-tiger-mint-miniature-sheet/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2023",
+    "year": 2023,
+    "animal": "rabbit",
+    "role": "stamp_set",
+    "detail_url": "https://collectables.nzpost.co.nz/2023-year-of-the-rabbit-set-of-mint-stamps/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2023-ms",
+    "year": 2023,
+    "animal": "rabbit",
+    "role": "miniature_sheet",
+    "detail_url": "https://collectables.nzpost.co.nz/2023-year-of-the-rabbit-mint-miniature-sheet/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2024",
+    "year": 2024,
+    "animal": "dragon",
+    "role": "miniature_sheet",
+    "detail_url": "https://collectables.nzpost.co.nz/2024-year-of-the-dragon-mint-miniature-sheet/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2025",
+    "year": 2025,
+    "animal": "snake",
+    "role": "stamp_set",
+    "detail_url": "https://collectables.nzpost.co.nz/2025-year-of-the-snake-set-of-mint-stamps/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2025-ms",
+    "year": 2025,
+    "animal": "snake",
+    "role": "miniature_sheet",
+    "detail_url": "https://collectables.nzpost.co.nz/2025-year-of-the-snake-mint-miniature-sheet/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026",
+    "year": 2026,
+    "animal": "horse",
+    "role": "stamp_set",
+    "detail_url": "https://collectables.nzpost.co.nz/2026-year-of-the-horse-set-of-mint-stamps/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  },
+  {
+    "code": "2026-ms",
+    "year": 2026,
+    "animal": "horse",
+    "role": "miniature_sheet",
+    "detail_url": "https://collectables.nzpost.co.nz/2026-year-of-the-horse-mint-miniature-sheet/",
+    "source": {
+      "id": "nz-nzpost",
+      "tier": "official"
+    }
+  }
+]

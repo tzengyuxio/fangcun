@@ -1,0 +1,50 @@
+{
+  "code": "2014",
+  "slug": "chirstmas-island-lunar-new-year-2014-year-of-the-horse",
+  "list_title": "Christmas Island Year of the Horse 2014",
+  "detail_url": "https://collectables.auspost.com.au/stamp-issues/view-all-stamp-issues/chirstmas-island-lunar-new-year-2014-year-of-the-horse",
+  "title": "Christmas Island Year of the Horse 2014",
+  "spec": {
+    "Issue date": "7 January 2014",
+    "Issue withdrawal date": "31 July 2014",
+    "Denominations": "1 x 60c, 1 x $1.80",
+    "Stamp design": "Dani Poon",
+    "Product design": "Sonia Young, Australia Post Design Studio",
+    "Paper self-adhesive": "C100",
+    "Printer self-adhesive": "McKellar",
+    "Printing process": "Lithography",
+    "Stamp size": "26mm x 37.5mm",
+    "Minisheet size": "136mm x 70mm",
+    "Zodiac sheetlet size": "170mm x 210mm",
+    "Perforations": "14.6 x 13.86",
+    "Sheet layout": "Module of 50",
+    "FDI postmark": "Christmas Island, WA 6798",
+    "FDI withdrawal date": "4 February 2014"
+  },
+  "issue_date": "7 January 2014",
+  "fdi_postmark": "Christmas Island, WA 6798",
+  "descriptions": [
+    "Lunar New Year is the most important of the traditional Chinese festivals and is celebrated by Chinese people throughout the world.",
+    "This stamp is a pictorial version inlaid with a colourful floral pattern using paper-cut motifs.",
+    "This stamp features the Chinese calligraphic symbol for the Horse."
+  ],
+  "images": [
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--889438c4-4f82-4cd1-a92d-1fb0781d2750/2014-01-07-christmas-island-year-of-the-horse-2014-01-60c-min.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-releases-2014/2014-01-07-ci-lunar-new-year-2014-year-of-the-horse/gallery/2014-01-07-christmas-island-year-of-the-horse-2014_01-60c-min.png",
+      "alt": "",
+      "image_file": "img/2014-01-07-christmas-island-year-of-the-horse-2014-01-60c-min.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--d6e712b6-070b-4eb4-929c-925b9f43d64e/2014-01-07-christmas-island-year-of-the-horse-2014-02--1-80.jpg?quality=85",
+      "filereference": "/content/dam/collectables/stamp-releases-2014/2014-01-07-ci-lunar-new-year-2014-year-of-the-horse/2014-01-07_Christmas-Island_Year-of-the-horse-2014_02_$1.80.jpg",
+      "alt": "",
+      "image_file": "img/2014-01-07-christmas-island-year-of-the-horse-2014-02--1-80.jpg"
+    }
+  ],
+  "n_images": 2,
+  "source": {
+    "id": "cx-auspost",
+    "tier": "official"
+  }
+}

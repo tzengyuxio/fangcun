@@ -1,0 +1,50 @@
+{
+  "code": "2015",
+  "slug": "christmas-island-year-of-the-goat-2015",
+  "list_title": "Christmas Island Year of the Goat 2015",
+  "detail_url": "https://collectables.auspost.com.au/stamp-issues/view-all-stamp-issues/christmas-island-year-of-the-goat-2015",
+  "title": "Christmas Island Year of the Goat 2015",
+  "spec": {
+    "Issue date": "8 January 2015",
+    "Issue withdrawal date": "31 December 2015",
+    "Denominations": "1 x 70c, 1 x $2.10",
+    "Stamp design": "Dani Poon",
+    "Product design": "Lisa Christensen, Australia Post Design Studio",
+    "Paper - gummed": "Tullis Russell",
+    "Printer - gummed": "McKellar Renown",
+    "Printing process": "Lithography",
+    "Stamp size": "26mm x 37.5mm",
+    "Minisheet size": "136mm x 70mm",
+    "Zodiac sheetlet size": "170mm x 210mm",
+    "Perforations": "14.6 x 13.86",
+    "Sheet layout": "Module of 50 (foiled)",
+    "FDI postmark": "Christmas Island, WA 6798",
+    "FDI withdrawal date": "6 February 2015"
+  },
+  "issue_date": "8 January 2015",
+  "fdi_postmark": "Christmas Island, WA 6798",
+  "descriptions": [
+    "Lunar New Year is the most important of the traditional Chinese festivals and is celebrated by Chinese people throughout the world. It is a time of renewal and settling unfinished business.",
+    "This stamp is a pictorial representation of the goat, with a floral inlay.",
+    "This stamp shows the Chinese calligraphic character for the goat."
+  ],
+  "images": [
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--58e07021-d7e9-43de-939c-969ac4645e5d/2015-01-08-christmas-island-year-of-the-goat-2015-01-paper-cut-goat-70c.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-releases-2015/2015-01-08_christmas-island-year-of-the-goat-2015/2015-01-08_Christmas-Island-Year-of-the-Goat-2015_01_Paper-cut-goat_70c.png",
+      "alt": "",
+      "image_file": "img/2015-01-08-christmas-island-year-of-the-goat-2015-01-paper-cut-goat-70c.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--18d0eb3a-2cda-4f19-b4b9-0e6e3c650ef1/2015-01-08-christmas-island-year-of-the-goat-2015-02-chinese-characters--2-10.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-releases-2015/2015-01-08_christmas-island-year-of-the-goat-2015/2015-01-08_Christmas-Island-Year-of-the-Goat-2015_02_Chinese-characters_$2.10.png",
+      "alt": "",
+      "image_file": "img/2015-01-08-christmas-island-year-of-the-goat-2015-02-chinese-characters--2-10.png"
+    }
+  ],
+  "n_images": 2,
+  "source": {
+    "id": "cx-auspost",
+    "tier": "official"
+  }
+}

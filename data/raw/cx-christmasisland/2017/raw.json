@@ -1,0 +1,56 @@
+{
+  "code": "2017",
+  "slug": "christmas-island-year-of-the-rooster-2017",
+  "list_title": "Christmas Island: Year of the Rooster 2017",
+  "detail_url": "https://collectables.auspost.com.au/stamp-issues/view-all-stamp-issues/christmas-island-year-of-the-rooster-2017",
+  "title": "Christmas Island: Year of the Rooster 2017",
+  "spec": {
+    "Issue date": "10 January 2017",
+    "Issue withdrawal date": "31 December 2017",
+    "Denominations": "1 x $1, 1 x $3",
+    "Stamp design": "Dani Poon",
+    "Product design": "Jo Mure",
+    "Printer": "RA Printing",
+    "Paper - gummed": "Tullis Russell red phosphate",
+    "Printing process": "Offset lithography",
+    "Stamp size": "26mm x 37.5mm",
+    "Minisheet size": "136mm x 70mm",
+    "Zodiac sheet size (mm)": "170mm x 210mm",
+    "Perforations": "14.6 x 13.86",
+    "Sheet layout": "Module of 50 (2 x 25) blue foil",
+    "FDI postmark": "Christmas Island WA 6798",
+    "FDI withdrawal date": "8 February 2017"
+  },
+  "issue_date": "10 January 2017",
+  "fdi_postmark": "Christmas Island WA 6798",
+  "descriptions": [
+    "The Year of the Rooster is the 10th sign in the 12 year Chinese Zodiac cycle.",
+    "The $1 stamp is available as a Personalised Stamp ™.",
+    "The minisheet tells the ancient story (in English and Chinese) of a time when the world was new and there were nine suns in the sky. The people shot down all but one, to lessen the scorching heat, but the remaining sun became frightened and went into hiding. The people sent various animals to coax her out, but only the Rooster was fearless and persistent enough to carry on with his task of crowing each morning. This made the sun feel safe. She rose again, returning warmth to the world."
+  ],
+  "images": [
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--fce1df21-936c-4a39-91c2-1628d86f0a56/christmas-island-year-of-the-rooster-2017.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issue-stamp-hero/2017/christmas-island-year-of-the-rooster-2017.png",
+      "alt": "",
+      "image_file": "img/christmas-island-year-of-the-rooster-2017.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--00fc1f2f-73c6-4b43-9658-2f857406bc51/2017-01-10-christmas-island-year-of-the-rooster-2007-01-rooster--1.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issues-2017/christmas-island-year-of-the-rooster-2017/gallery/image-gallery/2017-01-10_Christmas-Island-Year-of-the-Rooster-2007_01_Rooster_$1.png",
+      "alt": "",
+      "image_file": "img/2017-01-10-christmas-island-year-of-the-rooster-2007-01-rooster--1.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--8a7cf73b-3949-4bc2-991c-c6e4b7cc0b85/2017-01-10-christmas-island-year-of-the-rooster-2007-02-chinese-characters--3.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issues-2017/christmas-island-year-of-the-rooster-2017/gallery/image-gallery/2017-01-10_Christmas-Island-Year-of-the-Rooster-2007_02_Chinese-characters_$3.png",
+      "alt": "",
+      "image_file": "img/2017-01-10-christmas-island-year-of-the-rooster-2007-02-chinese-characters--3.png"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "cx-auspost",
+    "tier": "official"
+  }
+}

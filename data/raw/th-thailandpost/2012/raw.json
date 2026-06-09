@@ -1,0 +1,36 @@
+{
+  "code": "2012",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2012",
+  "zodiac": "Dragon",
+  "title": "Zodiac - Year of the Dragon",
+  "title_th": "นักษัตรประจำปี 2555 มะโรง (งูใหญ่)",
+  "issue_date": "2012/2555-01-01",
+  "detail_url": "https://www.thailex.info/THAILEX/THAILEXENG/LEXICON/Zodiac%20-%20Year%20of%20the%20Dragon%20(2012)%20Thai%20Postage%20Stamp.htm",
+  "detail_fields": {
+    "Issue Name": "Zodiac - Year of the Dragon",
+    "Thai Issue Name": "นักษัตรประจำปี 2555 มะโรง (งูใหญ่)",
+    "Issue Date": "2012/2555-01-01",
+    "Cause": "To commemorate the new year and promote stamp collection",
+    "Catalogue Number": "2012/1",
+    "Denomination": "3 Baht",
+    "Unused Value": "6 Baht",
+    "Used Value": "1 Baht",
+    "Thailex Collection": "Unused stamp",
+    "Size": "28 x 28 mm",
+    "Quantity of Stamps": "1,000,000 pieces",
+    "Printer": "Thai British Security Printing Public Company Limited, Thailand",
+    "Subject": "Naga -like dragon , fifth animal of the Chinese Zodiac , with stars and constellations in pale bluish-green background"
+  },
+  "images": [
+    {
+      "image_url": "https://www.thailex.info/THAILEX/THAILEXPICS/Thai%20postal%20stamps/Zodiac%20-%20Year%20of%20the%20Dragon%20(2012)%20Thai%20Postage%20Stamp.jpg",
+      "caption": "Chinese Zodiac - Year of the Dragon",
+      "image_file": "img/Zodiac - Year of the Dragon (2012) Thai Postage Stamp.jpg"
+    }
+  ],
+  "n_images": 1
+}

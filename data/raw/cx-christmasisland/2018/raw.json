@@ -1,0 +1,57 @@
+{
+  "code": "2018",
+  "slug": "christmas-island-year-of-the-dog-2018",
+  "list_title": "Christmas Island Year of the Dog 2018",
+  "detail_url": "https://collectables.auspost.com.au/stamp-issues/view-all-stamp-issues/christmas-island-year-of-the-dog-2018",
+  "title": "Christmas Island Year of the Dog 2018",
+  "spec": {
+    "Issue date": "8 January 2018",
+    "Issue withdrawal date": "31 December 2018",
+    "Denomination": "1 x $1, 1 x $3",
+    "Stamp design": "Dani Poon",
+    "Product design": "Jason Watts and Jo Muré",
+    "Paper: gummed": "Tullis Russell 104gsm Red Phosphor",
+    "Paper: self-adhesive": "Blue PVS stamp paper",
+    "Printer": "RA Printing",
+    "Printing process": "Offset lithography",
+    "Stamp size (mm)": "26 x 37.5",
+    "Minisheet size (mm)": "136 x 70",
+    "Zodiac sheetlet size (mm)": "170 x 210",
+    "Perforations": "14.60 x 13.86",
+    "Sheet layout": "Module of 50 (2 x 25) with foil",
+    "FDI postmark": "Christmas Island WA 6798",
+    "FDI withdrawal date": "6 February 2018"
+  },
+  "issue_date": "8 January 2018",
+  "fdi_postmark": "Christmas Island WA 6798",
+  "descriptions": [
+    "The Dog is the 11th sign in the 12-sign Chinese zodiac cycle. Those born under the Dog sign are known to be independent...",
+    "The Dog’s pictorial representation, with floral inlay, is included in the $1 stamp design. The $1 stamp design will also be available as a Personalised Stamp™, from early February 2018.",
+    "The $3 stamp features the Chinese calligraphic character for the Dog."
+  ],
+  "images": [
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--573ce6f1-c3ee-44f5-9225-f48152c0506d/christmas-island-year-of-the-dog-2018.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issue-stamp-hero/2018/christmas-island-year-of-the-dog-2018.png",
+      "alt": "",
+      "image_file": "img/christmas-island-year-of-the-dog-2018.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--2719a43f-349b-4dc9-a732-81de9fb62781/christmas-island-year-of-the-dog-2018--1-dog-stamp.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issues-2018/christmas-island-year-of-the-dog-2018/gallery/christmas-island-year-of-the-dog-2018-$1-dog-stamp.png",
+      "alt": "",
+      "image_file": "img/christmas-island-year-of-the-dog-2018--1-dog-stamp.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--6841a07d-b9c8-4e70-abca-5aa83bcedc1f/christmas-island-year-of-the-dog-2018--3-dog-stamp.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issues-2018/christmas-island-year-of-the-dog-2018/gallery/christmas-island-year-of-the-dog-2018-$3-dog-stamp.png",
+      "alt": "",
+      "image_file": "img/christmas-island-year-of-the-dog-2018--3-dog-stamp.png"
+    }
+  ],
+  "n_images": 3,
+  "source": {
+    "id": "cx-auspost",
+    "tier": "official"
+  }
+}

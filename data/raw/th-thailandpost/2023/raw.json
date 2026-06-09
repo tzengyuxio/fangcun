@@ -1,0 +1,41 @@
+{
+  "code": "2023",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2023",
+  "zodiac": "Rabbit",
+  "title": "Zodiac 2023 (Year of the Rabbit) Postage Stamp",
+  "issue_date": "2023-01-04",
+  "siam_id": "1242",
+  "detail_url": "http://www.siamstamp.com/catalogue/index.php?id=1242",
+  "detail_fields": {
+    "Issue Name": "Zodiac 2023 (Year of the Rabbit) Postage Stamp",
+    "Issue Date": "2023-01-04",
+    "Perforation": "n/a",
+    "Denomination": "3 Baht",
+    "Details": "n/a",
+    "Size": "30 x 40.5 mm. (Vertical-measured from perforation to perforation)",
+    "Printer": "T.K.S. Technologies Public Company Limited",
+    "SC": "14368"
+  },
+  "images": [
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2023/TH2023-1242ST.jpg",
+      "caption": "Zodiac 2023 (Year of the Rabbit) Postage Stamp",
+      "image_file": "img/TH2023-1242ST.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2023/TH2023-1242CO.jpg",
+      "caption": "Zodiac 2023 (Year of the Rabbit) Postage Stamp First Day Cover.",
+      "image_file": "img/TH2023-1242CO.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2023/TH2023-1242FST.jpg",
+      "caption": "Zodiac 2023 (Year of the Rabbit) Postage Stamp Full Sheet.",
+      "image_file": "img/TH2023-1242FST.jpg"
+    }
+  ],
+  "n_images": 3
+}

@@ -1,0 +1,78 @@
+{
+  "code": "2025",
+  "slug": "christmas-island-year-of-the-snake-2025",
+  "list_title": "Christmas Island Lunar New Year of the Snake",
+  "detail_url": "https://collectables.auspost.com.au/stamp-issues/view-all-stamp-issues/christmas-island-year-of-the-snake-2025",
+  "title": "Christmas Island Lunar New Year of the Snake",
+  "spec": {
+    "Issue date": "7 January 2025",
+    "Issue withdrawal date": "31 December 2025",
+    "Denomination": "1 x $1.50, 1 x $3, 1 x $3.30",
+    "Stamp illustration": "Chrissy Lau",
+    "Product design": "Jason Watts, Australia Post Design Studio",
+    "Typography": "Jo Muré, Australia Post Design Studio",
+    "Paper: gummed": "Tullis Russell 104gsm Red Phosphor/Blue PVA Stamp Paper",
+    "Printing process": "Offset lithography",
+    "Printer": "RA",
+    "Stamp size (mm)": "26 x 37.5",
+    "Minisheet size (mm)": "170 x 80",
+    "Perforations (mm)": "14.6 x 13.86",
+    "Zodiac sheet size (mm)": "170 x 210",
+    "Calendar sheetlet size (mm)": "156 x 170",
+    "Sheet layout": "Module of 50 (gutter design $4.50) Gold foiling",
+    "FDI postmark": "Christmas Island WA 6798",
+    "FDI withdrawal date": "5 February 2025"
+  },
+  "issue_date": "7 January 2025",
+  "fdi_postmark": "Christmas Island WA 6798",
+  "descriptions": [],
+  "images": [
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--ddd43593-78de-4479-8502-aae54971a8a0/media-lny-snake-1-150.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issues-2025/lunar-new-year-year-of-the-snake-2025/gallery/media-lny-snake-1-150.png",
+      "alt": "",
+      "image_file": "img/media-lny-snake-1-150.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--e90b9903-b6a3-441d-ac36-90ff00dc73d9/media-lny-snake-2-300.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issues-2025/lunar-new-year-year-of-the-snake-2025/media-lny-snake-2-300.png",
+      "alt": "",
+      "image_file": "img/media-lny-snake-2-300.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--2a3e4e8b-b9fd-4656-9f07-c2418b54582f/media-lny-snake-3-330.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issues-2025/lunar-new-year-year-of-the-snake-2025/gallery/media-lny-snake-3-330.png",
+      "alt": "",
+      "image_file": "img/media-lny-snake-3-330.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--9c8b764d-9435-46b9-8c37-3e3f65b9b4d6/shop-lny-snake-1-stamps.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issues-2025/lunar-new-year-year-of-the-snake-2025/shop-lny-snake-1-stamps.png",
+      "alt": "",
+      "image_file": "img/shop-lny-snake-1-stamps.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--0f0d3ed5-9868-4d02-a8d7-45edd663c698/shop-lny-snake-2-minisheet.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issues-2025/lunar-new-year-year-of-the-snake-2025/shop-lny-snake-2-minisheet.png",
+      "alt": "",
+      "image_file": "img/shop-lny-snake-2-minisheet.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--b15f61f2-89d2-44e2-9abc-f5604bebed76/shop-lny-snake-4-calendar-sheetlet-pack.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issues-2025/lunar-new-year-year-of-the-snake-2025/shop-lny-snake-4-calendar-sheetlet-pack.png",
+      "alt": "",
+      "image_file": "img/shop-lny-snake-4-calendar-sheetlet-pack.png"
+    },
+    {
+      "image_url": "https://collectables.auspost.com.au/adobe/dynamicmedia/deliver/dm-aid--5b989ac1-bd1c-4947-8bf6-c5fcc1d62ec2/shop-lny-snake-3-zodiac-sheetlet.png?quality=85",
+      "filereference": "/content/dam/collectables/stamp-issues-2025/lunar-new-year-year-of-the-snake-2025/shop-lny-snake-3-zodiac-sheetlet.png",
+      "alt": "",
+      "image_file": "img/shop-lny-snake-3-zodiac-sheetlet.png"
+    }
+  ],
+  "n_images": 7,
+  "source": {
+    "id": "cx-auspost",
+    "tier": "official"
+  }
+}

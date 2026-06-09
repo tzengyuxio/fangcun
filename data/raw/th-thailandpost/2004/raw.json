@@ -1,0 +1,36 @@
+{
+  "code": "2004",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2004",
+  "zodiac": "Monkey",
+  "title": "Zodiac - Year of the Monkey",
+  "title_th": "นักษัตรประจำปี 2547 วอก (ลิง)",
+  "issue_date": "2004/2547-01-01",
+  "detail_url": "https://www.thailex.info/THAILEX/THAILEXENG/LEXICON/Zodiac%20-%20Year%20of%20the%20Monkey%20(2004)%20Thai%20Postage%20Stamp.htm",
+  "detail_fields": {
+    "Issue Name": "Zodiac - Year of the Monkey",
+    "Thai Issue Name": "นักษัตรประจำปี 2547 วอก (ลิง)",
+    "Issue Date": "2004/2547-01-01",
+    "Cause": "To commemorate the new year and promote stamp collection",
+    "Catalogue Number": "2004/1",
+    "Denomination": "3 Baht",
+    "Unused Value": "6 Baht",
+    "Used Value": "2 Baht",
+    "Thailex Collection": "Unused stamp",
+    "Size": "28 x 28 mm",
+    "Quantity of Stamps": "1,000,000 pieces",
+    "Printer": "Thai British Security Printing Public Company Limited, Thailand",
+    "Subject": "Monkey , ninth animal of the Chinese Zodiac , with stars and constellations in blue-brown background"
+  },
+  "images": [
+    {
+      "image_url": "https://www.thailex.info/THAILEX/THAILEXPICS/Thai%20postal%20stamps/Zodiac%20-%20Year%20of%20the%20Monkey%20(2004)%20Thai%20Postage%20Stamp.jpg",
+      "caption": "Chinese Zodiac - Year of the Monkey",
+      "image_file": "img/Zodiac - Year of the Monkey (2004) Thai Postage Stamp.jpg"
+    }
+  ],
+  "n_images": 1
+}

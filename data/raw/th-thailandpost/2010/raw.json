@@ -1,0 +1,36 @@
+{
+  "code": "2010",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2010",
+  "zodiac": "Tiger",
+  "title": "Zodiac - Year of the Tiger",
+  "title_th": "นักษัตรประจำปี 2553 ขาล (เสือ)",
+  "issue_date": "2010/2553-01-01",
+  "detail_url": "https://www.thailex.info/THAILEX/THAILEXENG/LEXICON/Zodiac%20-%20Year%20of%20the%20Tiger%20(2010)%20Thai%20Postage%20Stamp.htm",
+  "detail_fields": {
+    "Issue Name": "Zodiac - Year of the Tiger",
+    "Thai Issue Name": "นักษัตรประจำปี 2553 ขาล (เสือ)",
+    "Issue Date": "2010/2553-01-01",
+    "Cause": "To commemorate the new year and promote stamp collection",
+    "Catalogue Number": "2010/1",
+    "Denomination": "3 Baht",
+    "Unused Value": "5 Baht",
+    "Used Value": "1 Baht",
+    "Thailex Collection": "Unused stamp",
+    "Size": "28 x 28 mm",
+    "Quantity of Stamps": "1,000,000 pieces",
+    "Printer": "Thai British Security Printing Public Company Limited, Thailand",
+    "Subject": "Tiger , third animal of the Chinese Zodiac , with stars and constellations in reddish background"
+  },
+  "images": [
+    {
+      "image_url": "https://www.thailex.info/THAILEX/THAILEXPICS/Thai%20postal%20stamps/Zodiac%20-%20Year%20of%20the%20Tiger%20(2010)%20Thai%20Postage%20Stamp.jpg",
+      "caption": "Chinese Zodiac - Year of the Tiger",
+      "image_file": "img/Zodiac - Year of the Tiger (2010) Thai Postage Stamp.jpg"
+    }
+  ],
+  "n_images": 1
+}

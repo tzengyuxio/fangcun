@@ -1,0 +1,41 @@
+{
+  "code": "2025",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2025",
+  "zodiac": "Snake",
+  "title": "Zodiac 2025 (Year of the Snake) Postage Stamp",
+  "issue_date": "2025-01-03",
+  "siam_id": "1282",
+  "detail_url": "http://www.siamstamp.com/catalogue/index.php?id=1282",
+  "detail_fields": {
+    "Issue Name": "Zodiac 2025 (Year of the Snake) Postage Stamp",
+    "Issue Date": "2025-01-03",
+    "Perforation": "n/a",
+    "Denomination": "3 Baht",
+    "Details": "Happy Year of the Snake: Master What You Learn. This is 11th stamp in the zodiac series, designed by Her Royal Highness Princess Maha Cahkri Sirindhorn. The series, which began in 2015 to commemorate her 60th birthday, has been issue annually. The stamp features three small snakes, symbolizing the Thai proverb, \"Whatever you learn, learn it throughly,\" and includes the Princess's signature, \"Sirindhorn\". Quantity of stamps: 800,000 pieces Sheet Composition: 10 stamps per sheet Printing Process: Lithography, Multi-colour Designer: Mr. Thaneth Ponchaiwong (Thailand Post Co., Ltd.) FDC Price: 14 Baht",
+    "Size": "30 x 40.5 mm. (Vertical-measured from perforation to perforation)",
+    "Printer": "T.K.S. Technologies Public Company Limited",
+    "SC": "03591"
+  },
+  "images": [
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2025/TH2025-1282ST.jpg",
+      "caption": "Zodiac 2025 (Year of the Snake) Postage Stamp",
+      "image_file": "img/TH2025-1282ST.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2025/TH2025-1282CO.jpg",
+      "caption": "Zodiac 2025 (Year of the Snake) Postage Stamp First Day Cover.",
+      "image_file": "img/TH2025-1282CO.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2025/TH2025-1282FST.jpg",
+      "caption": "Zodiac 2025 (Year of the Snake) Postage Stamp Full Sheet.",
+      "image_file": "img/TH2025-1282FST.jpg"
+    }
+  ],
+  "n_images": 3
+}

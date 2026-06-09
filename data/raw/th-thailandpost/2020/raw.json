@@ -1,0 +1,46 @@
+{
+  "code": "2020",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2020",
+  "zodiac": "Rat",
+  "title": "Zodiac 2020 (Year of the Mouse) Postage Stamp",
+  "issue_date": "2020-01-02",
+  "siam_id": "1183",
+  "detail_url": "http://www.siamstamp.com/catalogue/index.php?id=1183",
+  "detail_fields": {
+    "Issue Name": "Zodiac 2020 (Year of the Mouse) Postage Stamp",
+    "Issue Date": "2020-01-02",
+    "Perforation": "n/a",
+    "Denomination": "3 Baht",
+    "Details": "The Overflowing Happiness of the Golden Mouse Year According to the Chinese Zodiac, twelve animals are designed in accordance with their arrival times divided into 12-time periods. Mouse is matched with shu (the beginning of the day) which takes place between 11 PM and 1 AM when mice come out of hiding to find food. 2020 is the Year of the Golden Mouse, which is believed by Chinese to be the best among other types of the Mouse years. In accordance with the characteristics of a mouse, people who were born this year tend to be clever, brave, charismatic, sincere, charming, social, quick-witted, and ambitious. They are likely to be wealthy in their later years of life, have a lot of friends and live a virtuous life. However, their weaknesses are their sense of individuality, stubbornness, anxiety, recklessness and tendency to make quick decisions and take imprudent actions. Design: Illustrating the zodiac sign for the year of the mouse. The mouse drawing is the royal hand sketch by Her Royal Highness Princess Maha Chakri Sirindhorn. Quantity of stamps: 1,000,000 pieces Sheet Composition: 10 stamps per sheet Printing Process: Lithography, Multi-colour Designer: Mr. Udorn Niyomtham (Thailand Post Co., Ltd.) FDC Price: 12 Baht FDC Quantity: -- covers",
+    "Size": "30 x 40.5 mm. (Vertical-measured from perforation to perforation)",
+    "Printer": "TBSP Public Company Limited",
+    "SC": "06187"
+  },
+  "images": [
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2020/TH2020-1183ST.jpg",
+      "caption": "Zodiac 2020 (Year of the Mouse) Postage Stamp",
+      "image_file": "img/TH2020-1183ST.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2020/TH2020-1183CO.jpg",
+      "caption": "Zodiac 2020 (Year of the Mouse) Postage Stamp First Day Cover.",
+      "image_file": "img/TH2020-1183CO.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2020/TH2020-1183SH.jpg",
+      "caption": "Zodiac 2020 (Year of the Mouse) Postage Stamp Souvenir Sheet.",
+      "image_file": "img/TH2020-1183SH.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2020/TH2020-1183FST.jpg",
+      "caption": "Zodiac 2020 (Year of the Mouse) Postage Stamp Full Sheet.",
+      "image_file": "img/TH2020-1183FST.jpg"
+    }
+  ],
+  "n_images": 4
+}

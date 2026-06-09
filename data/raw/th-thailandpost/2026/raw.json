@@ -1,0 +1,46 @@
+{
+  "code": "2026",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2026",
+  "zodiac": "Horse",
+  "title": "Zodiac 2026 Postage Stamp (Year of the Horse)",
+  "issue_date": "2026-01-05",
+  "siam_id": "1304",
+  "detail_url": "http://www.siamstamp.com/catalogue/index.php?id=1304",
+  "detail_fields": {
+    "Issue Name": "Zodiac 2026 Postage Stamp (Year of the Horse)",
+    "Issue Date": "2026-01-05",
+    "Perforation": "n/a",
+    "Denomination": "3 Baht",
+    "Details": "Happy New Year, Happy Year of the Horse The zodiac sign for 2026 is symbolized by the Horse, an animal full of driving energy. It represents a year of courage, change, and speed, while also symbolizing freedom and enthusiasm. The 2026 Year of the Horse zodiac stamp is the final image in a series of zodiac stamps featuring artwork by Her Royal Highness Princess Maha Chakri Sirindhorn. The series began in 2015 (the Year of the Goat) to celebrate her 60th birthday and has been released annually through 2026, marking the conclusion of the zodiac series. Design: The painting artwork by Her Royal Highness Princess Maha Chakri Sirindhorn Quantity of stamps: 800,000 pieces Sheet Composition: 10 stamps per sheet Printing Process: Lithography, Multi-colour Designer: Mr. Thaneth Ponchaiwong (Thailand Post Co., Ltd.) S/Sheet Price: 38 Baht FDC Price: 14 Baht",
+    "Size": "30 x 40.5 (Vertical-measured from perforation to perforation)",
+    "Printer": "T.K.S. Technologies Public Company Limited",
+    "SC": "02351"
+  },
+  "images": [
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2026/TH2026-1304ST.jpg",
+      "caption": "Zodiac 2026 Postage Stamp (Year of the Horse)",
+      "image_file": "img/TH2026-1304ST.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2026/TH2026-1304CO.jpg",
+      "caption": "Zodiac 2026 Postage Stamp (Year of the Horse) First Day Cover.",
+      "image_file": "img/TH2026-1304CO.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2026/TH2026-1304SH.jpg",
+      "caption": "Zodiac 2026 Postage Stamp (Year of the Horse) Souvenir Sheet.",
+      "image_file": "img/TH2026-1304SH.jpg"
+    },
+    {
+      "image_url": "http://www.siamstamp.com/catalogue/stamp/2026/TH2026-1304FST.jpg",
+      "caption": "Zodiac 2026 Postage Stamp (Year of the Horse) Full Sheet.",
+      "image_file": "img/TH2026-1304FST.jpg"
+    }
+  ],
+  "n_images": 4
+}

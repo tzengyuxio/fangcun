@@ -1,0 +1,36 @@
+{
+  "code": "2013",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2013",
+  "zodiac": "Snake",
+  "title": "Zodiac - Year of the Snake",
+  "title_th": "นักษัตรประจำปี 2556 มะโรง (งูเล็ก)",
+  "issue_date": "2013/2556-01-01",
+  "detail_url": "https://www.thailex.info/THAILEX/THAILEXENG/LEXICON/Zodiac%20-%20Year%20of%20the%20Snake%20(2013)%20Thai%20Postage%20Stamp.htm",
+  "detail_fields": {
+    "Issue Name": "Zodiac - Year of the Snake",
+    "Thai Issue Name": "นักษัตรประจำปี 2556 มะโรง (งูเล็ก)",
+    "Issue Date": "2013/2556-01-01",
+    "Cause": "To commemorate the new year and promote stamp collection",
+    "Catalogue Number": "2013/1",
+    "Denomination": "3 Baht",
+    "Unused Value": "5 Baht",
+    "Used Value": "1 Baht",
+    "Thailex Collection": "Unused stamp",
+    "Size": "28 x 28 mm",
+    "Quantity of Stamps": "1,000,000 pieces",
+    "Printer": "Thai British Security Printing Public Company Limited, Thailand",
+    "Subject": "Cobra -like snake , sixth animal of the Chinese Zodiac , with stars and constellations in purplish-blue background"
+  },
+  "images": [
+    {
+      "image_url": "https://www.thailex.info/THAILEX/THAILEXPICS/Thai%20postal%20stamps/Zodiac%20-%20Year%20of%20the%20Snake%20(2013)%20Thai%20Postage%20Stamp.jpg",
+      "caption": "Chinese Zodiac - Year of the Snake",
+      "image_file": "img/Zodiac - Year of the Snake (2013) Thai Postage Stamp.jpg"
+    }
+  ],
+  "n_images": 1
+}

@@ -1,0 +1,36 @@
+{
+  "code": "2005",
+  "source": {
+    "id": "th-siamstamp",
+    "tier": "reference"
+  },
+  "year": "2005",
+  "zodiac": "Rooster",
+  "title": "Zodiac - Year of the Cock",
+  "title_th": "นักษัตรประจำปี 2548 ระกา (ไก่)",
+  "issue_date": "2005/2548-01-01",
+  "detail_url": "https://www.thailex.info/THAILEX/THAILEXENG/LEXICON/Zodiac%20-%20Year%20of%20the%20Cock%20(2005)%20Thai%20Postage%20Stamp.htm",
+  "detail_fields": {
+    "Issue Name": "Zodiac - Year of the Cock",
+    "Thai Issue Name": "นักษัตรประจำปี 2548 ระกา (ไก่)",
+    "Issue Date": "2005/2548-01-01",
+    "Cause": "To commemorate the new year and promote stamp collection",
+    "Catalogue Number": "2005/1",
+    "Denomination": "3 Baht",
+    "Unused Value": "5 Baht",
+    "Used Value": "2 Baht",
+    "Thailex Collection": "Unused stamp",
+    "Size": "28 x 28 mm",
+    "Quantity of Stamps": "1,000,000 pieces",
+    "Printer": "Thai British Security Printing Public Company Limited, Thailand",
+    "Subject": "Cock , tenth animal of the Chinese Zodiac , with stars and constellations in orange-grey background"
+  },
+  "images": [
+    {
+      "image_url": "https://www.thailex.info/THAILEX/THAILEXPICS/Thai%20postal%20stamps/Zodiac%20-%20Year%20of%20the%20Cock%20(2005)%20Thai%20Postage%20Stamp.jpg",
+      "caption": "Chinese Zodiac - Year of the Cock",
+      "image_file": "img/Zodiac - Year of the Cock (2005) Thai Postage Stamp.jpg"
+    }
+  ],
+  "n_images": 1
+}
