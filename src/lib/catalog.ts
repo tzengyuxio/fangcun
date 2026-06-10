@@ -1,3 +1,13 @@
+import { getCollection } from 'astro:content';
+
+// 可見的郵票集合:本機開發(npm run dev)顯示全部,方便預覽建置中(verified=false)的項目;
+// 正式 build(npm run build,CI 部署)只輸出 verified=true(已人工查證)的。
+// 所有列出郵票的頁面都應改用此函式,避免列表顯示但詳情頁 404。
+export async function getVisibleCatalog() {
+  const all = await getCollection('catalog');
+  return import.meta.env.DEV ? all : all.filter((i) => i.data.verified);
+}
+
 // 十二生肖(固定順序)與對應地支。
 export const ANIMALS = ['鼠', '牛', '虎', '兔', '龍', '蛇', '馬', '羊', '猴', '雞', '狗', '豬'] as const;
 

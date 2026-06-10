@@ -1,11 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
 import Postmark from '../components/Postmark.astro';
-import { getCollection } from 'astro:content';
+import { getVisibleCatalog } from '../lib/catalog';
 
 const base = import.meta.env.BASE_URL;
 
-const issues = await getCollection('catalog');
+const issues = await getVisibleCatalog();
 const regionCount = new Set(issues.map((i) => i.data.region.code)).size;
 const years = issues.map((i) => Number(i.data.issue_date.slice(0, 4)));
 const yearRange = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : '';

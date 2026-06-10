@@ -1,11 +1,10 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import StampCard from '../../../components/StampCard.astro';
-import { ANIMALS, ANIMAL_BRANCH, THEME_KEY, THEME_LABEL, byIssueDate } from '../../../lib/catalog';
+import { ANIMALS, ANIMAL_BRANCH, THEME_KEY, THEME_LABEL, byIssueDate, getVisibleCatalog } from '../../../lib/catalog';
 
 export async function getStaticPaths() {
-  const all = await getCollection('catalog');
+  const all = await getVisibleCatalog();
   const paths = ANIMALS.map((animal) => ({
     params: { animal },
     props: { issues: all.filter((i) => i.data.zodiac?.animal === animal).sort(byIssueDate), isTheme: false },

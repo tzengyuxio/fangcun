@@ -2,10 +2,10 @@
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Gallery from '../../../components/Gallery.astro';
-import { year, ganzhi, imgSrc, fallbackSrc, THEME_KEY, THEME_LABEL } from '../../../lib/catalog';
+import { year, ganzhi, imgSrc, fallbackSrc, THEME_KEY, THEME_LABEL, getVisibleCatalog } from '../../../lib/catalog';
 
 export async function getStaticPaths() {
-  const issues = await getCollection('catalog');
+  const issues = await getVisibleCatalog();
   return issues.map((issue) => ({ params: { id: issue.id }, props: { issue } }));
 }
 

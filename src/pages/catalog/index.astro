@@ -1,10 +1,9 @@
 ---
-import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import { ANIMALS, ANIMAL_BRANCH, THEME_KEY, byIssueDate } from '../../lib/catalog';
+import { ANIMALS, ANIMAL_BRANCH, THEME_KEY, byIssueDate, getVisibleCatalog } from '../../lib/catalog';
 
 const base = import.meta.env.BASE_URL;
-const issues = (await getCollection('catalog')).sort(byIssueDate);
+const issues = (await getVisibleCatalog()).sort(byIssueDate);
 
 // 生肖軸顯示用篆書字形:蛇/狗/豬 採《說文》本字 它/犬/豕(分類/地支仍用原字)。
 const SEAL_CHAR: Record<string, string> = { 蛇: '它', 狗: '犬', 豬: '豕' };
