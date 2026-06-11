@@ -1,0 +1,50 @@
+{
+  "id": "hk-2013-gold-silver-dragon-snake",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2013-01-26",
+  "round": 2,
+  "series_name": "十二生肖金銀郵票小型張－飛龍靈蛇",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「飛龍靈蛇」，嵌有歲次龍年（2012）及歲次蛇年（2013）兩枚面值各50元郵票；龍年郵票以銀箔燙印，蛇年郵票首創以22K鍍金金片製成（全球首創），附黃金成色證明書。",
+      "image": "/img/stamps/hk/hk-2013-gold-silver-dragon-snake/sheet.jpg"
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第2輯第1款。橫跨龍（2012）與蛇（2013）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「蛇年」特別郵票（見 hk-2013-snake-r4）同日（2013-01-26）發行。設計／承印者／齒孔等規格未見於來源文字，待補。\n\n〔stampshk 香港郵票目錄〕香港郵政發行的賀歲生肖郵票至今已是第四輯。壬辰龍年即將過去，癸巳蛇年緊接而來。在傳統中華文化，龍是神聖、吉祥之物，代表威武顯貴；蛇則是富貴、延年之物，寓意豐收、子孫繁衍。 新春伊始，香港郵政特別發行十二生肖金銀郵票小型張，以飛龍靈蛇為題，為新春佳節加添氣氛。耀眼璀璨的金銀，自古是富貴豐裕的象徵。以金銀郵品饋贈摯愛親朋，正好表達時和年豐的祝願。 是次發行的小型張是全新賀歲生肖金銀郵票系列的第一款，小型張由\"歲次壬辰\"及\"歲次癸巳\" 兩枚生肖郵票組成，面值各50元。跟過去一輯不同之處，是龍年郵票以銀箔燙印，蛇年郵票則以22K鍍金金片製成，實全球首創，極具收藏價值。",
+  "images": [
+    "/img/stamps/hk/hk-2013-gold-silver-dragon-snake/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2013/1/20130104a.pdf"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks207.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

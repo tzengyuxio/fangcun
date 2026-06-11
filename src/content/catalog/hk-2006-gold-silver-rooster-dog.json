@@ -1,0 +1,50 @@
+{
+  "id": "hk-2006-gold-silver-rooster-dog",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2006-01-15",
+  "round": 1,
+  "series_name": "十二生肖金銀郵票小型張－金雞靈犬",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「金雞靈犬」（賀歲生肖金銀郵票系列第一輯第6款），嵌有歲次雞年（2005）及歲次狗年（2006）兩枚面值各50元郵票，以金銀燙印技術製作，附黃金純銀成色證明書。",
+      "image": "/img/stamps/hk/hk-2006-gold-silver-rooster-dog/sheet.jpg"
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第一輯第6款（系列自2001年「飛龍靈蛇」起）。橫跨雞（2005）與狗（2006）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「狗年」特別郵票（見 hk-2006-dog-r3）同日（2006-01-15）發行。\n\n〔stampshk 香港郵票目錄〕喜氣洋洋的農曆新年即將來臨，為迎接狗年，香港郵政將於二○○六年一月十五日(星期日)發行生肖郵票 第三輯的第七套郵票。郵票以五色套印，背景以枝葉烘托，配合光暗對比，強調靈犬的立體感，營造出逼真生動的效果。是次發行的四 款郵票面值為$1.4、$2.4、$3及$5。每款郵票均以亮麗的色彩作底，色調深淺不一，層次鮮明。郵票上的靈犬全都神氣活現，昂首佇立 ；而採用中國民間傳統剪紙工藝的設計，更能展現農曆新年的喜氣。 另外，為歡送乙酉(雞年)，喜迎丙戌(狗年)，香港郵政於同日特別呈獻十二生肖金銀郵票小型張–金雞靈犬。金雞、靈犬郵票分別 以24K金箔及99.9%純銀箔，以及22K金箔和99.9%純銀箔壓印而成，並附連成色證明書。小型張寓意吉祥，新年送禮自奉，大方得體。",
+  "images": [
+    "/img/stamps/hk/hk-2006-gold-silver-rooster-dog/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2006.htm"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks147.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

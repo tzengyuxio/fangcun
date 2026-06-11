@@ -1,0 +1,55 @@
+{
+  "id": "hk-1992-monkey-r2",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "猴",
+    "branch": "申"
+  },
+  "zodiac_year": 1992,
+  "issue_date": "1992-01-22",
+  "round": 2,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/1992-monkey/stamps.jpg"
+    }
+  ],
+  "significance": "賀歲生肖郵票第2輯第6套，歲次壬申（猴年）。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔hkstmp.com／cpa-hk 集郵目錄（未經官方查證）〕面值、枚數、設計者等細節待補。",
+  "images": [
+    "/img/stamps/hk/1992-monkey/stamps.jpg",
+    "/img/stamps/hk/1992-monkey/sheet.jpg",
+    "/img/stamps/hk/1992-monkey/fdc.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/920122.htm"
+    },
+    {
+      "ref": "hk-cpa",
+      "tier": "reference",
+      "url": "http://www.cpa-hk.net/chin1/sheet/1992-01-22.htm"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

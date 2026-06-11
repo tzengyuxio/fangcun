@@ -1,0 +1,43 @@
+{
+  "id": "hk-2012-gold-silver-rabbit-dragon",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2012-01-14",
+  "round": 1,
+  "series_name": "十二生肖金銀郵票小型張－巧兔飛龍",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「巧兔飛龍」，嵌有歲次兔年（2011）及歲次龍年（2012）兩枚面值各50元郵票；巧兔以22K、飛龍以24K金箔，配99.9%純銀燙印；為金銀系列第一輯末款，同年另發行完全珍藏版（呈現整輯24款），附黃金成色證明書。",
+      "image": ""
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第1輯第12款。橫跨兔（2011）與龍（2012）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「龍年」特別郵票（見 hk-2012-dragon-r4）同日（2012-01-14）發行。設計／承印者／齒孔等規格未見於來源文字，待補。",
+  "images": [],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2011/12/20111231a.pdf"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

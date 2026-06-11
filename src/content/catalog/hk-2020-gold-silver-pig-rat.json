@@ -1,0 +1,43 @@
+{
+  "id": "hk-2020-gold-silver-pig-rat",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2020-01-11",
+  "round": 2,
+  "series_name": "十二生肖金銀郵票小型張－寶豬巧鼠",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「寶豬巧鼠」，嵌有歲次豬年（2019）及歲次鼠年（2020）兩枚面值各50元郵票；豬年郵票以銀箔、鼠年郵票以金片燙壓，附黃金成色證明書。",
+      "image": ""
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第2輯第8款。橫跨豬（2019）與鼠（2020）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「鼠年」特別郵票（見 hk-2020-rat-r4）同日（2020-01-11）發行。設計／承印者／齒孔等規格未見於來源文字，待補。",
+  "images": [],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2019/12/20191213a_chi.pdf"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

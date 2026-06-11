@@ -1,0 +1,129 @@
+{
+  "id": "hk-2024-dragon-r5",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "龍",
+    "branch": "辰"
+  },
+  "zodiac_year": 2024,
+  "issue_date": "2024-01-05",
+  "round": 5,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Cartor Security Printing, France",
+  "printing_process": "",
+  "perforation": "13.25 x 13.25",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 2.2,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/2024-dragon/stamps.jpg",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 30.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 4,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 30.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 5.4,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 30.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 5.5,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 30.0
+      }
+    },
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 10,
+        "currency": "HKD"
+      },
+      "description": "10元郵票小型張",
+      "image": "",
+      "dimensions_mm": {
+        "w": 48.0,
+        "h": 48.0
+      }
+    },
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 50,
+        "currency": "HKD"
+      },
+      "description": "50元鐳射剪紙郵票小型張",
+      "image": "",
+      "dimensions_mm": {
+        "w": 48.0,
+        "h": 48.0
+      }
+    }
+  ],
+  "significance": "賀歲生肖郵票第五輯第一套，另發行10元郵票小型張及50元鐳射剪紙郵票小型張。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕同日另發行2024年紀念封。 另發行橫跨雙生肖的金銀郵票小型張〈瑞兔飛龍〉，因不屬單一生肖年另立條目（見 hk-2024-gold-silver-rabbit-dragon）。\n\n〔WNS〕UPU/WADP 官方號 HK001.2024–HK006.2024；郵票尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/hk/2024-dragon/stamps.jpg",
+    "/img/stamps/hk/2024-dragon/sheet.jpg",
+    "/img/stamps/hk/2024-dragon/fdc.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2023/12/20231214b_tc.pdf"
+    },
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2024.htm"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

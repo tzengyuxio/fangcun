@@ -1,0 +1,111 @@
+{
+  "id": "hk-2012-dragon-r4",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "龍",
+    "branch": "辰"
+  },
+  "zodiac_year": 2012,
+  "issue_date": "2012-01-14",
+  "round": 4,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Cartor Security Printing, France",
+  "printing_process": "",
+  "perforation": "13.25 x 13.25",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 1.4,
+        "currency": "HKD"
+      },
+      "description": "火龍",
+      "image": "/img/stamps/hk/2012-dragon/stamps.jpg",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 28.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 2.4,
+        "currency": "HKD"
+      },
+      "description": "金龍雕塑",
+      "image": "",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 28.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 3,
+        "currency": "HKD"
+      },
+      "description": "傳統舞龍",
+      "image": "",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 28.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 5,
+        "currency": "HKD"
+      },
+      "description": "石壁龍雕",
+      "image": "",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 28.0
+      }
+    },
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "郵票小型張（並首次發行絲綢郵票小型張）",
+      "image": ""
+    }
+  ],
+  "significance": "賀歲生肖郵票第四輯第一套，一套四款以火龍、金龍雕塑、傳統舞龍、石壁龍雕為題，並首次發行絲綢郵票小型張，配以金色燙印祥雲。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕另發行橫跨雙生肖的金銀郵票小型張〈巧兔飛龍〉，因不屬單一生肖年另立條目（見 hk-2012-gold-silver-rabbit-dragon）。\n\n〔WNS〕UPU/WADP 官方號 HK001.2012–HK006.2012；郵票尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/hk/2012-dragon/stamps.jpg",
+    "/img/stamps/hk/2012-dragon/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2011/12/20111231a.pdf"
+    },
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2012.htm"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

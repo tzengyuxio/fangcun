@@ -1,0 +1,50 @@
+{
+  "id": "hk-2010-gold-silver-ox-tiger",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2010-02-06",
+  "round": 1,
+  "series_name": "十二生肖金銀郵票小型張－瑞牛傲虎",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「瑞牛傲虎」，嵌有歲次牛年（2009）及歲次虎年（2010）兩枚面值各50元郵票；瑞牛以24K、傲虎以22K金箔，配99.9%純銀燙印，附黃金成色證明書。",
+      "image": "/img/stamps/hk/hk-2010-gold-silver-ox-tiger/sheet.jpg"
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第1輯第10款。橫跨牛（2009）與虎（2010）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「虎年」特別郵票（見 hk-2010-tiger-r3）同日（2010-02-06）發行。設計／承印者／齒孔等規格未見於來源文字，待補。\n\n〔stampshk 香港郵票目錄〕金銀，自古以來，都備受各地不同的民族推崇，是為財富與尊貴的象徵。金銀郵品一向極受喜愛，在新春期間以之饋贈摯愛親朋，更顯珍貴。 這次發行的金銀郵票小型張是同一系列第十款，沿用金銀燙印技術製作，嵌有兩枚生肖郵票，面值均為50元。瑞牛傲虎郵票分別以24K和22K金箔加上99.9%純銀燙印。小型張附連黃金純銀成色證明書，更顯珍貴。 中國傳統曆法以十二年為一個循環，並以十二生肖紀年。相傳屬牛者沉?可靠，負責認真；肖虎者獨立自信，開朗勇敢。 兩枚郵票採用同一輯生肖郵票的設計，背景色調取土磚紅和橄欖綠，配合光暗對比，令瑞牛傲虎造型更見立體，栩栩如生。",
+  "images": [
+    "/img/stamps/hk/hk-2010-gold-silver-ox-tiger/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2010/1/20100118a.pdf"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks181.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

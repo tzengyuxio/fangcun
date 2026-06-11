@@ -1,0 +1,50 @@
+{
+  "id": "hk-2015-gold-silver-horse-goat",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2015-01-24",
+  "round": 2,
+  "series_name": "十二生肖金銀郵票小型張－駿馬吉羊",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「駿馬吉羊」，嵌有歲次馬年（2014）及歲次羊年（2015）兩枚面值各50元郵票；馬年郵票以銀箔燙印，羊年郵票加有22K鍍金金片，附黃金成色證明書。",
+      "image": "/img/stamps/hk/hk-2015-gold-silver-horse-goat/sheet.jpg"
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第2輯第3款。橫跨馬（2014）與羊（2015）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「羊年」特別郵票（見 hk-2015-goat-r4）同日（2015-01-24）發行。設計／承印者／齒孔等規格未見於來源文字，待補。\n\n〔stampshk 香港郵票目錄〕十二生肖金銀郵票小型張 - 駿馬吉羊 自古以來，金銀象徵財富與地位，一向為人所愛。香港郵政特別發行以「駿馬吉羊」為題的金銀郵票小型張，迎接新一年的來臨。閃閃生輝的金銀郵品饋贈親朋，更顯尊貴氣派。 根據中國傳統，十二生肖各有不同的象徵意義：馬是能力、聖賢、人才的象徵，代表積極進取、自強不息；羊則是耐心、謙卑的象徵，有三羊開泰、 美好吉利的含意。 是次發行的小型張是第二輯賀歲生肖金銀郵票系列的第三款。小型張由「歲次甲午」和「歲次乙未」兩枚生肖郵票組成，面值各為50元。馬年郵票以銀箔燙印而成，羊年郵票則加有22K鍍金金片。設計方面，以金黃、橙紅及翠綠為主底色，襯以清雅脫俗的水仙年花，增添節日氣氛。小型張另附連黃金成色證明書，極具收藏價值。",
+  "images": [
+    "/img/stamps/hk/hk-2015-gold-silver-horse-goat/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2014/12/20141230a.pdf"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks228.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "hk-2014-gold-silver-snake-horse",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2014-01-11",
+  "round": 2,
+  "series_name": "十二生肖金銀郵票小型張－靈蛇駿馬",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「靈蛇駿馬」，嵌有歲次蛇年（2013）及歲次馬年（2014）兩枚面值各50元郵票；蛇年郵票以銀箔燙印，馬年郵票以22K鍍金金片製成，附黃金成色證明書。",
+      "image": "/img/stamps/hk/hk-2014-gold-silver-snake-horse/sheet.jpg"
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第2輯第2款。橫跨蛇（2013）與馬（2014）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「馬年」特別郵票（見 hk-2014-horse-r4）同日（2014-01-11）發行。設計／承印者／齒孔等規格未見於來源文字，待補。\n\n〔stampshk 香港郵票目錄〕爆竹一聲除舊歲，又到了送別癸巳蛇年，迎接甲午馬年的時候。中國人以十二生肖紀年，由來已久。在傳統中華文化，蛇是幸運、吉祥的象徵，代表長壽、財富；馬則是聖賢和人才的象徵，寓意奮鬥進取、自強不息。 今年農曆新年，香港郵政特別發行以「靈蛇駿馬」為題的十二生肖金銀郵票小型張，為節日送上時和歲豐的祝願。中國人對金銀器物向來情有獨鍾，以金銀製作的慶賀新歲生肖郵票，金光閃閃，銀輝熠熠，倍加矜貴，盡顯氣派。 是次發行的小型張是第二輯賀歲生肖金銀郵票系列的第二款，嵌有「歲次癸巳」蛇年郵票和「歲次甲午」馬年郵票，面值均為50元。蛇年郵票以銀箔燙印而成，馬年郵票則以22K鍍金金片製成。小型張用金黃、橙紅及翠綠作為主底色，映襯濃厚節日氣氛，並附連黃金成色證明書，極具收藏價值。",
+  "images": [
+    "/img/stamps/hk/hk-2014-gold-silver-snake-horse/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2013/12/20131220a.pdf"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks216.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "hk-2011-gold-silver-tiger-rabbit",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2011-01-22",
+  "round": 1,
+  "series_name": "十二生肖金銀郵票小型張－傲虎巧兔",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「傲虎巧兔」，嵌有歲次虎年（2010）及歲次兔年（2011）兩枚面值各50元郵票；傲虎以22K、巧兔以24K金箔，配99.9%純銀燙印，附黃金成色證明書。",
+      "image": "/img/stamps/hk/hk-2011-gold-silver-tiger-rabbit/sheet.jpg"
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第1輯第11款。橫跨虎（2010）與兔（2011）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「兔年」特別郵票（見 hk-2011-rabbit-r3）同日（2011-01-22）發行。設計／承印者／齒孔等規格未見於來源文字，待補。\n\n〔stampshk 香港郵票目錄〕金光閃閃，銀輝熠熠，象徵富貴吉祥。新春伊始，以金銀郵品饋贈親朋，不但盡顯氣派，更能寄託時和歲豐的祝願。 這次發行的金銀郵票小型張是同一系列第十一款，沿用金銀燙印技術製作，嵌有兩枚生肖郵票，面值均為50元。傲虎巧兔郵票分別以22K和24K金箔加上99.9%純銀燙印。小型張附連黃金純銀成色證明書，更顯尊貴。 中國傳統曆法以十二年為一個循環，並以十二生肖紀年。相傳屬虎者獨立自信，開朗勇敢；肖兔者溫文爾雅，心思靈巧。 兩枚郵票採用同一輯生肖郵票的設計，背景色調取孔雀藍、橄欖綠二色，配合光暗對比，令傲虎巧兔造型更見立體，活靈活現。",
+  "images": [
+    "/img/stamps/hk/hk-2011-gold-silver-tiger-rabbit/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2011/1/201101-Special-tc.pdf"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks186.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

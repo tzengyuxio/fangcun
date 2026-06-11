@@ -1,0 +1,48 @@
+{
+  "id": "hk-1999-rabbit-r2",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "兔",
+    "branch": "卯"
+  },
+  "zodiac_year": 1999,
+  "issue_date": "1999-01-31",
+  "round": 2,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/1999-rabbit/stamps.jpg"
+    }
+  ],
+  "significance": "一九九九年單獨發行的賀年生肖郵票，歲次己卯（兔年），採括擦式金色印墨。不屬第二輯（1987–1998）或第三輯（2000–2011）任何一輯。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔hkstmp.com／cpa-hk 集郵目錄（未經官方查證）〕面值、枚數、設計者等細節待補。",
+  "images": [
+    "/img/stamps/hk/1999-rabbit/stamps.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/1999.htm"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

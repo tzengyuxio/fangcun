@@ -1,0 +1,43 @@
+{
+  "id": "hk-2001-gold-silver-dragon-snake",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2001-01-01",
+  "round": 1,
+  "series_name": "十二生肖金銀郵票小型張－飛龍靈蛇",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「飛龍靈蛇」（賀歲生肖金銀郵票系列第一輯第1款），嵌有歲次龍年（2000）及歲次蛇年（2001）兩枚面值各50元郵票，以金銀燙印技術製作，附黃金純銀成色證明書。",
+      "image": ""
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第一輯第1款（系列自2001年「飛龍靈蛇」起）。橫跨龍（2000）與蛇（2001）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「蛇年」特別郵票（見 hk-2001-snake-r3）同日（2001-01-01）發行。",
+  "images": [],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2001.htm"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

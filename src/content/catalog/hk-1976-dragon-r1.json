@@ -1,0 +1,54 @@
+{
+  "id": "hk-1976-dragon-r1",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "龍",
+    "branch": "辰"
+  },
+  "zodiac_year": 1976,
+  "issue_date": "1976-01-21",
+  "round": 1,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/1976-dragon/stamps.jpg"
+    }
+  ],
+  "significance": "賀歲生肖郵票第1輯第10套，歲次丙辰（龍年）。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔hkstmp.com／cpa-hk 集郵目錄（未經官方查證）〕面值、枚數、設計者等細節待補。",
+  "images": [
+    "/img/stamps/hk/1976-dragon/stamps.jpg",
+    "/img/stamps/hk/1976-dragon/fdc.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/760121.htm"
+    },
+    {
+      "ref": "hk-cpa",
+      "tier": "reference",
+      "url": "http://www.cpa-hk.net/chin1/sheet/1976-01-21.htm"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

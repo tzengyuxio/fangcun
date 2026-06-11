@@ -1,0 +1,50 @@
+{
+  "id": "hk-2007-gold-silver-dog-pig",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2007-02-04",
+  "round": 1,
+  "series_name": "十二生肖金銀郵票小型張－靈犬寶豬",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「靈犬寶豬」（賀歲生肖金銀郵票系列第一輯第7款），嵌有歲次狗年（2006）及歲次豬年（2007）兩枚面值各50元郵票，以金銀燙印技術製作，附黃金純銀成色證明書。",
+      "image": "/img/stamps/hk/hk-2007-gold-silver-dog-pig/sheet.jpg"
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第一輯第7款（系列自2001年「飛龍靈蛇」起）。橫跨狗（2006）與豬（2007）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「豬年」特別郵票（見 hk-2007-pig-r3）同日（2007-02-04）發行。\n\n〔stampshk 香港郵票目錄〕不少民族都有崇尚金銀的文化，貴重至極的金銀，成為財富與尊貴的象徵。香港郵政每年發行的十二生肖金銀郵票小型張，以特別的印刷技術，把真金純銀燙印在小型張上，匠心獨運，別具意義，深受集郵人士喜愛。 這次發行的金銀郵票小型張是同一系列的第七款，嵌有兩枚生肖郵票，面值各為50元。靈犬寶豬郵票分別以24K和22K金箔加上99.9%純銀燙印，小型張附連黃金純銀成色證明書。 中國傳統曆法向以十二年為一個循環，並以十二生肖紀年。自古相傳，生肖影響性格。肖狗者忠心耿耿、誠實可靠，屬豬者率真直爽，誠懇篤實。 兩枚郵票沿用同一輯生肖郵票的設計，以墨綠赭黃二色作背景，突出光暗對比，靈犬寶豬造型更見立體，栩栩如生。",
+  "images": [
+    "/img/stamps/hk/hk-2007-gold-silver-dog-pig/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2007.htm"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks158.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

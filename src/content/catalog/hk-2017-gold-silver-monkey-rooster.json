@@ -1,0 +1,43 @@
+{
+  "id": "hk-2017-gold-silver-monkey-rooster",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2017-01-07",
+  "round": 2,
+  "series_name": "十二生肖金銀郵票小型張－靈猴金雞",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「靈猴金雞」，嵌有歲次猴年（2016）及歲次雞年（2017）兩枚面值各50元郵票；猴年郵票以銀箔燙印，雞年郵票以22K鍍金金片製成，附黃金成色證明書。",
+      "image": ""
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第2輯第5款。橫跨猴（2016）與雞（2017）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「雞年」特別郵票（見 hk-2017-rooster-r4）同日（2017-01-07）發行。設計／承印者／齒孔等規格未見於來源文字，待補。",
+  "images": [],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2016/12/1204%202017%20.pdf"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}
