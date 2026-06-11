@@ -16,10 +16,10 @@
     "local": "2017-1",
     "scott": null
   },
-  "designer": "",
-  "printer": "",
+  "designer": "韩美林",
+  "printer": "北京邮票厂",
   "printing_process": "",
-  "perforation": "",
+  "perforation": "13 度",
   "items": [
     {
       "type": "stamp",
@@ -28,7 +28,7 @@
     }
   ],
   "significance": "",
-  "notes": "【官方·國家郵政局《新郵賞析》】 国家邮政局审定，中国邮政定于2017年1月5日发行《丁酉年》特种邮票1套2枚，小本票1本。详情如下：志号：2017-1。\"/> 2017-1 丁酉年 中央政府门户网站 无障碍 简体 | 繁體 登录 | 注册 搜索 热词： 主题教育 快递业务量 邮政编码 快递包装 投诉 首 页 机构概况 政务公开 新闻动态 政务服务 互动交流 gjyzj function checkForm(){ var temp = searchForm.temp.value; if(temp==null || temp==\"\"){ alert(\"请输入搜索条件\"); }else if(temp.length>50){ alert(\"搜索标题过长不得超过50个字\"); }else{ var url=\"/search5_gy/html/searchResult.html?column=\"+encodeURIComponent(\"全部\")+\"&searchWord=\"+encodeURIComponent(temp)+\"&columnId=0&siteCode=bm71000001\"; window.open(url); } } $(function(){ $('.reci li a').each(function(){ $(this).attr('href','/search5_gy/html/searchResult.html?column='+encodeURIComponent(\"全部\")+'&searchWord='+encodeURIComponent($(this).text())+'&columnId=0&siteCode=bm71000001'); }) }) 2017-1 丁酉年 2017-1 丁酉年 日期：2017-01-13 来源： 打印 【字号： 大 中 小】 经国家邮政局审定，中国邮政定于2017年1月5日发行《丁酉年》特种邮票1套2枚，小本票1本。详情如下： 志号：2017-1 &nbsp; 图 序&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;图 名&nbsp;&nbsp; &nbsp;面 值 （2-1）T&nbsp;&nbsp;&nbsp;&nbsp;意气风发&nbsp;&nbsp; 1.20元 （2-2）T&nbsp;&nbsp;&nbsp;&nbsp;丁酉大吉&nbsp;&nbsp; 1.20元 邮票规格：36×36毫米 齿孔度数：13度 整张枚数：版式一16枚 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 版式二6枚 整张规格：版式一168×196毫米 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 版式二128×180毫米 小本票编号：（54）2017 小本票成品规格：121×88毫米 小本票售价：12元 版 别：胶雕套印 防伪方式：防伪纸张 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 防伪油墨 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 异形齿孔 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 荧光喷码 设 计 者：韩美林 雕 刻 者：刘明慧、郝欧 小本票设计者：王虎鸣 责任编辑：王静 印",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：刘明慧、郝欧。",
   "images": [
     "/img/stamps/cn/2017-1/spb_1.jpg"
   ],
@@ -45,5 +45,5 @@
     }
   ],
   "verified": false,
-  "updated_at": "2026-06-10"
+  "updated_at": "2026-06-11"
 }

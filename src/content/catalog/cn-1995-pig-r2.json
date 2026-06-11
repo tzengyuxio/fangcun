@@ -16,10 +16,10 @@
     "local": "1995-1",
     "scott": null
   },
-  "designer": "",
-  "printer": "",
-  "printing_process": "",
-  "perforation": "",
+  "designer": "吴建坤 杨文洁",
+  "printer": "北京邮票厂",
+  "printing_process": "影写雕刻",
+  "perforation": "11.5度",
   "items": [
     {
       "type": "stamp",
@@ -29,7 +29,11 @@
         "value": 20,
         "currency": "分"
       },
-      "mintage": 100065000
+      "mintage": 100065000,
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
     },
     {
       "type": "stamp",
@@ -39,11 +43,15 @@
         "value": 50,
         "currency": "分"
       },
-      "mintage": 80625000
+      "mintage": 80625000,
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
     }
   ],
   "significance": "",
-  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：阎炳武 呼振源；整版枚数：32枚；面值／發行量：T （2-1）肥猪拱门 20分 10006.5万枚 T （2-2）喜迎新春 50。 这是新一轮生肖邮票的第四套。以一只稚拙可爱的小猪和农家窗纸上的“猪”字为邮票图案。肥猪拱门的图案为民间布玩具。通过视角选择将小猪拱肩、探首、耸鼻、尧嘴等关键拱门姿态刻画的栩栩如生，呼之欲出。喜迎新春的图案是勾以白边的黑色隶书书“猪”字的窗纸，窗格呈桔红色洋溢着欢快，祥和。“双猪图”的窗花寓意着畜业兴旺。 全套共2枚。",
   "images": [
     "/img/stamps/cn/1995-1/92808521193.jpg"
   ],
@@ -55,5 +63,5 @@
     }
   ],
   "verified": false,
-  "updated_at": "2026-06-10"
+  "updated_at": "2026-06-11"
 }

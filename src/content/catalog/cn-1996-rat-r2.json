@@ -16,19 +16,40 @@
     "local": "1996-1",
     "scott": null
   },
-  "designer": "",
-  "printer": "",
-  "printing_process": "",
-  "perforation": "",
+  "designer": "吕胜",
+  "printer": "北京邮票厂",
+  "printing_process": "影写雕刻",
+  "perforation": "11.5度",
   "items": [
     {
       "type": "stamp",
-      "description": "",
-      "image": ""
+      "denomination": {
+        "value": 20.0,
+        "currency": "分"
+      },
+      "description": "万家灯火光明前景",
+      "image": "",
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 50.0,
+        "currency": "分"
+      },
+      "description": "鼠咬天开普天同庆",
+      "image": "",
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
     }
   ],
   "significance": "",
-  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：李庆发 姜伟杰；整版枚数：32枚；面值／發行量：T （2--1）万家灯火 光明前景 20分 9009.7万枚 T （2--2）鼠。 这是新一轮生肖邮票的第五套。第一枚邮票“万家灯火、光明前景”，以拟人的手法和大红大绿的色彩塑造一个披着美丽的云肓，系着绣有硕大花朵兜肚的鼠新娘形象，她神态俏皮生机；左手执着一个点燃的火炬状灯台，象征太阳；右边有一个刻着丙子字样的油葫芦，寓意“火上添油”。第二枚邮票“鼠咬天开、普天同庆” 以一个“鼠”字为中心，画面背景是云纹，6只老鼠对称排列，向上攀升，它们咬破混沌，现出了中间的一轮太阳。 本套共2枚。",
   "images": [
     "/img/stamps/cn/1996-1/92908544297.jpg"
   ],
@@ -40,5 +61,5 @@
     }
   ],
   "verified": false,
-  "updated_at": "2026-06-10"
+  "updated_at": "2026-06-11"
 }

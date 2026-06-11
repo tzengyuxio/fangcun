@@ -16,19 +16,23 @@
     "local": "2019-1",
     "scott": null
   },
-  "designer": "",
-  "printer": "",
-  "printing_process": "",
-  "perforation": "",
+  "designer": "韩美林",
+  "printer": "北京邮票厂",
+  "printing_process": "胶雕套印",
+  "perforation": "13度",
   "items": [
     {
       "type": "stamp",
       "description": "",
-      "image": ""
+      "image": "",
+      "dimensions_mm": {
+        "w": 36.0,
+        "h": 36.0
+      }
     }
   ],
   "significance": "",
-  "notes": "【官方·國家郵政局《新郵賞析》】 国家邮政局审定，中国邮政定于2019年1月5日发行《己亥年》特种邮票1套2枚，小本票1本。详情如下：志号：2019-1。\"/> 2019-1 己亥年 中央政府门户网站 无障碍 简体 | 繁體 登录 | 注册 搜索 热词： 主题教育 快递业务量 邮政编码 快递包装 投诉 首 页 机构概况 政务公开 新闻动态 政务服务 互动交流 gjyzj function checkForm(){ var temp = searchForm.temp.value; if(temp==null || temp==\"\"){ alert(\"请输入搜索条件\"); }else if(temp.length>50){ alert(\"搜索标题过长不得超过50个字\"); }else{ var url=\"/search5_gy/html/searchResult.html?column=\"+encodeURIComponent(\"全部\")+\"&searchWord=\"+encodeURIComponent(temp)+\"&columnId=0&siteCode=bm71000001\"; window.open(url); } } $(function(){ $('.reci li a').each(function(){ $(this).attr('href','/search5_gy/html/searchResult.html?column='+encodeURIComponent(\"全部\")+'&searchWord='+encodeURIComponent($(this).text())+'&columnId=0&siteCode=bm71000001'); }) }) 2019-1 己亥年 2019-1 己亥年 日期：2018-12-28 来源： 打印 【字号： 大 中 小】 经国家邮政局审定，中国邮政定于2019年1月5日发行《己亥年》特种邮票1套2枚，小本票1本。详情如下： 志号：2019-1 图序 图名 面值 （2-1）T 肥猪旺福 1.20元 （2-2）T 五福齐聚 1.20元 邮票规格：36×36毫米 齿孔度数：13度 整张枚数：版式一 16枚 版式二 6枚 整张规格：版式一 168×196毫米 版式二 128×180毫米 小本票编号：（56）2019 小本票成品规格：121×88毫米 小本票售价：12元 版 别：胶雕套印 防伪方式：防伪纸张 防伪油墨 异形齿孔 荧光喷码 设 计 者：韩美林 雕 刻 者：董琪、徐喆 小本票设计者：王虎鸣 责任编辑：王静 印 制 厂：北京邮票厂 出售办法：自发行之日起，在全国指定邮政网点、集邮网厅(http://jiyou.11185.cn)、中国集邮手机客户端和中国集邮微信商城出售，出售期限6个月。 注：同时发行《己亥年》邮票版式三（整张枚数：2套4枚；整张规格：120×160毫米；对联作者：常江），用于赠送给预订2019年全年纪特邮票的预订户。 二〇一八年十二月二十八日",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：董琪、徐喆。",
   "images": [
     "/img/stamps/cn/2019-1/spb_1.jpg"
   ],
@@ -45,5 +49,5 @@
     }
   ],
   "verified": false,
-  "updated_at": "2026-06-10"
+  "updated_at": "2026-06-11"
 }

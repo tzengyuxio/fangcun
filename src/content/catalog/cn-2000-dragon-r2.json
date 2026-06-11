@@ -16,10 +16,10 @@
     "local": "2000-1",
     "scott": null
   },
-  "designer": "",
-  "printer": "",
-  "printing_process": "",
-  "perforation": "",
+  "designer": "黄里 郭承辉",
+  "printer": "北京邮票厂",
+  "printing_process": "影写 雕刻",
+  "perforation": "12度",
   "items": [
     {
       "type": "stamp",
@@ -29,7 +29,11 @@
         "value": 80,
         "currency": "分"
       },
-      "mintage": 95275200
+      "mintage": 95275200,
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
     },
     {
       "type": "stamp",
@@ -39,11 +43,15 @@
         "value": 280,
         "currency": "分"
       },
-      "mintage": 73803200
+      "mintage": 73803200,
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
     }
   ],
   "significance": "",
-  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：李庆发 姜伟杰；整版枚数：32枚；面值／發行量：T（2-1） 祥龙腾飞 80分 9527.52万枚 T（2-2） 旭日东升 28。 2000年是中国干支纪年的庚辰年，即民间生肖纪年的龙年。蛇是中华民族吉祥文化中代表最高祥瑞的神物，是我国古代劳动人民集动物有利力和优美之大成创造的理想动物。龙的传说起源于远古氏族社会，至今已有数千年。随着社会的演进，人们也不断地丰富了龙的形象和艺术。",
   "images": [
     "/img/stamps/cn/2000-1/100608333458.jpg"
   ],
@@ -55,5 +63,5 @@
     }
   ],
   "verified": false,
-  "updated_at": "2026-06-10"
+  "updated_at": "2026-06-11"
 }

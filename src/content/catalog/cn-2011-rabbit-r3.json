@@ -16,10 +16,10 @@
     "local": "2011-1T",
     "scott": null
   },
-  "designer": "",
-  "printer": "",
-  "printing_process": "",
-  "perforation": "",
+  "designer": "吴冠英",
+  "printer": "北京邮票厂",
+  "printing_process": "影写",
+  "perforation": "13度",
   "items": [
     {
       "type": "stamp",
@@ -28,11 +28,15 @@
       "denomination": {
         "value": 1.2,
         "currency": "元"
+      },
+      "dimensions_mm": {
+        "w": 36.0,
+        "h": 36.0
       }
     }
   ],
   "significance": "",
-  "notes": "【官方·國家郵政局《新郵賞析》】 中国邮政集团公司提供的信息，中国邮政定于2011年1月5日发行《辛卯年》特种邮票1套1枚，小本票1本。详情如下： 志号：2011-1 图&nbsp; 序&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 图&nbsp; 名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 面&nbsp; 值 （1-1）T&nbsp;&nbsp; &nbsp;&nbsp; 辛卯年&nbsp;&nbsp; &nbsp;&nbsp; 1.20元 邮票规格：36×36毫米 齿孔度数：13度 整张枚数：版式一&nbsp;20枚 版式二&nbsp;6枚 整张规格：版式一&nbsp;180×210毫米 版式二&nbsp;128×180毫米 小本票编号：（42）2011 小本票成品规格：121×88毫米 小本票售价：12元 版&nbsp;&nbsp;&nbsp; 别：影写 防伪方式：防伪纸张 防伪油墨 异形齿孔 荧光喷码 设 计 者：吴冠英 责任编辑：陈宜思 印 制 厂：北京邮票厂 出售办法：自发行之日起，在全国指定邮政网点出售，出售期限6个月。 注：同时发行《辛卯年》邮票版式三（整张枚数：4枚；整张规格：120×130毫米），作为2011年纪特邮票全额交款预订户赠品。 &nbsp; 二〇一〇年十二月二十三日",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕整版枚数：版式一20枚、版式二6枚；面值／發行量：（1-1）T 辛卯年 1.20元。 中国邮政定于2011年1月5日发行《辛卯年》特种邮票1套1枚。",
   "images": [
     "/img/stamps/cn/2011-1T/spb_1.jpg"
   ],
@@ -49,5 +53,5 @@
     }
   ],
   "verified": false,
-  "updated_at": "2026-06-10"
+  "updated_at": "2026-06-11"
 }

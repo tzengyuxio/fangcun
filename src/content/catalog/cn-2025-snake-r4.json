@@ -16,19 +16,23 @@
     "local": "2025-1",
     "scott": null
   },
-  "designer": "",
-  "printer": "",
-  "printing_process": "",
-  "perforation": "",
+  "designer": "潘虎、张旺",
+  "printer": "北京邮票厂有限公司",
+  "printing_process": "胶雕套印",
+  "perforation": "13度",
   "items": [
     {
       "type": "stamp",
       "description": "",
-      "image": ""
+      "image": "",
+      "dimensions_mm": {
+        "w": 36.0,
+        "h": 36.0
+      }
     }
   ],
   "significance": "",
-  "notes": "【官方來源:國家郵政局《新郵賞析》;另有 5151sc 商業目錄參照】",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：杨志英；整版枚数：版式一 16枚，版式二 6枚。",
   "images": [
     "/img/stamps/cn/2025-1/spb_1.jpg",
     "/img/stamps/cn/2025-1/spb_2.jpg"
@@ -46,5 +50,5 @@
     }
   ],
   "verified": false,
-  "updated_at": "2026-06-10"
+  "updated_at": "2026-06-11"
 }

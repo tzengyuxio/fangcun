@@ -16,19 +16,40 @@
     "local": "1999-1",
     "scott": null
   },
-  "designer": "",
-  "printer": "",
-  "printing_process": "",
-  "perforation": "",
+  "designer": "王虎鸣、呼振源、杨文清",
+  "printer": "北京邮票厂",
+  "printing_process": "影写雕刻",
+  "perforation": "11.5度",
   "items": [
     {
       "type": "stamp",
-      "description": "",
-      "image": ""
+      "denomination": {
+        "value": 50.0,
+        "currency": "分"
+      },
+      "description": "玉兔为月",
+      "image": "",
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 150.0,
+        "currency": "分"
+      },
+      "description": "吉祥如意",
+      "image": "",
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
     }
   ],
   "significance": "",
-  "notes": "【自動轉換自 5151sc 点购收藏网(commercial collector site, tier=secondary),待以中国邮政官方/集郵目錄複核】",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕整版枚数：32枚；面值／發行量：T （2--1） 玉兔为月 50分 10212.9万枚 T （2--2） 吉祥如。 1999年是中国传统民俗十二生肖纪年的兔年。兔性情温和，是一种玲珑柔顺的动物。古人有“玉衡星散而为兔”之说，给兔增添了一层祥瑞的色彩。中国传统文化以兔为明月之精，作为吉祥、幸福的象征。民间艺术中兔的造型颇多，深受喜爱。",
   "images": [
     "/img/stamps/cn/1999-1/92908544327.jpg"
   ],
@@ -40,5 +61,5 @@
     }
   ],
   "verified": false,
-  "updated_at": "2026-06-10"
+  "updated_at": "2026-06-11"
 }
