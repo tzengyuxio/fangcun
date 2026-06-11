@@ -66,6 +66,15 @@
    原文、5151sc/spb 賞析全文),冗長且風格不一。需人工梳理成簡潔、一致、可讀的敘述(必要時拆出
    `significance` 一句重點),並順手把 `verified` 複核為 true。
 
+9. ⬜ **用 WNS 統一郵票本體圖** — WNS（wnsstamps.post）提供**品質／規格一致**的單枚郵票圖
+   （`images/T180/{WNS}.jpg`），可作為港、日等 **2002+** 生肖票的標準化「郵票本體」圖源,
+   小全張／首日封／郵戳仍用既有來源（官方／hkstmp／stampshk）。
+   - **作法**:用 `wns-query` skill 取各枚 WNS 號 → 下載對應圖,重組 gallery（需定 item 圖與
+     套圖 `images[]` 的並存策略,避免重複）。
+   - **注意**:WNS 圖**只含郵票本體、不含完整小全張**；著作權屬發行郵政,UPU/WADP 允許下載但
+     **須標註**（「© [發行郵政] via UPU/WADP WNS」）。
+   - 依賴 `wns-query` skill（已建,`.claude/skills/wns-query/`）；規範見 `docs/id-scheme.md` §8。
+
 ## 維護 / 技術債
 
 - ⬜ **升級 `.github/workflows/deploy.yml` 的 actions 版本** — `actions/checkout@v4`、
