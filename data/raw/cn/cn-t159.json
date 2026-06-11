@@ -1,0 +1,26 @@
+{
+  "id": "cn-t159",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-1704.html",
+      "src_code": "T159",
+      "data": {
+        "name": "T159 辛未年（羊票）",
+        "design_face_value": "T （ 1-1 ） 辛未年 20 分 12481.65 万枚",
+        "issue_date": "1991 年 1 月 5 日",
+        "stamp_size": "26 × 31 毫米",
+        "perforation": "11.5 度",
+        "sheet_count": "80 枚",
+        "printing_type": "影写 雕刻",
+        "designer": "雷汉林",
+        "engraver": "呼振源",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "92708533999.jpg"
+      ]
+    }
+  }
+}

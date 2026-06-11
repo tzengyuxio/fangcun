@@ -23,6 +23,27 @@
       "checked": "2026-06-12",
       "tier": "official",
       "found": false
+    },
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-20600.html",
+      "src_code": "2018-1",
+      "data": {
+        "name": "2018-1 戊戌年狗 套票",
+        "stamp_size": "36×36毫米",
+        "perforation": "13度",
+        "sheet_count": "版式一 16枚、版式二 6枚",
+        "printing_type": "胶雕套印",
+        "anti_counterfeit": "防伪纸张、防伪油墨、异形齿孔、荧光喷码",
+        "designer": "周令钊",
+        "engraver": "原艺姗、刘明慧",
+        "editor": "王静",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "113002333613.jpg"
+      ]
     }
   }
 }

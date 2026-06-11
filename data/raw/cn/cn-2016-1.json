@@ -23,6 +23,26 @@
       "checked": "2026-06-12",
       "tier": "official",
       "found": false
+    },
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-19910.html",
+      "src_code": "2016-1",
+      "data": {
+        "name": "2016-1 丙申年猴",
+        "catalog_no": "志号：2016-1 图序 图名 面值 （2-1）T 灵猴献瑞 1.20元 （2-2）T 福寿双至 1.20元",
+        "stamp_size": "36×36毫米",
+        "perforation": "13度",
+        "printing_type": "胶雕套印",
+        "anti_counterfeit": "防伪纸张 防伪油墨 异形齿孔 荧光喷码",
+        "designer": "黄永玉",
+        "engraver": "赵川、马荣",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "10707011993.jpg"
+      ]
     }
   }
 }

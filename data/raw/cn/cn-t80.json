@@ -1,0 +1,26 @@
+{
+  "id": "cn-t80",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-1463.html",
+      "src_code": "T80",
+      "data": {
+        "name": "T80 癸亥年（猪票）",
+        "design_face_value": "T （ 1 -- 1 ） 猪 8 分 1275.96 万枚",
+        "issue_date": "1983 年 1 月 5 日",
+        "stamp_size": "26 × 31 毫米",
+        "perforation": "11 度",
+        "sheet_count": "80 枚",
+        "printing_type": "影写 雕刻",
+        "designer": "卢天骄",
+        "engraver": "赵顺义",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "92708533931.jpg"
+      ]
+    }
+  }
+}

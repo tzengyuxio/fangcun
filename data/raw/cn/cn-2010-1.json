@@ -1,0 +1,26 @@
+{
+  "id": "cn-2010-1",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-2983.html",
+      "src_code": "2010-1T",
+      "data": {
+        "name": "2010-1T《庚寅年》特种邮票",
+        "design_face_value": "（1-1）T 庚寅年 1.20元",
+        "stamp_size": "36×36毫米",
+        "perforation": "13度",
+        "sheet_count": "版式一20枚、版式二6枚",
+        "printing_type": "影写",
+        "anti_counterfeit": "防伪纸张、防伪油墨、异形齿孔、荧光喷码",
+        "designer": "马刚",
+        "editor": "陈宜思",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "101310023949.jpg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cn-t46",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-1370.html",
+      "src_code": "T46",
+      "data": {
+        "name": "T46 庚申年（猴票）",
+        "design_face_value": "T （1-1）金猴 8分 500 万枚",
+        "issue_date": "1980年2月15日",
+        "stamp_size": "26×31毫米",
+        "perforation": "11.5度",
+        "sheet_count": "80枚",
+        "printing_type": "影写 雕刻",
+        "designer": "邵柏林",
+        "engraver": "姜伟杰",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "92609044106.jpg",
+        "042906425029.jpg",
+        "111502361345.jpg",
+        "111502361346.jpg",
+        "111502361347.jpg",
+        "111502361348.jpg"
+      ]
+    }
+  }
+}

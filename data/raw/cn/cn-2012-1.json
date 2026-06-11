@@ -1,0 +1,26 @@
+{
+  "id": "cn-2012-1",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-6003.html",
+      "src_code": "2012-1T",
+      "data": {
+        "name": "2012-1T《壬辰年》特种邮票",
+        "design_face_value": "（1-1）T 壬辰年 1.20元",
+        "stamp_size": "36×36毫米",
+        "perforation": "13 度",
+        "sheet_count": "版式一 20枚、版式二 6枚",
+        "printing_type": "影写",
+        "anti_counterfeit": "防伪纸张、防伪油墨、异形齿孔、荧光喷码",
+        "designer": "陈绍华",
+        "editor": "陈宜思",
+        "printer": "北京邮票厂 邮票介绍： 中国邮政定于2012年1月5日发行《壬辰年》特种邮票1套1枚，小本票1本。"
+      },
+      "images": [
+        "41201185523.jpg"
+      ]
+    }
+  }
+}

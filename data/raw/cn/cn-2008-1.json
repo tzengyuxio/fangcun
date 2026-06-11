@@ -1,0 +1,26 @@
+{
+  "id": "cn-2008-1",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-2789.html",
+      "src_code": "2008-1T",
+      "data": {
+        "name": "2008-1T《戊子年》特种邮票",
+        "design_face_value": "（1-1）T 戊子年 1.20元",
+        "issue_date": "2008年1月5日",
+        "stamp_size": "36×36毫米",
+        "perforation": "13度",
+        "printing_type": "影写",
+        "anti_counterfeit": "防伪纸张防伪油墨异形齿孔荧光喷码",
+        "designer": "于平、任凭",
+        "editor": "史渊",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "101010163100.jpg"
+      ]
+    }
+  }
+}

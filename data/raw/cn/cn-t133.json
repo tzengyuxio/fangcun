@@ -1,0 +1,25 @@
+{
+  "id": "cn-t133",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-1639.html",
+      "src_code": "T133",
+      "data": {
+        "name": "T133 已巳年（蛇票）",
+        "design_face_value": "T（1-1） 己已年 8分 12602.05万枚",
+        "issue_date": "1989年1月5日",
+        "stamp_size": "26×31毫米",
+        "perforation": "11.5度",
+        "sheet_count": "80枚",
+        "printing_type": "影写 雕刻",
+        "designer": "吕胜中",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "92808521137.jpg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cn-t70",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-1432.html",
+      "src_code": "T70",
+      "data": {
+        "name": "T70 壬戌年（狗票）",
+        "design_face_value": "T （ 1 -- 1 ） 狗 8 分 1411.16 万枚",
+        "issue_date": "1982 年 1 月 5 日",
+        "stamp_size": "26 × 31 毫米",
+        "perforation": "11.5 度",
+        "sheet_count": "80 枚",
+        "printing_type": "影写 雕刻",
+        "designer": "周令钊",
+        "engraver": "高品璋",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "92609044094.jpg"
+      ]
+    }
+  }
+}

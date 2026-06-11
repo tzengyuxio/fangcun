@@ -1,0 +1,26 @@
+{
+  "id": "cn-t102",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-1526.html",
+      "src_code": "T102",
+      "data": {
+        "name": "T102 乙丑年（牛票）",
+        "design_face_value": "T（1-1） 牛 8分 9555.26万枚",
+        "issue_date": "1985年1月5日",
+        "stamp_size": "26×31毫米",
+        "perforation": "11.5度",
+        "sheet_count": "80枚",
+        "printing_type": "影写 雕刻",
+        "designer": "任宇",
+        "engraver": "呼振源 高品璋",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "92708533968.jpg"
+      ]
+    }
+  }
+}

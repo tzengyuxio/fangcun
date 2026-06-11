@@ -31,6 +31,20 @@
         "CN001.2023.jpg",
         "CN002.2023.jpg"
       ]
+    },
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-23048.html",
+      "src_code": "2023-1",
+      "data": {
+        "stamp_size": "36×36毫米",
+        "perforation": "13度",
+        "anti_counterfeit": "防伪纸张、防伪油墨、异形齿孔、荧光喷码"
+      },
+      "images": [
+        "120203593631.jpg"
+      ]
     }
   }
 }

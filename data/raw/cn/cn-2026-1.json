@@ -23,6 +23,27 @@
       "checked": "2026-06-12",
       "tier": "official",
       "found": false
+    },
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-23914.html",
+      "src_code": "2026-1",
+      "data": {
+        "name": "2026-1丙午年马 套票 中国邮政定于2026年1月5日发行《丙午年》特种邮票1套2枚，小本票1本。详情如下：",
+        "stamp_size": "36×36毫米",
+        "perforation": "13度",
+        "sheet_count": "版式一16枚 版式二6枚",
+        "printing_type": "胶雕套印",
+        "anti_counterfeit": "防伪纸张 防伪油墨 异形齿孔 荧光喷码",
+        "engraver": "尹晓飞、徐喆",
+        "printer": "北京邮票厂有限公司"
+      },
+      "images": [
+        "10601343876.jpg",
+        "10601343875.jpg",
+        "10601343877.jpg"
+      ]
     }
   }
 }

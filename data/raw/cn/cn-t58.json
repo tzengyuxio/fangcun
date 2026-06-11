@@ -1,0 +1,26 @@
+{
+  "id": "cn-t58",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-1394.html",
+      "src_code": "T58",
+      "data": {
+        "name": "T58 辛酉年（鸡票）",
+        "design_face_value": "T （1-1）雄鸡 8分 931.16 万枚",
+        "issue_date": "1981年1月5日",
+        "stamp_size": "26×31毫米",
+        "perforation": "11.5度",
+        "sheet_count": "80枚",
+        "printing_type": "影写 雕刻",
+        "designer": "程传理",
+        "engraver": "孙鸿年",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "92609044069.jpg"
+      ]
+    }
+  }
+}

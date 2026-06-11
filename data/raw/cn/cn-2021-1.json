@@ -23,6 +23,25 @@
       "checked": "2026-06-12",
       "tier": "official",
       "found": false
+    },
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-21857.html",
+      "src_code": "2021-1",
+      "data": {
+        "stamp_size": "36×36毫米",
+        "perforation": "13度",
+        "printing_type": "胶雕套印",
+        "anti_counterfeit": "防伪纸张、防伪油墨、异形齿孔、荧光喷码",
+        "designer": "姚钟华",
+        "engraver": "刘博",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "12280235420.jpg",
+        "12280235419.jpg"
+      ]
     }
   }
 }

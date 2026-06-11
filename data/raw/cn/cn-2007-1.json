@@ -1,0 +1,25 @@
+{
+  "id": "cn-2007-1",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-2734.html",
+      "src_code": "2007-1T",
+      "data": {
+        "name": "2007-1T《丁亥年》特种邮票",
+        "design_face_value": "（1-1）T 丁亥年 1.20元",
+        "stamp_size": "36×36毫米",
+        "perforation": "13 度",
+        "printing_type": "影写",
+        "anti_counterfeit": "防伪纸张防伪油墨异形齿孔荧光喷码",
+        "designer": "陈绍华",
+        "editor": "史渊",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "101010163096.jpg"
+      ]
+    }
+  }
+}

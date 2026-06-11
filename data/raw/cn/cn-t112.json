@@ -1,0 +1,25 @@
+{
+  "id": "cn-t112",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-1570.html",
+      "src_code": "T112",
+      "data": {
+        "name": "T112 丁卯年（兔票）",
+        "design_face_value": "T （ 1-1 ） 兔 8 分 11481.65 万枚",
+        "issue_date": "1987 年 1 月 5 日",
+        "stamp_size": "26 × 31 毫米",
+        "perforation": "11.5 度",
+        "sheet_count": "80 枚",
+        "printing_type": "影写 雕刻",
+        "engraver": "孙鸿年",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "92708533943.jpg"
+      ]
+    }
+  }
+}

@@ -23,6 +23,26 @@
       "checked": "2026-06-12",
       "tier": "official",
       "found": false
+    },
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-21564.html",
+      "src_code": "2020-1",
+      "data": {
+        "stamp_size": "36×36毫米",
+        "perforation": "13度",
+        "sheet_count": "版式一 16枚 版式二 6枚",
+        "printing_type": "胶雕套印",
+        "anti_counterfeit": "防伪纸张、防伪油墨、异形齿孔、荧光喷码",
+        "designer": "韩美林",
+        "engraver": "刘博"
+      },
+      "images": [
+        "102802002757.jpg",
+        "102802002758.jpg",
+        "102802002759.jpg"
+      ]
     }
   }
 }

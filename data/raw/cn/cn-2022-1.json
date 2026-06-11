@@ -23,6 +23,25 @@
       "checked": "2026-06-12",
       "tier": "official",
       "found": false
+    },
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-22141.html",
+      "src_code": "2022-1",
+      "data": {
+        "stamp_size": "36×36毫米",
+        "perforation": "13度",
+        "printing_type": "胶雕套印",
+        "anti_counterfeit": "防伪纸张、防伪油墨、异形齿孔、荧光喷码",
+        "designer": "冯大中",
+        "engraver": "原艺珊、刘明慧",
+        "printer": "北京邮票厂有限公司"
+      },
+      "images": [
+        "12170311113.jpg",
+        "12170311114.jpg"
+      ]
     }
   }
 }

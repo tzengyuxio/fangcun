@@ -1,0 +1,25 @@
+{
+  "id": "cn-t90",
+  "sources": {
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-1491.html",
+      "src_code": "T90",
+      "data": {
+        "name": "T90 甲子年（鼠票）",
+        "design_face_value": "T （ 1 -- 1 ） 鼠 8 分 2187.68 万枚",
+        "issue_date": "1984 年 1 月 5 日",
+        "stamp_size": "26 × 31 毫米",
+        "perforation": "11.5 度",
+        "sheet_count": "80 枚",
+        "printing_type": "影写 雕刻",
+        "designer": "李印清",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "92708533974.jpg"
+      ]
+    }
+  }
+}

@@ -23,6 +23,27 @@
       "checked": "2026-06-12",
       "tier": "official",
       "found": false
+    },
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-20287.html",
+      "src_code": "2017-1",
+      "data": {
+        "name": "2017-1 丁酉年鸡 套票",
+        "catalog_no": "志号：2017-1 图 序 图名 面值 （ 2-1 ） T 意气风发 1.20 元 （ 2-2 ） T 丁酉大吉 1.20 元",
+        "stamp_size": "36 毫米× 36 毫米",
+        "perforation": "13 度",
+        "printing_type": "",
+        "anti_counterfeit": "防伪纸张、防伪油墨、异形齿孔、荧光喷码",
+        "designer": "韩美林",
+        "engraver": "刘明慧、郝欧",
+        "editor": "王静",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "10603125378.jpg"
+      ]
     }
   }
 }

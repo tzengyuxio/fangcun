@@ -23,6 +23,28 @@
       "checked": "2026-06-12",
       "tier": "official",
       "found": false
+    },
+    "5151sc": {
+      "checked": "2026-06-10",
+      "tier": "reference",
+      "url": "http://www.5151sc.com/pro-21316.html",
+      "src_code": "2019-1",
+      "data": {
+        "name": "2019-1 己亥年猪 套票",
+        "stamp_size": "36×36毫米",
+        "perforation": "13度",
+        "printing_type": "胶雕套印",
+        "anti_counterfeit": "防伪纸张 防伪油墨 异形齿孔 荧光喷码",
+        "designer": "韩美林",
+        "engraver": "董琪、徐喆",
+        "editor": "王静",
+        "printer": "北京邮票厂"
+      },
+      "images": [
+        "10304153514.jpg",
+        "10304153512.jpg",
+        "10304153513.jpg"
+      ]
     }
   }
 }
