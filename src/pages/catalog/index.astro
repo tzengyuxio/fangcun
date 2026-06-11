@@ -17,7 +17,18 @@ for (const i of issues) {
     themeCount += 1;
   }
 }
-const regions = [...new Map(issues.map((i) => [i.data.region.code, i.data.region.name])).entries()];
+// 各發行地:套數與開始發行年份(用 issue_date 年份,對主題票/金銀條目亦適用)。
+type RegionStat = { name: string; count: number; first: number };
+const regionMap = new Map<string, RegionStat>();
+for (const i of issues) {
+  const { code, name } = i.data.region;
+  const year = Number(i.data.issue_date.slice(0, 4));
+  const r = regionMap.get(code) ?? { name, count: 0, first: year };
+  r.count += 1;
+  r.first = Math.min(r.first, year);
+  regionMap.set(code, r);
+}
+const regions = [...regionMap.entries()];
 ---
 
 <Base title="郵票目錄 — 方寸裡的生肖">
@@ -52,9 +63,12 @@ const regions = [...new Map(issues.map((i) => [i.data.region.code, i.data.region
     <section class="block">
       <h2 class="block-title"><span class="num">貳</span> 按發行地</h2>
       <div class="region-list">
-        {regions.map(([code, name]) => (
+        {regions.map(([code, r]) => (
           <a class="ritem" href={`${base}/catalog/region/${code}/`}>
-            {name}<span class="rcode">{code}</span>
+            <span class="rname">{r.name}<span class="rcode">{code}</span></span>
+            <span class="rmeta">
+              {r.first}<span class="runit">起</span>・{r.count}<span class="runit">套</span>
+            </span>
           </a>
         ))}
       </div>
@@ -115,8 +129,8 @@ const regions = [...new Map(issues.map((i) => [i.data.region.code, i.data.region
   .region-list { display: flex; flex-wrap: wrap; gap: 0.6rem; }
   .ritem {
     display: inline-flex;
-    align-items: baseline;
-    gap: 0.4rem;
+    flex-direction: column;
+    gap: 0.25rem;
     padding: 0.5rem 0.9rem;
     border: 1px solid var(--color-line);
     background: var(--color-surface);
@@ -124,7 +138,10 @@ const regions = [...new Map(issues.map((i) => [i.data.region.code, i.data.region
     font-family: var(--font-serif);
   }
   .ritem:hover { text-decoration: none; border-color: var(--color-gold); }
+  .rname { display: inline-flex; align-items: baseline; gap: 0.4rem; }
   .rcode { font-family: var(--font-sans); font-size: 0.72rem; color: var(--color-gold); letter-spacing: 0.05em; }
+  .rmeta { font-family: var(--font-sans); font-size: 0.72rem; color: var(--color-ink-soft); }
+  .runit { font-size: 0.6rem; margin: 0 0.15em; }
 
   .tl-link { font-family: var(--font-serif); font-size: 1.1rem; }
 </style>

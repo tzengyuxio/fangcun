@@ -113,21 +113,37 @@ main {
   font-size: 0.9rem;
   text-align: center;
 }
+.footer-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+.footer-title {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: var(--color-ink);
+}
 .site-footer .seal {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0.75rem;
-  width: 46px;
-  height: 46px;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
   border: 1.5px solid var(--color-red);
   border-radius: 50%;
   color: var(--color-red);
   font-family: var(--font-serif);
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   transform: rotate(-8deg);
   opacity: 0.85;
+}
+.footer-copy {
+  margin-top: 0.85rem;
+  font-size: 0.8rem;
+  color: var(--color-ink-soft);
 }
 
 /* ---- Stamp (主題元件:白票框 + 真·齒孔 mask + 郵戳插槽) ---- */

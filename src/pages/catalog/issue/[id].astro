@@ -106,7 +106,11 @@ const specs = [
         )}
 
         {d.significance && <p class="significance">{d.significance}</p>}
-        {d.notes && <p class="notes">{d.notes}</p>}
+        {d.notes && (
+          <div class="notes">
+            {d.notes.split('\n').filter((s) => s.trim()).map((para) => <p>{para}</p>)}
+          </div>
+        )}
       </div>
     </div>
 
@@ -199,6 +203,8 @@ const specs = [
     padding-left: 0.9rem;
   }
   .notes { margin-top: 1rem; color: var(--color-ink-soft); font-size: 0.95rem; }
+  .notes p { margin: 0 0 0.7rem; }
+  .notes p:last-child { margin-bottom: 0; }
 
   .sect { margin-top: 2.5rem; }
   .sect h2 { font-size: 1.3rem; border-bottom: 1px solid var(--color-line); padding-bottom: 0.5rem; margin-bottom: 1rem; }
@@ -215,7 +221,8 @@ const specs = [
   }
   .item-detail { font-size: 0.95rem; }
 
-  .source { display: flex; gap: 0.75rem; align-items: baseline; padding: 0.45rem 0; }
+  .source { display: flex; gap: 0.5rem; align-items: baseline; padding: 0.12rem 0; }
+  .source::before { content: '\25AA'; color: var(--color-gold); flex-shrink: 0; font-size: 0.8rem; }
   .tier {
     flex-shrink: 0;
     font-size: 0.75rem;
