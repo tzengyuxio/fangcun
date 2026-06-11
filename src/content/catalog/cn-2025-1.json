@@ -23,12 +23,29 @@
   "items": [
     {
       "type": "stamp",
-      "description": "",
-      "image": "",
+      "denomination": {
+        "value": 1.2,
+        "currency": "元"
+      },
       "dimensions_mm": {
         "w": 36.0,
         "h": 36.0
-      }
+      },
+      "description": "蛇呈豐稔",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 1.2,
+        "currency": "元"
+      },
+      "dimensions_mm": {
+        "w": 36.0,
+        "h": 36.0
+      },
+      "description": "福納百祥",
+      "image": ""
     }
   ],
   "significance": "第四輪蛇年票，潘虎、張旺設計。",

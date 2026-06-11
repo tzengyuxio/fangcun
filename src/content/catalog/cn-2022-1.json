@@ -23,12 +23,29 @@
   "items": [
     {
       "type": "stamp",
-      "description": "",
-      "image": "",
+      "denomination": {
+        "value": 1.2,
+        "currency": "元"
+      },
       "dimensions_mm": {
         "w": 36.0,
         "h": 36.0
-      }
+      },
+      "description": "國運昌隆",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 1.2,
+        "currency": "元"
+      },
+      "dimensions_mm": {
+        "w": 36.0,
+        "h": 36.0
+      },
+      "description": "虎蘊吉祥",
+      "image": ""
     }
   ],
   "significance": "第四輪虎年票，工筆虎名家馮大中設計。",
