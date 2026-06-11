@@ -1,0 +1,70 @@
+{
+  "id": "jp-20131101",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "馬",
+    "branch": "午"
+  },
+  "zodiac_year": 2014,
+  "issue_date": "2013-11-01",
+  "round": 6,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "National Printing Bureau",
+  "printing_process": "",
+  "perforation": "13 x 13",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 50.0,
+        "currency": "JPY"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.0,
+        "h": 25.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.0,
+        "h": 25.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 「平成26年用年賀郵便切手」\n\n〔WNS〕UPU/WADP 官方號 JP368.2013/JP369.2013（年賀票，給2014年）；面值／尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/jp/2013/pic_1101_01.gif"
+  ],
+  "sources": [
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/2013/h251101_01_t.html"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

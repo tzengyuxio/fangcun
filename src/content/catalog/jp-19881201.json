@@ -1,0 +1,47 @@
+{
+  "id": "jp-19881201",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "蛇",
+    "branch": "巳"
+  },
+  "zodiac_year": 1989,
+  "issue_date": "1988-12-01",
+  "round": 4,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "土鈴の蛇",
+      "image": "",
+      "denomination": {
+        "value": 40,
+        "currency": "円"
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自年賀切手データベース(dorama),待人工複核】 1989年用年賀切手",
+  "images": [
+    "/img/stamps/jp/1989/1989.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "jp-dorama",
+      "tier": "reference"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

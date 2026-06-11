@@ -1,0 +1,70 @@
+{
+  "id": "jp-20181101",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "豬",
+    "branch": "亥"
+  },
+  "zodiac_year": 2019,
+  "issue_date": "2018-11-01",
+  "round": 6,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Cartor Security Printing",
+  "printing_process": "",
+  "perforation": "14 x 14",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 62.0,
+        "currency": "JPY"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.0,
+        "h": 26.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.0,
+        "h": 26.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 平成31年用年賀郵便切手\n\n〔WNS〕UPU/WADP 官方號 JP480.2018/JP481.2018（年賀票，給2019年）；面值／尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/jp/2018/pic_0110.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte/collection/archive/2018/1101_01/"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

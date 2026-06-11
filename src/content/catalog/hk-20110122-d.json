@@ -1,0 +1,72 @@
+{
+  "id": "hk-20110122-d",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2011-01-22",
+  "round": 3,
+  "series_name": "絨面生肖郵票－鼠、牛、虎、兔",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "鼠（絨面）",
+      "image": "/img/stamps/hk/hk-20110122-d/sheet.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "牛（絨面）",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "虎（絨面）",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "兔（絨面）",
+      "image": ""
+    }
+  ],
+  "significance": "絨面生肖郵票第3套，以鼠、牛、虎、兔四個生肖為題（絨面工藝）。橫跨四個生肖，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與該年生肖特別郵票同日發行。 面值、設計等細節待補。\n\n〔stampshk 香港郵票目錄〕香港郵政先後於二○○三年和二○○七年發行第一、二套絨面生肖郵票，印刷精巧細緻，設計獨具匠心，深受集郵人士歡迎。現以「鼠、牛、虎、兔」為題，推出第三輯生肖郵票系列最後一套絨面郵票。 農曆新年是中國最重要的傳統節日，家家戶戶歡慶團圓，迎福納祥，祈願來年萬事順遂、老少安康。瑰麗悅目的絨面生肖郵票，洋溢暖意融融的新春喜氣。 這套郵票色彩鮮明活潑，採用細密柔軟的絨面紙印製，平添典雅富麗之感，寓意瑞氣盈門、物阜民豐。",
+  "images": [
+    "/img/stamps/hk/hk-20110122-d/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks186.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "jp-20201029",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "牛",
+    "branch": "丑"
+  },
+  "zodiac_year": 2021,
+  "issue_date": "2020-10-29",
+  "round": 6,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Philaposte, Boulazac",
+  "printing_process": "",
+  "perforation": "13 x 13.25",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 63.0,
+        "currency": "JPY"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.5,
+        "h": 25.5
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 84.0,
+        "currency": "JPY"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.5,
+        "h": 25.5
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 令和3年用年賀郵便切手\n\n〔WNS〕UPU/WADP 官方號 JP429.2020/JP430.2020（年賀票，給2021年）；面值／尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/jp/2020/pic_0207.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte/collection/archive/2020/1029_01/"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

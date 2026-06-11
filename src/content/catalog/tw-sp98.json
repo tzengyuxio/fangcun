@@ -1,0 +1,59 @@
+{
+  "id": "tw-sp98",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "虎",
+    "branch": "寅"
+  },
+  "zodiac_year": 1974,
+  "issue_date": "1973-12-01",
+  "round": 1,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特098",
+    "scott": null
+  },
+  "designer": "溫學儒",
+  "printer": "中央印製廠",
+  "printing_process": "平凹版",
+  "perforation": "12 1/2",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特98.1",
+      "image": "/img/stamps/tw/28409801.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特98.2",
+      "image": "/img/stamps/tw/28409802.JPG"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國63年，歲次甲寅，年肖屬虎，以「猛虎展威」為郵票圖案，印製新年郵票1組。",
+  "images": [
+    "/img/stamps/tw/28409801.JPG"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D098&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

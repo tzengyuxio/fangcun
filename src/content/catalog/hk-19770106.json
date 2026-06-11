@@ -1,0 +1,54 @@
+{
+  "id": "hk-19770106",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "蛇",
+    "branch": "巳"
+  },
+  "zodiac_year": 1977,
+  "issue_date": "1977-01-06",
+  "round": 1,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/1977-snake/stamps.jpg"
+    }
+  ],
+  "significance": "賀歲生肖郵票第1輯第11套，歲次丁巳（蛇年）。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔hkstmp.com／cpa-hk 集郵目錄（未經官方查證）〕面值、枚數、設計者等細節待補。",
+  "images": [
+    "/img/stamps/hk/1977-snake/stamps.jpg",
+    "/img/stamps/hk/1977-snake/fdc.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/770106.htm"
+    },
+    {
+      "ref": "hk-cpa",
+      "tier": "reference",
+      "url": "http://www.cpa-hk.net/chin1/sheet/1977-01-06.htm"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

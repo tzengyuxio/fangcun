@@ -11,7 +11,7 @@
 
 ```jsonc
 {
-  "id": "tw-1968-rooster-r1",        // slug：地區-發行年-生肖-輪次
+  "id": "tw-sp55",                   // canonical ID（生肖無關），見 docs/id-scheme.md
   "region": { "code": "TW", "name": "中華郵政" },
   "zodiac": { "animal": "雞", "branch": "酉" },
   "zodiac_year": 1969,               // ⚠ 生肖年（酉雞年實際所屬）
@@ -26,7 +26,7 @@
   "items": [ /* Item，見下 */ ],
   "significance": "世界第一套雞年生肖郵票",   // 專題/亮點，可空
   "notes": "",                       // 設計理念、背景
-  "images": ["/img/tw-1968-rooster-set.jpg"],
+  "images": ["/img/stamps/tw/tw-sp55-set.jpg"],
   "sources": [
     { "ref": "post-stamphouse", "tier": "official" }
   ],
@@ -39,7 +39,7 @@
 
 | 欄位 | 型別 | 必填 | 說明 |
 |---|---|---|---|
-| `id` | string | ✓ | slug，格式 `{region}-{issue_year}-{animal}-r{round}`，全站唯一 |
+| `id` | string | ✓ | canonical ID（生肖無關），格式見 `docs/id-scheme.md`（台中志號／港日發行日），全站唯一 |
 | `region.code` | enum | ✓ | `TW`/`CN`/`HK`/`MO`/`JP`/`US`…（ISO 風格地區碼） |
 | `region.name` | string | ✓ | 發行郵政全名 |
 | `zodiac.animal` | enum | ✓ | 鼠牛虎兔龍蛇馬羊猴雞狗豬（12 擇一） |
@@ -60,7 +60,7 @@
 | `updated_at` | date | ✓ | 最後更新日 |
 
 **關鍵不變量（D5）**：`zodiac_year` 與 `issue_date` 永不混用。賀歲票於生肖年前一年
-底發行，兩者常差一年（如 tw-1968-rooster：發行 1968-11、生肖年 1969）。
+底發行，兩者常差一年（如 tw-sp55：發行 1968-11、生肖年 1969）。
 
 ## Item — 品項
 
@@ -71,7 +71,7 @@
   "dimensions_mm": { "w": 26, "h": 30 },
   "mintage": 500000,                 // 發行量（可在套層級或品項層級）
   "description": "雄雞報曉",
-  "image": "/img/tw-1968-rooster-stamp.jpg"
+  "image": "/img/stamps/tw/tw-sp55-stamp.jpg"
 }
 ```
 

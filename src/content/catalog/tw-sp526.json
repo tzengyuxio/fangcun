@@ -1,0 +1,69 @@
+{
+  "id": "tw-sp526",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "牛",
+    "branch": "丑"
+  },
+  "zodiac_year": 2009,
+  "issue_date": "2008-12-01",
+  "round": 4,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特526",
+    "scott": null
+  },
+  "designer": "集思創意設計顧問股份有限公司、大觀視覺顧問股份有限公司",
+  "printer": "卡登實業股份有限公司",
+  "printing_process": "平凹版",
+  "perforation": "12 1/2 × 12",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特526.1",
+      "image": "/img/stamps/tw/D526_01.1B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特526.2",
+      "image": "/img/stamps/tw/D526_02.2B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特526.3",
+      "image": "/img/stamps/tw/D526_03.B.jpg"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國98年1月26日為農曆正月初一，歲次己丑，生肖屬牛。為迎接牛年的來臨，本公司續以生肖牛為主題，發行新年郵票（97版）1組2枚，面值新台幣3.5元、13元及小型張1張，面值新台幣12元，預定於97年12月1日發行。茲將本組郵票及小型張圖案簡介如下：一、面值3.5元郵票：以中國傳統書法字體，搭配國畫潑墨技法，描繪出牛溫馴穩重、勤懇認真的模樣，寓意風調雨順，財源廣進。二、面值13元郵票：以中國傳統之歲次輪替「己丑」，搭配牛勇往直前的神韻，有奮發向上，好運年年來之意涵。三、面值12元小型張：係以水紋、牛身及水面上的綠葉組成一幅太極圖，寓意牛年扭轉乾坤轉新象。版銘左方搭配喜鵲、梅枝圖案，有喜上眉梢之意；右方以書法與印刻方式設計，呈現出新年迎新春的喜悅。整體畫面採用典雅的粉色系，顯現寧靜祥和的氣氛。",
+  "images": [
+    "/img/stamps/tw/D526_01.1B.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D526&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

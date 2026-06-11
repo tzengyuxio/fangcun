@@ -1,0 +1,65 @@
+{
+  "id": "cn-1998-1",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "虎",
+    "branch": "寅"
+  },
+  "zodiac_year": 1998,
+  "issue_date": "1998-01-05",
+  "round": 2,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "1998-1",
+    "scott": null
+  },
+  "designer": "王虎鸣 马刚",
+  "printer": "北京邮票厂",
+  "printing_process": "影写 雕刻套印",
+  "perforation": "11.5度",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 50.0,
+        "currency": "分"
+      },
+      "description": "虎虎生威",
+      "image": "",
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 150.0,
+        "currency": "分"
+      },
+      "description": "气贯长虹",
+      "image": "",
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：姜伟杰 李庆发；整版枚数：32枚；面值／發行量：T（2--1） 虎虎生威 50分 10028.7万枚 T（2--2） 气贯长虹。 今年是戊寅年，亦即十二生肖（属相）的虎年。虎在中国被称为“百兽之王”。民间视虎为神兽，借它的威猛勇武而镇祟辟邪，保佑安宁，并常以龙虎并称，用“龙腾虎跃”、“生龙活虎”来描绘生气勃勃和发达兴旺的景象。",
+  "images": [
+    "/img/stamps/cn/1998-1/92908544245.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-2168.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

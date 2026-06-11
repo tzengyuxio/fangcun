@@ -1,0 +1,67 @@
+{
+  "id": "cn-1992-1",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "猴",
+    "branch": "申"
+  },
+  "zodiac_year": 1992,
+  "issue_date": "1992-01-05",
+  "round": 2,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "1992-1",
+    "scott": null
+  },
+  "designer": "曹鸿年 许彦博 王振华",
+  "printer": "北京邮票厂",
+  "printing_process": "影写雕刻",
+  "perforation": "11×11.5度",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "猴桃瑞寿",
+      "image": "",
+      "denomination": {
+        "value": 20,
+        "currency": "分"
+      },
+      "mintage": 233745000,
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
+    },
+    {
+      "type": "stamp",
+      "description": "喜鹊登梅",
+      "image": "",
+      "denomination": {
+        "value": 50,
+        "currency": "分"
+      },
+      "mintage": 204001000,
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：呼振源；整版枚数：32枚；面值／發行量：T （2-1）猴桃瑞寿 20分 23374.5万枚 T （2-2）喜鹊登梅 50。 本套邮票共２枚。 这套邮票是第二轮生肖邮票中的第一套，采用民间剪纸手法设计。 ２－１为“猴桃瑞寿”，画面是桃子与猴头，四周点缀以桃花、蜜蜂， 粉色衬底，左上角标有黑色小字 “壬申年”。 ２－２为“喜鹊登梅”，画面为篆体“猴”字，背景衬以喜鹊登梅的红色剪纸图案。",
+  "images": [
+    "/img/stamps/cn/1992-1/92808521166.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-1826.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

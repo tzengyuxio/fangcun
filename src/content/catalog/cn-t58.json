@@ -1,0 +1,53 @@
+{
+  "id": "cn-t58",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "雞",
+    "branch": "酉"
+  },
+  "zodiac_year": 1981,
+  "issue_date": "1981-01-05",
+  "round": 1,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "T58",
+    "scott": null
+  },
+  "designer": "程传理",
+  "printer": "北京邮票厂",
+  "printing_process": "影写 雕刻",
+  "perforation": "11.5度",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "雄鸡",
+      "image": "",
+      "denomination": {
+        "value": 8,
+        "currency": "分"
+      },
+      "mintage": 9311600,
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：孙鸿年；整版枚数：80枚；面值／發行量：T （1-1）雄鸡 8分 931.16 万枚。 在中国传统文化中，有许多与鸡有关的故事。如“闻鸡起舞”，传说古代一个书生每闻鸡叫便起来刻苦练武，后终成大将。鸡还被认为可以克毒，这主要是从鸡吃蜈蚣联想来的，因此，农历端午节（农历五月初五），要将鸡除五毒（蛇、蝎、蟾蜍、壁虎、蜈蚣）的图案画张贴在灶头屋角。 邮票上的鸡，英姿勃勃、雄视独立，突出其色彩绚烂的羽毛，集中表现了其性格中进取、奋勇、意气风发的特征。",
+  "images": [
+    "/img/stamps/cn/T58/92609044069.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-1394.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

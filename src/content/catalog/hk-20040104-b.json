@@ -1,0 +1,50 @@
+{
+  "id": "hk-20040104-b",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2004-01-04",
+  "round": 1,
+  "series_name": "十二生肖金銀郵票小型張－吉羊靈猴",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "description": "金銀郵票小型張「吉羊靈猴」（賀歲生肖金銀郵票系列第一輯第4款），嵌有歲次羊年（2003）及歲次猴年（2004）兩枚面值各50元郵票，以金銀燙印技術製作，附黃金純銀成色證明書。",
+      "image": "/img/stamps/hk/hk-20040104-b/sheet.jpg"
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第一輯第4款（系列自2001年「飛龍靈蛇」起）。橫跨羊（2003）與猴（2004）兩個生肖年，因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「猴年」特別郵票（見 hk-20040104-a）同日（2004-01-04）發行。\n\n〔stampshk 香港郵票目錄〕一年伊始，萬象更新。香港郵政特別於2004年1月4日發行這“吉羊靈猴”金銀郵票小型張，為農曆新年增添 喜氣。小型張嵌有羊年及猴年生肖郵票，分別以22K金箔加上99.9%純銀及24K金箔加上99.9%純銀燙印壓製，並附有黃金純銀成色證明書 ，每張面值100元。",
+  "images": [
+    "/img/stamps/hk/hk-20040104-b/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2004.htm"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks129.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

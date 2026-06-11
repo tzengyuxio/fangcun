@@ -1,0 +1,110 @@
+{
+  "id": "hk-20050130-a",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "雞",
+    "branch": "酉"
+  },
+  "zodiac_year": 2005,
+  "issue_date": "2005-01-30",
+  "round": 3,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "關信剛",
+  "printer": "澳洲郵政 Sprintpak",
+  "printing_process": "平版",
+  "perforation": "14（兩面直邊各有一個橢圓形齒孔）",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 1.4,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/2005-rooster/stamps.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 2.4,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 3,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 5,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "小全張（另發行無齒小全張）",
+      "image": ""
+    }
+  ],
+  "significance": "賀歲生肖郵票第3輯第6套，歲次乙酉（雞年）。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔hkstmp.com／cpa-hk 集郵目錄（未經官方查證）〕面值、枚數、設計者等細節待補。\n\n〔stampshk 香港郵票目錄〕歲次乙酉雞年郵票是香港郵政發行賀歲生肖郵票中的第三輯第六套郵票，早前兩套雞年特別郵票先後於 1969年及1993年發行。 中國命理學家相信，生肖對人的影響很大，認為雞年出生的人深思熟慮，對友好客。他們思想敏銳，觀察力強，務實伶巧，處變不驚， 實是難得的領袖人才。肖雞者追求完美，做事有條不紊，對儀表尤為注重，愛以最佳狀態示人。 是次發行的一套四枚郵票，面值為1.40, 2.40, 3, 5元。每款郵票底色亮麗，層次分明。郵票上的雄雞神氣活現，或昂冠振翅，或 引頸啼叫。此外，設計師巧妙地借助立體圖像，令公雞活靈活現，加上五色套印技術，以銀色枝葉烘托公雞，加強了觀賞的效果。\n\n〔WNS〕UPU/WADP 官方號 HK027.2005–HK030.2005；郵票尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/hk/2005-rooster/stamps.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2005.htm"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks140.html"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

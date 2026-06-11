@@ -31,6 +31,8 @@ const item = z.object({
   mintage: z.number().nullable().optional(),
   description: z.string().default(''),
   image: z.string().default(''),
+  // UPU/WADP WNS official number for this single stamp (id-scheme §5, item-level).
+  wns: z.string().optional(),
 });
 
 // Issue — 一套發行。zodiac/zodiac_year 用於生肖歸類,issue_date 用於排序/時間軸(D5,永不混用)。
@@ -44,8 +46,18 @@ const catalog = defineCollection({
     issue_date: z.string().date(),
     round: z.number().int().positive(),
     series_name: z.string().default(''),
+    // Multi-catalogue map (id-scheme §5). local/scott kept for existing data;
+    // commercial catalogues (SG/Michel/Yvert) + community (Colnect/Stampworld) optional.
     catalog_number: z
-      .object({ local: z.string().nullable(), scott: z.string().nullable() })
+      .object({
+        local: z.string().nullable(),
+        scott: z.string().nullable(),
+        sg: z.string().nullable().optional(),
+        michel: z.string().nullable().optional(),
+        yvert: z.string().nullable().optional(),
+        colnect: z.string().nullable().optional(),
+        stampworld: z.string().nullable().optional(),
+      })
       .optional(),
     designer: z.string().default(''),
     printer: z.string().default(''),

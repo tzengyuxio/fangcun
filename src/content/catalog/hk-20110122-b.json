@@ -1,0 +1,50 @@
+{
+  "id": "hk-20110122-b",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2011-01-22",
+  "round": 3,
+  "series_name": "十二生肖郵票小型張",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "第3輯賀歲生肖郵票（2000庚辰龍年至2011辛卯兔年）完整收錄的十二生肖郵票小型張，呈現整輯十二款生肖郵票。",
+      "image": "/img/stamps/hk/hk-20110122-b/sheet.jpg"
+    }
+  ],
+  "significance": "第3輯賀歲生肖郵票（2000庚辰龍年至2011辛卯兔年）完整收錄的十二生肖郵票小型張，於該輯最後一套兔年同日發行。橫跨全部十二生肖，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與「歲次辛卯（兔年）」特別郵票（見 hk-20110122-a）同日發行。 面值待補。\n\n〔stampshk 香港郵票目錄〕香港郵政自二○○○年起發行第三輯賀歲生肖郵票，從龍年（歲次庚辰）起，至兔年（歲次辛卯）止，剛好完成一個循環。 是次發行的郵票小型張，呈獻第三輯整個系列合共十二款生肖郵票。生肖郵票依次排列，互相緊扣，寓意團圓美滿，幸福延綿。 整輯郵票活用傳統剪紙藝術，令生肖造型更見傳神。民間剪紙體現靈巧手藝，蘊藏豐富內涵。每逢新歲，各家各戶喜以剪紙點綴居室，迎春接福。郵票小型張背景同樣巧妙運用精緻的花卉剪紙，選用金、紅二色，為新春增添喜氣。",
+  "images": [
+    "/img/stamps/hk/hk-20110122-b/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2011.htm"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks186.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "cn-t146",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "馬",
+    "branch": "午"
+  },
+  "zodiac_year": 1990,
+  "issue_date": "1990-01-05",
+  "round": 1,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "T146",
+    "scott": null
+  },
+  "designer": "邹建军",
+  "printer": "北京邮票厂",
+  "printing_process": "影写 雕刻",
+  "perforation": "11.5度",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "马",
+      "image": "",
+      "denomination": {
+        "value": 8,
+        "currency": "分"
+      },
+      "mintage": 131176500,
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：呼振源；整版枚数：80枚；面值／發行量：T（1-1） 马 8分 13117.65 万枚。 本套邮票票面采用绿底色，使红鬃黑马显得鲜明而又充满生机。设计者采用了中国传统的民间剪纸和皮影画的手法，绿底色上的黑色马身、火红的马鬃、雪白的三蹄、饰红荷花图案的鞍鞯、鲜红的辔头以及脖子上带穗的铃铛等十分醒目，更显得色彩缤纷，整个画面表现出辞旧迎新的喜庆的气氛。",
+  "images": [
+    "/img/stamps/cn/T146/92808521125.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-1668.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

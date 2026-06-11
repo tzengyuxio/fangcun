@@ -1,8 +1,8 @@
 # 郵票編號規範（Canonical Issue ID Scheme）
 
-> 狀態：**v1 定案**（2026-06）。**待實作遷移**——既有 ~270 條仍用舊式
-> `{region}-{year}-{animal}-r{round}`。本規範定義全站郵票的 canonical 識別碼，供檔名、
-> `id` 欄位、索引與 canonical URL（`/catalog/issue/<id>/`）使用。**通用於所有郵票，不限生肖。**
+> 狀態：**v1 已落地**（2026-06）。全部 267 條已由 `scripts/migrate_ids.py` 從舊式
+> `{region}-{year}-{animal}-r{round}` 遷至 canonical。本規範定義全站郵票的 canonical 識別碼，
+> 供檔名、`id` 欄位、索引與 canonical URL（`/catalog/issue/<id>/`）使用。**通用於所有郵票，不限生肖。**
 
 ## 設計目標
 
@@ -64,10 +64,13 @@ canonical ID（issue 級）只用永不變動的官方識別子。**選軌優先
 | 香港 馬年 2026-01-05 | `hk-20260105` |
 
 **同日相撞尾碼**：同地區同日多套相撞時加 `-a`、`-b`…，順序規則（確定性、永不重排）：
-有官方志號者按志號序，否則按 `series_name` 字典序。
+**主生肖票（`zodiac` 非 null）優先佔 `-a`**，其餘伴隨品（金銀／絨面／銀箔小型張、十二生肖小版張等
+`zodiac` 為 null 者）接於其後，以 `series_name` 字典序排定。一經指派即凍結;日後若同日再添新品，
+**append 下一個字母**，不回頭重排既有者。
 
-> **實例**：香港 2026-01-05 同日發行「歲次丙午（馬年）」特別郵票、「靈蛇駿馬」金銀小型張、
-> 「心思心意」小版張 → 依標題字母序凍結為 `hk-20260105-a`／`-b`／`-c`。
+> **實例**：香港 2023-01-10 同日發行「兔年」特別郵票（主票）、「靈兔瑞龍」金銀小型張、
+> 「鼠牛虎兔」銀箔燙壓小型張、十二生肖小型張 → 主票佔 `hk-20230110-a`，其餘依 `series_name`
+> 凍結為 `-b`／`-c`／`-d`。
 
 > 兩軌可由形態區分：A 含字母 token 或 `YYYY-N`；B 為 8 位數字。
 
@@ -139,11 +142,14 @@ catalog_number: { local, scott, sg, michel, yvert, colnect, stampworld }
 
 ---
 
-## 7. 與 schema 的關係（遷移待辦）
+## 7. 與 schema 的關係（遷移紀錄）
 
-- **canonical ID** = 檔名 + `id`，取代現行 `{region}-{year}-{animal}-r{round}`。
-- 遷移另案需：(a) `content.config.ts` 的 `catalog_number` 擴成 §5、item 增 `wns` 欄；
-  (b) 一次性改名腳本 + 更新 cross-ref；(c) 舊 URL 重導。
+- **canonical ID** = 檔名 + `id`，取代舊式 `{region}-{year}-{animal}-r{round}`。
+- 遷移已完成：(a) ✅ `content.config.ts` 的 `catalog_number` 擴成 §5、item 增 `wns` 欄；
+  (b) ✅ `scripts/migrate_ids.py`（一次性改名 + 文字級 cross-ref 改寫，267 條）；
+  (c) ⬜ 舊 URL 重導——**暫緩**（站未正式上線、無外部入站連結，見 backlog item 11）。
+- `catalog_number.local` 維持原值（如 `特455`、`2004-1T`）；canonical 僅取其正規化形（`tw-sp455`、
+  `cn-2004-1`，去補零／去尾碼）。資料層 local 的清理另計（backlog item 8）。
 
 ---
 

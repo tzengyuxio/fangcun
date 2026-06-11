@@ -1,0 +1,48 @@
+{
+  "id": "cn-t90",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "鼠",
+    "branch": "子"
+  },
+  "zodiac_year": 1984,
+  "issue_date": "1984-01-05",
+  "round": 1,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "T90",
+    "scott": null
+  },
+  "designer": "李印清",
+  "printer": "北京邮票厂",
+  "printing_process": "影写 雕刻",
+  "perforation": "11.5 度",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕整版枚数：80 枚；面值／發行量：T （ 1 -- 1 ） 鼠 8 分 2187.68 万枚。 鼠因其毁坏财物、粮食和传染疾病而被列为人类的主要天敌之一，但是在中国民间传统观念中，老鼠又是富足的象征，鼠年预兆生意兴隆、容易发财。 这枚生肖邮票由著名漫画家和动画设计师詹同设计，他采用了夸张和变形等手段，把一般人望而生厌的老鼠处理得稚气、活泼、灵巧可爱。",
+  "images": [
+    "/img/stamps/cn/T90/92708533974.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-1491.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "hk-20190112-c",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2019-01-12",
+  "round": 2,
+  "series_name": "銀箔燙壓生肖郵票－猴、雞、狗、豬",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "猴（銀箔燙壓）",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "雞（銀箔燙壓）",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "狗（銀箔燙壓）",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "豬（銀箔燙壓）",
+      "image": ""
+    }
+  ],
+  "significance": "銀箔燙壓生肖郵票第2套，以猴、雞、狗、豬四個生肖為題（銀箔燙壓工藝）。橫跨四個生肖，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與該年生肖特別郵票同日發行。 圖片暫無可得來源，待補。 面值、設計等細節待補。",
+  "images": [],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2018/12/20181227a.pdf"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

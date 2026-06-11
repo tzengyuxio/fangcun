@@ -1,0 +1,59 @@
+{
+  "id": "tw-sp119",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "龍",
+    "branch": "辰"
+  },
+  "zodiac_year": 1976,
+  "issue_date": "1975-12-01",
+  "round": 1,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特119",
+    "scott": null
+  },
+  "designer": "王立典",
+  "printer": "中央印製廠",
+  "printing_process": "平凹版",
+  "perforation": "12",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特119.1",
+      "image": "/img/stamps/tw/30211901.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特119.2",
+      "image": "/img/stamps/tw/30211902.JPG"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國65年，歲次丙辰，年肖屬龍，以北平北海九龍壁所刻龍之造型為圖案，印製新年郵票1組。",
+  "images": [
+    "/img/stamps/tw/30211901.JPG"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D119&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

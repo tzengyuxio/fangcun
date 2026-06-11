@@ -1,0 +1,72 @@
+{
+  "id": "hk-20230110-d",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2023-01-10",
+  "round": 3,
+  "series_name": "銀箔燙壓生肖郵票－鼠、牛、虎、兔",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "鼠（銀箔燙壓）",
+      "image": "/img/stamps/hk/hk-20230110-d/sheet.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "牛（銀箔燙壓）",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "虎（銀箔燙壓）",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "兔（銀箔燙壓）",
+      "image": ""
+    }
+  ],
+  "significance": "銀箔燙壓生肖郵票第3套，以鼠、牛、虎、兔四個生肖為題（銀箔燙壓工藝）。橫跨四個生肖，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與該年生肖特別郵票同日發行。 面值、設計等細節待補。",
+  "images": [
+    "/img/stamps/hk/hk-20230110-d/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2023.htm"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

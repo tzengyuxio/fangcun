@@ -1,0 +1,54 @@
+{
+  "id": "cn-2023-1",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "兔",
+    "branch": "卯"
+  },
+  "zodiac_year": 2023,
+  "issue_date": "2023-01-05",
+  "round": 4,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "2023-1",
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "13度",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 36.0,
+        "h": 36.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】",
+  "images": [
+    "/img/stamps/cn/2023-1/spb_1.jpg",
+    "/img/stamps/cn/2023-1/spb_2.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "spb-gjyzj",
+      "tier": "official",
+      "url": "http://www.spb.gov.cn/gjyzj/c100040/202301/347a436e42c148009f046f04e554f498.shtml"
+    },
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-23048.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

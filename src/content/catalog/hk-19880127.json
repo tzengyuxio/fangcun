@@ -1,0 +1,55 @@
+{
+  "id": "hk-19880127",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "龍",
+    "branch": "辰"
+  },
+  "zodiac_year": 1988,
+  "issue_date": "1988-01-27",
+  "round": 2,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/1988-dragon/stamps.jpg"
+    }
+  ],
+  "significance": "賀歲生肖郵票第2輯第2套，歲次戊辰（龍年）。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔hkstmp.com／cpa-hk 集郵目錄（未經官方查證）〕面值、枚數、設計者等細節待補。",
+  "images": [
+    "/img/stamps/hk/1988-dragon/stamps.jpg",
+    "/img/stamps/hk/1988-dragon/sheet.jpg",
+    "/img/stamps/hk/1988-dragon/fdc.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/880127.htm"
+    },
+    {
+      "ref": "hk-cpa",
+      "tier": "reference",
+      "url": "http://www.cpa-hk.net/chin1/sheet/1988-01-27.htm"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

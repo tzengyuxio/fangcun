@@ -1,0 +1,69 @@
+{
+  "id": "tw-sp482",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "狗",
+    "branch": "戌"
+  },
+  "zodiac_year": 2006,
+  "issue_date": "2005-12-01",
+  "round": 4,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特482",
+    "scott": null
+  },
+  "designer": "巫仁鳳、柯鴻圖",
+  "printer": "卡登實業股份有限公司",
+  "printing_process": "平凹版",
+  "perforation": "12 1/2 X 12",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特482.1",
+      "image": "/img/stamps/tw/D482_01.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特482.2",
+      "image": "/img/stamps/tw/D482_02.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特482.3",
+      "image": "/img/stamps/tw/D482_03.jpg"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 民國95年1月29日為農曆正月初一，歲次丙戌，生肖屬狗，為迎接狗年的來臨，本公司特印製新年郵票（94年版）1組2枚及小型張1張，預定於本（94）年12月1日發行。本組新年郵票係以行將來臨之新歲值年生肖動物為主題，運用春聯與小狗的造形以及金色、紅色與紫色的對比，營造出充滿喜慶的新春氣氛。面值3.5元的郵票以紫色花草紋上的春聯圖案為設計重點。面值13元的郵票以「春」、「滿」、「福」春聯營造出迎春的熱鬧氣氛。面值12元的小型張以3隻造型各異的狗，表達出群居生活的和諧與自在，藉此來祝福社會安康美滿。",
+  "images": [
+    "/img/stamps/tw/D482_01.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D482&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

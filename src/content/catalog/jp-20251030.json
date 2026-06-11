@@ -1,0 +1,44 @@
+{
+  "id": "jp-20251030",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "馬",
+    "branch": "午"
+  },
+  "zodiac_year": 2026,
+  "issue_date": "2025-10-30",
+  "round": 7,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 令和8年用年賀郵便切手",
+  "images": [
+    "/img/stamps/jp/2025/stamp.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/enjoy/culture/stamp/archive/2025/1030_01/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "tw-sp581",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "蛇",
+    "branch": "巳"
+  },
+  "zodiac_year": 2013,
+  "issue_date": "2012-12-03",
+  "round": 4,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特581",
+    "scott": null
+  },
+  "designer": "陳蓓儀",
+  "printer": "卡登實業股份有限公司",
+  "printing_process": "平版",
+  "perforation": "121/2",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特581.1",
+      "image": "/img/stamps/tw/D581_01.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特581.2",
+      "image": "/img/stamps/tw/D581_02.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特581.3",
+      "image": "/img/stamps/tw/D581_03.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特581.1 a",
+      "image": "/img/stamps/tw/D581_04.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特581.2a",
+      "image": "/img/stamps/tw/D581_05.jpg"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 為迎接新年來臨，本公司續採值年生肖蛇圖案，發行「新年郵票（101年版）」1組2枚及小全張1張。本組郵票圖案延續99、100年版新藝術自由普普風概念，主圖採黃色與紫色為蛇形主體色彩，襯以黑色的剪影效果；背景以象徵新年喜氣的紅色漸層舖陳，並以黃色及橙色不規則點狀隨意潑灑於圖案上，傳達新年的溫馨和歡喜氣氛。圖案簡介如下：一、3.5元郵票：成雙蛇形相依相偎，代表「同心」，象徵「溫馨如意」。二、13元郵票：迎風向前的蛇形，代表「勇氣」，象徵「勇往直前」。三、面值12元小全張：臨風顧盼的蛇形，代表「飛揚」，有「神采飛揚、事事如意」之意。為增添收藏價值與集郵趣味，續製作「新年郵票（101年版）印刷全張」郵品，於同日發售，郵品內含未裁切之面值3.5元及13元郵票全張（20枚）各2張及證書1份，全張紙邊均保留印製過程所標記之色標、裁切線等記號，以專用典藏圓筒收納。本項郵品自「新年郵票（98年版）」起系列發行，數量有限，極具收藏價值。又本項郵品發售時不適用優惠折扣辦法。",
+  "images": [
+    "/img/stamps/tw/D581_01.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D581&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

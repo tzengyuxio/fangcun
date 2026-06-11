@@ -101,7 +101,9 @@ npm run preview    # 預覽 build 結果
 - 與使用者對話、網站文案、文件內容：**繁體中文**。
 - 程式碼註解、變數命名、commit message：**英文**。
 - Commit message 遵循 Conventional Commits（`feat:`/`fix:`/`docs:`…）。
-- Issue slug 格式：`{region}-{issue_year}-{animal}-r{round}`，如 `tw-1968-rooster-r1`。
+- Issue ID（檔名＋`id`）採 canonical scheme（生肖無關），規範見 `docs/id-scheme.md`：
+  台／中走志號 `tw-sp55`／`cn-t46`／`cn-1992-1`，港日等走發行日 `hk-20230110-a`／`jp-20251030`
+  （同日相撞主票優先 `-a`）。**勿再用舊式 `{region}-{year}-{animal}-r{round}`。**
 
 ## 不要做什麼
 

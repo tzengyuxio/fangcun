@@ -1,0 +1,47 @@
+{
+  "id": "jp-19701210",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "豬",
+    "branch": "亥"
+  },
+  "zodiac_year": 1971,
+  "issue_date": "1970-12-10",
+  "round": 2,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "いのしし",
+      "image": "",
+      "denomination": {
+        "value": 7,
+        "currency": "円"
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自年賀切手データベース(dorama),待人工複核】 1971年用年賀切手",
+  "images": [
+    "/img/stamps/jp/1971/1971.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "jp-dorama",
+      "tier": "reference"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

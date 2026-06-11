@@ -1,0 +1,59 @@
+{
+  "id": "tw-sp74",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "豬",
+    "branch": "亥"
+  },
+  "zodiac_year": 1971,
+  "issue_date": "1970-12-01",
+  "round": 1,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特074",
+    "scott": null
+  },
+  "designer": "顏奇石",
+  "printer": "中央印製廠",
+  "printing_process": "平凹版",
+  "perforation": "12 1/2",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特74.1",
+      "image": "/img/stamps/tw/25707401.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特74.2",
+      "image": "/img/stamps/tw/25707402.JPG"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 選用豬形玩具撲滿為圖案，印製新年郵票。民國60年，歲次辛亥，年肖屬豬，用以構圖，為適應民俗並寓有提倡儲蓄之意。",
+  "images": [
+    "/img/stamps/tw/25707401.JPG"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D074&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

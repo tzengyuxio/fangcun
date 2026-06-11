@@ -1,0 +1,110 @@
+{
+  "id": "hk-20070204-a",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "豬",
+    "branch": "亥"
+  },
+  "zodiac_year": 2007,
+  "issue_date": "2007-02-04",
+  "round": 3,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "關信剛",
+  "printer": "荷蘭 Joh. Enschede",
+  "printing_process": "平版",
+  "perforation": "13.5 x 13.25（兩面直邊各有一個橢圓形齒孔）",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 1.4,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/2007-pig/stamps.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 2.4,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 3,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 5,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "小全張（另發行無齒小全張）",
+      "image": ""
+    }
+  ],
+  "significance": "賀歲生肖郵票第3輯第8套，歲次丁亥（豬年）。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔hkstmp.com／cpa-hk 集郵目錄（未經官方查證）〕面值、枚數、設計者等細節待補。\n\n〔stampshk 香港郵票目錄〕香港郵政先後在一九七一年及一九九五年發行第一、二輯豬年特別郵票，今次發行的是賀歲生肖郵票中的第三輯第八套郵票。 傳統曆法以十二生肖配上地支紀年，循環往復。根據民間流傳的說法，一個人的性格特質，與其生肖屬相有關。屬豬者率真直爽，隨和安份，更兼誠懇篤實，因此人緣極佳。 在傳統文化中，豬是富泰豐裕的象徵。是次發行的一套四款郵票，面值為一元四角、二元四角、三元及五元。票中五頭大小寶豬圓潤豐滿，寓意來年家給人足，國富民安。郵票採用五色套印，背景以銀葉烘托，突出光暗對比，寶豬造型更見立體，栩栩如生。 首日封的設計結合傳統剪紙與電腦繪圖。剪紙洋溢新春喜氣，小豬則朝氣勃勃，迎來丁亥豬年。\n\n〔WNS〕UPU/WADP 官方號 HK001.2007–HK004.2007；郵票尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/hk/2007-pig/stamps.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2007.htm"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks158.html"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

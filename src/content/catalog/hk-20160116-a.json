@@ -1,0 +1,112 @@
+{
+  "id": "hk-20160116-a",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "猴",
+    "branch": "申"
+  },
+  "zodiac_year": 2016,
+  "issue_date": "2016-01-16",
+  "round": 4,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Joh Enschedé BV, the Netherlands",
+  "printing_process": "",
+  "perforation": "13.25 x 14.25",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 1.7,
+        "currency": "HKD"
+      },
+      "description": "琉璃猴抱桃",
+      "image": "/img/stamps/hk/2016-monkey/stamps.jpg",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 28.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 2.9,
+        "currency": "HKD"
+      },
+      "description": "刺繡猴",
+      "image": "",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 28.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 3.7,
+        "currency": "HKD"
+      },
+      "description": "銀器靈猴",
+      "image": "",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 28.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 5,
+        "currency": "HKD"
+      },
+      "description": "設色剪紙孫悟空京劇面譜",
+      "image": "",
+      "dimensions_mm": {
+        "w": 45.0,
+        "h": 28.0
+      }
+    },
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "郵票小型張（粉彩瓷片，另發行絲綢郵票小型張）",
+      "image": ""
+    }
+  ],
+  "significance": "賀歲生肖郵票第四輯第五套，以琉璃、刺繡、銀器、設色剪紙（孫悟空京劇面譜）呈現靈猴，小型張為手繪粉彩瓷片。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕另發行橫跨雙生肖的金銀郵票小型張〈吉羊靈猴〉，因不屬單一生肖年另立條目（見 hk-20160116-b）。\n\n〔WNS〕UPU/WADP 官方號 HK001.2016–HK006.2016；郵票尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/hk/2016-monkey/stamps.jpg",
+    "/img/stamps/hk/2016-monkey/sheet.jpg",
+    "/img/stamps/hk/2016-monkey/fdc.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/filemanager/newsletter/tc/2015/12/20151223a.pdf"
+    },
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2016.htm"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

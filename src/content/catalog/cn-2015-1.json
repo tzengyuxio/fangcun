@@ -1,0 +1,57 @@
+{
+  "id": "cn-2015-1",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "羊",
+    "branch": "未"
+  },
+  "zodiac_year": 2015,
+  "issue_date": "2015-01-05",
+  "round": 3,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "2015-1T",
+    "scott": null
+  },
+  "designer": "吴冠英",
+  "printer": "北京邮票厂",
+  "printing_process": "影写版",
+  "perforation": "13 度",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "乙未年",
+      "image": "",
+      "denomination": {
+        "value": 1.2,
+        "currency": "元"
+      },
+      "dimensions_mm": {
+        "w": 36.0,
+        "h": 36.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕整版枚数：版式一 20枚、版式二 6枚；面值／發行量：（1-1）T 乙未年 1.20元。",
+  "images": [
+    "/img/stamps/cn/2015-1T/spb_1.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "spb-gjyzj",
+      "tier": "official",
+      "url": "http://www.spb.gov.cn/gjyzj/c100040/201501/1622662f899d4fc0a249e775aae22f1a.shtml"
+    },
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-19508.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

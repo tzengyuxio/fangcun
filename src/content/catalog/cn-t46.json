@@ -1,0 +1,58 @@
+{
+  "id": "cn-t46",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "猴",
+    "branch": "申"
+  },
+  "zodiac_year": 1980,
+  "issue_date": "1980-02-15",
+  "round": 1,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "T46",
+    "scott": null
+  },
+  "designer": "邵柏林",
+  "printer": "北京邮票厂",
+  "printing_process": "影写 雕刻",
+  "perforation": "11.5度",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "金猴",
+      "image": "",
+      "denomination": {
+        "value": 8,
+        "currency": "分"
+      },
+      "mintage": 5000000,
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：姜伟杰；原画作者：黄永玉；整版枚数：80枚；面值／發行量：T （1-1）金猴 8分 500 万枚。 邮票图案为著名画家黄永玉所画的金丝猴。金丝猴亦称“仰鼻猴”，哺乳纲，灵长目，疣猴科。体长约70厘米，尾长与体长相等或略长，背部有发亮的长毛，颜面青色，头顶、项肩、上臂、背和尾灰黑色。头侧、颈侧、躯体腹面和四肢褐黄色。金丝猴生活于2500-3000米的高山密林中，群栖，以野果为食。金丝猴是我国特产的珍贵动物，有金丝猴、滇金丝猴、黔金丝猴三种。 黄永玉以中国传统画技法描绘出来的猴子神态亲切、自然，成为集邮者喜爱的珍品。",
+  "images": [
+    "/img/stamps/cn/T46/92609044106.jpg",
+    "/img/stamps/cn/T46/042906425029.jpg",
+    "/img/stamps/cn/T46/111502361345.jpg",
+    "/img/stamps/cn/T46/111502361346.jpg",
+    "/img/stamps/cn/T46/111502361347.jpg",
+    "/img/stamps/cn/T46/111502361348.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-1370.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

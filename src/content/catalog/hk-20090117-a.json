@@ -1,0 +1,59 @@
+{
+  "id": "hk-20090117-a",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "牛",
+    "branch": "丑"
+  },
+  "zodiac_year": 2009,
+  "issue_date": "2009-01-17",
+  "round": 3,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Joh Enschedé  BV, the Netherlands",
+  "printing_process": "",
+  "perforation": "13.56 x 13.33",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/2009-ox/stamps.jpg"
+    }
+  ],
+  "significance": "賀歲生肖郵票第3輯第10套，歲次己丑（牛年）。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔hkstmp.com／cpa-hk 集郵目錄（未經官方查證）〕面值、枚數、設計者等細節待補。\n\n〔stampshk 香港郵票目錄〕歲次己丑(牛年)特別郵票是香港郵政賀歲生肖郵票第三輯的第十套。香港郵政先後在一九七三年及一九九七年發行第一、二輯牛年特別郵票。 傳統曆法以十二生肖配上地支紀年，循環往復。在傳統文化中，牛是勤奮可靠的象徵。肖牛者負責認真，篤實沉著，有條不紊，常擔當重任，位居要職。 是次發行的一套四款郵票，面值為一元四角、二元四角、三元及五元。票中四個採用五色套印，背景以銀線勾勒山崗草地，突出明暗對比，瑞牛造型更見立體，活靈活現。。\n\n〔WNS〕UPU/WADP 官方號 HK001.2009–HK004.2009；郵票尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/hk/2009-ox/stamps.jpg",
+    "/img/stamps/hk/2009-ox/fdc.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2009.htm"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks174.html"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

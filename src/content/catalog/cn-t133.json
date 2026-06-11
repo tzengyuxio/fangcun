@@ -1,0 +1,53 @@
+{
+  "id": "cn-t133",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "蛇",
+    "branch": "巳"
+  },
+  "zodiac_year": 1989,
+  "issue_date": "1989-01-05",
+  "round": 1,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "T133",
+    "scott": null
+  },
+  "designer": "吕胜中",
+  "printer": "北京邮票厂",
+  "printing_process": "影写 雕刻",
+  "perforation": "11.5度",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "己已年",
+      "image": "",
+      "denomination": {
+        "value": 8,
+        "currency": "分"
+      },
+      "mintage": 126020500,
+      "dimensions_mm": {
+        "w": 26.0,
+        "h": 31.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕整版枚数：80枚；面值／發行量：T（1-1） 己已年 8分 12602.05万枚。 本套邮票画面设计独辟蹊径，整条蛇在画面上形成一个圆形图案，不但展示了蛇的整体形态和基本习性，而且充分地体现出蛇的机警和俏皮之态，蛇身绘满牡丹、荷花、菊花和梅花，头部口中吐出吉祥的灵芝草，尾是摇甩鱼一样的尾巴，整条蛇身隐含着一年四季吉祥如意，年年有余（鱼）之意。",
+  "images": [
+    "/img/stamps/cn/T133/92808521137.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-1639.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

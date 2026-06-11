@@ -1,0 +1,44 @@
+{
+  "id": "jp-19991115",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "龍",
+    "branch": "辰"
+  },
+  "zodiac_year": 2000,
+  "issue_date": "1999-11-15",
+  "round": 5,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 「平成12年用年賀(年賀特別取扱100年)」",
+  "images": [
+    "/img/stamps/jp/1999/pic_1115.gif"
+  ],
+  "sources": [
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/1999/1115/index.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

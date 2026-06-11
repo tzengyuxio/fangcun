@@ -1,0 +1,47 @@
+{
+  "id": "jp-19841201",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "牛",
+    "branch": "丑"
+  },
+  "zodiac_year": 1985,
+  "issue_date": "1984-12-01",
+  "round": 3,
+  "series_name": "年賀郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "作州牛",
+      "image": "",
+      "denomination": {
+        "value": 40,
+        "currency": "円"
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自年賀切手データベース(dorama),待人工複核】 1985年用年賀切手",
+  "images": [
+    "/img/stamps/jp/1985/1985.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "jp-dorama",
+      "tier": "reference"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

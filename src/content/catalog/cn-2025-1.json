@@ -1,0 +1,54 @@
+{
+  "id": "cn-2025-1",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "蛇",
+    "branch": "巳"
+  },
+  "zodiac_year": 2025,
+  "issue_date": "2025-01-05",
+  "round": 4,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "2025-1",
+    "scott": null
+  },
+  "designer": "潘虎、张旺",
+  "printer": "北京邮票厂有限公司",
+  "printing_process": "胶雕套印",
+  "perforation": "13度",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 36.0,
+        "h": 36.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：杨志英；整版枚数：版式一 16枚，版式二 6枚。",
+  "images": [
+    "/img/stamps/cn/2025-1/spb_1.jpg",
+    "/img/stamps/cn/2025-1/spb_2.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "spb-gjyzj",
+      "tier": "official",
+      "url": "http://www.spb.gov.cn/gjyzj/c100040/202501/5f0fcee952874308b999294594e2e8b6.shtml"
+    },
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-23709.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

@@ -86,7 +86,7 @@
       （可變數量渲染）、製作資訊、`significance`/`notes`、圖片、**來源列表含 tier 標記與
       `verified` 徽章**。
 
-**驗證**：`/catalog/issue/tw-1968-rooster-r1/` 完整顯示；來源與查證標記可見。
+**驗證**：`/catalog/issue/tw-sp55/` 完整顯示；來源與查證標記可見。
 
 ## Phase 5 — 首頁與專題
 

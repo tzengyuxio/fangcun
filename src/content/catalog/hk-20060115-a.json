@@ -1,0 +1,58 @@
+{
+  "id": "hk-20060115-a",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "狗",
+    "branch": "戌"
+  },
+  "zodiac_year": 2006,
+  "issue_date": "2006-01-15",
+  "round": 3,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Joh Enschedé  BV, the  Netherlands",
+  "printing_process": "",
+  "perforation": "13.5 x 13.25",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/2006-dog/stamps.jpg"
+    }
+  ],
+  "significance": "賀歲生肖郵票第3輯第7套，歲次丙戌（狗年）。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔hkstmp.com／cpa-hk 集郵目錄（未經官方查證）〕面值、枚數、設計者等細節待補。\n\n〔stampshk 香港郵票目錄〕特別郵票是香港郵政賀歲生肖郵票第三輯的第七套，第一、二輯狗年郵票先後於一九七零年及一九九四年發行。 二零零六年為狗年。肖狗者不但慷慨大方、忠心耿耿，而且誠實可靠。他們觀察力強，遇事冷靜，因此往往成為出的領袖，從商從文皆 表現出色。 是次發行的一套四款郵票，面值為一元四角、二元四角、三元及五元。郵票以五色套印，背景以枝葉烘托，配合光暗對比，強調靈犬 的立體感，營造出逼真生動的效果。 首日封的設計結合傳統藝術與現代科技。金紙剪成的牡丹寓意富貴，為新歲增添喜氣，黃狗的電腦造像點出歲次，迎接丙戌年的來臨。\n\n〔WNS〕UPU/WADP 官方號 HK001.2006–HK004.2006；郵票尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/hk/2006-dog/stamps.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2006.htm"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks147.html"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "cn-2004-1",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "猴",
+    "branch": "申"
+  },
+  "zodiac_year": 2004,
+  "issue_date": "2004-01-05",
+  "round": 3,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "2004-1T",
+    "scott": null
+  },
+  "designer": "陈绍华",
+  "printer": "北京邮票厂",
+  "printing_process": "影写",
+  "perforation": "13度（异形）",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "甲申年",
+      "image": "",
+      "denomination": {
+        "value": 80,
+        "currency": "分"
+      },
+      "mintage": 52000000,
+      "dimensions_mm": {
+        "w": 36.0,
+        "h": 36.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕面值／發行量：（1-1）T 甲申年 80分 5200万套。",
+  "images": [
+    "/img/stamps/cn/2004-1T/100809493965.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-2565.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "tw-sp686",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "鼠",
+    "branch": "子"
+  },
+  "zodiac_year": 2020,
+  "issue_date": "2019-12-03",
+  "round": 5,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特686",
+    "scott": null
+  },
+  "designer": "歐普廣告設計股份有限公司",
+  "printer": "卡登實業股份有限公司",
+  "printing_process": "平版",
+  "perforation": "13",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特686.1",
+      "image": "/img/stamps/tw/D686_01.1B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特686.2",
+      "image": "/img/stamps/tw/D686_02.2B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特686.3",
+      "image": "/img/stamps/tw/D686_03.3B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特686.10",
+      "image": "/img/stamps/tw/D686_04.10B.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特686.20",
+      "image": "/img/stamps/tw/D686_05.20B.jpg"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 為迎接新年來臨，本公司續規劃發行「新年郵票 (108年版)」1套2枚及小全張1張。本套郵票設計模擬版畫的雕刻手法，並以俐落的線條表現鼠年的活力與朝氣，圖案簡介如下： 一、面值6元郵票：以錢幣及鼠圖案，寓意鼠(數)錢迎新年、富貴引進門。二、面值13元郵票：以具躍動感的老鼠及祥雲繚繞，傳達新春朝氣蓬勃、喜氣的意象。三、面值15元小全張：紅色及紫色的雙鼠對望，綴以太陽光暈、錢樹，祝福新的一年大紅大紫、財運亨通。為增添集郵樂趣，同日發售「新年郵票(108年版)印刷全張」郵品，以專用典藏圓筒收納，內含未裁切之面值6元、13元郵票全張（20枚）各2張、小全張印刷全張(9小張)1張及證書1份，紙邊皆保留印製過程所標記之色標、裁切線等記號，內容豐富，本項郵品自98年起系列發行，極具收藏價值。本項郵品不適用優惠折扣辦法。",
+  "images": [
+    "/img/stamps/tw/D686_01.1B.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D686&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

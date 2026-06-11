@@ -1,0 +1,89 @@
+{
+  "id": "tw-sp566",
+  "region": {
+    "code": "TW",
+    "name": "中華郵政"
+  },
+  "zodiac": {
+    "animal": "龍",
+    "branch": "辰"
+  },
+  "zodiac_year": 2012,
+  "issue_date": "2011-12-01",
+  "round": 4,
+  "series_name": "新年郵票",
+  "catalog_number": {
+    "local": "特566",
+    "scott": null
+  },
+  "designer": "陳蓓儀",
+  "printer": "中華彩色印刷股份有限公司",
+  "printing_process": "平版",
+  "perforation": "121/2",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特566.1",
+      "image": "/img/stamps/tw/D566_01.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特566.2",
+      "image": "/img/stamps/tw/D566_02.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特566.3",
+      "image": "/img/stamps/tw/D566_03.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特566.4",
+      "image": "/img/stamps/tw/D566_04.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "TWD"
+      },
+      "mintage": null,
+      "description": "特566.5",
+      "image": "/img/stamps/tw/D566_05.jpg"
+    }
+  ],
+  "significance": "",
+  "notes": "【自動轉換自中華郵政「郵票寶藏」詳情頁,待人工複核】 為迎接龍年來臨，本公司續採值年生肖動物圖案，發行「新年郵票（100年版）」1組2枚及小全張1張。郵票圖案延續99年版新藝術自由普普風概念，主圖採象徵自然的綠色與代表高貴的紫色，背景則巧妙地運用傳統中國潑墨藝術風格，以橙色及不規則的黃色點狀隨意潑灑。全圖色彩繽紛明亮，呈現出龍年歡欣與喜悅的氣氛。圖案簡介如下：一、面值3.5元郵票：雙龍對望，代表「擁有」，象徵「如意呈祥」。二、面值13元郵票：蓄勢待發的青龍昂首擺尾，代表「得意」，象徵「喜樂安康」。三、面值12元小全張：飛躍天際的青龍，代表「高昇」，象徵「飛黃騰達」。為增添收藏價值與集郵趣味，特製作「新年郵票（100年版）印刷全張」郵品6,000組，於同日發售，郵品內含未裁切之面值3.5元及13元郵票全張（20枚）各2張，全張紙邊均保留印製過程所標記之色標及裁切線等記號，另附證書1份，並以專用典藏圓筒收納。本項郵品自「新年郵票（98年版）」起系列發行，除有助於研究郵票印程具知識性外，因發行數量有限，更具收藏價值。本項郵品只限窗口發售，不提供長期集郵訂戶預購，亦不適用優惠折扣辦法。",
+  "images": [
+    "/img/stamps/tw/D566_01.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "post-stamphouse",
+      "tier": "official",
+      "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D566&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-10"
+}

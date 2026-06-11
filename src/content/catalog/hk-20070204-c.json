@@ -1,0 +1,72 @@
+{
+  "id": "hk-20070204-c",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2007-02-04",
+  "round": 2,
+  "series_name": "絨面生肖郵票－猴、雞、狗、豬",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "猴（絨面）",
+      "image": "/img/stamps/hk/hk-20070204-c/sheet.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "雞（絨面）",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "狗（絨面）",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "豬（絨面）",
+      "image": ""
+    }
+  ],
+  "significance": "絨面生肖郵票第2套，以猴、雞、狗、豬四個生肖為題（絨面工藝）。橫跨四個生肖，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與該年生肖特別郵票同日發行。 面值、設計等細節待補。\n\n〔stampshk 香港郵票目錄〕香港郵政在二○○三年推出全球第一套絨面郵票 - 「龍、蛇、馬、羊」，以其創意巧思、珍奇罕有，贏得一致好評。現以「猴、雞、狗、豬」為題，推出第二套絨面生肖郵票。 農曆新年是全球各地華人最重視的節日，亦是團圓歡聚、送舊迎新的好日子。新春習俗世代相傳，每逢新歲，到處喜氣洋洋。鮮明亮麗的絨面生肖郵票，正好與熱鬧歡騰的氣氛互相呼應。 這套猴雞狗豬生肖郵票以四色印刷，採用質感獨特的絨面紙，平添豐饒富足之感，寓意瑞氣祥和，物阜年豐。",
+  "images": [
+    "/img/stamps/hk/hk-20070204-c/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks158.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

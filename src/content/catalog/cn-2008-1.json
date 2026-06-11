@@ -1,0 +1,58 @@
+{
+  "id": "cn-2008-1",
+  "region": {
+    "code": "CN",
+    "name": "中国邮政"
+  },
+  "zodiac": {
+    "animal": "鼠",
+    "branch": "子"
+  },
+  "zodiac_year": 2008,
+  "issue_date": "2008-01-05",
+  "round": 3,
+  "series_name": "生肖郵票",
+  "catalog_number": {
+    "local": "2008-1T",
+    "scott": null
+  },
+  "designer": "于平、任凭",
+  "printer": "北京邮票厂",
+  "printing_process": "影写",
+  "perforation": "13度",
+  "items": [
+    {
+      "type": "stamp",
+      "description": "戊子年",
+      "image": "",
+      "denomination": {
+        "value": 1.2,
+        "currency": "元"
+      },
+      "dimensions_mm": {
+        "w": 36.0,
+        "h": 36.0
+      }
+    }
+  ],
+  "significance": "",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕面值／發行量：（1-1）T 戊子年 1.20元。 2008年1月5日发行《戊子年》特种邮票1套1枚，小本票1本。",
+  "images": [
+    "/img/stamps/cn/2008-1T/spb_1.jpg",
+    "/img/stamps/cn/2008-1T/spb_2.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "spb-gjyzj",
+      "tier": "official",
+      "url": "http://www.spb.gov.cn/gjyzj/c100040/200712/a603cc1f2178443382050c4152023ed5.shtml"
+    },
+    {
+      "ref": "cn-5151sc",
+      "tier": "secondary",
+      "url": "http://www.5151sc.com/pro-2789.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

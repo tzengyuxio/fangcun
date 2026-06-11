@@ -1,0 +1,49 @@
+{
+  "id": "hk-20260105-b",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2026-01-05",
+  "round": 3,
+  "series_name": "十二生肖金銀郵票小型張－靈蛇駿馬",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "黃鎮康",
+  "printer": "新西蘭 Brebner Print",
+  "printing_process": "歲次乙巳（蛇年）— 平版加銀箔燙壓；歲次丙午（馬年）— 平版加壓印及22K金箔燙壓",
+  "perforation": "13.25（兩面直邊各有一個橢圓形齒孔）",
+  "items": [
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": 100,
+        "currency": "HKD"
+      },
+      "dimensions_mm": {
+        "w": 135,
+        "h": 90
+      },
+      "description": "金銀郵票小型張「靈蛇駿馬」，嵌有「歲次乙巳（蛇年）」及「歲次丙午（馬年）」兩枚面值各50元郵票（單枚面積45×30毫米）；蛇以銀箔、馬以22K金箔燙壓，附黃金成色證明書。",
+      "image": "/img/stamps/hk/hk-20260105-b/sheet.jpg"
+    }
+  ],
+  "significance": "賀歲生肖金銀郵票系列第三輯第二款。橫跨蛇、馬兩個生肖，以盛放牡丹為背景，靈蛇與駿馬穿梭繁花間，寓意繁榮昌盛、生生不息。因嵌有兩個生肖年郵票，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組〕與「歲次丙午（馬年）」特別郵票（見 hk-20260105-a）同日發行。小型張售價港幣100元；另有套摺（145元）、紀念封等相關集郵品。",
+  "images": [
+    "/img/stamps/hk/hk-20260105-b/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hongkongpost",
+      "tier": "official",
+      "url": "https://stamps.hongkongpost.hk/tc/stamps/latest_stamps_issues/2026/gs_snake_horse/index.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

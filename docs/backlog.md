@@ -75,6 +75,32 @@
      **須標註**（「© [發行郵政] via UPU/WADP WNS」）。
    - 依賴 `wns-query` skill（已建,`.claude/skills/wns-query/`）；規範見 `docs/id-scheme.md` §8。
 
+10. 🔜 **先用 WNS 補強現有港日 entries（規格＋圖，順便實戰驗證 skill）** — 在做大遷移前,
+    先用 `wns-query` 把 **2002 起**的香港、日本生肖票官方規格（尺寸／面值／齒孔／印製／設計者）
+    與單枚郵票圖補進**現有** catalog entries,作為 id-scheme 遷移前的低風險暖身,同時檢驗
+    `wns-query` 在實戰中的好用度（CDP proxy 穩定性、過濾命中率、欄位對應）。
+    - **作法**:逐國 `--member "Hong Kong"`／`"Japan"` + `--year`／`--terms` 取每枚 WNS 號與
+      規格 → 比對既有 entry 的 `items[]` → 補 `dimensions_mm`／`denomination`／`perforation`／
+      `printer`／`designer`,WNS 號暫記 `notes`（schema 尚無 `items[].wns` 欄,待 item 11 擴）。
+    - **範圍界定**:本項只補**規格與單枚圖**到既有 entry,不改 ID、不擴 schema;與 item 9
+      （統一圖源策略）、item 11（遷移）分工。HK 主套票多數已補過,重點補 JP 缺口年
+      （2002/2005/2008–2012）與校對。
+    - **注意**:WNS 圖只含郵票本體;台灣不在 WNS。遇 skill 不順手就地修 `query.mjs` 並記錄。
+
+11. ✅ **id-scheme 遷移（一次性改名腳本）**（2026-06-11 完成 a/b，c 暫緩）— 依
+    `docs/id-scheme.md` 把 267 條從舊式 `{region}-{year}-{animal}-r{round}` 遷至 canonical
+    `<region>-<designator>`，由 `scripts/migrate_ids.py` 一次完成。
+    - **(a) ✅ schema 擴充**（`src/content.config.ts`）:`catalog_number` 擴成
+      `{local,scott,sg,michel,yvert,colnect,stampworld}`;`items[]` 增 `wns` 欄（皆選填）。
+    - **(b) ✅ 改名腳本**:台／中 Track A（`tw-sp55`／`cn-t46`／`cn-1992-1`,去補零／去 `2004-1T` 尾碼）,
+      港日 Track B（`<region>-<yyyymmdd>`,同日相撞**主票優先 -a**、伴隨品 -b/-c/-d 按 series_name）。
+      文字級改寫同步更新檔內 `id` 與 notes 跨檔引用（如「見 hk-20050130-a」）。build（Zod）通過。
+    - **(c) ⬜ 舊 URL 重導 — 暫緩**:站未正式上線、無外部入站連結,待真正上線前再做
+      （`/catalog/issue/<old-id>/` → 新 canonical,Astro redirects 或佔位頁）。
+      `migrate_ids.py` 已能輸出 old→new map 供生成重導表。
+    - **後續**:子項目 token（`s`/`ss`/`ms`/`fdc`/`pmk`…,§3）本次未展,issue 級 ID 已足;
+      `items[].wns` 欄已備,待 item 10 用 WNS 補強時填入。
+
 ## 維護 / 技術債
 
 - ⬜ **升級 `.github/workflows/deploy.yml` 的 actions 版本** — `actions/checkout@v4`、

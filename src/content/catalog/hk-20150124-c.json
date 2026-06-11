@@ -1,0 +1,72 @@
+{
+  "id": "hk-20150124-c",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2015-01-24",
+  "round": 1,
+  "series_name": "銀箔燙壓生肖郵票－龍、蛇、馬、羊",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "龍（銀箔燙壓）",
+      "image": "/img/stamps/hk/hk-20150124-c/sheet.jpg"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "蛇（銀箔燙壓）",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "馬（銀箔燙壓）",
+      "image": ""
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "羊（銀箔燙壓）",
+      "image": ""
+    }
+  ],
+  "significance": "銀箔燙壓生肖郵票第1套，以龍、蛇、馬、羊四個生肖為題（銀箔燙壓工藝）。橫跨四個生肖，不歸入單一生肖年。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔香港郵政集郵組 newsletter〕與該年生肖特別郵票同日發行。 面值、設計等細節待補。\n\n〔stampshk 香港郵票目錄〕農曆是中國傳統曆法，有悠久歷史。農曆採用十個天干與十二個地支，以天干地支相配，順序排列，組合成以「甲子」為首的六十干支來紀年，周而復始，循環使用。 中國民間亦常以十二生肖來紀年。十二生肖的代表動物分別為鼠、牛、虎、兔、龍、蛇、馬、羊、猴、雞、狗、豬。十二種動物與十二個地支一一對應，除了紀年外，還可用來計算年齡。 是次發行的銀箔燙壓生肖郵票 – 龍、蛇、馬、羊，是全新賀歲生肖郵票系列的第一款。這套郵票由四枚生肖郵票組成，分別為「歲次壬辰」的瑞龍、「歲次癸巳」的靈蛇、「歲次甲午」的駿馬和「歲次乙未」的吉羊。郵票以平版加壓印和銀箔燙壓印刷技術印製，各款生肖動物閃閃生輝，令新春佳節倍添喜氣。",
+  "images": [
+    "/img/stamps/hk/hk-20150124-c/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks228.html"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

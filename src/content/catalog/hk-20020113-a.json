@@ -1,0 +1,58 @@
+{
+  "id": "hk-20020113-a",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "馬",
+    "branch": "午"
+  },
+  "zodiac_year": 2002,
+  "issue_date": "2002-01-13",
+  "round": 3,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "關信剛",
+  "printer": "英國 The House of Questa Ltd",
+  "printing_process": "平版",
+  "perforation": "14（兩面直邊各有一個橢圓形齒孔）",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/2002-horse/stamps.jpg"
+    }
+  ],
+  "significance": "賀歲生肖郵票第3輯第3套，歲次壬午（馬年）。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔hkstmp.com／cpa-hk 集郵目錄（未經官方查證）〕面值、枚數、設計者等細節待補。\n\n〔stampshk 香港郵票目錄〕農曆新年是中國人傳統上最為隆重的節日。親友聚首一堂，迎春接褔，喜氣洋洋。家家戶戶悉心佈置， 牆上門上貼上吉利的輝春和對聯，期望新的一年事事順景。年花盛放，果實豐碩、糖果甜美，家給人足。 新的一年便隨著熱鬧喧天的爆竹聲和歡樂的笑聲展開。 十二生肖源於中國曆法，已有二千多年歷史。傳說佛祖圓寂前，從芸芸眾生中選出十二種動物。 鼠、牛、虎、兔、龍、蛇、馬、羊、猴、雞、犬、豬、先後前來拜謁，佛祖逐按序紀年，以報其忠。 二零零二年歲次壬午，屬馬。據命理學家所言，肖馬者活潑好動、洞悉力強，獨立機靈、人緣 甚佳。這是香港郵政第三輯生肖特別郵票的第三套。第一輯生肖郵票由一九六七年起發行，而第二輯 則由一九八七年起發行。這套特別郵票別具一格，以嶄新的手法活用剪紙技巧，令駿馬的形貌躍然 紙上。剪紙這種中國傳統工藝，全憑一雙巧手駕馭刀剪，剪成各種圖樣，展現多姿多彩的文化和民間 節慶。古時大家閏秀喜以剪紙消閑，平民百姓則愛互相餽贈剪紙，以惟肖惟妙的圖樣增添吉祥喜氣。\n\n〔WNS〕UPU/WADP 官方號 HK001.2002–HK004.2002；郵票尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/hk/2002-horse/stamps.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2002.htm"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks109.html"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}

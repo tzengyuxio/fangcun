@@ -1,0 +1,111 @@
+{
+  "id": "hk-20040104-a",
+  "region": {
+    "code": "HK",
+    "name": "香港郵政"
+  },
+  "zodiac": {
+    "animal": "猴",
+    "branch": "申"
+  },
+  "zodiac_year": 2004,
+  "issue_date": "2004-01-04",
+  "round": 3,
+  "series_name": "賀歲生肖郵票",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "關信剛",
+  "printer": "荷蘭 Joh. Enschede",
+  "printing_process": "平版",
+  "perforation": "13.5 x 13.25（兩面直邊各有一個橢圓形齒孔）",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 1.4,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "/img/stamps/hk/2004-monkey/stamps.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 2.4,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 3,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 5,
+        "currency": "HKD"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 45.0
+      }
+    },
+    {
+      "type": "souvenir_sheet",
+      "denomination": {
+        "value": null,
+        "currency": "HKD"
+      },
+      "description": "小全張（另發行無齒小全張）",
+      "image": ""
+    }
+  ],
+  "significance": "賀歲生肖郵票第3輯第5套，歲次甲申（猴年）。",
+  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔hkstmp.com／cpa-hk 集郵目錄（未經官方查證）〕面值、枚數、設計者等細節待補。\n\n〔stampshk 香港郵票目錄〕特別郵票是香港郵政發行的賀歲生肖郵票中的第三輯第五套郵票。早前兩套猴年郵票先後於1968年及1992年發行。 中國人向來鍾愛猴子，因此，猴子是不少傳世作品中的重要角色，當中最家喻戶曉的茵過於十六世紀明朝中葉吳承恩筆下 《西遊記》的齊天大聖。孫悟空天生異稟，機智勇敢，能人所不能。 二零零四年是猴年，猴年在十二生肖中排行第九。據說，肖猴者富創意，集聰慧與活力於一身，經常為身旁的人帶來歡樂。 生長在大自然的猴子，過著群居的生活，族群關係密切。牠們的腦袋甚為發達，是人類以外其他靈長類動物之冠。猴子天性 好玩，聰明伶巧，好奇心強。中國幅員遼闊，南北地形、氣候變化很大，但牠們都能夠適應，聚居繁衍。從喜馬拉雅山脈的西藏高原 地帶到南方的熱帶叢林，從中部的溫帶竹林到香港樓群處處的鋼筋森林，都可以找到牠們的蹤影。 郵票中特別揀選了不同品種的猴子作為郵票的主體圖案，籍以表現猴子活潑機靈的一面。郵票亦採用中國民間傳統剪紙工藝 的設計，配以色彩亮麗的背景，洋溢一片新年的喜氣。\n\n〔WNS〕UPU/WADP 官方號 HK005.2004–HK008.2004；郵票尺寸／齒孔／印製取自 WNS。",
+  "images": [
+    "/img/stamps/hk/2004-monkey/stamps.jpg",
+    "/img/stamps/hk/2004-monkey/sheet.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "hk-hkstmp",
+      "tier": "reference",
+      "url": "http://www.hkstmp.com/2004.htm"
+    },
+    {
+      "ref": "hk-stampshk",
+      "tier": "reference",
+      "url": "http://www.stampshk.hk/zhks129.html"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-11"
+}
