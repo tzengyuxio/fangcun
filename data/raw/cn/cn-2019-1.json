@@ -1,0 +1,28 @@
+{
+  "id": "cn-2019-1",
+  "sources": {
+    "official-announcement": {
+      "checked": "2026-06-12",
+      "tier": "official",
+      "via": "China Post / 国家邮政局 公告，百度百科交叉驗證",
+      "url": "https://www.chinapost.com.cn/xhtml1/stamp/181428/9341-1.htm",
+      "stamps": [
+        {
+          "no": "(2-1)",
+          "name": "肥猪旺福",
+          "denom": "1.20元"
+        },
+        {
+          "no": "(2-2)",
+          "name": "五福齐聚",
+          "denom": "1.20元"
+        }
+      ]
+    },
+    "wns": {
+      "checked": "2026-06-12",
+      "tier": "official",
+      "found": false
+    }
+  }
+}

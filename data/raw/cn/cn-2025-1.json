@@ -1,0 +1,28 @@
+{
+  "id": "cn-2025-1",
+  "sources": {
+    "official-announcement": {
+      "checked": "2026-06-12",
+      "tier": "official",
+      "via": "China Post / 国家邮政局 公告，百度百科交叉驗證",
+      "url": "https://www.spb.gov.cn/gjyzj/c100040/202501/5f0fcee952874308b999294594e2e8b6.shtml",
+      "stamps": [
+        {
+          "no": "(2-1)",
+          "name": "蛇呈丰稔",
+          "denom": "1.20元"
+        },
+        {
+          "no": "(2-2)",
+          "name": "福纳百祥",
+          "denom": "1.20元"
+        }
+      ]
+    },
+    "wns": {
+      "checked": "2026-06-12",
+      "tier": "official",
+      "found": false
+    }
+  }
+}
