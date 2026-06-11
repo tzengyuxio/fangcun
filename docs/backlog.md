@@ -62,9 +62,15 @@
    - 作法:新增 `/catalog/year/[zodiacYear].astro`,`getStaticPaths` 以 `zodiac_year` 分組;時間軸的
      年份標頭改連到此頁。與既有 zodiac/region 軸共用 `StampCard`。
 
-8. ⬜ **整理中華郵政／中國郵政的敘述文字** — 兩者的 `notes` 多為自動轉換(中華郵政「郵票寶藏」
-   原文、5151sc/spb 賞析全文),冗長且風格不一。需人工梳理成簡潔、一致、可讀的敘述(必要時拆出
-   `significance` 一句重點),並順手把 `verified` 複核為 true。
+8. ✅ **整理 TW／CN／HK 的敘述文字**（2026-06-12 完成）— 三區 `notes` 自動轉換原文已梳理成
+   簡潔、一致、可讀的繁體敘述,並補上 `significance` 一句重點。
+   - **CN**(47):自 5151sc 改寫,剝來源標記、剪干支通用段與離題生物學;結構欄位 opencc 轉繁;
+     2016/2023 黃永玉名作經查證補 notes。**round-4(2016–2026)順帶補成正確的兩枚一套**(見下方修正)。
+   - **TW**(58):自「郵票寶藏」改寫,剝「自動轉換」標記、剪干支套語與「印刷全張」行銷段,留設計概念＋三枚一句。
+   - **HK**(86):significance 本季已備,剝所有標記、刪 31 檔 stampshk 行銷段,保留 newsletter 同日發行交叉引用。
+   - **未做(刻意)**:`verified` **維持 false**——改寫文風不等於查證事實(D6),逐筆事實覆核另計。
+   - **殘留**:HK 2002–2011 主票 notes 因移除 stampshk 而留空(設計細節原僅見於 stampshk;significance 仍可識別);
+     TW/CN `items[].description` 仍有「特767.1」「金猴」等占位/簡名,屬資料層另議。
 
 9. ⬜ **用 WNS 統一郵票本體圖** — WNS（wnsstamps.post）提供**品質／規格一致**的單枚郵票圖
    （`images/T180/{WNS}.jpg`），可作為港、日等 **2002+** 生肖票的標準化「郵票本體」圖源,
