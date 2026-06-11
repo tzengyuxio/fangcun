@@ -2,7 +2,7 @@
   "id": "cn-2017-1",
   "region": {
     "code": "CN",
-    "name": "中国邮政"
+    "name": "中國郵政"
   },
   "zodiac": {
     "animal": "雞",
@@ -16,8 +16,8 @@
     "local": "2017-1",
     "scott": null
   },
-  "designer": "韩美林",
-  "printer": "北京邮票厂",
+  "designer": "韓美林",
+  "printer": "北京郵票廠",
   "printing_process": "",
   "perforation": "13 度",
   "items": [
@@ -27,8 +27,8 @@
       "image": ""
     }
   ],
-  "significance": "",
-  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：刘明慧、郝欧。",
+  "significance": "第四輪雞年票，藝術家韓美林設計。",
+  "notes": "",
   "images": [
     "/img/stamps/cn/2017-1/spb_1.jpg"
   ],

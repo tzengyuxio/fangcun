@@ -2,7 +2,7 @@
   "id": "cn-2007-1",
   "region": {
     "code": "CN",
-    "name": "中国邮政"
+    "name": "中國郵政"
   },
   "zodiac": {
     "animal": "豬",
@@ -16,9 +16,9 @@
     "local": "2007-1T",
     "scott": null
   },
-  "designer": "陈绍华",
-  "printer": "北京邮票厂",
-  "printing_process": "影写",
+  "designer": "陳紹華",
+  "printer": "北京郵票廠",
+  "printing_process": "影寫",
   "perforation": "13 度",
   "items": [
     {
@@ -35,8 +35,8 @@
       }
     }
   ],
-  "significance": "",
-  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕面值／發行量：（1-1）T 丁亥年 1.20元。",
+  "significance": "第三輪豬年票，陳紹華設計。",
+  "notes": "",
   "images": [
     "/img/stamps/cn/2007-1T/spb_1.jpg",
     "/img/stamps/cn/2007-1T/spb_2.jpg"

@@ -2,7 +2,7 @@
   "id": "cn-2004-1",
   "region": {
     "code": "CN",
-    "name": "中国邮政"
+    "name": "中國郵政"
   },
   "zodiac": {
     "animal": "猴",
@@ -16,10 +16,10 @@
     "local": "2004-1T",
     "scott": null
   },
-  "designer": "陈绍华",
-  "printer": "北京邮票厂",
-  "printing_process": "影写",
-  "perforation": "13度（异形）",
+  "designer": "陳紹華",
+  "printer": "北京郵票廠",
+  "printing_process": "影寫",
+  "perforation": "13度（異形）",
   "items": [
     {
       "type": "stamp",
@@ -36,8 +36,8 @@
       }
     }
   ],
-  "significance": "",
-  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕面值／發行量：（1-1）T 甲申年 80分 5200万套。",
+  "significance": "第三輪生肖郵票首套，甲申猴年，陳紹華設計。",
+  "notes": "",
   "images": [
     "/img/stamps/cn/2004-1T/100809493965.jpg"
   ],

@@ -2,7 +2,7 @@
   "id": "cn-2000-1",
   "region": {
     "code": "CN",
-    "name": "中国邮政"
+    "name": "中國郵政"
   },
   "zodiac": {
     "animal": "龍",
@@ -16,14 +16,14 @@
     "local": "2000-1",
     "scott": null
   },
-  "designer": "黄里 郭承辉",
-  "printer": "北京邮票厂",
-  "printing_process": "影写 雕刻",
+  "designer": "黃裏 郭承輝",
+  "printer": "北京郵票廠",
+  "printing_process": "影寫 雕刻",
   "perforation": "12度",
   "items": [
     {
       "type": "stamp",
-      "description": "祥龙腾飞",
+      "description": "祥龍騰飛",
       "image": "",
       "denomination": {
         "value": 80,
@@ -37,7 +37,7 @@
     },
     {
       "type": "stamp",
-      "description": "旭日东升",
+      "description": "旭日東昇",
       "image": "",
       "denomination": {
         "value": 280,
@@ -50,8 +50,8 @@
       }
     }
   ],
-  "significance": "",
-  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：李庆发 姜伟杰；整版枚数：32枚；面值／發行量：T（2-1） 祥龙腾飞 80分 9527.52万枚 T（2-2） 旭日东升 28。 2000年是中国干支纪年的庚辰年，即民间生肖纪年的龙年。蛇是中华民族吉祥文化中代表最高祥瑞的神物，是我国古代劳动人民集动物有利力和优美之大成创造的理想动物。龙的传说起源于远古氏族社会，至今已有数千年。随着社会的演进，人们也不断地丰富了龙的形象和艺术。",
+  "significance": "第二輪龍年票，以「祥龍騰飛」「旭日東升」迎千禧龍年。",
+  "notes": "兩枚分繪「祥龍騰飛」與「旭日東升」；龍為中華吉祥文化中代表最高祥瑞的神物，傳說起源於遠古氏族社會，形象隨世代演進而不斷豐富。",
   "images": [
     "/img/stamps/cn/2000-1/100608333458.jpg"
   ],

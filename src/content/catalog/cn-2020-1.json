@@ -2,7 +2,7 @@
   "id": "cn-2020-1",
   "region": {
     "code": "CN",
-    "name": "中国邮政"
+    "name": "中國郵政"
   },
   "zodiac": {
     "animal": "鼠",
@@ -16,9 +16,9 @@
     "local": "2020-1",
     "scott": null
   },
-  "designer": "韩美林",
+  "designer": "韓美林",
   "printer": "",
-  "printing_process": "胶雕套印",
+  "printing_process": "膠雕套印",
   "perforation": "13度",
   "items": [
     {
@@ -31,8 +31,8 @@
       }
     }
   ],
-  "significance": "",
-  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：刘博；整版枚数：版式一 16枚 版式二 6枚。",
+  "significance": "第四輪鼠年票，韓美林設計。",
+  "notes": "",
   "images": [
     "/img/stamps/cn/2020-1/spb_1.jpg",
     "/img/stamps/cn/2020-1/spb_2.jpg"

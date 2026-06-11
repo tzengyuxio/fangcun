@@ -2,7 +2,7 @@
   "id": "cn-2015-1",
   "region": {
     "code": "CN",
-    "name": "中国邮政"
+    "name": "中國郵政"
   },
   "zodiac": {
     "animal": "羊",
@@ -16,9 +16,9 @@
     "local": "2015-1T",
     "scott": null
   },
-  "designer": "吴冠英",
-  "printer": "北京邮票厂",
-  "printing_process": "影写版",
+  "designer": "吳冠英",
+  "printer": "北京郵票廠",
+  "printing_process": "影寫版",
   "perforation": "13 度",
   "items": [
     {
@@ -35,8 +35,8 @@
       }
     }
   ],
-  "significance": "",
-  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕整版枚数：版式一 20枚、版式二 6枚；面值／發行量：（1-1）T 乙未年 1.20元。",
+  "significance": "第三輪羊年票，吳冠英設計。",
+  "notes": "",
   "images": [
     "/img/stamps/cn/2015-1T/spb_1.jpg"
   ],

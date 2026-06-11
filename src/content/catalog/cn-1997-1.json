@@ -2,7 +2,7 @@
   "id": "cn-1997-1",
   "region": {
     "code": "CN",
-    "name": "中国邮政"
+    "name": "中國郵政"
   },
   "zodiac": {
     "animal": "牛",
@@ -17,8 +17,8 @@
     "scott": null
   },
   "designer": "呼振源",
-  "printer": "北京邮票厂",
-  "printing_process": "影写雕刻",
+  "printer": "北京郵票廠",
+  "printing_process": "影寫雕刻",
   "perforation": "11.5度",
   "items": [
     {
@@ -27,7 +27,7 @@
         "value": 150.0,
         "currency": "分"
       },
-      "description": "金牛奋蹄",
+      "description": "金牛奮蹄",
       "image": "",
       "dimensions_mm": {
         "w": 26.0,
@@ -40,7 +40,7 @@
         "value": 50.0,
         "currency": "分"
       },
-      "description": "牛耕年丰",
+      "description": "牛耕年豐",
       "image": "",
       "dimensions_mm": {
         "w": 26.0,
@@ -48,8 +48,8 @@
       }
     }
   ],
-  "significance": "",
-  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕雕刻者：呼振源；整版枚数：32枚；面值／發行量：T （2--1）金牛奋蹄 150分 8281.7万枚 T （2--2）牛耕年丰。 1997年为丁丑年，亦即民间十二生肖（属相）的牛年。在中国，人们崇尚牛踏实肯干、甘于奉献的品格，视其为吉祥物。有关牛的民俗活动和艺术创作也颇为丰富。全套共2枚。",
+  "significance": "第二輪牛年票，禮讚牛踏實肯幹、甘於奉獻的品格。",
+  "notes": "兩枚分繪「金牛奮蹄」與「牛耕年豐」；牛在中國被視為踏實肯幹、甘於奉獻的吉祥物，相關民俗與藝術創作頗為豐富。",
   "images": [
     "/img/stamps/cn/1997-1/92908544233.jpg"
   ],

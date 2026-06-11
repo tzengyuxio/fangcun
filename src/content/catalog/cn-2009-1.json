@@ -2,7 +2,7 @@
   "id": "cn-2009-1",
   "region": {
     "code": "CN",
-    "name": "中国邮政"
+    "name": "中國郵政"
   },
   "zodiac": {
     "animal": "牛",
@@ -16,9 +16,9 @@
     "local": "2009-1T",
     "scott": null
   },
-  "designer": "陈绍华",
-  "printer": "北京邮票厂",
-  "printing_process": "影写",
+  "designer": "陳紹華",
+  "printer": "北京郵票廠",
+  "printing_process": "影寫",
   "perforation": "13 度",
   "items": [
     {
@@ -35,8 +35,8 @@
       }
     }
   ],
-  "significance": "",
-  "notes": "【資料整理自以下來源，待人工覆核】\n\n〔点购收藏网 5151sc〕整版枚数：版式一 20枚、版式二 6枚；面值／發行量：（1-1）T 己丑年 1.20元。 2009年1月5日发行《己丑年》特种邮票1套1枚，小本票1本。",
+  "significance": "第三輪牛年票，陳紹華設計，另發行小本票。",
+  "notes": "",
   "images": [
     "/img/stamps/cn/2009-1T/spb_1.jpg"
   ],
