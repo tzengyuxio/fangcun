@@ -17,18 +17,39 @@
     "scott": null
   },
   "designer": "",
-  "printer": "",
+  "printer": "National Printing Bureau",
   "printing_process": "",
-  "perforation": "",
+  "perforation": "13 x 13.25",
   "items": [
     {
       "type": "stamp",
+      "denomination": {
+        "value": 63.0,
+        "currency": "JPY"
+      },
       "description": "",
-      "image": ""
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.5,
+        "h": 25.5
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 84.0,
+        "currency": "JPY"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.5,
+        "h": 25.5
+      }
     }
   ],
   "significance": "",
-  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 令和5年用年賀郵便切手",
+  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 令和5年用年賀郵便切手\n\n〔WNS〕UPU/WADP 官方號 JP355.2022/JP356.2022（年賀票，給2023年）；面值／尺寸／齒孔／印製取自 WNS。",
   "images": [
     "/img/stamps/jp/2022/pic_0290.jpg"
   ],
@@ -37,8 +58,13 @@
       "ref": "jp-japanpost-archive",
       "tier": "official",
       "url": "https://www.post.japanpost.jp/kitte/collection/archive/2022/1101_01/"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
     }
   ],
   "verified": false,
-  "updated_at": "2026-06-10"
+  "updated_at": "2026-06-11"
 }

@@ -17,18 +17,39 @@
     "scott": null
   },
   "designer": "",
-  "printer": "",
+  "printer": "philaposte",
   "printing_process": "",
-  "perforation": "",
+  "perforation": "14 x 14",
   "items": [
     {
       "type": "stamp",
+      "denomination": {
+        "value": 52.0,
+        "currency": "JPY"
+      },
       "description": "",
-      "image": ""
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.0,
+        "h": 25.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.0,
+        "h": 25.0
+      }
     }
   ],
   "significance": "",
-  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 「平成30年用年賀郵便切手」",
+  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 「平成30年用年賀郵便切手」\n\n〔WNS〕UPU/WADP 官方號 JP452.2017/JP453.2017（年賀票，給2018年）；面值／尺寸／齒孔／印製取自 WNS。",
   "images": [
     "/img/stamps/jp/2017/pic_1101.gif"
   ],
@@ -37,8 +58,13 @@
       "ref": "jp-japanpost-archive",
       "tier": "official",
       "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/2017/h291101_t.html"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
     }
   ],
   "verified": false,
-  "updated_at": "2026-06-10"
+  "updated_at": "2026-06-11"
 }

@@ -17,18 +17,39 @@
     "scott": null
   },
   "designer": "",
-  "printer": "",
+  "printer": "National Printing Bureau",
   "printing_process": "",
-  "perforation": "",
+  "perforation": "13 x 13",
   "items": [
     {
       "type": "stamp",
+      "denomination": {
+        "value": 50.0,
+        "currency": "JPY"
+      },
       "description": "",
-      "image": ""
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.0,
+        "h": 25.0
+      }
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "",
+      "image": "",
+      "dimensions_mm": {
+        "w": 21.0,
+        "h": 25.0
+      }
     }
   ],
   "significance": "",
-  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 「平成16年用年賀」",
+  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 「平成16年用年賀」\n\n〔WNS〕UPU/WADP 官方號 JP129.2003/JP130.2003（年賀票，給2004年）；面值／尺寸／齒孔／印製取自 WNS。",
   "images": [
     "/img/stamps/jp/2003/pic_1114.gif"
   ],
@@ -37,8 +58,13 @@
       "ref": "jp-japanpost-archive",
       "tier": "official",
       "url": "https://www.post.japanpost.jp/kitte_hagaki/hagaki/nenga_hakko/2004/stamp.html"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
     }
   ],
   "verified": false,
-  "updated_at": "2026-06-10"
+  "updated_at": "2026-06-11"
 }
