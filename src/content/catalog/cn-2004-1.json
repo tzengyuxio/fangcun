@@ -24,7 +24,7 @@
     {
       "type": "stamp",
       "description": "甲申年",
-      "image": "",
+      "image": "/img/stamps/cn/2004-1/CN001.2004.jpg",
       "denomination": {
         "value": 80,
         "currency": "分"
@@ -33,19 +33,24 @@
       "dimensions_mm": {
         "w": 36.0,
         "h": 36.0
-      }
+      },
+      "wns": "CN001.2004"
     }
   ],
   "significance": "第三輪生肖郵票首套，甲申猴年，陳紹華設計。",
   "notes": "",
   "images": [
-    "/img/stamps/cn/2004-1T/100809493965.jpg"
+    "/img/stamps/cn/2004-1/CN001.2004.jpg"
   ],
   "sources": [
     {
       "ref": "cn-5151sc",
       "tier": "secondary",
       "url": "http://www.5151sc.com/pro-2565.html"
+    },
+    {
+      "ref": "un-wns",
+      "tier": "official"
     }
   ],
   "verified": false,
