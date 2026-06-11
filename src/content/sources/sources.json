@@ -68,5 +68,33 @@
     "url": "https://stamps.hongkongpost.hk/",
     "tier": "official",
     "accessed_date": "2026-06-10"
+  },
+  {
+    "id": "hk-hkstmp",
+    "title": "香港郵票目錄（hkstmp.com）",
+    "url": "http://www.hkstmp.com/",
+    "tier": "reference",
+    "accessed_date": "2026-06-11"
+  },
+  {
+    "id": "hk-cpa",
+    "title": "中華集郵會 香港小型張目錄（cpa-hk.net）",
+    "url": "http://www.cpa-hk.net/chin1/sheet/sheet-s.htm",
+    "tier": "reference",
+    "accessed_date": "2026-06-11"
+  },
+  {
+    "id": "hk-stampshk",
+    "title": "Hong Kong Stamps（stampshk.hk）",
+    "url": "http://www.stampshk.hk/",
+    "tier": "reference",
+    "accessed_date": "2026-06-11"
+  },
+  {
+    "id": "un-wns",
+    "title": "萬國郵聯 WNS（UPU/WADP 編號系統）",
+    "url": "https://wnsstamps.post/",
+    "tier": "official",
+    "accessed_date": "2026-06-11"
   }
 ]
