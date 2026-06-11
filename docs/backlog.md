@@ -123,8 +123,8 @@
 
 ## 維護 / 技術債
 
-- ⬜ **升級 `.github/workflows/deploy.yml` 的 actions 版本** — `actions/checkout@v4`、
-  `actions/setup-node@v4`、`actions/upload-artifact@v4`、`actions/upload-pages-artifact@v3`、
-  `actions/deploy-pages@v4` 目前跑 Node 20;GitHub 公告 **2026-06-16 起強制 Node 24**,屆時舊版
-  action 可能 break。升級到各 action 支援 Node 24 的版本(多為 v5/最新)即可。
+- ✅ **升級 `.github/workflows/deploy.yml` 的 actions 版本**（2026-06-12 完成）— 因 GitHub runner
+  **2026-06-16 起預設改用 Node 24**(舊 Node-20 action 將被強制升級)。已升:`checkout@v4→v5`、
+  `setup-node@v4→v5`(皆 Node 24)、`upload-pages-artifact@v3→v4`、`node-version 20→22`(LTS);
+  `deploy-pages@v4` 已是最新故不動。YAML 驗證通過。
 
