@@ -1,0 +1,135 @@
+{
+  "source": "UPU/WADP WNS — wnsstamps.post",
+  "member": "China (People's Republic)",
+  "image_url_pattern": "https://wnsstamps.post/images/T180/{WNS}.jpg",
+  "image_size": "T180 (180x180 thumbnail; only size WNS offers)",
+  "queried_date": "2026-06-12",
+  "tool": "node .claude/skills/wns-query/query.mjs --member China --year <Y> --page-size 200 --json",
+  "notes": [
+    "WNS 自 2002 啟用：1980-2001 的中國生肖票不在 WNS。",
+    "即使某年 WNS 有資料，China 未必提交生肖票：2002(壬午馬)、2003(癸未羊) 該年有其他套票但無生肖票。",
+    "有中國生肖票的年份：2004, 2008-2013, 2023（見 zodiac_wns）。",
+    "0 筆年份未存逐年 JSON；有資料年份的完整記錄見同目錄 {year}.json。",
+    "圖片著作權屬中國郵政，UPU/WADP 允許下載，使用須標註 '© 中国邮政 via UPU/WADP WNS'。",
+    "img/ 依 .gitignore 規則不納版控（本機備份）；{year}.json 與本檔納版控。"
+  ],
+  "years": {
+    "2002": {
+      "wns_total": 7,
+      "zodiac_wns": []
+    },
+    "2003": {
+      "wns_total": 14,
+      "zodiac_wns": []
+    },
+    "2004": {
+      "wns_total": 91,
+      "zodiac_wns": [
+        "CN001.2004"
+      ]
+    },
+    "2005": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2006": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2007": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2008": {
+      "wns_total": 76,
+      "zodiac_wns": [
+        "CN001.2008"
+      ]
+    },
+    "2009": {
+      "wns_total": 94,
+      "zodiac_wns": [
+        "CN001.2009"
+      ]
+    },
+    "2010": {
+      "wns_total": 90,
+      "zodiac_wns": [
+        "CN003.2010"
+      ]
+    },
+    "2011": {
+      "wns_total": 103,
+      "zodiac_wns": [
+        "CN001.2011"
+      ]
+    },
+    "2012": {
+      "wns_total": 92,
+      "zodiac_wns": [
+        "CN001.2012"
+      ]
+    },
+    "2013": {
+      "wns_total": 103,
+      "zodiac_wns": [
+        "CN001.2013"
+      ]
+    },
+    "2014": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2015": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2016": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2017": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2018": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2019": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2020": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2021": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2022": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2023": {
+      "wns_total": 87,
+      "zodiac_wns": [
+        "CN001.2023",
+        "CN002.2023"
+      ]
+    },
+    "2024": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2025": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    },
+    "2026": {
+      "wns_total": 0,
+      "zodiac_wns": []
+    }
+  }
+}
