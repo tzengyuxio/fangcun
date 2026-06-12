@@ -121,13 +121,42 @@
     - **其餘 26 筆去浮水印 WNS 走不通**,替代方向見文件結論（官方老票多無線上高清／自掃 backlog #6／暫保留標註來源）。
     - **注意**:WNS 圖僅 T180（180px）尺寸、只含郵票本體;著作權屬發行郵政，須標註「© 中國郵政 via UPU/WADP WNS」。
 
-14. ⬜ **詳情頁「上一套／下一套」連結** — 在 issue 詳情頁加前後導覽,初步想法為**同一發行地**的前一個／
-    下一個發行套票(按 `issue_date` 排序;`zodiac:null` 伴隨品要不要納入待定)。
-    - 作法:`getStaticPaths` 時把同 region 依 `issue_date` 排序的清單算好,傳 prev/next 的 `id` 與 `name` 給頁面。
+14. ✅ **詳情頁「上一套／下一套」連結**（2026-06-12 完成）— 同發行地依 `issue_date` 排序
+    （同日以 id 穩定排序;`zodiac:null` 伴隨品**有**納入）,`getStaticPaths` 算好 prev/next 傳入。
+    呈現:依使用者回饋放在 **breadcrumb 列右側**（「‹ 上一套｜下一套 ›」,hover tooltip 顯示套名＋年份）。
 
-15. ⬜ **lightbox 前後箭頭移到圖片兩側** — 目前 photolightbox 的左右箭頭在整個頁面左右兩側,離圖片太遠、
-    滑鼠要移很遠。改為貼在圖片(lightbox 內容)兩側。改 `src/components/Gallery.astro` 的箭頭定位
-    （由 viewport 兩側改為相對 lightbox 圖片容器定位）。
+15. ✅ **lightbox 前後箭頭移到圖片兩側**（2026-06-12 完成）— `Gallery.astro` 加 `.lb-stage` 包圖,
+    箭頭改貼圖片外緣兩側,張數計數移到圖片正下方;窄螢幕（≤640px）箭頭退回貼圖片內緣避免溢出。
+
+16. ✅ **快速分享連結（FB／X／複製連結）**（2026-06-12 完成）— 詳情頁標題列右側三顆**圓形 icon 鈕**
+    （經典金框、hover 印泥紅反白、即時 tooltip）:FB sharer／X intent（免 SDK）／
+    `navigator.clipboard` 複製（成功切換勾勾圖示 1.5s,失敗 fallback `window.prompt`）。
+    分享網址用 canonical 絕對網址。專題頁（features）日後上線時再沿用同一組樣式。
+
+17. ✅ **Open Graph preview**（2026-06-12 完成）— `Base.astro` 加 props 化 OG／Twitter Card meta
+    （`og:type`／`title`／`description`／`url`／`image`＋canonical link）,詳情頁傳 `article` 與
+    `significance` 描述。`og:image` 用新製的 **`public/img/og-default.png`**（1200×630,郵票框＋
+    「肖」戳記＋站名,SVG 源檔同目錄納版控,`rsvg-convert` 重生）——因郵票真圖不納版控,
+    全站先共用預設卡;日後真圖上線可逐頁傳 `ogImage` 覆寫。
+
+18. ⬜ **從 WNS 生肖索引預建 issue raw 骨架（已評估,待決）** — 用 `data/raw/wns/zodiac/records.json`
+    （65 郵政、1,639 枚、約 462 個發行日）預先生成 `data/raw/<region>/<id>.json` 骨架
+    （`id`＋`issue_date`＋`series_name` 線索＋`wns.numbers` 指標;規格本體留在 zodiac 索引,不內嵌）。
+    - **機械可做**:member＋date 分組、Track B 區 ID 直接從日期算、WNS 前綴→region code 對映。
+    - **雷區（勿全自動）**:(1) 同日多套拆分與 `-a/-b` 指派是判斷題,ID 錯了改名成本高;
+      (2) 索引混有 CNY 節慶等非生肖票（269 筆 `animal:null` 待複核）,全量生成會違 D8;
+      (3) WNS 缺口大（JP 2016+、CN 多數年、MY）,骨架只是「WNS 視角」,notes 須註明防假完整感。
+    - **建議三步（各自可停）**:① dry-run 分組報告（不寫檔,綠=同日單聚類/黃=歧義）→
+      ② 只對「標綠＋優先區」（`data/raw/` 已有目錄的 hk/jp/kr/mo/…;US 量大但無目錄,屆時議定）生成骨架,
+      長尾單枚國家不開目錄 → ③（選配）優先郵政逐年 member 全量掃描補 `wns/<member>/<year>.json`,
+      建檔到哪國再掃哪國。
+
+19. ⬜ **Google Analytics 支援** — 全站加 GA4（gtag.js）流量分析。
+    - 作法:`Base.astro` `<head>` 加 gtag snippet,Measurement ID 走 `PUBLIC_GA_ID` 環境變數
+      （置 `.env`／CI variable,不寫死於版控）;**僅正式 build 載入**（`import.meta.env.PROD`
+      且有設 ID 才輸出),避免本機開發污染數據。
+    - 待決:是否需要 cookie／隱私聲明(可併入 `/about-site/` 編輯方針頁);GitHub Pages 為純靜態,
+      無 server-side 方案,若日後想去第三方 cookie 可評估 GoatCounter／Plausible 等替代。
 
 ## 維護 / 技術債
 
