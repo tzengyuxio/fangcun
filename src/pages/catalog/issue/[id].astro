@@ -41,6 +41,13 @@ const specs = [
   ['印法', d.printing_process],
   ['齒孔', d.perforation],
 ].filter(([, v]) => v) as [string, string][];
+
+// 外部連結:官方優先。
+const TIER_RANK: Record<string, number> = { official: 0, reference: 1, secondary: 2 };
+const sortedSources = [...d.sources].sort((a, b) => (TIER_RANK[a.tier] ?? 9) - (TIER_RANK[b.tier] ?? 9));
+// WNS 是單枚層級:homepage 連結沒幫助,改讓每枚 WNS 號各自連到 WNS 單枚頁(GetStamp)。
+const wnsNums = d.items.map((it) => it.wns).filter(Boolean) as string[];
+const wnsUrl = (w: string) => `https://wnsstamps.post/Home/GetStamp?wnsNumber=${w}&lang=en`;
 ---
 
 <Base title={`${name} — 方寸裡的生肖`}>
@@ -134,15 +141,26 @@ const specs = [
     <section class="sect">
       <h2>外部連結</h2>
       <ul class="sources">
-        {d.sources.map((s) => {
+        {sortedSources.map((s) => {
           const meta = srcMap.get(s.ref.id);
-          const href = s.url ?? meta?.url;
+          const isWns = s.ref.id === 'un-wns';
+          const href = s.url ?? (isWns ? null : meta?.url);
           return (
             <li class="source">
               {s.tier === 'official' && (
                 <span class="tier tier-official" data-tip="來自發行單位的官方資訊">官方</span>
               )}
-              {meta && href ? <a href={href} target="_blank" rel="noopener">{meta.title}</a> : <span class="missing">{s.ref.id}</span>}
+              {!meta ? (
+                <span class="missing">{s.ref.id}</span>
+              ) : href ? (
+                <a href={href} target="_blank" rel="noopener">{meta.title}</a>
+              ) : isWns && wnsNums.length ? (
+                <span>{meta.title} · {wnsNums.map((w, i) => (
+                  <>{i > 0 ? '、' : ''}<a href={wnsUrl(w)} target="_blank" rel="noopener">{w}</a></>
+                ))}</span>
+              ) : (
+                <span>{meta.title}</span>
+              )}
             </li>
           );
         })}
@@ -183,9 +201,9 @@ const specs = [
 
   /* D5 強調區 */
   .d5 { display: flex; gap: 0; border: 1px solid var(--color-line); }
-  .d5-cell { flex: 1; padding: 0.9rem 1.1rem; }
+  .d5-cell { flex: 1; padding: 0.9rem 1.1rem; display: flex; align-items: baseline; gap: 0.5rem; }
   .d5-cell + .d5-cell { border-left: 1px solid var(--color-line); }
-  .d5-label { display: block; font-size: 0.75rem; letter-spacing: 0.1em; color: var(--color-gold); margin-bottom: 0.25rem; }
+  .d5-label { font-size: 0.75rem; letter-spacing: 0.1em; color: var(--color-gold); flex-shrink: 0; }
   .d5-val { font-family: var(--font-serif); font-size: 1.25rem; color: var(--color-ink); }
   .d5-note { font-size: 0.82rem; color: var(--color-ink-soft); margin-top: 0.5rem; }
 
