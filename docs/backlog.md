@@ -121,6 +121,14 @@
     - **其餘 26 筆去浮水印 WNS 走不通**,替代方向見文件結論（官方老票多無線上高清／自掃 backlog #6／暫保留標註來源）。
     - **注意**:WNS 圖僅 T180（180px）尺寸、只含郵票本體;著作權屬發行郵政，須標註「© 中國郵政 via UPU/WADP WNS」。
 
+14. ⬜ **詳情頁「上一套／下一套」連結** — 在 issue 詳情頁加前後導覽,初步想法為**同一發行地**的前一個／
+    下一個發行套票(按 `issue_date` 排序;`zodiac:null` 伴隨品要不要納入待定)。
+    - 作法:`getStaticPaths` 時把同 region 依 `issue_date` 排序的清單算好,傳 prev/next 的 `id` 與 `name` 給頁面。
+
+15. ⬜ **lightbox 前後箭頭移到圖片兩側** — 目前 photolightbox 的左右箭頭在整個頁面左右兩側,離圖片太遠、
+    滑鼠要移很遠。改為貼在圖片(lightbox 內容)兩側。改 `src/components/Gallery.astro` 的箭頭定位
+    （由 viewport 兩側改為相對 lightbox 圖片容器定位）。
+
 ## 維護 / 技術債
 
 - ✅ **升級 `.github/workflows/deploy.yml` 的 actions 版本**（2026-06-12 完成）— 因 GitHub runner
