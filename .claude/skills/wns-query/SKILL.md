@@ -70,3 +70,9 @@ node .claude/skills/wns-query/query.mjs --wns HK008.2026 --json
 - 涵蓋 **2002 起**、UPU 會員及簽署 territories。**台灣不在內**（中華郵政非 UPU 會員）。
 - 商業目錄號（Scott/SG）不在此；本庫為 UPU 官方認證號（tier `official`）。
 - 來源分級與 canonical ID 規範見 `docs/id-scheme.md`。
+- **翻頁是累積式**：`--page N` 回傳前 N+1 頁**累積**結果（非僅第 N 頁），`count` 達總數後
+  持平——持平值即總筆數。累積請求超過約 **1,200 筆會回空**（`--page-size 1000` 以上同樣
+  回空），總數大的詞請拆細關鍵詞，勿硬翻。
+- `--terms` 是 subject 文字 Partial 比對：subject 不含該詞即漏（如 CN 生肖票用干支拼音
+  「Wu Zi Year」、KR 用「New Year's Greetings」）。主題式盤點先查
+  `data/raw/wns/zodiac/coverage.json` 的既有索引與盲區清單。

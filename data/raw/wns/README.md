@@ -8,6 +8,10 @@
 ```
 wns/
 ├── README.md          # 本檔（納版控）
+├── zodiac/            # 跨會員國生肖票總索引（subject 詞語掃描，2026-06-12）
+│   ├── coverage.json  # 查詢方法、統計、caveats、by_member／by_animal 索引（納版控）
+│   ├── records.json   # 1,639 枚去重記錄（WNS 原欄位 + 啟發式 animal 分類，依 date 排序）
+│   └── western-excluded.json  # 被排除的西洋星座票（保留供複查）
 └── cn/                # China（People's Republic）
     ├── coverage.json  # 各年 WNS 筆數 + 中國生肖票 WNS 號索引（納版控）
     ├── {year}.json    # 該年 China 全部 WNS 記錄，wns-query --json 原樣輸出（納版控）
@@ -15,6 +19,14 @@ wns/
 ```
 
 僅存「有資料」年份的逐年 JSON（2002, 2003, 2004, 2008–2013, 2023）；0 筆年份的結果記於 `coverage.json`。
+
+## zodiac/ 跨國總索引
+
+以多組 subject 關鍵詞（year of the ×17 動物、zodiac、lunar/chinese new year、法文、
+干支拼音、KR 賀年詞等）掃出 **65 個郵政、1,639 枚（2002–2026）** 生肖票，作為後續逐國
+建檔的起點。**詞語掃描有盲區**（subject 不含關鍵詞即漏，已知補掃 CN 干支拼音、KR
+「New Year's Greetings」），建檔某國前仍應照 `cn/` 模式做逐年 member 全量掃描複核；
+方法、統計與完整 caveats 見 `zodiac/coverage.json`。
 
 ## 重新產生／擴充
 
