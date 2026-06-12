@@ -2,14 +2,35 @@
 import { getCollection } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Gallery from '../../../components/Gallery.astro';
-import { year, ganzhi, imgSrc, fallbackSrc, THEME_KEY, THEME_LABEL, getVisibleCatalog } from '../../../lib/catalog';
+import { year, ganzhi, imgSrc, fallbackSrc, byIssueDate, THEME_KEY, THEME_LABEL, getVisibleCatalog } from '../../../lib/catalog';
 
 export async function getStaticPaths() {
   const issues = await getVisibleCatalog();
-  return issues.map((issue) => ({ params: { id: issue.id }, props: { issue } }));
+  // 同發行地的上一套/下一套(依 issue_date 排序,D5;同日以 id 穩定排序)。
+  const issueName = (d: (typeof issues)[number]['data']) =>
+    d.series_name || (d.zodiac ? `${d.zodiac.animal}年生肖郵票` : THEME_LABEL);
+  const byRegion = new Map<string, typeof issues>();
+  for (const issue of issues) {
+    const k = issue.data.region.code;
+    if (!byRegion.has(k)) byRegion.set(k, []);
+    byRegion.get(k)!.push(issue);
+  }
+  const nav = new Map();
+  for (const list of byRegion.values()) {
+    list.sort((a, b) => byIssueDate(a, b) || a.id.localeCompare(b.id));
+    list.forEach((issue, i) => {
+      const ref = (x?: (typeof issues)[number]) =>
+        x ? { id: x.id, name: issueName(x.data), date: x.data.issue_date } : null;
+      nav.set(issue.id, { prev: ref(list[i - 1]), next: ref(list[i + 1]) });
+    });
+  }
+  return issues.map((issue) => ({
+    params: { id: issue.id },
+    props: { issue, nav: nav.get(issue.id) },
+  }));
 }
 
-const { issue } = Astro.props;
+const { issue, nav } = Astro.props;
 const d = issue.data;
 const base = import.meta.env.BASE_URL;
 
@@ -48,20 +69,55 @@ const sortedSources = [...d.sources].sort((a, b) => (TIER_RANK[a.tier] ?? 9) - (
 // WNS 是單枚層級:homepage 連結沒幫助,改讓每枚 WNS 號各自連到 WNS 單枚頁(GetStamp)。
 const wnsNums = d.items.map((it) => it.wns).filter(Boolean) as string[];
 const wnsUrl = (w: string) => `https://wnsstamps.post/Home/GetStamp?wnsNumber=${w}&lang=en`;
+
+// 分享:絕對網址(site 設定於 astro.config)與描述文字(同時餵給 OG meta)。
+const pageUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Astro.url.href;
+const shareTitle = `${name}（${d.region.name}）｜方寸裡的生肖`;
+const shareDesc =
+  d.significance || `${d.region.name}於 ${d.issue_date} 發行的「${name}」:發行資料、品項規格與來源。`;
+const fbShare = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`;
+const xShare = `https://x.com/intent/post?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(shareTitle)}`;
 ---
 
-<Base title={`${name} — 方寸裡的生肖`}>
+<Base title={`${name} — 方寸裡的生肖`} description={shareDesc} ogType="article">
   <article class="issue container">
-    <nav class="crumb">
-      <a href={`${base}/catalog/`}>目錄</a> ／
-      <a href={`${base}/catalog/region/${d.region.code}/`}>{d.region.name}</a> ／
-      {d.zodiac
-        ? <a href={`${base}/catalog/zodiac/${d.zodiac.animal}/`}>{d.zodiac.animal}年</a>
-        : <a href={`${base}/catalog/zodiac/${THEME_KEY}/`}>{THEME_LABEL}</a>}
-    </nav>
+    <div class="crumb-row">
+      <nav class="crumb">
+        <a href={`${base}/catalog/`}>目錄</a> ／
+        <a href={`${base}/catalog/region/${d.region.code}/`}>{d.region.name}</a> ／
+        {d.zodiac
+          ? <a href={`${base}/catalog/zodiac/${d.zodiac.animal}/`}>{d.zodiac.animal}年</a>
+          : <a href={`${base}/catalog/zodiac/${THEME_KEY}/`}>{THEME_LABEL}</a>}
+      </nav>
+      {(nav?.prev || nav?.next) && (
+        <nav class="pn-mini" aria-label="同發行地前後套票">
+          {nav.prev && (
+            <a class="pn-link" href={`${base}/catalog/issue/${nav.prev.id}/`} data-tip={`${nav.prev.name}（${year(nav.prev.date)}）`}>‹ 上一套</a>
+          )}
+          {nav.prev && nav.next && <span class="pn-sep">｜</span>}
+          {nav.next && (
+            <a class="pn-link" href={`${base}/catalog/issue/${nav.next.id}/`} data-tip={`${nav.next.name}（${year(nav.next.date)}）`}>下一套 ›</a>
+          )}
+        </nav>
+      )}
+    </div>
 
     <header class="issue-head">
-      <h1>{name}</h1>
+      <div class="head-row">
+        <h1>{name}</h1>
+        <div class="share" aria-label="分享本頁">
+          <a class="share-btn" href={fbShare} target="_blank" rel="noopener" aria-label="分享到 Facebook" data-tip="分享到 Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8v-6.93H7.9V12H10V9.8c0-2.07 1.23-3.22 3.12-3.22.9 0 1.85.16 1.85.16v2.03h-1.04c-1.03 0-1.35.64-1.35 1.3V12h2.3l-.37 2.87h-1.93v6.93c4.56-.93 8-4.96 8-9.8z"/></svg>
+          </a>
+          <a class="share-btn" href={xShare} target="_blank" rel="noopener" aria-label="分享到 X" data-tip="分享到 X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644z"/></svg>
+          </a>
+          <button class="share-btn" id="share-copy" type="button" data-url={pageUrl} aria-label="複製連結" data-tip="複製連結">
+            <svg class="ic-link" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
+            <svg class="ic-done" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+          </button>
+        </div>
+      </div>
       {d.zodiac
         ? <p class="issue-meta">{d.region.name} · 第 {d.round} 輪 · <span class="meta-zodiac">{d.zodiac.animal}（{d.zodiac.branch}）</span></p>
         : <p class="issue-meta">{d.region.name} · <span class="meta-zodiac">{THEME_LABEL}</span></p>}
@@ -170,14 +226,122 @@ const wnsUrl = (w: string) => `https://wnsstamps.post/Home/GetStamp?wnsNumber=${
   </article>
 </Base>
 
+<script>
+  // 複製連結:成功時切換成勾勾圖示 1.5s。
+  const copyBtn = document.getElementById('share-copy') as HTMLButtonElement | null;
+  copyBtn?.addEventListener('click', async () => {
+    const url = copyBtn.dataset.url || location.href;
+    try {
+      await navigator.clipboard.writeText(url);
+      copyBtn.classList.add('copied');
+      copyBtn.dataset.tip = '已複製 ✓';
+      setTimeout(() => {
+        copyBtn.classList.remove('copied');
+        copyBtn.dataset.tip = '複製連結';
+      }, 1500);
+    } catch {
+      window.prompt('複製此連結:', url);
+    }
+  });
+</script>
+
 <style>
   .issue { padding: 2rem 1.5rem 3rem; max-width: 880px; }
-  .crumb { font-size: 0.85rem; color: var(--color-ink-soft); margin-bottom: 1.5rem; }
+  .crumb-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+  .crumb { font-size: 0.85rem; color: var(--color-ink-soft); }
+
+  /* 上一套/下一套(同發行地,依發行日;hover 顯示套名) */
+  .pn-mini { font-size: 0.85rem; white-space: nowrap; }
+  .pn-sep { color: var(--color-line); margin: 0 0.35rem; }
+  .pn-link {
+    position: relative;
+    color: var(--color-ink-soft);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+  .pn-link:hover { color: var(--color-red); }
+  .pn-link::after {
+    content: attr(data-tip);
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    background: var(--color-ink);
+    color: var(--color-bg);
+    font-size: 0.75rem;
+    padding: 0.3rem 0.55rem;
+    border-radius: 2px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.1s ease;
+    z-index: 5;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  }
+  .pn-link:hover::after { opacity: 1; }
 
   .issue-head { border-bottom: 1px solid var(--color-line); padding-bottom: 1.25rem; }
   .issue-head h1 { font-size: clamp(1.8rem, 5vw, 2.8rem); letter-spacing: 0.05em; }
+  .head-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
   .issue-meta { margin-top: 0.5rem; font-size: 0.95rem; color: var(--color-ink-soft); }
   .meta-zodiac { font-family: var(--font-serif); color: var(--color-red); }
+
+  /* 分享:圓形 icon 鈕,經典金框、hover 反白成印泥紅 */
+  .share { display: flex; gap: 0.55rem; }
+  .share-btn {
+    position: relative;
+    width: 2.2rem;
+    height: 2.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-ink-soft);
+    background: var(--color-surface);
+    border: 1px solid var(--color-gold);
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .share-btn svg { width: 1.05rem; height: 1.05rem; fill: currentColor; }
+  .share-btn:hover { background: var(--color-red); border-color: var(--color-red); color: #fff; }
+  .share-btn::after {
+    content: attr(data-tip);
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-ink);
+    color: var(--color-bg);
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    padding: 0.3rem 0.55rem;
+    border-radius: 2px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.1s ease;
+    z-index: 5;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  }
+  .share-btn:hover::after { opacity: 1; }
+  .share-btn .ic-done { display: none; }
+  .share-btn.copied { background: #2f6b3a; border-color: #2f6b3a; color: #fff; }
+  .share-btn.copied .ic-link { display: none; }
+  .share-btn.copied .ic-done { display: block; }
 
   .issue-body {
     display: grid;

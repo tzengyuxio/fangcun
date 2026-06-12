@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="方寸裡的生肖 — 生肖郵票科普 · 參考站">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe7d6"/>
+      <stop offset="1" stop-color="#e2d6bd"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background + classic gold frame -->
+  <rect width="1200" height="630" fill="#f4efe3"/>
+  <rect x="14" y="14" width="1172" height="602" fill="none" stroke="#b08d57" stroke-width="3"/>
+  <rect x="26" y="26" width="1148" height="578" fill="none" stroke="#b08d57" stroke-width="1" stroke-dasharray="3 6" opacity="0.7"/>
+
+  <!-- stamp motif -->
+  <g transform="translate(110 135)">
+    <rect width="290" height="360" fill="url(#paper)"/>
+    <rect x="16" y="16" width="258" height="328" fill="none" stroke="#b08d57" stroke-width="2"/>
+    <rect x="24" y="24" width="242" height="312" fill="none" stroke="#b08d57" stroke-width="0.8" stroke-dasharray="3 5" opacity="0.7"/>
+    <g transform="translate(145 158)" fill="none" stroke="#9e2b25" opacity="0.6">
+      <circle r="62" stroke-width="3"/>
+      <circle r="49" stroke-width="1.6"/>
+    </g>
+    <text x="145" y="176" text-anchor="middle" font-family="'Noto Serif TC','Songti TC',serif" font-size="52" fill="#9e2b25" opacity="0.85">肖</text>
+    <text x="145" y="300" text-anchor="middle" font-family="'Noto Sans TC','PingFang TC',sans-serif" font-size="17" letter-spacing="5" fill="#6b6149">ZODIAC STAMPS</text>
+  </g>
+
+  <!-- title block -->
+  <text x="790" y="320" text-anchor="middle" font-family="'Noto Serif TC','Songti TC',serif" font-weight="900" font-size="96" letter-spacing="6" fill="#9e2b25">方寸裡的生肖</text>
+  <line x1="560" y1="368" x2="1020" y2="368" stroke="#b08d57" stroke-width="1.6"/>
+  <text x="790" y="430" text-anchor="middle" font-family="'Noto Sans TC','PingFang TC',sans-serif" font-size="36" letter-spacing="8" fill="#6b6258">生肖郵票科普 · 參考站</text>
+</svg>
