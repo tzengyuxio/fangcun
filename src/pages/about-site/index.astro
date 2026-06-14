@@ -1,71 +1,38 @@
 ---
 import Base from '../../layouts/Base.astro';
-const base = import.meta.env.BASE_URL;
 const issuesUrl = 'https://github.com/tzengyuxio/fangcun/issues';
 ---
 
 <Base
   title="關於本站 — 方寸裡的生肖"
-  description="本站的編輯方針:來源分級、查證標記的意義,以及勘誤回報管道。"
+  description="本站的定位與勘誤回報管道。"
 >
   <article class="doc container">
     <header class="doc-head">
       <div class="rule-double"></div>
       <h1>關於本站</h1>
-      <p class="doc-lead">編輯方針、來源分級與勘誤回報——一個參考站該交代的事。</p>
+      <p class="doc-lead">一個追求完整與正確、可被引用的生肖郵票參考站。</p>
       <div class="rule-double"></div>
     </header>
 
     <section class="doc-sect">
       <h2>本站定位</h2>
       <p>
-        「方寸裡的生肖」是一個生肖郵票的科普與參考站。我們的目標不是展示個人藏品,
-        而是盡可能完整、正確地收錄各國郵政(台、中、港、澳、日、美…)發行的生肖郵票,
-        成為可被引用的參考來源。每一筆資料都標註發行資料與出處,並區分查證狀態。
+        「方寸裡的生肖」是一個生肖郵票的科普與參考站。目標不是展示個人藏品，而是盡可能
+        完整、正確地收錄各國郵政（台、中、港、澳、日、美…）發行的生肖郵票，成為可被
+        引用的參考來源。每一筆資料都盡量註明發行資料與出處。
       </p>
-    </section>
-
-    <section class="doc-sect">
-      <h2>來源分級</h2>
-      <p>為了讓讀者判斷每筆資料的可信度,本站把來源分為三級:</p>
-      <dl class="tier-list">
-        <div class="tier-row">
-          <dt><span class="tier-tag tier-official">官方一手</span></dt>
-          <dd>來自發行郵政機構的官方資訊(郵政官網、官方目錄、新聞稿等),可信度最高。</dd>
-        </div>
-        <div class="tier-row">
-          <dt><span class="tier-tag">權威目錄</span></dt>
-          <dd>公認的權威集郵目錄與郵學參考(如 Scott、Stanley Gibbons 等)。</dd>
-        </div>
-        <div class="tier-row">
-          <dt><span class="tier-tag">二手</span></dt>
-          <dd>整理性網站、社群與媒體報導等;僅供參考,需與上述來源交叉覆核。</dd>
-        </div>
-      </dl>
-    </section>
-
-    <section class="doc-sect">
-      <h2>查證標記</h2>
-      <p>每筆資料標有「已查證」或「未經查證」:</p>
-      <ul class="doc-ul">
-        <li><strong>已查證</strong>:內容經人工比對至少一個官方或權威來源。</li>
-        <li>
-          <strong>未經查證</strong>:資料已建檔但尚未完成覆核,通常代表來源仍待補齊。
-          這<em>不代表</em>內容有誤,而是提醒讀者引用前宜再行確認。
-        </li>
-      </ul>
-      <p>我們寧可誠實標註「未經查證」,也不隱藏資料的真實狀態。</p>
     </section>
 
     <section class="doc-sect">
       <h2>勘誤與回報</h2>
       <p>
-        若你發現任何錯誤、缺漏,或可補充的官方來源,非常歡迎透過 GitHub Issues 回報:
+        若你發現任何錯誤、缺漏，或可補充的官方來源，非常歡迎透過 GitHub Issues 回報：
       </p>
       <p class="doc-cta">
         <a href={issuesUrl} target="_blank" rel="noopener">在 GitHub 提交勘誤 →</a>
       </p>
-      <p>你的指正,會讓這個參考站更接近完整與正確。</p>
+      <p>你的指正，會讓這個參考站更接近完整與正確。</p>
     </section>
   </article>
 </Base>
@@ -86,21 +53,4 @@ const issuesUrl = 'https://github.com/tzengyuxio/fangcun/issues';
   }
   .doc-sect p { line-height: 1.9; margin-bottom: 0.9rem; color: var(--color-ink); }
   .doc-cta { margin-top: 1rem; font-family: var(--font-serif); font-size: 1.05rem; }
-
-  .doc-ul { line-height: 1.9; margin: 0 0 0.9rem 1.2rem; }
-  .doc-ul li { margin-bottom: 0.4rem; }
-
-  .tier-list { margin: 0.5rem 0; }
-  .tier-row { display: flex; gap: 1rem; padding: 0.6rem 0; border-bottom: 1px solid var(--color-line); align-items: baseline; }
-  .tier-row dt { flex-shrink: 0; width: 6rem; }
-  .tier-row dd { line-height: 1.8; }
-  .tier-tag {
-    font-size: 0.8rem;
-    padding: 0.15rem 0.6rem;
-    border-radius: 2px;
-    border: 1px solid var(--color-gold);
-    color: var(--color-gold);
-    white-space: nowrap;
-  }
-  .tier-tag.tier-official { background: #2f6b3a; border-color: #2f6b3a; color: #fff; }
 </style>
