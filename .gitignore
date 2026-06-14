@@ -30,7 +30,9 @@ data/raw/**/products/
 # interim placeholder stamp images (scraped, copyrighted) — re-create via
 # scripts/link_tw_images.py; deployed site 404s these and shows stamp-fallback.svg.
 # (the committed fallback under public/img/ is intentionally NOT ignored)
-public/img/stamps/
+# TW images ARE committed (interim, pending proper scans); other regions stay ignored.
+public/img/stamps/*
+!public/img/stamps/tw/
 
 # Claude Code: share settings.json, never commit personal local settings
 .claude/settings.local.json

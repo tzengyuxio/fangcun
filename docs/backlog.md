@@ -34,9 +34,10 @@
 4. ✅ **真實郵票圖 — 台灣先用 raw 既有爬圖**(2026-06-10 完成)
    - **路徑**:採 `public/img/stamps/tw/`(原樣輸出,非 `src/assets/`)——catalog 是 JSON、圖名動態,
      且站用 `passthroughImageService` 本不做最佳化,public 直出最契合並沿用既有 `/img/...` 慣例。
-   - **版控決定**:212 張官方爬圖**不納入版控**(`.gitignore` 排除 `public/img/stamps/`,屬版權圖)。
-     後果:本機 `npm run dev/build` 有真圖 → 顯示真圖;GitHub Pages 無真圖 → 圖 404 →
-     `<img onerror>` 切換到 **`public/img/stamp-fallback.svg`**(郵政風佔位圖,**有**納入版控)。
+   - **版控決定**(2026-06-14 更新):**TW 圖改為納入版控**(212 張,interim 佔位,待正式掃描圖替換);
+     `.gitignore` 改 `public/img/stamps/*` + `!public/img/stamps/tw/`,**其餘地區(cn/hk/jp)仍排除**。
+     後果:GitHub Pages 上 TW 詳情頁顯示真圖;個別缺圖時 `<img onerror>` 切換到
+     **`public/img/stamp-fallback.svg`**(郵政風佔位圖,**有**納入版控)。原決定為全部不納版控(版權考量)。
    - **重建方式**:`uv run scripts/link_tw_images.py`(攤平複製 raw D/S 圖到 public、並把 catalog 的
      post.gov.tw URL 改寫成本地路徑)。冪等。
    - **改動**:`StampCard.astro`、`issue/[id].astro` 改用 `<img class="stamp-photo">`;

@@ -4,10 +4,10 @@
 """Copy scraped Chunghwa Post images into public/ and point catalog at them.
 
 Interim step (see docs/backlog.md): use the already-scraped raw images as
-placeholders until proper scans replace them. Images are NOT version-controlled
-(public/img/stamps/ is gitignored); on GitHub Pages they 404 and the page falls
-back to public/img/stamp-fallback.svg via <img onerror>. Locally (npm run dev)
-the real images are present and show.
+placeholders until proper scans replace them. TW images ARE version-controlled
+(.gitignore keeps public/img/stamps/tw/ but ignores other regions), so the
+deployed site shows them; where an image is missing the page falls back to
+public/img/stamp-fallback.svg via <img onerror>.
 
 What it does:
 1. Flatten-copy data/raw/post-tw/{D,S}*/img/* into public/img/stamps/tw/.
