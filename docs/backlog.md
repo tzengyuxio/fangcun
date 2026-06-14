@@ -158,6 +158,19 @@
     - 待決:是否需要 cookie／隱私聲明(可併入 `/about-site/` 編輯方針頁);GitHub Pages 為純靜態,
       無 server-side 方案,若日後想去第三方 cookie 可評估 GoatCounter／Plausible 等替代。
 
+20. ⬜ **資料編輯體驗（JSON Schema 提示＋查證 CLI）** — 讓手改 catalog 更順手、減少記憶負擔
+    （已評估,2026-06-13;改 `items[].type`、標 `verified` 等操作見討論）。
+    - **(a) JSON Schema 編輯器提示（必做,近零成本）**:用 `zod-to-json-schema` 從
+      `content.config.ts` 生成 JSON Schema,VS Code `json.schemas` 設定（或檔內 `$schema`）
+      接上 → 欄位自動補全、必填提示、enum 下拉（`stamp`/`souvenir_sheet`…）、打錯即時紅線。
+      Zod 改 schema 時重生(掛 npm script)。
+    - **(b) `mark-verified <id>` CLI（選配）**:不只改 `verified`,還**檢查至少一個
+      official/reference 來源**才放行（D6 程式化把關）,順手更新 `updated_at`。
+      `new-issue` scaffold（算 canonical ID＋同日 `-a/-b` 提醒）可併入。
+    - **不做**:git-based CMS（Sveltia/Keystatic）——schema 須在 CMS config 重複定義、
+      與 Zod 雙份維護必漂移;單人工程師情境投資報酬不划算,有非工程協作者再評估。
+    - 純欄位修改不包 CLI,(a) 已足;批次操作可用自然語言交辦＋Zod build 把關。
+
 ## 維護 / 技術債
 
 - ✅ **升級 `.github/workflows/deploy.yml` 的 actions 版本**（2026-06-12 完成）— 因 GitHub runner
