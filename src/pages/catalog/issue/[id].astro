@@ -134,9 +134,7 @@ const xShare = `https://x.com/intent/post?url=${encodeURIComponent(pageUrl)}&tex
           date={year(d.issue_date)}
           fallback={fallback}
         />
-        <span class={`vbadge ${d.verified ? 'ok' : 'no'}`}>
-          {d.verified ? '✓ 已查證' : '⚠ 未經查證'}
-        </span>
+        {!d.verified && <span class="vbadge no">⚠ 未經查證</span>}
       </div>
 
       <div class="issue-data">
@@ -361,7 +359,6 @@ const xShare = `https://x.com/intent/post?url=${encodeURIComponent(pageUrl)}&tex
     border-radius: 2px;
     border: 1px solid;
   }
-  .vbadge.ok { color: #2f6b3a; border-color: #2f6b3a; background: rgba(47, 107, 58, 0.08); }
   .vbadge.no { color: var(--color-red); border-color: var(--color-red); background: rgba(158, 43, 37, 0.07); }
 
   /* D5 強調區 */
