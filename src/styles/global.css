@@ -140,8 +140,15 @@ main {
   transform: rotate(-8deg);
   opacity: 0.85;
 }
-.footer-copy {
+.footer-nav {
   margin-top: 0.85rem;
+  font-size: 0.85rem;
+}
+.footer-nav a { color: var(--color-ink-soft); }
+.footer-nav a:hover { color: var(--color-red); }
+.footer-dot { margin: 0 0.5rem; color: var(--color-line); }
+.footer-copy {
+  margin-top: 0.7rem;
   font-size: 0.8rem;
   color: var(--color-ink-soft);
 }
