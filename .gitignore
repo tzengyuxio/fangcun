@@ -36,3 +36,4 @@ public/img/stamps/*
 
 # Claude Code: share settings.json, never commit personal local settings
 .claude/settings.local.json
+.superpowers/

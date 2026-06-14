@@ -12,15 +12,16 @@
 - ⬜ **轉更多郵政 raw → catalog** — 比照 `scripts/convert_post_tw.py`,逐郵政(日 → 韓 → 中 …)寫
   轉換邏輯。各國 raw schema 不一、生肖推導來源不同(台灣靠發行日+「年肖屬X」;他國需另找線索),
   須逐一處理並沿用 D6(`verified: false` 待複核)、D8(只收生肖票)。
-- ⬜ **Phase 2 靜態導論頁** — `/about`(生肖郵票源流、干支基礎、發行年 ≠ 生肖年)、
-  `/about-site`(編輯方針、來源分級說明)。見 build-plan Phase 2。
+- ✅ **Phase 2 靜態導論頁**（2026-06-15 完成）— `/about`(生肖郵票源流、干支基礎、發行年 ≠ 生肖年)、
+  `/about-site`(本站定位、來源分級 D6、查證標記、勘誤回報走 GitHub Issues)。nav「關於」連 /about、
+  footer 連 /about-site。設計見 `docs/superpowers/specs/2026-06-15-about-pages-and-homepage-design.md`。
 
 ## 使用者新增（2026-06-10)
 
-1. ⬜ **首頁特色郵票(featured + 隨機展示)** — 挑一套郵票呈現照片 + 基本資訊(年份、發行地、
-   生肖…),可隨機展示。SSG 作法:build 時把候選郵票放入清單(全部抽樣一定數量,或在 catalog
-   schema 加 `featured` 欄位篩選),首頁 render 時用前端 JS 從清單隨機挑一組呈現。
-   - 影響:catalog schema 可能新增 `featured: boolean`(選配)。
+1. ✅ **首頁特色郵票(featured + 隨機展示)**（2026-06-15 完成,策略 A）— 首頁精選區改成從
+   「已查證且有真圖」的候選池(複用 `StampCard`)build 時全 render,前端 JS 隨機挑 3 套展示
+   (每次載入換組;無 JS 時 CSS 顯示前 3)。**未加 `featured` schema 欄位**——池子隨 verified
+   自動擴大,資料驅動。短期內池子全是台灣票(其他地區待查證)。
 
 2. ⬜ **詳情頁多圖陳列 + 放大** — 一套常有多張照片,需多圖呈現:主圖位置 + 底下縮圖點擊切換
    (類 Amazon 商品圖);游標移到主圖可放大檢視(hover zoom 或 lightbox)。
