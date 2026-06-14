@@ -40,7 +40,7 @@ const regions = [...regionMap.entries()];
       <div class="rule-double"></div>
     </header>
 
-    <section class="block">
+    <section class="block" id="zodiac">
       <h2 class="block-title"><span class="num">壹</span> 按生肖</h2>
       <div class="zodiac-grid">
         {ANIMALS.map((a) => (
@@ -60,7 +60,7 @@ const regions = [...regionMap.entries()];
       </div>
     </section>
 
-    <section class="block">
+    <section class="block" id="region">
       <h2 class="block-title"><span class="num">貳</span> 按發行地</h2>
       <div class="region-list">
         {regions.map(([code, r]) => (
@@ -74,7 +74,7 @@ const regions = [...regionMap.entries()];
       </div>
     </section>
 
-    <section class="block">
+    <section class="block" id="timeline">
       <h2 class="block-title"><span class="num">參</span> 按年份</h2>
       <a class="tl-link" href={`${base}/catalog/timeline/`}>檢視發行時間軸 →</a>
     </section>
