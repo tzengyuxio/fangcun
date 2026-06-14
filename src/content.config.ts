@@ -25,7 +25,7 @@ const sources = defineCollection({
 
 // Item — 套內品項(郵票/小全張/小型張)。
 const item = z.object({
-  type: z.enum(['stamp', 'souvenir_sheet', 'miniature_sheet']),
+  type: z.enum(['stamp', 'souvenir_sheet', 'miniature_sheet', 'booklet']),
   denomination: z.object({ value: z.number().nullable(), currency: z.string() }).optional(),
   dimensions_mm: z.object({ w: z.number(), h: z.number() }).nullable().optional(),
   mintage: z.number().nullable().optional(),

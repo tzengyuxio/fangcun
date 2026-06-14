@@ -24,7 +24,7 @@
     {
       "type": "stamp",
       "denomination": {
-        "value": null,
+        "value": 0.5,
         "currency": "TWD"
       },
       "mintage": null,
@@ -34,7 +34,7 @@
     {
       "type": "stamp",
       "denomination": {
-        "value": null,
+        "value": 4.5,
         "currency": "TWD"
       },
       "mintage": null,
@@ -54,6 +54,6 @@
       "url": "https://www.post.gov.tw/post/internet/W_stamphouse/index.jsp?ID=2803&file_name=D062&stamp_subcat_name=%E7%94%9F%E8%82%96&type=2802"
     }
   ],
-  "verified": false,
-  "updated_at": "2026-06-10"
+  "verified": true,
+  "updated_at": "2026-06-13"
 }

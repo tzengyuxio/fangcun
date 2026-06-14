@@ -31,9 +31,19 @@
         "w": 26,
         "h": 30
       },
-      "mintage": 500000,
-      "description": "雄雞報曉",
+      "mintage": 3500000,
+      "description": "特55.1",
       "image": "/img/stamps/tw/24005501.JPG"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 4.5,
+        "currency": "TWD"
+      },
+      "mintage": 500000,
+      "description": "特55.2",
+      "image": "/img/stamps/tw/24005502.JPG"
     }
   ],
   "significance": "世界第一套雞年生肖郵票",
@@ -53,6 +63,6 @@
       "tier": "secondary"
     }
   ],
-  "verified": false,
-  "updated_at": "2026-06-07"
+  "verified": true,
+  "updated_at": "2026-06-13"
 }
