@@ -1,7 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import Postmark from '../components/Postmark.astro';
-import { getVisibleCatalog } from '../lib/catalog';
+import StampCard from '../components/StampCard.astro';
+import { getVisibleCatalog, primaryImage } from '../lib/catalog';
 
 const base = import.meta.env.BASE_URL;
 
@@ -16,11 +17,8 @@ const mastheadMeta = [
   '來源分級可考',
 ].filter(Boolean).join(' · ');
 
-const demo = [
-  { animal: '雞', name: '特055 新年郵票', sub: '中華郵政 · 1968 · 雞', pm: { top: '中華郵政', date: '57.11.12', bottom: 'TAIPEI' } },
-  { animal: '虎', name: '年賀切手', sub: '日本郵便 · 1950 · 虎', pm: { top: 'NIPPON', date: '25.1.1', bottom: 'TOKYO' } },
-  { animal: '猴', name: 'T46 庚申年', sub: '中國郵政 · 1980 · 猴', pm: { top: '中国邮政', date: '80.2.15', bottom: 'BEIJING' } },
-];
+// 精選候選池:已查證且有真圖的套票。前端隨機挑 3 套展示(資料驅動,隨 verified 自動擴大)。
+const featured = issues.filter((i) => primaryImage(i.data));
 
 const axes = [
   { num: '壹', title: '按生肖', desc: '鼠牛虎兔龍蛇馬羊猴雞狗豬 — 依十二地支歸類，跨郵政對照同一生肖。', href: `${base}/catalog/#zodiac` },
@@ -45,24 +43,13 @@ const axes = [
     <div class="rule-double"></div>
   </header>
 
-  <section class="album container" aria-label="精選郵票">
-    <div class="album-grid">
-      {demo.map((s) => (
-        <figure class="plate">
-          <div class="stamp-wrap">
-            <div class="stamp">
-              <div class="stamp-img">{s.animal}</div>
-            </div>
-            <div class="stamp-mark"><Postmark top={s.pm.top} date={s.pm.date} bottom={s.pm.bottom} rotate={-24} /></div>
-          </div>
-          <figcaption class="plate-label">
-            <span class="plate-name">{s.name}</span>
-            <span class="plate-sub">{s.sub}</span>
-          </figcaption>
-        </figure>
-      ))}
-    </div>
-  </section>
+  {featured.length > 0 && (
+    <section class="album container" aria-label="精選郵票">
+      <div class="album-grid" id="featured-grid">
+        {featured.map((i) => <StampCard issue={i} />)}
+      </div>
+    </section>
+  )}
 
   <nav class="axis container" aria-label="三軸索引">
     {axes.map((a) => (
@@ -76,6 +63,24 @@ const axes = [
 
   <p class="status container">🚧 建置中 — 已收錄 {issues.length} 套、{regionCount} 個郵政;更多郵政與郵票圖陸續上線。</p>
 </Base>
+
+<script>
+  // 精選區:從候選卡隨機挑 3 張顯示(每次載入換組)。無 JS 時 CSS 顯示前 3。
+  const grid = document.getElementById('featured-grid');
+  if (grid) {
+    const cards = Array.from(grid.children) as HTMLElement[];
+    const SHOW = 3;
+    if (cards.length > SHOW) {
+      for (let i = cards.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cards[i], cards[j]] = [cards[j], cards[i]];
+      }
+      cards.forEach((c, idx) => {
+        c.style.display = idx < SHOW ? 'block' : 'none';
+      });
+    }
+  }
+</script>
 
 <style>
   /* Masthead — 目錄刊頭(取代置中 hero) */
@@ -118,36 +123,14 @@ const axes = [
     .masthead-mark { display: none; }
   }
 
-  /* Album — 護郵冊展櫃(深底格線 + 嵌入郵票 + 說明牌) */
+  /* Album — 護郵冊展櫃(深底格線);精選卡複用 StampCard */
   .album {
     margin-top: 3rem;
   }
   /* .album-grid 樣式已移至 global.css(首頁與目錄共用) */
-  .plate {
-    width: 168px;
-  }
-  .plate-label {
-    margin-top: 1rem;
-    text-align: center;
-    background: var(--color-surface);
-    border: 1px solid var(--color-line);
-    padding: 0.5rem 0.6rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-  }
-  .plate-name {
-    display: block;
-    font-family: var(--font-serif);
-    font-size: 0.98rem;
-    color: var(--color-ink);
-  }
-  .plate-sub {
-    display: block;
-    font-size: 0.76rem;
-    color: var(--color-ink-soft);
-    margin-top: 2px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  /* 無 JS fallback:只顯示前 3 張;載入後由 script 隨機挑 3 換組 */
+  #featured-grid :global(.card:nth-child(n + 4)) {
+    display: none;
   }
 
   /* Axis — 目錄條目式三軸入口 */
