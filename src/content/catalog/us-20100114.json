@@ -1,0 +1,58 @@
+{
+  "id": "us-20100114",
+  "region": {
+    "code": "US",
+    "name": "美國郵政"
+  },
+  "zodiac": {
+    "animal": "虎",
+    "branch": "寅"
+  },
+  "zodiac_year": 2010,
+  "issue_date": "2010-01-14",
+  "round": 2,
+  "series_name": "Celebrating Lunar New Year",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "Kam Mak（artist）、Ethel Kessler（art director）",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "11 x 11",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.44,
+        "currency": "USD"
+      },
+      "description": "Year of the Tiger（44 美分）",
+      "image": "/img/stamps/us/US001.2010.jpg",
+      "dimensions_mm": {
+        "w": 40.0,
+        "h": 25.0
+      },
+      "wns": "US001.2010"
+    }
+  ],
+  "significance": "美國郵政第二輪農曆新年郵票的虎年票。",
+  "notes": "美國郵政自 1992 年起發行農曆新年郵票，此為第二輪（2008–2019，Celebrating Lunar New Year）的虎年票，2010-01-14 發行，單枚44 美分。藝術家 Kam Mak、藝術指導 Ethel Kessler。圖片來源 © USPS via UPU/WADP WNS。 WNS 著錄品名為「Year of the Tiger Giclée Print」，是否為郵票本體待覆核，暫標未查證。",
+  "images": [
+    "/img/stamps/us/US001.2010.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "us-usps",
+      "tier": "official",
+      "url": "https://about.usps.com/newsroom/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-15"
+}

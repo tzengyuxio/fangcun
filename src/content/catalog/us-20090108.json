@@ -1,0 +1,58 @@
+{
+  "id": "us-20090108",
+  "region": {
+    "code": "US",
+    "name": "美國郵政"
+  },
+  "zodiac": {
+    "animal": "牛",
+    "branch": "丑"
+  },
+  "zodiac_year": 2009,
+  "issue_date": "2009-01-08",
+  "round": 2,
+  "series_name": "Celebrating Lunar New Year",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "Kam Mak（artist）、Ethel Kessler（art director）",
+  "printer": "Sennett Security Products",
+  "printing_process": "",
+  "perforation": "11 x 11",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.42,
+        "currency": "USD"
+      },
+      "description": "Year of the Ox（42 美分）",
+      "image": "/img/stamps/us/US002.2009.jpg",
+      "dimensions_mm": {
+        "w": 40.0,
+        "h": 25.0
+      },
+      "wns": "US002.2009"
+    }
+  ],
+  "significance": "美國郵政第二輪農曆新年郵票的牛年票。",
+  "notes": "美國郵政自 1992 年起發行農曆新年郵票，此為第二輪（2008–2019，Celebrating Lunar New Year）的牛年票，2009-01-08 發行，單枚42 美分。藝術家 Kam Mak、藝術指導 Ethel Kessler。圖片來源 © USPS via UPU/WADP WNS。",
+  "images": [
+    "/img/stamps/us/US002.2009.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "us-usps",
+      "tier": "official",
+      "url": "https://about.usps.com/newsroom/"
+    }
+  ],
+  "verified": true,
+  "updated_at": "2026-06-15"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "us-20020211",
+  "region": {
+    "code": "US",
+    "name": "美國郵政"
+  },
+  "zodiac": {
+    "animal": "馬",
+    "branch": "午"
+  },
+  "zodiac_year": 2002,
+  "issue_date": "2002-02-11",
+  "round": 1,
+  "series_name": "Lunar New Year",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "Clarence Lee",
+  "printer": "Banknote Corporation of America Inc",
+  "printing_process": "",
+  "perforation": "10.6 x 10.4",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.34,
+        "currency": "USD"
+      },
+      "description": "Year of the Horse（34 美分）",
+      "image": "/img/stamps/us/US008.2002.jpg",
+      "dimensions_mm": {
+        "w": 39.6,
+        "h": 24.8
+      },
+      "wns": "US008.2002"
+    }
+  ],
+  "significance": "美國郵政第一輪農曆新年郵票的馬年票。",
+  "notes": "美國郵政自 1992 年起發行農曆新年郵票，此為第一輪（1992–2005）的馬年票，2002-02-11 發行，單枚34 美分。設計者 Clarence Lee。圖片來源 © USPS via UPU/WADP WNS。",
+  "images": [
+    "/img/stamps/us/US008.2002.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "us-usps",
+      "tier": "official",
+      "url": "https://about.usps.com/newsroom/"
+    }
+  ],
+  "verified": true,
+  "updated_at": "2026-06-15"
+}
