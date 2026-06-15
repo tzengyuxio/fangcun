@@ -76,3 +76,5 @@ node .claude/skills/wns-query/query.mjs --wns HK008.2026 --json
 - `--terms` 是 subject 文字 Partial 比對：subject 不含該詞即漏（如 CN 生肖票用干支拼音
   「Wu Zi Year」、KR 用「New Year's Greetings」）。主題式盤點先查
   `data/raw/wns/zodiac/coverage.json` 的既有索引與盲區清單。
+- **整批為某地區郵政建檔**：走 `wns-build-catalog` skill 的 SOP（member 全量掃描 → 判斷點
+  → 建檔腳本 → 逐套來源 → 驗證），內含實作踩坑清單。
