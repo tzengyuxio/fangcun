@@ -19,178 +19,19 @@
   "perforation": "11 x 11",
   "items": [
     {
-      "type": "stamp",
+      "type": "souvenir_sheet",
       "denomination": {
         "value": 0.39,
         "currency": "USD"
       },
-      "description": "鼠年 Year of the Rat（39 美分）",
-      "image": "/img/stamps/us/US012.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US012.2006"
-    },
-    {
-      "type": "stamp",
-      "denomination": {
-        "value": 0.39,
-        "currency": "USD"
-      },
-      "description": "牛年 Year of the Ox（39 美分）",
-      "image": "/img/stamps/us/US013.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US013.2006"
-    },
-    {
-      "type": "stamp",
-      "denomination": {
-        "value": 0.39,
-        "currency": "USD"
-      },
-      "description": "虎年 Year of the Tiger（39 美分）",
-      "image": "/img/stamps/us/US014.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US014.2006"
-    },
-    {
-      "type": "stamp",
-      "denomination": {
-        "value": 0.39,
-        "currency": "USD"
-      },
-      "description": "兔年 Year of the Hare（39 美分）",
-      "image": "/img/stamps/us/US015.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US015.2006"
-    },
-    {
-      "type": "stamp",
-      "denomination": {
-        "value": 0.39,
-        "currency": "USD"
-      },
-      "description": "龍年 Year of the Dragon（39 美分）",
-      "image": "/img/stamps/us/US016.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US016.2006"
-    },
-    {
-      "type": "stamp",
-      "denomination": {
-        "value": 0.39,
-        "currency": "USD"
-      },
-      "description": "蛇年 Year of the Snake（39 美分）",
-      "image": "/img/stamps/us/US017.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US017.2006"
-    },
-    {
-      "type": "stamp",
-      "denomination": {
-        "value": 0.39,
-        "currency": "USD"
-      },
-      "description": "馬年 Year of the Horse（39 美分）",
-      "image": "/img/stamps/us/US018.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US018.2006"
-    },
-    {
-      "type": "stamp",
-      "denomination": {
-        "value": 0.39,
-        "currency": "USD"
-      },
-      "description": "羊年 Year of the Ram（39 美分）",
-      "image": "/img/stamps/us/US019.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US019.2006"
-    },
-    {
-      "type": "stamp",
-      "denomination": {
-        "value": 0.39,
-        "currency": "USD"
-      },
-      "description": "猴年 Year of the Monkey（39 美分）",
-      "image": "/img/stamps/us/US020.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US020.2006"
-    },
-    {
-      "type": "stamp",
-      "denomination": {
-        "value": 0.39,
-        "currency": "USD"
-      },
-      "description": "雞年 Year of the Rooster（39 美分）",
-      "image": "/img/stamps/us/US021.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US021.2006"
-    },
-    {
-      "type": "stamp",
-      "denomination": {
-        "value": 0.39,
-        "currency": "USD"
-      },
-      "description": "狗年 Year of the Dog（39 美分）",
-      "image": "/img/stamps/us/US022.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US022.2006"
-    },
-    {
-      "type": "stamp",
-      "denomination": {
-        "value": 0.39,
-        "currency": "USD"
-      },
-      "description": "豬年 Year of the Boar（39 美分）",
-      "image": "/img/stamps/us/US023.2006.jpg",
-      "dimensions_mm": {
-        "w": 40.0,
-        "h": 25.0
-      },
-      "wns": "US023.2006"
+      "description": "十二生肖小全張（全張 12 枚，每枚 39 美分）",
+      "image": "/img/stamps/us/us-20060129-sheet.jpg"
     }
   ],
-  "significance": "美國郵政第一輪十二生肖一次集齊的全套郵票。",
-  "notes": "美國郵政第一輪農曆新年郵票（1992–2005，設計者 Clarence Lee）的十二生肖全套。此為十二生肖全套於 2006 年因郵資調整改以 39 美分重發的版本。全套十二枚對應子至亥十二地支，不屬單一生肖年，故 zodiac 留空。圖片來源 © USPS via UPU/WADP WNS。逐枚規格與發行細節待覆核，暫標未查證。",
+  "significance": "美國郵政第一輪十二生肖小全張，於 2006 年以 39 美分版重發。",
+  "notes": "美國郵政第一輪農曆新年郵票（1992–2005，設計者 Clarence Lee）的十二生肖，於 2006 年 1 月 29 日在華府以 39 美分版重發為一張小全張（自黏式 PSA，含 12 枚郵票）。全張十二枚對應子至亥十二地支，不屬單一生肖年。各枚對應 WNS 編號 US012–US023.2006。圖片來源 © USPS。",
   "images": [
-    "/img/stamps/us/US012.2006.jpg"
+    "/img/stamps/us/us-20060129-sheet.jpg"
   ],
   "sources": [
     {
@@ -201,9 +42,9 @@
     {
       "ref": "us-usps",
       "tier": "official",
-      "url": "https://about.usps.com/newsroom/national-releases/2019/0117-lny-year-of-the-boar.htm"
+      "url": "https://about.usps.com/postal-bulletin/2006/html/pb22171/a-p4_007.html"
     }
   ],
-  "verified": false,
+  "verified": true,
   "updated_at": "2026-06-15"
 }
