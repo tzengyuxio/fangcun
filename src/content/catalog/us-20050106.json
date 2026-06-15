@@ -1,0 +1,209 @@
+{
+  "id": "us-20050106",
+  "region": {
+    "code": "US",
+    "name": "美國郵政"
+  },
+  "zodiac": null,
+  "zodiac_year": null,
+  "issue_date": "2005-01-06",
+  "round": 1,
+  "series_name": "Lunar New Year",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "Clarence Lee",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "11 x 11",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "鼠年 Year of the Rat（37 美分）",
+      "image": "/img/stamps/us/US001.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US001.2005"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "牛年 Year of the Ox（37 美分）",
+      "image": "/img/stamps/us/US002.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US002.2005"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "虎年 Year of the Tiger（37 美分）",
+      "image": "/img/stamps/us/US003.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US003.2005"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "兔年 Year of the Rabbit（37 美分）",
+      "image": "/img/stamps/us/US004.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US004.2005"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "龍年 Year of the Dragon（37 美分）",
+      "image": "/img/stamps/us/US005.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US005.2005"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "蛇年 Year of the Snake（37 美分）",
+      "image": "/img/stamps/us/US006.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US006.2005"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "馬年 Year of the Horse（37 美分）",
+      "image": "/img/stamps/us/US007.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US007.2005"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "羊年 Year of the Goat（37 美分）",
+      "image": "/img/stamps/us/US008.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US008.2005"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "猴年 Year of the Monkey（37 美分）",
+      "image": "/img/stamps/us/US009.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US009.2005"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "雞年 Year of the Rooster（37 美分）",
+      "image": "/img/stamps/us/US010.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US010.2005"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "狗年 Year of the Dog（37 美分）",
+      "image": "/img/stamps/us/US011.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US011.2005"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.37,
+        "currency": "USD"
+      },
+      "description": "豬年 Year of the Pig（37 美分）",
+      "image": "/img/stamps/us/US012.2005.jpg",
+      "dimensions_mm": {
+        "w": 39.21,
+        "h": 21.33
+      },
+      "wns": "US012.2005"
+    }
+  ],
+  "significance": "美國郵政第一輪十二生肖一次集齊的全套郵票。",
+  "notes": "美國郵政第一輪農曆新年郵票（1992–2005，設計者 Clarence Lee）的十二生肖全套。此為原十二生肖系列於 2005 年集齊重發的全套，採雙面各印十二枚的 pane of 24 形式（37 美分）。全套十二枚對應子至亥十二地支，不屬單一生肖年，故 zodiac 留空。圖片來源 © USPS via UPU/WADP WNS。逐枚規格與發行細節待覆核，暫標未查證。",
+  "images": [
+    "/img/stamps/us/US001.2005.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "us-usps",
+      "tier": "official",
+      "url": "https://about.usps.com/newsroom/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-15"
+}
