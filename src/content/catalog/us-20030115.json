@@ -46,11 +46,6 @@
       "ref": "un-wns",
       "tier": "official",
       "url": "https://wnsstamps.post/"
-    },
-    {
-      "ref": "us-usps",
-      "tier": "official",
-      "url": "https://about.usps.com/newsroom/national-releases/2019/0117-lny-year-of-the-boar.htm"
     }
   ],
   "verified": true,
