@@ -34,6 +34,8 @@ data/raw/**/products/
 public/img/stamps/*
 !public/img/stamps/tw/
 !public/img/stamps/us/
+# _alt/ = web placeholder images: local dev only, never on remote (site falls back)
+public/img/stamps/*/_alt/
 
 # Claude Code: share settings.json, never commit personal local settings
 .claude/settings.local.json

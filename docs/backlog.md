@@ -173,6 +173,17 @@
       與 Zod 雙份維護必漂移;單人工程師情境投資報酬不划算,有非工程協作者再評估。
     - 純欄位修改不包 CLI,(a) 已足;批次操作可用自然語言交辦＋Zod build 把關。
 
+21. ⬜ **自掃圖匯入腳本** — 使用者把自掃圖放 repo 根 `incoming-scans/`(不納版控),檔名
+    `<id>_<serial>.jpg`(底線接 serial,因 `<id>` 含 `-`);腳本落地到 `public/img/stamps/<cc>/`、
+    更新 catalog `images[serial-1]`(serial=`images[]` 1-based;不足則 append),`<cc>` 由 id 推。
+    - **待確認**:`images[]` 與 `items[].image` 是兩列表,自掃只動 `images[]` 還是要同步 `items`?
+    - 約定見 memory [[fangcun-stamp-image-naming]]。圖↔品項非一對一(如 tw-sp81 八枚兩圖)。
+
+22. ⬜ **現有 CN/JP/HK 爬圖歸類回填** — 三區現有圖是早期爬圖(CN=5151sc 數字檔名、JP=年份檔名、
+    HK=hkstmp/stampshk 描述性檔名),既非 WNS 也無 `_alt` 標記,按「可接受來源」(中華郵政/WNS/自掃)
+    多屬替代性質。需決定:遷進 `_alt/`(視為替代,正式站 fallback)還是另立來源類別,並回填。
+    - 影響面大(67/67/148 張),獨立處理;與 _alt 機制(已建)分開。
+
 ## 維護 / 技術債
 
 - ✅ **升級 `.github/workflows/deploy.yml` 的 actions 版本**（2026-06-12 完成）— 因 GitHub runner

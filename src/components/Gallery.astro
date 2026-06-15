@@ -13,10 +13,13 @@ interface Props {
 const { images, alt, regionName, regionCode, date, fallback } = Astro.props;
 const main = images[0] ?? fallback;
 const multi = images.length > 1;
+// 替代圖(public/img/stamps/<cc>/_alt/…)本機 dev 可見、不上 remote → 標示讓本地預知 push 後缺圖。
+const altFlags = images.map((src) => src.includes('/_alt/'));
+const altList = altFlags.map((f, i) => (f ? i + 1 : 0)).filter(Boolean);
 ---
 
 <div class="gallery">
-  <div class="stamp-wrap big-wrap">
+  <div class:list={['stamp-wrap', 'big-wrap', { alt: altFlags[0] }]} id="gal-wrap">
     <div class="stamp big">
       <img
         id="gal-main"
@@ -35,11 +38,15 @@ const multi = images.length > 1;
   {multi && (
     <div class="gthumbs">
       {images.map((src, i) => (
-        <button class:list={['gthumb', { active: i === 0 }]} type="button" data-src={src} aria-label={`第 ${i + 1} 張`}>
+        <button class:list={['gthumb', { active: i === 0, alt: altFlags[i] }]} type="button" data-src={src} aria-label={`第 ${i + 1} 張${altFlags[i] ? '（替代圖）' : ''}`}>
           <img src={src} alt="" loading="lazy" data-fallback={fallback} onerror="this.onerror=null;this.src=this.dataset.fallback" />
         </button>
       ))}
     </div>
+  )}
+
+  {altList.length > 0 && (
+    <p class="alt-note">⚠ 替代圖（push 後將缺圖）：第 {altList.join('、')} 張</p>
   )}
 </div>
 
@@ -54,6 +61,7 @@ const multi = images.length > 1;
 
 <script>
   const main = document.getElementById('gal-main') as HTMLImageElement | null;
+  const galWrap = document.getElementById('gal-wrap');
   const thumbs = Array.from(document.querySelectorAll<HTMLButtonElement>('.gthumb'));
   const lb = document.getElementById('lightbox');
   const lbImg = document.getElementById('lb-img') as HTMLImageElement | null;
@@ -73,6 +81,7 @@ const multi = images.length > 1;
   const setMain = (i: number) => {
     idx = i;
     if (main) main.src = imgs[i];
+    galWrap?.classList.toggle('alt', imgs[i].includes('/_alt/'));
     thumbs.forEach((x, j) => x.classList.toggle('active', j === i));
   };
   const renderLb = () => {
@@ -140,6 +149,17 @@ const multi = images.length > 1;
   .gthumb:hover { border-color: var(--color-gold); }
   .gthumb.active { border-color: var(--color-red); }
   .gthumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+
+  /* 替代圖標示(僅本機 dev 有圖,push 後缺圖):琥珀虛線框 + 圖下提示 */
+  .gthumb.alt { border-color: #c8901e; border-style: dashed; }
+  .big-wrap.alt { outline: 2px dashed #c8901e; outline-offset: 4px; }
+  .alt-note {
+    margin-top: 0.8rem;
+    color: #a9710c;
+    font-size: 0.78rem;
+    text-align: center;
+    line-height: 1.5;
+  }
 
   .lightbox {
     position: fixed;

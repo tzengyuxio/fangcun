@@ -59,6 +59,11 @@ curl -sL -A "Mozilla/5.0" -o public/img/stamps/<cc>/<WNS>.jpg \
 
 放行該區圖納版控（若要）：`.gitignore` 加 `!public/img/stamps/<cc>/`。
 
+**圖片來源與替代圖**：可接受來源＝WNS／官網／自掃。網路臨時替代圖放 `public/img/stamps/<cc>/_alt/`
+（`.gitignore` 已排除 `*/_alt/`）→ 本機 dev 可見、不上 remote、正式站 fallback；詳情頁 Gallery
+會以琥珀虛線框＋圖下「⚠ 替代圖」提示標示。**verified 與圖脫鉤**（資料查好就 `true`，替代圖的
+臨時性靠 `_alt/` 處理，別因圖把整套標 false）。約定見 memory `fangcun-stamp-image-naming`。
+
 ### 4. 判斷點檢查表（**每套逐一確認，不可自動**）
 
 - **生肖／地支**：由 subject 解析；注意各地變體（越南卯=貓、日本亥=野豬、未=綿羊 vs 山羊）。
