@@ -1,0 +1,59 @@
+{
+  "id": "us-20250114",
+  "region": {
+    "code": "US",
+    "name": "美國郵政"
+  },
+  "zodiac": {
+    "animal": "蛇",
+    "branch": "巳"
+  },
+  "zodiac_year": 2025,
+  "issue_date": "2025-01-14",
+  "round": 3,
+  "series_name": "Lunar New Year",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "Antonio Alcalá（art director）、Camille Chew（artist）",
+  "printer": "Banknote Corporation of America",
+  "printing_process": "Offset",
+  "perforation": "10.9 x 10.9",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": null,
+        "currency": "USD"
+      },
+      "description": "Year of the Snake（Forever 永久郵資）",
+      "image": "/img/stamps/us/US001.2025.jpg",
+      "dimensions_mm": {
+        "w": 24.892,
+        "h": 39.624
+      },
+      "mintage": 21000000,
+      "wns": "US001.2025"
+    }
+  ],
+  "significance": "美國郵政第三輪農曆新年郵票的蛇年票，採 Forever 永久面值。",
+  "notes": "美國郵政自 1992 年起發行農曆新年（Lunar New Year）郵票，此為第三輪（2020–2031）的蛇年票，2025 年 1 月 14 日發行，單枚 Forever 永久郵資。藝術家 Camille Chew 以手作紙雕製成立體蛇面具，藝術指導 Antonio Alcalá 據以設計。圖片來源 © USPS via UPU/WADP WNS。",
+  "images": [
+    "/img/stamps/us/US001.2025.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "us-usps",
+      "tier": "official",
+      "url": "https://about.usps.com/newsroom/national-releases/2025/0114-usps-unveils-latest-lunar-new-year-stamp.htm"
+    }
+  ],
+  "verified": true,
+  "updated_at": "2026-06-15"
+}

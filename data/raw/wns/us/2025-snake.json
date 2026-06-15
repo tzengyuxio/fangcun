@@ -1,0 +1,25 @@
+{
+  "source": "UPU/WADP WNS — wnsstamps.post",
+  "queried_date": "2026-06-15",
+  "member": "United States Postal Service",
+  "note": "示範套(2025 蛇年)provenance;批量階段補 member 全量逐年掃描",
+  "records": [
+    {
+      "wns": "US001.2025",
+      "date": "2025-01-14",
+      "subject": "Lunar New Year - Year of the Snake",
+      "member": "United States Postal Service",
+      "w": "24.892",
+      "h": "39.624",
+      "denom": "Forever",
+      "cur": null,
+      "perf": "10.9 x 10.9",
+      "printer": "Banknote Corporation of America",
+      "tech": "Offset",
+      "artist": null,
+      "engraver": null,
+      "qty": "21,000,000",
+      "img": "https://wnsstamps.post/images/T180/US001.2025.jpg"
+    }
+  ]
+}

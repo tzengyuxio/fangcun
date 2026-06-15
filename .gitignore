@@ -33,6 +33,7 @@ data/raw/**/products/
 # TW images ARE committed (interim, pending proper scans); other regions stay ignored.
 public/img/stamps/*
 !public/img/stamps/tw/
+!public/img/stamps/us/
 
 # Claude Code: share settings.json, never commit personal local settings
 .claude/settings.local.json

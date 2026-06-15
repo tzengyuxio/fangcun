@@ -96,5 +96,12 @@
     "url": "https://wnsstamps.post/",
     "tier": "official",
     "accessed_date": "2026-06-11"
+  },
+  {
+    "id": "us-usps",
+    "title": "美國郵政（USPS）官方新聞稿",
+    "url": "https://about.usps.com/newsroom/",
+    "tier": "official",
+    "accessed_date": "2026-06-15"
   }
 ]
