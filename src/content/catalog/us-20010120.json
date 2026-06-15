@@ -1,0 +1,46 @@
+{
+  "id": "us-20010120",
+  "region": {
+    "code": "US",
+    "name": "美國郵政"
+  },
+  "zodiac": {
+    "animal": "蛇",
+    "branch": "巳"
+  },
+  "zodiac_year": 2001,
+  "issue_date": "2001-01-20",
+  "round": 1,
+  "series_name": "Lunar New Year",
+  "catalog_number": {
+    "local": null,
+    "scott": "3500"
+  },
+  "designer": "Clarence Lee",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.34,
+        "currency": "USD"
+      },
+      "description": "Year of the Snake（34 美分）",
+      "image": ""
+    }
+  ],
+  "significance": "美國郵政第一輪農曆新年郵票的蛇年票。",
+  "notes": "美國郵政第一輪農曆新年郵票（1992–2005，設計者 Clarence Lee）的蛇年票，2001-01-20 於加州 Oakland首發，面值 34 美分（Scott #3500）。本套無 WNS 官方號（WNS 自 2002 啟用），規格據 Scott／Mystic 目錄，郵票圖片待補，暫標未查證。",
+  "images": [],
+  "sources": [
+    {
+      "ref": "us-mystic",
+      "tier": "reference",
+      "url": "https://info.mysticstamp.com/learn/lunar-new-year-stamps/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-15"
+}

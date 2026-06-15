@@ -1,0 +1,46 @@
+{
+  "id": "us-19970105",
+  "region": {
+    "code": "US",
+    "name": "美國郵政"
+  },
+  "zodiac": {
+    "animal": "牛",
+    "branch": "丑"
+  },
+  "zodiac_year": 1997,
+  "issue_date": "1997-01-05",
+  "round": 1,
+  "series_name": "Lunar New Year",
+  "catalog_number": {
+    "local": null,
+    "scott": "3120"
+  },
+  "designer": "Clarence Lee",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 0.32,
+        "currency": "USD"
+      },
+      "description": "Year of the Ox（32 美分）",
+      "image": ""
+    }
+  ],
+  "significance": "美國郵政第一輪農曆新年郵票的牛年票。",
+  "notes": "美國郵政第一輪農曆新年郵票（1992–2005，設計者 Clarence Lee）的牛年票，1997-01-05 於檀香山首發，面值 32 美分（Scott #3120）。本套無 WNS 官方號（WNS 自 2002 啟用），規格據 Scott／Mystic 目錄，郵票圖片待補，暫標未查證。",
+  "images": [],
+  "sources": [
+    {
+      "ref": "us-mystic",
+      "tier": "reference",
+      "url": "https://info.mysticstamp.com/learn/lunar-new-year-stamps/"
+    }
+  ],
+  "verified": false,
+  "updated_at": "2026-06-15"
+}
