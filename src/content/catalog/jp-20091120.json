@@ -1,0 +1,192 @@
+{
+  "id": "jp-20091120",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "虎",
+    "branch": "寅"
+  },
+  "zodiac_year": 2010,
+  "issue_date": "2009-11-20",
+  "series_name": "干支文字グリーティング切手",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Cartor Security Printing",
+  "printing_process": "",
+  "perforation": "13 x 13",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「寅」",
+      "image": "/img/stamps/jp/JP246.2009.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP246.2009"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「寅」",
+      "image": "/img/stamps/jp/JP247.2009.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP247.2009"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「寅」",
+      "image": "/img/stamps/jp/JP248.2009.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP248.2009"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「寅」",
+      "image": "/img/stamps/jp/JP249.2009.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP249.2009"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「寅」",
+      "image": "/img/stamps/jp/JP250.2009.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP250.2009"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「寅」",
+      "image": "/img/stamps/jp/JP251.2009.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP251.2009"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「寅」",
+      "image": "/img/stamps/jp/JP252.2009.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP252.2009"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「寅」",
+      "image": "/img/stamps/jp/JP253.2009.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP253.2009"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「寅」",
+      "image": "/img/stamps/jp/JP254.2009.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP254.2009"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「寅」",
+      "image": "/img/stamps/jp/JP255.2009.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP255.2009"
+    }
+  ],
+  "significance": "日本郵便「干支文字グリーティング切手」的虎（寅）年套，以十種書體呈現生肖文字。",
+  "notes": "日本郵便自 2004 年起每年發行「干支文字グリーティング切手」，以次年生肖的干支文字為主題，由多位書家以不同書體詮釋。此為虎（寅）年套，2009-11-20 發行，一套 10 枚、面值 80 円，文字採壓凸加工。\n圖片來源 © 日本郵便 via UPU/WADP WNS。",
+  "images": [
+    "/img/stamps/jp/JP246.2009.jpg",
+    "/img/stamps/jp/JP247.2009.jpg",
+    "/img/stamps/jp/JP248.2009.jpg",
+    "/img/stamps/jp/JP249.2009.jpg",
+    "/img/stamps/jp/JP250.2009.jpg",
+    "/img/stamps/jp/JP251.2009.jpg",
+    "/img/stamps/jp/JP252.2009.jpg",
+    "/img/stamps/jp/JP253.2009.jpg",
+    "/img/stamps/jp/JP254.2009.jpg",
+    "/img/stamps/jp/JP255.2009.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/kako/kitte_ichiran.html"
+    }
+  ],
+  "verified": true,
+  "updated_at": "2026-06-16"
+}

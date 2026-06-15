@@ -1,0 +1,192 @@
+{
+  "id": "jp-20151029-b",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "猴",
+    "branch": "申"
+  },
+  "zodiac_year": 2016,
+  "issue_date": "2015-10-29",
+  "series_name": "干支文字グリーティング切手",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "",
+  "printing_process": "",
+  "perforation": "13 x 13",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「申」",
+      "image": "/img/stamps/jp/JP457.2015.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 37.0
+      },
+      "wns": "JP457.2015"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「申」",
+      "image": "/img/stamps/jp/JP458.2015.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 37.0
+      },
+      "wns": "JP458.2015"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「申」",
+      "image": "/img/stamps/jp/JP459.2015.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 37.0
+      },
+      "wns": "JP459.2015"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「申」",
+      "image": "/img/stamps/jp/JP460.2015.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 37.0
+      },
+      "wns": "JP460.2015"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「申」",
+      "image": "/img/stamps/jp/JP461.2015.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 37.0
+      },
+      "wns": "JP461.2015"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「申」",
+      "image": "/img/stamps/jp/JP462.2015.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 37.0
+      },
+      "wns": "JP462.2015"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「申」",
+      "image": "/img/stamps/jp/JP463.2015.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 37.0
+      },
+      "wns": "JP463.2015"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「申」",
+      "image": "/img/stamps/jp/JP464.2015.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 37.0
+      },
+      "wns": "JP464.2015"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「申」",
+      "image": "/img/stamps/jp/JP465.2015.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 37.0
+      },
+      "wns": "JP465.2015"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「申」",
+      "image": "/img/stamps/jp/JP466.2015.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 37.0
+      },
+      "wns": "JP466.2015"
+    }
+  ],
+  "significance": "日本郵便「干支文字グリーティング切手」的猴（申）年套，以十種書體呈現生肖文字。",
+  "notes": "日本郵便自 2004 年起每年發行「干支文字グリーティング切手」，以次年生肖的干支文字為主題，由多位書家以不同書體詮釋。此為猴（申）年套，2015-10-29 發行，一套 10 枚、面值 82 円，文字採壓凸加工。\n圖片來源 © 日本郵便 via UPU/WADP WNS。",
+  "images": [
+    "/img/stamps/jp/JP457.2015.jpg",
+    "/img/stamps/jp/JP458.2015.jpg",
+    "/img/stamps/jp/JP459.2015.jpg",
+    "/img/stamps/jp/JP460.2015.jpg",
+    "/img/stamps/jp/JP461.2015.jpg",
+    "/img/stamps/jp/JP462.2015.jpg",
+    "/img/stamps/jp/JP463.2015.jpg",
+    "/img/stamps/jp/JP464.2015.jpg",
+    "/img/stamps/jp/JP465.2015.jpg",
+    "/img/stamps/jp/JP466.2015.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/kako/kitte_ichiran.html"
+    }
+  ],
+  "verified": true,
+  "updated_at": "2026-06-16"
+}

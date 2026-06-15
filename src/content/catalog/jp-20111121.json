@@ -1,0 +1,192 @@
+{
+  "id": "jp-20111121",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "龍",
+    "branch": "辰"
+  },
+  "zodiac_year": 2012,
+  "issue_date": "2011-11-21",
+  "series_name": "干支文字グリーティング切手",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Cartor Security Printing",
+  "printing_process": "",
+  "perforation": "13 x 13",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「辰」",
+      "image": "/img/stamps/jp/JP327.2011.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP327.2011"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「辰」",
+      "image": "/img/stamps/jp/JP328.2011.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP328.2011"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「辰」",
+      "image": "/img/stamps/jp/JP329.2011.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP329.2011"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「辰」",
+      "image": "/img/stamps/jp/JP330.2011.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP330.2011"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「辰」",
+      "image": "/img/stamps/jp/JP331.2011.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP331.2011"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「辰」",
+      "image": "/img/stamps/jp/JP332.2011.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP332.2011"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「辰」",
+      "image": "/img/stamps/jp/JP333.2011.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP333.2011"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「辰」",
+      "image": "/img/stamps/jp/JP334.2011.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP334.2011"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「辰」",
+      "image": "/img/stamps/jp/JP335.2011.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP335.2011"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「辰」",
+      "image": "/img/stamps/jp/JP336.2011.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.0
+      },
+      "wns": "JP336.2011"
+    }
+  ],
+  "significance": "日本郵便「干支文字グリーティング切手」的龍（辰）年套，以十種書體呈現生肖文字。",
+  "notes": "日本郵便自 2004 年起每年發行「干支文字グリーティング切手」，以次年生肖的干支文字為主題，由多位書家以不同書體詮釋。此為龍（辰）年套，2011-11-21 發行，一套 10 枚、面值 80 円，文字採壓凸加工。\n圖片來源 © 日本郵便 via UPU/WADP WNS。",
+  "images": [
+    "/img/stamps/jp/JP327.2011.jpg",
+    "/img/stamps/jp/JP328.2011.jpg",
+    "/img/stamps/jp/JP329.2011.jpg",
+    "/img/stamps/jp/JP330.2011.jpg",
+    "/img/stamps/jp/JP331.2011.jpg",
+    "/img/stamps/jp/JP332.2011.jpg",
+    "/img/stamps/jp/JP333.2011.jpg",
+    "/img/stamps/jp/JP334.2011.jpg",
+    "/img/stamps/jp/JP335.2011.jpg",
+    "/img/stamps/jp/JP336.2011.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/kako/kitte_ichiran.html"
+    }
+  ],
+  "verified": true,
+  "updated_at": "2026-06-16"
+}

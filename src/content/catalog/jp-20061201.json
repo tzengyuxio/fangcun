@@ -1,0 +1,192 @@
+{
+  "id": "jp-20061201",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "豬",
+    "branch": "亥"
+  },
+  "zodiac_year": 2007,
+  "issue_date": "2006-12-01",
+  "series_name": "干支文字グリーティング切手",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Cartor Security Printing",
+  "printing_process": "",
+  "perforation": "13 x 13",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「亥」",
+      "image": "/img/stamps/jp/JP194.2006.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP194.2006"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「亥」",
+      "image": "/img/stamps/jp/JP195.2006.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP195.2006"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「亥」",
+      "image": "/img/stamps/jp/JP196.2006.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP196.2006"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「亥」",
+      "image": "/img/stamps/jp/JP197.2006.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP197.2006"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「亥」",
+      "image": "/img/stamps/jp/JP198.2006.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP198.2006"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「亥」",
+      "image": "/img/stamps/jp/JP199.2006.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP199.2006"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「亥」",
+      "image": "/img/stamps/jp/JP200.2006.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP200.2006"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「亥」",
+      "image": "/img/stamps/jp/JP201.2006.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP201.2006"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「亥」",
+      "image": "/img/stamps/jp/JP202.2006.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP202.2006"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「亥」",
+      "image": "/img/stamps/jp/JP203.2006.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP203.2006"
+    }
+  ],
+  "significance": "日本郵便「干支文字グリーティング切手」的豬（亥）年套，以十種書體呈現生肖文字。",
+  "notes": "日本郵便自 2004 年起每年發行「干支文字グリーティング切手」，以次年生肖的干支文字為主題，由多位書家以不同書體詮釋。此為豬（亥）年套，2006-12-01 發行，一套 10 枚、面值 80 円，文字採壓凸加工。\n圖片來源 © 日本郵便 via UPU/WADP WNS。",
+  "images": [
+    "/img/stamps/jp/JP194.2006.jpg",
+    "/img/stamps/jp/JP195.2006.jpg",
+    "/img/stamps/jp/JP196.2006.jpg",
+    "/img/stamps/jp/JP197.2006.jpg",
+    "/img/stamps/jp/JP198.2006.jpg",
+    "/img/stamps/jp/JP199.2006.jpg",
+    "/img/stamps/jp/JP200.2006.jpg",
+    "/img/stamps/jp/JP201.2006.jpg",
+    "/img/stamps/jp/JP202.2006.jpg",
+    "/img/stamps/jp/JP203.2006.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/kako/kitte_ichiran.html"
+    }
+  ],
+  "verified": true,
+  "updated_at": "2026-06-16"
+}

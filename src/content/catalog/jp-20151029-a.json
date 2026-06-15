@@ -1,15 +1,15 @@
 {
-  "id": "jp-20141030",
+  "id": "jp-20151029-a",
   "region": {
     "code": "JP",
     "name": "日本郵便"
   },
   "zodiac": {
-    "animal": "羊",
-    "branch": "未"
+    "animal": "猴",
+    "branch": "申"
   },
-  "zodiac_year": 2015,
-  "issue_date": "2014-10-30",
+  "zodiac_year": 2016,
+  "issue_date": "2015-10-29",
   "round": 6,
   "series_name": "年賀郵票",
   "catalog_number": {
@@ -31,7 +31,7 @@
       "image": "",
       "dimensions_mm": {
         "w": 21.0,
-        "h": 25.5
+        "h": 26.0
       }
     },
     {
@@ -44,20 +44,20 @@
       "image": "",
       "dimensions_mm": {
         "w": 21.0,
-        "h": 25.5
+        "h": 26.0
       }
     }
   ],
   "significance": "",
-  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 「平成27年用年賀郵便切手」\n\n〔WNS〕UPU/WADP 官方號 JP362.2014/JP363.2014（年賀票，給2015年）；面值／尺寸／齒孔／印製取自 WNS。",
+  "notes": "【自動轉換自日本郵便切手アーカイブ,待人工複核】 「平成28年用年賀郵便切手」\n\n〔WNS〕UPU/WADP 官方號 JP467.2015/JP468.2015（年賀票，給2016年）；面值／尺寸／齒孔／印製取自 WNS。",
   "images": [
-    "/img/stamps/jp/2014/pic_1030_02.gif"
+    "/img/stamps/jp/2015/pic_1029_01.gif"
   ],
   "sources": [
     {
       "ref": "jp-japanpost-archive",
       "tier": "official",
-      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/2014/h261030_02_t.html"
+      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/2015/h271029_01_t.html"
     },
     {
       "ref": "un-wns",

@@ -1,0 +1,192 @@
+{
+  "id": "jp-20081121",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "牛",
+    "branch": "丑"
+  },
+  "zodiac_year": 2009,
+  "issue_date": "2008-11-21",
+  "series_name": "干支文字グリーティング切手",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Cartor Security Printing",
+  "printing_process": "",
+  "perforation": "13 x 13",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「丑」",
+      "image": "/img/stamps/jp/JP270.2008.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.5
+      },
+      "wns": "JP270.2008"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「丑」",
+      "image": "/img/stamps/jp/JP271.2008.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.5
+      },
+      "wns": "JP271.2008"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「丑」",
+      "image": "/img/stamps/jp/JP272.2008.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.5
+      },
+      "wns": "JP272.2008"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「丑」",
+      "image": "/img/stamps/jp/JP273.2008.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.5
+      },
+      "wns": "JP273.2008"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「丑」",
+      "image": "/img/stamps/jp/JP274.2008.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.5
+      },
+      "wns": "JP274.2008"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「丑」",
+      "image": "/img/stamps/jp/JP275.2008.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.5
+      },
+      "wns": "JP275.2008"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「丑」",
+      "image": "/img/stamps/jp/JP276.2008.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.5
+      },
+      "wns": "JP276.2008"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「丑」",
+      "image": "/img/stamps/jp/JP277.2008.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.5
+      },
+      "wns": "JP277.2008"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「丑」",
+      "image": "/img/stamps/jp/JP278.2008.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.5
+      },
+      "wns": "JP278.2008"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「丑」",
+      "image": "/img/stamps/jp/JP279.2008.jpg",
+      "dimensions_mm": {
+        "w": 27.5,
+        "h": 36.5
+      },
+      "wns": "JP279.2008"
+    }
+  ],
+  "significance": "日本郵便「干支文字グリーティング切手」的牛（丑）年套，以十種書體呈現生肖文字。",
+  "notes": "日本郵便自 2004 年起每年發行「干支文字グリーティング切手」，以次年生肖的干支文字為主題，由多位書家以不同書體詮釋。此為牛（丑）年套，2008-11-21 發行，一套 10 枚、面值 80 円，文字採壓凸加工。\n圖片來源 © 日本郵便 via UPU/WADP WNS。",
+  "images": [
+    "/img/stamps/jp/JP270.2008.jpg",
+    "/img/stamps/jp/JP271.2008.jpg",
+    "/img/stamps/jp/JP272.2008.jpg",
+    "/img/stamps/jp/JP273.2008.jpg",
+    "/img/stamps/jp/JP274.2008.jpg",
+    "/img/stamps/jp/JP275.2008.jpg",
+    "/img/stamps/jp/JP276.2008.jpg",
+    "/img/stamps/jp/JP277.2008.jpg",
+    "/img/stamps/jp/JP278.2008.jpg",
+    "/img/stamps/jp/JP279.2008.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/kako/kitte_ichiran.html"
+    }
+  ],
+  "verified": true,
+  "updated_at": "2026-06-16"
+}

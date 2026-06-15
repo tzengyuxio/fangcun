@@ -1,0 +1,192 @@
+{
+  "id": "jp-20141030-b",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "羊",
+    "branch": "未"
+  },
+  "zodiac_year": 2015,
+  "issue_date": "2014-10-30",
+  "series_name": "干支文字グリーティング切手",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "",
+  "printer": "Cartor Security Printing",
+  "printing_process": "",
+  "perforation": "13 x 13",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「未」",
+      "image": "/img/stamps/jp/JP352.2014.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.5
+      },
+      "wns": "JP352.2014"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「未」",
+      "image": "/img/stamps/jp/JP353.2014.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.5
+      },
+      "wns": "JP353.2014"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「未」",
+      "image": "/img/stamps/jp/JP354.2014.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.5
+      },
+      "wns": "JP354.2014"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「未」",
+      "image": "/img/stamps/jp/JP355.2014.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.5
+      },
+      "wns": "JP355.2014"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「未」",
+      "image": "/img/stamps/jp/JP356.2014.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.5
+      },
+      "wns": "JP356.2014"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「未」",
+      "image": "/img/stamps/jp/JP357.2014.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.5
+      },
+      "wns": "JP357.2014"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「未」",
+      "image": "/img/stamps/jp/JP358.2014.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.5
+      },
+      "wns": "JP358.2014"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「未」",
+      "image": "/img/stamps/jp/JP359.2014.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.5
+      },
+      "wns": "JP359.2014"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「未」",
+      "image": "/img/stamps/jp/JP360.2014.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.5
+      },
+      "wns": "JP360.2014"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 82.0,
+        "currency": "JPY"
+      },
+      "description": "干支文字「未」",
+      "image": "/img/stamps/jp/JP361.2014.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.5
+      },
+      "wns": "JP361.2014"
+    }
+  ],
+  "significance": "日本郵便「干支文字グリーティング切手」的羊（未）年套，以十種書體呈現生肖文字。",
+  "notes": "日本郵便自 2004 年起每年發行「干支文字グリーティング切手」，以次年生肖的干支文字為主題，由多位書家以不同書體詮釋。此為羊（未）年套，2014-10-30 發行，一套 10 枚、面值 82 円，文字採壓凸加工。\n圖片來源 © 日本郵便 via UPU/WADP WNS。",
+  "images": [
+    "/img/stamps/jp/JP352.2014.jpg",
+    "/img/stamps/jp/JP353.2014.jpg",
+    "/img/stamps/jp/JP354.2014.jpg",
+    "/img/stamps/jp/JP355.2014.jpg",
+    "/img/stamps/jp/JP356.2014.jpg",
+    "/img/stamps/jp/JP357.2014.jpg",
+    "/img/stamps/jp/JP358.2014.jpg",
+    "/img/stamps/jp/JP359.2014.jpg",
+    "/img/stamps/jp/JP360.2014.jpg",
+    "/img/stamps/jp/JP361.2014.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/kako/kitte_ichiran.html"
+    }
+  ],
+  "verified": true,
+  "updated_at": "2026-06-16"
+}
