@@ -34,6 +34,10 @@ data/raw/**/products/
 public/img/stamps/*
 !public/img/stamps/tw/
 !public/img/stamps/us/
+# jp: commit only WNS images in the root (J*.jpg); existing scraped images live in
+# year subdirs (1951/, 2010/…) and stay ignored (site falls back) until backfilled
+!public/img/stamps/jp/
+public/img/stamps/jp/[0-9]*/
 # _alt/ = web placeholder images: local dev only, never on remote (site falls back)
 public/img/stamps/*/_alt/
 

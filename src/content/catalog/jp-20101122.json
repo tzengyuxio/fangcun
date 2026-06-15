@@ -1,0 +1,192 @@
+{
+  "id": "jp-20101122",
+  "region": {
+    "code": "JP",
+    "name": "日本郵便"
+  },
+  "zodiac": {
+    "animal": "兔",
+    "branch": "卯"
+  },
+  "zodiac_year": 2011,
+  "issue_date": "2010-11-22",
+  "series_name": "干支文字グリーティング切手",
+  "catalog_number": {
+    "local": null,
+    "scott": null
+  },
+  "designer": "森田基治",
+  "printer": "Cartor Security Printing",
+  "printing_process": "オフセット5色・エンボス加工",
+  "perforation": "13 x 13",
+  "items": [
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80,
+        "currency": "JPY"
+      },
+      "description": "干支文字「卯」",
+      "image": "/img/stamps/jp/JP304.2010.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP304.2010"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80,
+        "currency": "JPY"
+      },
+      "description": "干支文字「卯」",
+      "image": "/img/stamps/jp/JP305.2010.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP305.2010"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80,
+        "currency": "JPY"
+      },
+      "description": "干支文字「卯」",
+      "image": "/img/stamps/jp/JP306.2010.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP306.2010"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80,
+        "currency": "JPY"
+      },
+      "description": "干支文字「卯」",
+      "image": "/img/stamps/jp/JP307.2010.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP307.2010"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80,
+        "currency": "JPY"
+      },
+      "description": "干支文字「卯」",
+      "image": "/img/stamps/jp/JP308.2010.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP308.2010"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80,
+        "currency": "JPY"
+      },
+      "description": "干支文字「卯」",
+      "image": "/img/stamps/jp/JP309.2010.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP309.2010"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80,
+        "currency": "JPY"
+      },
+      "description": "干支文字「卯」",
+      "image": "/img/stamps/jp/JP310.2010.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP310.2010"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80,
+        "currency": "JPY"
+      },
+      "description": "干支文字「卯」",
+      "image": "/img/stamps/jp/JP311.2010.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP311.2010"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80,
+        "currency": "JPY"
+      },
+      "description": "干支文字「卯」",
+      "image": "/img/stamps/jp/JP312.2010.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP312.2010"
+    },
+    {
+      "type": "stamp",
+      "denomination": {
+        "value": 80,
+        "currency": "JPY"
+      },
+      "description": "干支文字「卯」",
+      "image": "/img/stamps/jp/JP313.2010.jpg",
+      "dimensions_mm": {
+        "w": 28.0,
+        "h": 36.0
+      },
+      "wns": "JP313.2010"
+    }
+  ],
+  "significance": "日本郵便「干支文字グリーティング切手」的卯（兔）年套，以十種書體呈現生肖「卯」字。",
+  "notes": "日本郵便自 2004 年起每年發行「干支文字グリーティング切手」，以次年生肖的干支文字為主題，由多位書家以不同書體詮釋。此為卯（兔）年套，2010 年 11 月 22 日發行，一套 10 枚、面值 80 円，採 offset 5 色＋壓凸（エンボス）加工使文字浮起，發行 1,600 萬枚。設計：森田基治；書家：關正人、関口春芳、稲村雲洞、中川祐聖、寺井朴堂、片岡重和、百瀬大蕪、中野北溟、小山やす子、恩地春洋。\n郵票圖片來源 © 日本郵便 via UPU/WADP WNS。",
+  "images": [
+    "/img/stamps/jp/JP304.2010.jpg",
+    "/img/stamps/jp/JP305.2010.jpg",
+    "/img/stamps/jp/JP306.2010.jpg",
+    "/img/stamps/jp/JP307.2010.jpg",
+    "/img/stamps/jp/JP308.2010.jpg",
+    "/img/stamps/jp/JP309.2010.jpg",
+    "/img/stamps/jp/JP310.2010.jpg",
+    "/img/stamps/jp/JP311.2010.jpg",
+    "/img/stamps/jp/JP312.2010.jpg",
+    "/img/stamps/jp/JP313.2010.jpg"
+  ],
+  "sources": [
+    {
+      "ref": "un-wns",
+      "tier": "official",
+      "url": "https://wnsstamps.post/"
+    },
+    {
+      "ref": "jp-japanpost-archive",
+      "tier": "official",
+      "url": "https://www.post.japanpost.jp/kitte_hagaki/stamp/tokusyu/2010/h221122_t.html"
+    }
+  ],
+  "verified": true,
+  "updated_at": "2026-06-16"
+}
