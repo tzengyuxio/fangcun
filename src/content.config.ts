@@ -44,7 +44,7 @@ const catalog = defineCollection({
     zodiac: z.object({ animal: ANIMAL, branch: BRANCH }).nullable(),
     zodiac_year: z.number().int().nullable(),
     issue_date: z.string().date(),
-    round: z.number().int().positive(),
+    round: z.number().int().positive().optional(),
     series_name: z.string().default(''),
     // Multi-catalogue map (id-scheme §5). local/scott kept for existing data;
     // commercial catalogues (SG/Michel/Yvert) + community (Colnect/Stampworld) optional.

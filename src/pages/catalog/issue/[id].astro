@@ -55,7 +55,7 @@ const ITEM_TYPE: Record<string, string> = {
 
 const specs = [
   ['系列', d.series_name],
-  ['輪次', d.zodiac ? `第 ${d.round} 輪` : null],
+  ['輪次', d.zodiac && d.round != null ? `第 ${d.round} 輪` : null],
   ['在地編號', d.catalog_number?.local],
   ['Scott 編號', d.catalog_number?.scott],
   ['設計者', d.designer],
@@ -120,7 +120,7 @@ const xShare = `https://x.com/intent/post?url=${encodeURIComponent(pageUrl)}&tex
         </div>
       </div>
       {d.zodiac
-        ? <p class="issue-meta">{d.region.name} · 第 {d.round} 輪 · <span class="meta-zodiac">{d.zodiac.animal}（{d.zodiac.branch}）</span></p>
+        ? <p class="issue-meta">{d.region.name}{d.round != null ? ` · 第 ${d.round} 輪` : ''} · <span class="meta-zodiac">{d.zodiac.animal}（{d.zodiac.branch}）</span></p>
         : <p class="issue-meta">{d.region.name} · <span class="meta-zodiac">{THEME_LABEL}</span></p>}
     </header>
 

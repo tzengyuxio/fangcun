@@ -80,8 +80,13 @@ const altList = altFlags.map((f, i) => (f ? i + 1 : 0)).filter(Boolean);
 
   const setMain = (i: number) => {
     idx = i;
-    if (main) main.src = imgs[i];
-    galWrap?.classList.toggle('alt', imgs[i].includes('/_alt/'));
+    const src = imgs[i] || '';
+    if (main) {
+      // 每次切換都重置 onerror:否則首圖缺圖用掉 inline onerror(=null)後,切到其他圖不再 fallback → 破圖
+      main.onerror = () => { main.onerror = null; main.src = main.dataset.fallback || ''; };
+      main.src = src;
+    }
+    galWrap?.classList.toggle('alt', src.includes('/_alt/'));
     thumbs.forEach((x, j) => x.classList.toggle('active', j === i));
   };
   const renderLb = () => {
